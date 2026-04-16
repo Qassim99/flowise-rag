@@ -1,4 +1,2 @@
 .env.secrets
-*.sqlite
-*.sqlite-journal
 .env
