@@ -1,0 +1,23 @@
+2026-03-27 08:11:12 [INFO]: Starting Flowise...
+2026-03-27 08:11:12 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-03-27 08:11:12 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-03-27 08:11:12 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-03-27 08:11:15 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-03-27 08:11:15 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-03-27 08:11:15 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-03-27 08:11:15 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-03-27 08:11:15 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-03-27 08:11:15 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-03-27 08:11:15 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-03-27 08:11:15 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-03-27 08:11:15 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-03-27 08:11:15 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-03-27 08:27:35 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-03-27 08:27:35 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-03-27 08:27:39 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-03-27 08:28:52 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2026-03-27 08:28:55 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2026-03-27 08:29:29 [INFO]: 🖊 PUT /api/v1/tools/a4d25502-1351-4d9b-a765-57cffbcad0ca
+2026-03-27 08:29:29 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2026-03-27 08:31:01 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2026-03-27 08:31:05 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool

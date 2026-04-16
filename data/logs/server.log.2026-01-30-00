@@ -1,0 +1,157 @@
+2026-01-30 00:05:38 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-01-30 00:06:31 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-01-30 00:06:31 [INFO]: ⬆️ POST /api/v1/node-load-method/customMCP
+2026-01-30 00:18:39 [INFO]: 🖊 PUT /api/v1/chatflows/3aa6faea-ea02-43e1-b43c-a49b1c2b553f
+2026-01-30 00:19:38 [INFO]: ❌ DELETE /api/v1/credentials/02fad5a9-8fdc-49d8-80ee-c302de868210
+2026-01-30 00:20:21 [INFO]: ⬆️ POST /api/v1/node-load-method/chatOpenAI
+2026-01-30 00:21:02 [INFO]: ⬆️ POST /api/v1/node-load-method/openAIEmbeddings
+2026-01-30 00:21:02 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStore
+2026-01-30 00:21:02 [INFO]: ⬆️ POST /api/v1/node-load-method/chatMistralAI
+2026-01-30 00:21:39 [INFO]: ⬆️ POST /api/v1/node-load-method/openAIEmbeddings
+2026-01-30 00:21:39 [INFO]: ⬆️ POST /api/v1/node-load-method/openAIEmbeddings
+2026-01-30 00:21:39 [INFO]: ⬆️ POST /api/v1/node-load-method/chatOpenAI
+2026-01-30 00:22:17 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-01-30 00:22:17 [INFO]: ⬆️ POST /api/v1/node-load-method/customMCP
+2026-01-30 00:27:32 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-01-30 00:27:32 [INFO]: ⬆️ POST /api/v1/node-load-method/customMCP
+2026-01-30 00:44:57 [INFO]: ⬆️ POST /api/v1/auth/refreshToken
+2026-01-30 00:44:57 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 00:45:01 [INFO]: ⬆️ POST /api/v1/internal-prediction/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 00:45:01 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: LLM Node input variables values are not provided! Required: language question, Provided: question. Missing: language
+Error: LLM Node input variables values are not provided! Required: language question, Provided: question. Missing: language
+    at LLMNode_SeqAgents.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/sequentialagents/LLMNode/LLMNode.js:383:19)
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 00:45:01 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62/126e0706-3ecb-4a24-b2e1-e2940f356e04 Error: Error: LLM Node input variables values are not provided! Required: language question, Provided: question. Missing: language
+Error: Error: LLM Node input variables values are not provided! Required: language question, Provided: question. Missing: language
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 00:45:13 [INFO]: ⬆️ POST /api/v1/internal-prediction/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 00:45:13 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: LLM Node input variables values are not provided! Required: language question, Provided: question. Missing: language
+Error: LLM Node input variables values are not provided! Required: language question, Provided: question. Missing: language
+    at LLMNode_SeqAgents.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/sequentialagents/LLMNode/LLMNode.js:383:19)
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 00:45:13 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62/126e0706-3ecb-4a24-b2e1-e2940f356e04 Error: Error: LLM Node input variables values are not provided! Required: language question, Provided: question. Missing: language
+Error: Error: LLM Node input variables values are not provided! Required: language question, Provided: question. Missing: language
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 00:46:53 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 00:49:37 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 00:50:37 [INFO]: ⬆️ POST /api/v1/internal-prediction/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 00:50:37 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: LLM Node input variables values are not provided! Required: language question, Provided: question. Missing: language
+Error: LLM Node input variables values are not provided! Required: language question, Provided: question. Missing: language
+    at LLMNode_SeqAgents.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/sequentialagents/LLMNode/LLMNode.js:383:19)
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 00:50:37 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62/c6c27e99-5a62-4409-b1f5-50ac28b86590 Error: Error: LLM Node input variables values are not provided! Required: language question, Provided: question. Missing: language
+Error: Error: LLM Node input variables values are not provided! Required: language question, Provided: question. Missing: language
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 00:53:02 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 00:53:06 [INFO]: ⬆️ POST /api/v1/internal-prediction/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 00:53:06 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Invalid MCP Server Config: Error: Security validation failed: Command '/home/kassim/miniforge3/envs/mcp/bin/python' is not allowed. Allowed commands: node, npx, python, python3, docker
+Error: Invalid MCP Server Config: Error: Security validation failed: Command '/home/kassim/miniforge3/envs/mcp/bin/python' is not allowed. Allowed commands: node, npx, python, python3, docker
+    at Custom_MCP.getTools (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/tools/MCP/CustomMCP/CustomMCP.js:180:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Custom_MCP.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/tools/MCP/CustomMCP/CustomMCP.js:101:23)
+    at async buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:36)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 00:53:06 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62/015b1ab9-1566-478f-978d-6906a8464438 Error: Error: Invalid MCP Server Config: Error: Security validation failed: Command '/home/kassim/miniforge3/envs/mcp/bin/python' is not allowed. Allowed commands: node, npx, python, python3, docker
+Error: Error: Invalid MCP Server Config: Error: Security validation failed: Command '/home/kassim/miniforge3/envs/mcp/bin/python' is not allowed. Allowed commands: node, npx, python, python3, docker
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 00:54:04 [INFO]: ⬆️ POST /api/v1/internal-prediction/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 00:54:04 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Invalid MCP Server Config: Error: Security validation failed: Command '/home/kassim/miniforge3/envs/mcp/bin/python' is not allowed. Allowed commands: node, npx, python, python3, docker
+Error: Invalid MCP Server Config: Error: Security validation failed: Command '/home/kassim/miniforge3/envs/mcp/bin/python' is not allowed. Allowed commands: node, npx, python, python3, docker
+    at Custom_MCP.getTools (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/tools/MCP/CustomMCP/CustomMCP.js:180:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Custom_MCP.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/tools/MCP/CustomMCP/CustomMCP.js:101:23)
+    at async buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:36)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 00:54:04 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62/d66fa2f2-f0f0-44e1-bca3-5239b0d19c55 Error: Error: Invalid MCP Server Config: Error: Security validation failed: Command '/home/kassim/miniforge3/envs/mcp/bin/python' is not allowed. Allowed commands: node, npx, python, python3, docker
+Error: Error: Invalid MCP Server Config: Error: Security validation failed: Command '/home/kassim/miniforge3/envs/mcp/bin/python' is not allowed. Allowed commands: node, npx, python, python3, docker
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 00:54:14 [INFO]: ❌ DELETE /api/v1/chatmessage/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62?chatId=d66fa2f2-f0f0-44e1-bca3-5239b0d19c55&chatType=INTERNAL
+2026-01-30 00:54:24 [INFO]: ⬆️ POST /api/v1/internal-prediction/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 00:54:24 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Invalid MCP Server Config: Error: Security validation failed: Command '/home/kassim/miniforge3/envs/mcp/bin/python' is not allowed. Allowed commands: node, npx, python, python3, docker
+Error: Invalid MCP Server Config: Error: Security validation failed: Command '/home/kassim/miniforge3/envs/mcp/bin/python' is not allowed. Allowed commands: node, npx, python, python3, docker
+    at Custom_MCP.getTools (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/tools/MCP/CustomMCP/CustomMCP.js:180:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Custom_MCP.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/tools/MCP/CustomMCP/CustomMCP.js:101:23)
+    at async buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:36)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 00:54:24 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62/fd695a43-11ad-49f4-8ce0-bcd182f78178 Error: Error: Invalid MCP Server Config: Error: Security validation failed: Command '/home/kassim/miniforge3/envs/mcp/bin/python' is not allowed. Allowed commands: node, npx, python, python3, docker
+Error: Error: Invalid MCP Server Config: Error: Security validation failed: Command '/home/kassim/miniforge3/envs/mcp/bin/python' is not allowed. Allowed commands: node, npx, python, python3, docker
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 00:54:33 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 00:54:37 [INFO]: ⬆️ POST /api/v1/internal-prediction/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 00:54:37 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Invalid MCP Server Config: Error: Security validation failed: Argument contains potential local file access: "/home/kassim/mcp-server/mcp-elster/server.py"
+Error: Invalid MCP Server Config: Error: Security validation failed: Argument contains potential local file access: "/home/kassim/mcp-server/mcp-elster/server.py"
+    at Custom_MCP.getTools (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/tools/MCP/CustomMCP/CustomMCP.js:180:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Custom_MCP.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/tools/MCP/CustomMCP/CustomMCP.js:101:23)
+    at async buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:36)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 00:54:37 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62/82b97d8f-a7c1-437d-8ce0-61699ff19f29 Error: Error: Invalid MCP Server Config: Error: Security validation failed: Argument contains potential local file access: "/home/kassim/mcp-server/mcp-elster/server.py"
+Error: Error: Invalid MCP Server Config: Error: Security validation failed: Argument contains potential local file access: "/home/kassim/mcp-server/mcp-elster/server.py"
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 00:55:43 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 00:55:46 [INFO]: ⬆️ POST /api/v1/internal-prediction/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 00:55:46 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Invalid MCP Server Config: Error: Security validation failed: Command '/home/kassim/mcp/bin/python' is not allowed. Allowed commands: node, npx, python, python3, docker
+Error: Invalid MCP Server Config: Error: Security validation failed: Command '/home/kassim/mcp/bin/python' is not allowed. Allowed commands: node, npx, python, python3, docker
+    at Custom_MCP.getTools (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/tools/MCP/CustomMCP/CustomMCP.js:180:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Custom_MCP.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/tools/MCP/CustomMCP/CustomMCP.js:101:23)
+    at async buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:36)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 00:55:46 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62/19b82856-181e-45b3-8d68-aacd206e963a Error: Error: Invalid MCP Server Config: Error: Security validation failed: Command '/home/kassim/mcp/bin/python' is not allowed. Allowed commands: node, npx, python, python3, docker
+Error: Error: Invalid MCP Server Config: Error: Security validation failed: Command '/home/kassim/mcp/bin/python' is not allowed. Allowed commands: node, npx, python, python3, docker
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)

@@ -1,0 +1,54 @@
+2026-02-05 19:00:21 [INFO]: ⬆️ POST /api/v1/agentflowv2-generator/generate
+2026-02-05 19:01:17 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-05 19:01:37 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-05 19:01:37 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 19:07:09 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 19:07:09 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 19:07:09 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 19:08:47 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 19:08:47 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 19:08:47 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 19:10:19 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 19:10:44 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 19:11:35 [INFO]: ❌ DELETE /api/v1/chatmessage/b4ba85a6-8a9c-4122-a9e5-0028a7841293?chatId=12f352df-fa42-497b-ad5e-df5021fac50d&chatType=INTERNAL
+2026-02-05 19:11:39 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 19:11:39 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/b4ba85a6-8a9c-4122-a9e5-0028a7841293/af42cf01-74c7-4766-9e18-9be4ee19b9ce Error: Multiple starting nodes are not allowed
+Error: Multiple starting nodes are not allowed
+    at checkForMultipleStartNodes (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1082:15)
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1338:9)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-05 19:11:50 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 19:11:53 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 19:12:35 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 19:12:52 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 19:16:15 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-05 19:16:16 [INFO]: ⬆️ POST /api/v1/node-load-method/chatOpenAI
+2026-02-05 19:16:19 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-05 19:16:19 [INFO]: ⬆️ POST /api/v1/node-load-method/loopAgentflow
+2026-02-05 19:16:35 [INFO]: ⬆️ POST /api/v1/node-load-method/loopAgentflow
+2026-02-05 19:16:35 [INFO]: ⬆️ POST /api/v1/node-load-method/loopAgentflow
+2026-02-05 19:16:40 [INFO]: ⬆️ POST /api/v1/node-load-method/loopAgentflow
+2026-02-05 19:19:32 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-02-05 19:20:27 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 19:34:36 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 19:36:36 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 19:36:36 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 19:43:36 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 19:44:04 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 19:44:04 [INFO]: ⬆️ POST /api/v1/node-load-method/chatCohere
+2026-02-05 19:44:27 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 19:44:27 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 19:45:55 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 19:48:15 [INFO]: ⬆️ POST /api/v1/agentflowv2-generator/generate
+2026-02-05 19:50:32 [INFO]: ⬆️ POST /api/v1/agentflowv2-generator/generate
+2026-02-05 19:53:23 [INFO]: ⬆️ POST /api/v1/agentflowv2-generator/generate
+2026-02-05 19:56:52 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 19:57:04 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 19:57:22 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 19:57:22 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 19:57:34 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 19:57:45 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 19:57:59 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 19:57:59 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-05 19:59:24 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293

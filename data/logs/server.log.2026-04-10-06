@@ -1,0 +1,29 @@
+2026-04-10 06:43:52 [INFO]: Starting Flowise...
+2026-04-10 06:43:52 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-04-10 06:43:52 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-04-10 06:43:52 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-04-10 06:43:53 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-04-10 06:43:53 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-04-10 06:43:53 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-04-10 06:43:53 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-04-10 06:43:53 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-04-10 06:43:53 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-04-10 06:43:53 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-04-10 06:43:53 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-04-10 06:43:53 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-04-10 06:43:53 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-04-10 06:47:29 [INFO]: Shutting down Flowise...
+2026-04-10 06:47:48 [INFO]: Starting Flowise...
+2026-04-10 06:47:48 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-04-10 06:47:48 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-04-10 06:47:48 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-04-10 06:47:49 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-04-10 06:47:49 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-04-10 06:47:49 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-04-10 06:47:49 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-04-10 06:47:49 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-04-10 06:47:49 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-04-10 06:47:49 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-04-10 06:47:49 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-04-10 06:47:49 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-04-10 06:47:49 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000

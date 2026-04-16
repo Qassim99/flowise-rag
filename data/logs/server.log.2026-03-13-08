@@ -1,0 +1,139 @@
+2026-03-13 08:08:40 [INFO]: Starting Flowise...
+2026-03-13 08:08:40 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-03-13 08:08:40 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-03-13 08:08:40 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-03-13 08:08:42 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-03-13 08:08:42 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-03-13 08:08:42 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-03-13 08:08:42 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-03-13 08:08:42 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-03-13 08:08:42 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-03-13 08:08:42 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-03-13 08:08:42 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-03-13 08:08:42 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-03-13 08:08:42 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-03-13 08:10:25 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-03-13 08:10:25 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-03-13 08:10:32 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-03-13 08:10:47 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-03-13 08:10:47 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-03-13 08:10:47 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-03-13 08:10:47 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-03-13 08:10:47 [INFO]: ⬆️ POST /api/v1/node-load-method/ChatflowTool
+2026-03-13 08:11:36 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-03-13 08:11:36 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-03-13 08:11:36 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-03-13 08:11:47 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-03-13 08:12:00 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-03-13 08:12:06 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-13 08:12:25 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-03-13 08:12:44 [INFO]: 🖊 PUT /api/v1/chatflows/55a0ac0f-4c95-48c1-bdeb-f26a457fa539
+2026-03-13 08:12:51 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-03-13 08:13:19 [INFO]: ⬆️ POST /api/v1/document-store/vectorstore/insert
+2026-03-13 08:14:00 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-03-13 08:14:10 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-03-13 08:14:20 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-03-13 08:14:20 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-03-13 08:14:24 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-03-13 08:14:30 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-03-13 08:14:30 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-03-13 08:14:30 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-03-13 08:14:30 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-03-13 08:14:30 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-03-13 08:14:30 [INFO]: ⬆️ POST /api/v1/node-load-method/ChatflowTool
+2026-03-13 08:15:35 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-03-13 08:15:48 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-03-13 08:15:50 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-03-13 08:16:11 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-03-13 08:16:21 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-03-13 08:16:21 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-03-13 08:16:21 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-03-13 08:16:21 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-03-13 08:16:21 [INFO]: ⬆️ POST /api/v1/node-load-method/ChatflowTool
+2026-03-13 08:20:08 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-13 08:21:25 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-03-13 08:21:25 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-03-13 08:21:25 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-03-13 08:21:25 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-03-13 08:21:25 [INFO]: ⬆️ POST /api/v1/node-load-method/ChatflowTool
+2026-03-13 08:21:42 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-13 08:21:43 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-03-13 08:21:43 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-03-13 08:21:43 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-03-13 08:21:43 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-03-13 08:21:44 [INFO]: ⬆️ POST /api/v1/node-load-method/ChatflowTool
+2026-03-13 08:24:03 [INFO]: ❌ DELETE /api/v1/chatmessage/b4ba85a6-8a9c-4122-a9e5-0028a7841293?chatId=1f398039-03eb-402e-bd3c-eb9d21713f7d&chatType=INTERNAL
+2026-03-13 08:24:43 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-13 08:26:20 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-13 08:26:21 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-03-13 08:26:21 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-03-13 08:26:21 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-03-13 08:26:21 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-03-13 08:26:21 [INFO]: ⬆️ POST /api/v1/node-load-method/ChatflowTool
+2026-03-13 08:26:26 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-03-13 08:26:26 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-03-13 08:26:26 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-03-13 08:26:34 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-03-13 08:26:36 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-13 08:26:38 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-03-13 08:26:38 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-03-13 08:27:06 [INFO]: ❌ DELETE /api/v1/chatmessage/b4ba85a6-8a9c-4122-a9e5-0028a7841293?chatId=803377a7-7992-46ec-8ef3-6279dc0c3580&chatType=INTERNAL
+2026-03-13 08:27:09 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-13 08:29:38 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-13 08:29:43 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-03-13 08:30:30 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-13 08:30:37 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=ea114070-2c5c-4e4b-a96f-acbdd189131e&chatType=INTERNAL
+2026-03-13 08:30:41 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-13 08:31:22 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-13 08:31:31 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=bd06a097-2869-46f5-835f-e0cb4d1b6633&chatType=INTERNAL
+2026-03-13 08:31:34 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-13 08:34:10 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=1ed80dc1-50c1-4443-82f9-eec3d92946c2&chatType=INTERNAL
+2026-03-13 08:34:14 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-13 08:35:59 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-03-13 08:36:20 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-13 08:36:28 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=4a9316b6-c75f-4af8-94b8-9e471ebdb4ea&chatType=INTERNAL
+2026-03-13 08:36:31 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-13 08:37:47 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-13 08:37:56 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=6d22d4eb-84de-48fe-962e-0e96b922553c&chatType=INTERNAL
+2026-03-13 08:38:00 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-13 08:38:39 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-13 08:38:45 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-13 08:40:01 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=39cc3752-7d1d-471e-a69f-4a2a879b91c8&chatType=INTERNAL
+2026-03-13 08:43:10 [INFO]: ⬆️ POST /api/v1/document-store/store
+2026-03-13 08:43:47 [INFO]: ⬆️ POST /api/v1/document-store/loader/preview
+2026-03-13 08:43:49 [INFO]: ⬆️ POST /api/v1/document-store/loader/preview
+2026-03-13 08:43:50 [INFO]: ⬆️ POST /api/v1/document-store/loader/preview
+2026-03-13 08:43:51 [INFO]: ⬆️ POST /api/v1/document-store/loader/preview
+2026-03-13 08:43:52 [INFO]: ⬆️ POST /api/v1/document-store/loader/preview
+2026-03-13 08:44:01 [INFO]: ⬆️ POST /api/v1/document-store/loader/preview
+2026-03-13 08:44:03 [INFO]: ⬆️ POST /api/v1/document-store/loader/preview
+2026-03-13 08:44:04 [INFO]: ⬆️ POST /api/v1/document-store/loader/preview
+2026-03-13 08:44:05 [INFO]: ⬆️ POST /api/v1/document-store/loader/preview
+2026-03-13 08:44:06 [INFO]: ⬆️ POST /api/v1/document-store/loader/preview
+2026-03-13 08:44:08 [INFO]: ⬆️ POST /api/v1/document-store/loader/preview
+2026-03-13 08:44:12 [INFO]: ⬆️ POST /api/v1/document-store/loader/preview
+2026-03-13 08:44:13 [INFO]: ⬆️ POST /api/v1/document-store/loader/preview
+2026-03-13 08:44:14 [INFO]: ⬆️ POST /api/v1/document-store/loader/preview
+2026-03-13 08:44:18 [INFO]: ⬆️ POST /api/v1/document-store/loader/preview
+2026-03-13 08:44:20 [INFO]: ⬆️ POST /api/v1/document-store/loader/preview
+2026-03-13 08:44:21 [INFO]: ⬆️ POST /api/v1/document-store/loader/save
+2026-03-13 08:44:21 [INFO]: ⬆️ POST /api/v1/document-store/loader/process/21e8ae1b-a95d-4c5c-885e-e15d6e7c0c64
+2026-03-13 08:45:20 [INFO]: ⬆️ POST /api/v1/document-store/vectorstore/insert
+2026-03-13 08:46:14 [INFO]: ⬆️ POST /api/v1/document-store/vectorstore/query
+2026-03-13 08:46:24 [INFO]: ⬆️ POST /api/v1/document-store/vectorstore/query
+2026-03-13 08:46:33 [INFO]: ⬆️ POST /api/v1/document-store/vectorstore/query
+2026-03-13 08:49:56 [INFO]: ⬆️ POST /api/v1/document-store/store
+2026-03-13 08:50:24 [INFO]: ⬆️ POST /api/v1/document-store/loader/preview
+2026-03-13 08:50:39 [INFO]: ⬆️ POST /api/v1/document-store/loader/save
+2026-03-13 08:50:39 [INFO]: ⬆️ POST /api/v1/document-store/loader/process/212780d6-1a09-4c36-916e-dcc7edd1e10c
+2026-03-13 08:51:55 [INFO]: ⬆️ POST /api/v1/document-store/vectorstore/insert
+2026-03-13 08:52:37 [INFO]: ⬆️ POST /api/v1/document-store/vectorstore/insert
+2026-03-13 08:55:05 [INFO]: ⬆️ POST /api/v1/document-store/vectorstore/insert
+2026-03-13 08:57:19 [INFO]: ⬆️ POST /api/v1/document-store/vectorstore/insert
+2026-03-13 08:57:56 [INFO]: ⬆️ POST /api/v1/document-store/vectorstore/query
+2026-03-13 08:58:48 [INFO]: ⬆️ POST /api/v1/document-store/vectorstore/update
+2026-03-13 08:58:52 [INFO]: ⬆️ POST /api/v1/document-store/vectorstore/save
+2026-03-13 08:59:34 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-03-13 08:59:38 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-03-13 08:59:41 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-13 08:59:46 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa

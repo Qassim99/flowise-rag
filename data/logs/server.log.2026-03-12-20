@@ -1,0 +1,56 @@
+2026-03-12 20:09:31 [INFO]: ⬆️ POST /api/v1/credentials
+2026-03-12 20:10:34 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-12 20:11:10 [INFO]: ⬆️ POST /api/v1/vector/internal-upsert/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-12 20:11:39 [INFO]: ⬆️ POST /api/v1/vector/internal-upsert/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-12 20:11:41 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Error: Concurrency limit exceeded: 2/2 concurrent requests. Wait for pending requests to complete before sending new ones.
+Error: Error: Concurrency limit exceeded: 2/2 concurrent requests. Wait for pending requests to complete before sending new ones.
+    at Qdrant_VectorStores.upsert (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/vectorstores/Qdrant/Qdrant.js:140:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:464:37)
+    at async executeUpsert (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:146:28)
+    at async upsertVector (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:276:28)
+    at async Object.upsertVectorMiddleware (/usr/local/lib/node_modules/flowise/dist/services/vectors/index.js:9:16)
+    at async createInternalUpsert (/usr/local/lib/node_modules/flowise/dist/controllers/vectors/index.js:28:29)
+2026-03-12 20:11:41 [ERROR]: [server]: Error: Error: Error: Concurrency limit exceeded: 2/2 concurrent requests. Wait for pending requests to complete before sending new ones.
+Error: Error: Error: Concurrency limit exceeded: 2/2 concurrent requests. Wait for pending requests to complete before sending new ones.
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeUpsert (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:146:28)
+    at async upsertVector (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:276:28)
+    at async Object.upsertVectorMiddleware (/usr/local/lib/node_modules/flowise/dist/services/vectors/index.js:9:16)
+    at async createInternalUpsert (/usr/local/lib/node_modules/flowise/dist/controllers/vectors/index.js:28:29)
+2026-03-12 20:14:49 [INFO]: ⬆️ POST /api/v1/vector/internal-upsert/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-12 20:14:51 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Error: Concurrency limit exceeded: 2/2 concurrent requests. Wait for pending requests to complete before sending new ones.
+Error: Error: Concurrency limit exceeded: 2/2 concurrent requests. Wait for pending requests to complete before sending new ones.
+    at Qdrant_VectorStores.upsert (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/vectorstores/Qdrant/Qdrant.js:140:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:464:37)
+    at async executeUpsert (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:146:28)
+    at async upsertVector (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:276:28)
+    at async Object.upsertVectorMiddleware (/usr/local/lib/node_modules/flowise/dist/services/vectors/index.js:9:16)
+    at async createInternalUpsert (/usr/local/lib/node_modules/flowise/dist/controllers/vectors/index.js:28:29)
+2026-03-12 20:14:51 [ERROR]: [server]: Error: Error: Error: Concurrency limit exceeded: 2/2 concurrent requests. Wait for pending requests to complete before sending new ones.
+Error: Error: Error: Concurrency limit exceeded: 2/2 concurrent requests. Wait for pending requests to complete before sending new ones.
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeUpsert (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:146:28)
+    at async upsertVector (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:276:28)
+    at async Object.upsertVectorMiddleware (/usr/local/lib/node_modules/flowise/dist/services/vectors/index.js:9:16)
+    at async createInternalUpsert (/usr/local/lib/node_modules/flowise/dist/controllers/vectors/index.js:28:29)
+2026-03-12 20:35:36 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-12 20:36:16 [INFO]: ⬆️ POST /api/v1/document-store/loader/preview
+2026-03-12 20:36:54 [INFO]: ⬆️ POST /api/v1/document-store/loader/preview
+2026-03-12 20:36:57 [INFO]: ⬆️ POST /api/v1/document-store/loader/preview
+2026-03-12 20:36:58 [INFO]: ⬆️ POST /api/v1/document-store/loader/preview
+2026-03-12 20:37:02 [INFO]: ⬆️ POST /api/v1/document-store/loader/save
+2026-03-12 20:37:02 [INFO]: ⬆️ POST /api/v1/document-store/loader/process/d8dfe445-e628-4ec8-9a3f-0c993f739d13
+2026-03-12 20:37:11 [INFO]: ⬆️ POST /api/v1/node-load-method/openAIEmbeddings
+2026-03-12 20:38:51 [INFO]: ⬆️ POST /api/v1/document-store/vectorstore/insert
+2026-03-12 20:39:26 [INFO]: ⬆️ POST /api/v1/document-store/vectorstore/insert
+2026-03-12 20:40:00 [INFO]: ⬆️ POST /api/v1/document-store/vectorstore/insert
+2026-03-12 20:40:39 [INFO]: ⬆️ POST /api/v1/document-store/vectorstore/insert
+2026-03-12 20:41:05 [INFO]: ⬆️ POST /api/v1/document-store/loader/preview
+2026-03-12 20:41:11 [INFO]: ⬆️ POST /api/v1/document-store/loader/preview
+2026-03-12 20:41:20 [INFO]: ⬆️ POST /api/v1/document-store/loader/save
+2026-03-12 20:41:20 [INFO]: ⬆️ POST /api/v1/document-store/loader/process/d8dfe445-e628-4ec8-9a3f-0c993f739d13
+2026-03-12 20:54:32 [INFO]: Shutting down Flowise...

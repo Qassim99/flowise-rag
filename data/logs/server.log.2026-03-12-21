@@ -1,0 +1,81 @@
+2026-03-12 21:07:19 [INFO]: Starting Flowise...
+2026-03-12 21:07:19 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-03-12 21:07:19 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-03-12 21:07:19 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-03-12 21:07:21 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-03-12 21:07:21 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-03-12 21:07:21 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-03-12 21:07:21 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-03-12 21:07:21 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-03-12 21:07:21 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-03-12 21:07:21 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-03-12 21:07:21 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-03-12 21:07:21 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-03-12 21:07:21 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-03-12 21:08:40 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-03-12 21:08:40 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-03-12 21:08:44 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-03-12 21:14:34 [INFO]: ⬆️ POST /api/v1/credentials
+2026-03-12 21:15:37 [INFO]: ⬆️ POST /api/v1/vector/internal-upsert/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-12 21:15:37 [ERROR]: [server]: Error: graph[currentNode] is not iterable
+TypeError: graph[currentNode] is not iterable
+    at getAllConnectedNodes (/usr/local/lib/node_modules/flowise/dist/utils/index.js:242:37)
+    at executeUpsert (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:135:54)
+    at upsertVector (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:276:60)
+    at async Object.upsertVectorMiddleware (/usr/local/lib/node_modules/flowise/dist/services/vectors/index.js:9:16)
+    at async createInternalUpsert (/usr/local/lib/node_modules/flowise/dist/controllers/vectors/index.js:28:29)
+2026-03-12 21:15:51 [INFO]: ⬆️ POST /api/v1/vector/internal-upsert/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-12 21:15:51 [ERROR]: [server]: Error: graph[currentNode] is not iterable
+TypeError: graph[currentNode] is not iterable
+    at getAllConnectedNodes (/usr/local/lib/node_modules/flowise/dist/utils/index.js:242:37)
+    at executeUpsert (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:135:54)
+    at upsertVector (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:276:60)
+    at async Object.upsertVectorMiddleware (/usr/local/lib/node_modules/flowise/dist/services/vectors/index.js:9:16)
+    at async createInternalUpsert (/usr/local/lib/node_modules/flowise/dist/controllers/vectors/index.js:28:29)
+2026-03-12 21:17:08 [INFO]: ⬆️ POST /api/v1/vector/internal-upsert/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-12 21:17:08 [ERROR]: [server]: Error: graph[currentNode] is not iterable
+TypeError: graph[currentNode] is not iterable
+    at getAllConnectedNodes (/usr/local/lib/node_modules/flowise/dist/utils/index.js:242:37)
+    at executeUpsert (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:135:54)
+    at upsertVector (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:276:60)
+    at async Object.upsertVectorMiddleware (/usr/local/lib/node_modules/flowise/dist/services/vectors/index.js:9:16)
+    at async createInternalUpsert (/usr/local/lib/node_modules/flowise/dist/controllers/vectors/index.js:28:29)
+2026-03-12 21:17:39 [INFO]: ⬆️ POST /api/v1/vector/internal-upsert/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-12 21:17:39 [ERROR]: [server]: Error: graph[currentNode] is not iterable
+TypeError: graph[currentNode] is not iterable
+    at getAllConnectedNodes (/usr/local/lib/node_modules/flowise/dist/utils/index.js:242:37)
+    at executeUpsert (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:135:54)
+    at upsertVector (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:276:60)
+    at async Object.upsertVectorMiddleware (/usr/local/lib/node_modules/flowise/dist/services/vectors/index.js:9:16)
+    at async createInternalUpsert (/usr/local/lib/node_modules/flowise/dist/controllers/vectors/index.js:28:29)
+2026-03-12 21:20:27 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-12 21:20:29 [INFO]: ⬆️ POST /api/v1/vector/internal-upsert/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-12 21:21:25 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-12 21:21:33 [INFO]: ❌ DELETE /api/v1/document-store/loader/714f9b87-2eef-446e-9a95-e91032ab6bda/d8dfe445-e628-4ec8-9a3f-0c993f739d13
+2026-03-12 21:21:42 [INFO]: ❌ DELETE /api/v1/document-store/store/714f9b87-2eef-446e-9a95-e91032ab6bda
+2026-03-12 21:21:42 [ERROR]: [server]: Error deleting file storage for documentStore 714f9b87-2eef-446e-9a95-e91032ab6bda
+2026-03-12 21:21:47 [INFO]: ❌ DELETE /api/v1/document-store/store/bd300547-534b-4a87-9cde-f7a697894f32
+2026-03-12 21:21:47 [ERROR]: [server]: Error deleting file storage for documentStore bd300547-534b-4a87-9cde-f7a697894f32
+2026-03-12 21:22:12 [INFO]: ⬆️ POST /api/v1/document-store/store
+2026-03-12 21:22:45 [INFO]: ⬆️ POST /api/v1/document-store/loader/preview
+2026-03-12 21:22:47 [INFO]: ⬆️ POST /api/v1/document-store/loader/preview
+2026-03-12 21:22:56 [INFO]: ⬆️ POST /api/v1/document-store/loader/preview
+2026-03-12 21:23:02 [INFO]: ⬆️ POST /api/v1/document-store/loader/save
+2026-03-12 21:23:02 [INFO]: ⬆️ POST /api/v1/document-store/loader/process/b6fa61c1-c069-4ac2-a0a3-0771d89a6b6e
+2026-03-12 21:25:52 [INFO]: ⬆️ POST /api/v1/document-store/vectorstore/save
+2026-03-12 21:26:16 [INFO]: ⬆️ POST /api/v1/document-store/vectorstore/save
+2026-03-12 21:26:33 [INFO]: ⬆️ POST /api/v1/document-store/vectorstore/insert
+2026-03-12 21:28:11 [INFO]: ⬆️ POST /api/v1/document-store/vectorstore/query
+2026-03-12 21:28:34 [INFO]: ⬆️ POST /api/v1/document-store/vectorstore/query
+2026-03-12 21:29:08 [INFO]: ⬆️ POST /api/v1/document-store/vectorstore/query
+2026-03-12 21:33:33 [INFO]: ⬆️ POST /api/v1/document-store/vectorstore/save
+2026-03-12 21:33:34 [INFO]: ⬆️ POST /api/v1/document-store/vectorstore/insert
+2026-03-12 21:34:05 [INFO]: ⬆️ POST /api/v1/document-store/vectorstore/query
+2026-03-12 21:39:26 [INFO]: ⬆️ POST /api/v1/document-store/vectorstore/save
+2026-03-12 21:40:09 [INFO]: ⬆️ POST /api/v1/node-load-method/openAIEmbeddings
+2026-03-12 21:42:04 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-03-12 21:42:29 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-03-12 21:42:35 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-12 21:42:44 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-12 21:46:39 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-12 21:46:42 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa

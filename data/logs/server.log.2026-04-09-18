@@ -1,0 +1,56 @@
+2026-04-09 18:25:55 [INFO]: Starting Flowise...
+2026-04-09 18:25:55 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-04-09 18:25:55 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-04-09 18:25:55 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-04-09 18:25:57 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-04-09 18:25:57 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-04-09 18:25:57 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-04-09 18:25:57 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-04-09 18:25:57 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-04-09 18:25:57 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-04-09 18:25:57 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-04-09 18:25:57 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-04-09 18:25:57 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-04-09 18:25:57 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-04-09 18:26:05 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-04-09 18:26:05 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-04-09 18:26:10 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-04-09 18:29:52 [INFO]: ⬆️ POST /api/v1/apikey
+2026-04-09 18:30:05 [INFO]: ❌ DELETE /api/v1/apikey/80f2da8d-79a8-42ef-a07f-cc2a7be0c96c
+2026-04-09 18:30:37 [INFO]: ⬆️ POST /api/v1/variables
+2026-04-09 18:30:46 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-04-09 18:30:46 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-04-09 18:30:48 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-09 18:30:48 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-09 18:30:48 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-09 18:32:07 [INFO]: 🖊 PUT /api/v1/credentials/f3bc614d-2d88-4d2e-9005-6e7ff10f6e5d
+2026-04-09 18:46:45 [INFO]: Shutting down Flowise...
+2026-04-09 18:46:53 [INFO]: Starting Flowise...
+2026-04-09 18:46:53 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-04-09 18:46:53 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-04-09 18:46:53 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-04-09 18:46:54 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-04-09 18:46:54 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-04-09 18:46:54 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-04-09 18:46:54 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-04-09 18:46:54 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-04-09 18:46:54 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-04-09 18:46:54 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-04-09 18:46:54 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-04-09 18:46:54 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-04-09 18:46:54 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-04-09 18:49:20 [INFO]: Starting Flowise...
+2026-04-09 18:49:20 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-04-09 18:49:20 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-04-09 18:49:20 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-04-09 18:49:21 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-04-09 18:49:21 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-04-09 18:49:21 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-04-09 18:49:21 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-04-09 18:49:21 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-04-09 18:49:21 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-04-09 18:49:21 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-04-09 18:49:21 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-04-09 18:49:21 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-04-09 18:49:21 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-04-09 18:49:31 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS

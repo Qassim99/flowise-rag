@@ -1,0 +1,2 @@
+2026-01-14 12:41:24 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-14 12:41:43 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=2d1fb303-cbdf-4a14-8f9d-6b779abd3972&chatType=INTERNAL

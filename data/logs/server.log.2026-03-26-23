@@ -1,0 +1,294 @@
+2026-03-26 23:08:08 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2026-03-26 23:11:51 [INFO]: ⬆️ POST /api/v1/tools
+2026-03-26 23:11:51 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2026-03-26 23:11:51 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2026-03-26 23:14:07 [INFO]: 🖊 PUT /api/v1/tools/a4d25502-1351-4d9b-a765-57cffbcad0ca
+2026-03-26 23:14:07 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2026-03-26 23:16:49 [INFO]: 🖊 PUT /api/v1/chatflows/5e72aedc-3771-4a39-8011-f571e8cf8ca2
+2026-03-26 23:17:10 [INFO]: ⬆️ POST /api/v1/internal-prediction/5e72aedc-3771-4a39-8011-f571e8cf8ca2
+2026-03-26 23:17:10 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/5e72aedc-3771-4a39-8011-f571e8cf8ca2/1d153a5b-1aeb-40bf-81ba-14ae7132dc11 Error: memory.getChatMessages is not a function
+TypeError: memory.getChatMessages is not a function
+    at RunnableLambda.chat_history [as func] (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/agents/ToolAgent/ToolAgent.js:290:48)
+    at /usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1798:44
+    at MockAsyncLocalStorage.run (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/singletons/async_local_storage/index.cjs:13:16)
+    at AsyncLocalStorageProvider.runWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/singletons/async_local_storage/index.cjs:60:24)
+    at output (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1796:64)
+    at new Promise (<anonymous>)
+    at RunnableLambda._transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1795:30)
+    at async RunnableLambda._transformStreamWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:316:30)
+    at async RunnableMap._transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1555:42)
+    at async RunnableMap._transformStreamWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:316:30)
+    at async ChatPromptTemplate.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:399:26)
+    at async ChatOpenRouter.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:399:26)
+    at async ToolCallingAgentOutputParser.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:399:26)
+    at async RunnableSequence._streamIterator (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1369:30)
+2026-03-26 23:17:26 [INFO]: 🖊 PUT /api/v1/chatflows/5e72aedc-3771-4a39-8011-f571e8cf8ca2
+2026-03-26 23:17:31 [INFO]: ⬆️ POST /api/v1/internal-prediction/5e72aedc-3771-4a39-8011-f571e8cf8ca2
+2026-03-26 23:17:31 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/5e72aedc-3771-4a39-8011-f571e8cf8ca2/bb82a570-a3e3-42cb-b7b0-da07250cde8c Error: memory.getChatMessages is not a function
+TypeError: memory.getChatMessages is not a function
+    at RunnableLambda.chat_history [as func] (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/agents/ToolAgent/ToolAgent.js:290:48)
+    at /usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1798:44
+    at MockAsyncLocalStorage.run (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/singletons/async_local_storage/index.cjs:13:16)
+    at AsyncLocalStorageProvider.runWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/singletons/async_local_storage/index.cjs:60:24)
+    at output (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1796:64)
+    at new Promise (<anonymous>)
+    at RunnableLambda._transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1795:30)
+    at async RunnableLambda._transformStreamWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:316:30)
+    at async RunnableMap._transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1555:42)
+    at async RunnableMap._transformStreamWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:316:30)
+    at async ChatPromptTemplate.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:399:26)
+    at async ChatOpenRouter.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:399:26)
+    at async ToolCallingAgentOutputParser.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:399:26)
+    at async RunnableSequence._streamIterator (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1369:30)
+2026-03-26 23:18:59 [INFO]: 🖊 PUT /api/v1/chatflows/5e72aedc-3771-4a39-8011-f571e8cf8ca2
+2026-03-26 23:19:11 [INFO]: ⬆️ POST /api/v1/internal-prediction/5e72aedc-3771-4a39-8011-f571e8cf8ca2
+2026-03-26 23:19:11 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/5e72aedc-3771-4a39-8011-f571e8cf8ca2/4513a50f-b126-471a-9363-422002ace3b7 Error: memory.getChatMessages is not a function
+TypeError: memory.getChatMessages is not a function
+    at RunnableLambda.chat_history [as func] (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/agents/ConversationalAgent/ConversationalAgent.js:226:48)
+    at /usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1798:44
+    at MockAsyncLocalStorage.run (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/singletons/async_local_storage/index.cjs:13:16)
+    at AsyncLocalStorageProvider.runWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/singletons/async_local_storage/index.cjs:60:24)
+    at output (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1796:64)
+    at new Promise (<anonymous>)
+    at RunnableLambda._transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1795:30)
+    at async RunnableLambda._transformStreamWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:316:30)
+    at async RunnableMap._transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1555:42)
+    at async RunnableMap._transformStreamWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:316:30)
+    at async ChatPromptTemplate.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:399:26)
+    at async ChatOpenRouter.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:399:26)
+    at async RunnableBinding.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:928:9)
+    at async ChatConversationalAgentOutputParserWithRetries.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:399:26)
+    at async RunnableSequence._streamIterator (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1369:30)
+2026-03-26 23:20:00 [INFO]: 🖊 PUT /api/v1/tools/a4d25502-1351-4d9b-a765-57cffbcad0ca
+2026-03-26 23:20:00 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2026-03-26 23:20:39 [INFO]: 🖊 PUT /api/v1/tools/a4d25502-1351-4d9b-a765-57cffbcad0ca
+2026-03-26 23:20:43 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2026-03-26 23:21:13 [INFO]: ⬆️ POST /api/v1/internal-prediction/5e72aedc-3771-4a39-8011-f571e8cf8ca2
+2026-03-26 23:21:13 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/5e72aedc-3771-4a39-8011-f571e8cf8ca2/762e98b0-d371-4f2d-8f72-c79f057c11b2 Error: memory.getChatMessages is not a function
+TypeError: memory.getChatMessages is not a function
+    at RunnableLambda.chat_history [as func] (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/agents/ConversationalAgent/ConversationalAgent.js:226:48)
+    at /usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1798:44
+    at MockAsyncLocalStorage.run (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/singletons/async_local_storage/index.cjs:13:16)
+    at AsyncLocalStorageProvider.runWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/singletons/async_local_storage/index.cjs:60:24)
+    at output (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1796:64)
+    at new Promise (<anonymous>)
+    at RunnableLambda._transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1795:30)
+    at async RunnableLambda._transformStreamWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:316:30)
+    at async RunnableMap._transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1555:42)
+    at async RunnableMap._transformStreamWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:316:30)
+    at async ChatPromptTemplate.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:399:26)
+    at async ChatOpenRouter.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:399:26)
+    at async RunnableBinding.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:928:9)
+    at async ChatConversationalAgentOutputParserWithRetries.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:399:26)
+    at async RunnableSequence._streamIterator (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1369:30)
+2026-03-26 23:26:34 [INFO]: 🖊 PUT /api/v1/tools/a4d25502-1351-4d9b-a765-57cffbcad0ca
+2026-03-26 23:26:34 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2026-03-26 23:26:40 [INFO]: 🖊 PUT /api/v1/chatflows/5e72aedc-3771-4a39-8011-f571e8cf8ca2
+2026-03-26 23:26:49 [INFO]: ⬆️ POST /api/v1/internal-prediction/5e72aedc-3771-4a39-8011-f571e8cf8ca2
+2026-03-26 23:26:49 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/5e72aedc-3771-4a39-8011-f571e8cf8ca2/71c61fbf-3646-4044-bff5-d5e13c95d3ee Error: memory.getChatMessages is not a function
+TypeError: memory.getChatMessages is not a function
+    at RunnableLambda.chat_history [as func] (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/agents/ConversationalAgent/ConversationalAgent.js:226:48)
+    at /usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1798:44
+    at MockAsyncLocalStorage.run (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/singletons/async_local_storage/index.cjs:13:16)
+    at AsyncLocalStorageProvider.runWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/singletons/async_local_storage/index.cjs:60:24)
+    at output (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1796:64)
+    at new Promise (<anonymous>)
+    at RunnableLambda._transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1795:30)
+    at async RunnableLambda._transformStreamWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:316:30)
+    at async RunnableMap._transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1555:42)
+    at async RunnableMap._transformStreamWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:316:30)
+    at async ChatPromptTemplate.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:399:26)
+    at async ChatOpenRouter.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:399:26)
+    at async RunnableBinding.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:928:9)
+    at async ChatConversationalAgentOutputParserWithRetries.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:399:26)
+    at async RunnableSequence._streamIterator (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1369:30)
+2026-03-26 23:28:36 [INFO]: 🖊 PUT /api/v1/tools/a4d25502-1351-4d9b-a765-57cffbcad0ca
+2026-03-26 23:28:36 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2026-03-26 23:28:39 [INFO]: 🖊 PUT /api/v1/chatflows/5e72aedc-3771-4a39-8011-f571e8cf8ca2
+2026-03-26 23:28:42 [INFO]: ⬆️ POST /api/v1/internal-prediction/5e72aedc-3771-4a39-8011-f571e8cf8ca2
+2026-03-26 23:28:42 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/5e72aedc-3771-4a39-8011-f571e8cf8ca2/859ec73c-d6a2-4472-aec0-784e6483dd69 Error: memory.getChatMessages is not a function
+TypeError: memory.getChatMessages is not a function
+    at RunnableLambda.chat_history [as func] (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/agents/ConversationalAgent/ConversationalAgent.js:226:48)
+    at /usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1798:44
+    at MockAsyncLocalStorage.run (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/singletons/async_local_storage/index.cjs:13:16)
+    at AsyncLocalStorageProvider.runWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/singletons/async_local_storage/index.cjs:60:24)
+    at output (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1796:64)
+    at new Promise (<anonymous>)
+    at RunnableLambda._transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1795:30)
+    at async RunnableLambda._transformStreamWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:316:30)
+    at async RunnableMap._transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1555:42)
+    at async RunnableMap._transformStreamWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:316:30)
+    at async ChatPromptTemplate.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:399:26)
+    at async ChatOpenRouter.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:399:26)
+    at async RunnableBinding.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:928:9)
+    at async ChatConversationalAgentOutputParserWithRetries.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:399:26)
+    at async RunnableSequence._streamIterator (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1369:30)
+2026-03-26 23:29:05 [INFO]: ⬆️ POST /api/v1/internal-prediction/5e72aedc-3771-4a39-8011-f571e8cf8ca2
+2026-03-26 23:29:05 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/5e72aedc-3771-4a39-8011-f571e8cf8ca2/92c68aa8-20f2-4f8a-bc42-6974d1ccd355 Error: memory.getChatMessages is not a function
+TypeError: memory.getChatMessages is not a function
+    at RunnableLambda.chat_history [as func] (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/agents/ConversationalAgent/ConversationalAgent.js:226:48)
+    at /usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1798:44
+    at MockAsyncLocalStorage.run (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/singletons/async_local_storage/index.cjs:13:16)
+    at AsyncLocalStorageProvider.runWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/singletons/async_local_storage/index.cjs:60:24)
+    at output (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1796:64)
+    at new Promise (<anonymous>)
+    at RunnableLambda._transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1795:30)
+    at async RunnableLambda._transformStreamWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:316:30)
+    at async RunnableMap._transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1555:42)
+    at async RunnableMap._transformStreamWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:316:30)
+    at async ChatPromptTemplate.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:399:26)
+    at async ChatOpenRouter.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:399:26)
+    at async RunnableBinding.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:928:9)
+    at async ChatConversationalAgentOutputParserWithRetries.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:399:26)
+    at async RunnableSequence._streamIterator (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1369:30)
+2026-03-26 23:46:31 [INFO]: 🖊 PUT /api/v1/chatflows/5e72aedc-3771-4a39-8011-f571e8cf8ca2
+2026-03-26 23:46:36 [INFO]: 🖊 PUT /api/v1/chatflows/5e72aedc-3771-4a39-8011-f571e8cf8ca2
+2026-03-26 23:47:19 [INFO]: 🖊 PUT /api/v1/chatflows/5e72aedc-3771-4a39-8011-f571e8cf8ca2
+2026-03-26 23:47:23 [INFO]: ⬆️ POST /api/v1/internal-prediction/5e72aedc-3771-4a39-8011-f571e8cf8ca2
+2026-03-26 23:47:23 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/5e72aedc-3771-4a39-8011-f571e8cf8ca2/a0d7fe10-89a7-47ad-9d29-c78e61b3c8e5 Error: Ending node must be either a Chain or Agent or Engine
+Error: Ending node must be either a Chain or Agent or Engine
+    at getEndingNodes (/usr/local/lib/node_modules/flowise/dist/utils/index.js:286:25)
+    at executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:349:52)
+    at utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:58)
+    at async createInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:26:33)
+2026-03-26 23:48:14 [INFO]: 🖊 PUT /api/v1/chatflows/5e72aedc-3771-4a39-8011-f571e8cf8ca2
+2026-03-26 23:48:17 [INFO]: ⬆️ POST /api/v1/internal-prediction/5e72aedc-3771-4a39-8011-f571e8cf8ca2
+2026-03-26 23:48:17 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/5e72aedc-3771-4a39-8011-f571e8cf8ca2/c00b6d9f-942a-4e88-97e8-c0b65d6b59f5 Error: memory.getChatMessages is not a function
+TypeError: memory.getChatMessages is not a function
+    at RunnableLambda.chat_history [as func] (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationChain/ConversationChain.js:213:46)
+    at /usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1711:45
+    at MockAsyncLocalStorage.run (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/singletons/async_local_storage/index.cjs:13:16)
+    at AsyncLocalStorageProvider.runWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/singletons/async_local_storage/index.cjs:60:24)
+    at /usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1709:64
+    at new Promise (<anonymous>)
+    at RunnableLambda._invoke (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1704:16)
+    at RunnableLambda._callWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:231:34)
+    at async /usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1525:31
+    at async Promise.all (index 1)
+    at async RunnableMap.invoke (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1529:13)
+    at async RunnableSequence.invoke (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1305:33)
+    at async ConversationChain_Chains.run (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationChain/ConversationChain.js:111:19)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:598:22)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-03-26 23:48:45 [INFO]: ⬆️ POST /api/v1/internal-prediction/5e72aedc-3771-4a39-8011-f571e8cf8ca2
+2026-03-26 23:48:45 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/5e72aedc-3771-4a39-8011-f571e8cf8ca2/17d11066-cc2b-4b69-978e-48397446c1e3 Error: memory.getChatMessages is not a function
+TypeError: memory.getChatMessages is not a function
+    at RunnableLambda.chat_history [as func] (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationChain/ConversationChain.js:213:46)
+    at /usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1711:45
+    at MockAsyncLocalStorage.run (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/singletons/async_local_storage/index.cjs:13:16)
+    at AsyncLocalStorageProvider.runWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/singletons/async_local_storage/index.cjs:60:24)
+    at /usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1709:64
+    at new Promise (<anonymous>)
+    at RunnableLambda._invoke (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1704:16)
+    at RunnableLambda._callWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:231:34)
+    at async /usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1525:31
+    at async Promise.all (index 1)
+    at async RunnableMap.invoke (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1529:13)
+    at async RunnableSequence.invoke (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1305:33)
+    at async ConversationChain_Chains.run (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationChain/ConversationChain.js:111:19)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:598:22)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-03-26 23:48:57 [INFO]: ⬆️ POST /api/v1/internal-prediction/5e72aedc-3771-4a39-8011-f571e8cf8ca2
+2026-03-26 23:48:57 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/5e72aedc-3771-4a39-8011-f571e8cf8ca2/17d11066-cc2b-4b69-978e-48397446c1e3 Error: memory.getChatMessages is not a function
+TypeError: memory.getChatMessages is not a function
+    at RunnableLambda.chat_history [as func] (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationChain/ConversationChain.js:213:46)
+    at /usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1711:45
+    at MockAsyncLocalStorage.run (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/singletons/async_local_storage/index.cjs:13:16)
+    at AsyncLocalStorageProvider.runWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/singletons/async_local_storage/index.cjs:60:24)
+    at /usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1709:64
+    at new Promise (<anonymous>)
+    at RunnableLambda._invoke (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1704:16)
+    at RunnableLambda._callWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:231:34)
+    at async /usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1525:31
+    at async Promise.all (index 1)
+    at async RunnableMap.invoke (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1529:13)
+    at async RunnableSequence.invoke (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1305:33)
+    at async ConversationChain_Chains.run (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationChain/ConversationChain.js:111:19)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:598:22)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-03-26 23:50:25 [INFO]: 🖊 PUT /api/v1/chatflows/5e72aedc-3771-4a39-8011-f571e8cf8ca2
+2026-03-26 23:50:43 [INFO]: 🖊 PUT /api/v1/chatflows/5e72aedc-3771-4a39-8011-f571e8cf8ca2
+2026-03-26 23:50:47 [INFO]: 🖊 PUT /api/v1/chatflows/5e72aedc-3771-4a39-8011-f571e8cf8ca2
+2026-03-26 23:50:55 [INFO]: ⬆️ POST /api/v1/internal-prediction/5e72aedc-3771-4a39-8011-f571e8cf8ca2
+2026-03-26 23:50:55 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/5e72aedc-3771-4a39-8011-f571e8cf8ca2/57266565-2443-496c-8cba-cb2a09390a66 Error: memory.getChatMessages is not a function
+TypeError: memory.getChatMessages is not a function
+    at RunnableLambda.chat_history [as func] (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationChain/ConversationChain.js:213:46)
+    at /usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1711:45
+    at MockAsyncLocalStorage.run (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/singletons/async_local_storage/index.cjs:13:16)
+    at AsyncLocalStorageProvider.runWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/singletons/async_local_storage/index.cjs:60:24)
+    at /usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1709:64
+    at new Promise (<anonymous>)
+    at RunnableLambda._invoke (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1704:16)
+    at RunnableLambda._callWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:231:34)
+    at async /usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1525:31
+    at async Promise.all (index 1)
+    at async RunnableMap.invoke (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1529:13)
+    at async RunnableSequence.invoke (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1305:33)
+    at async ConversationChain_Chains.run (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationChain/ConversationChain.js:111:19)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:598:22)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-03-26 23:52:34 [INFO]: 🖊 PUT /api/v1/chatflows/5e72aedc-3771-4a39-8011-f571e8cf8ca2
+2026-03-26 23:52:37 [INFO]: ⬆️ POST /api/v1/internal-prediction/5e72aedc-3771-4a39-8011-f571e8cf8ca2
+2026-03-26 23:52:37 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/5e72aedc-3771-4a39-8011-f571e8cf8ca2/374caad8-f235-44f8-b5f2-761bacd2d09b Error: memory.getChatMessages is not a function
+TypeError: memory.getChatMessages is not a function
+    at RunnableLambda.chat_history [as func] (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationChain/ConversationChain.js:213:46)
+    at /usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1711:45
+    at MockAsyncLocalStorage.run (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/singletons/async_local_storage/index.cjs:13:16)
+    at AsyncLocalStorageProvider.runWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/singletons/async_local_storage/index.cjs:60:24)
+    at /usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1709:64
+    at new Promise (<anonymous>)
+    at RunnableLambda._invoke (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1704:16)
+    at RunnableLambda._callWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:231:34)
+    at async /usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1525:31
+    at async Promise.all (index 1)
+    at async RunnableMap.invoke (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1529:13)
+    at async RunnableSequence.invoke (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1305:33)
+    at async ConversationChain_Chains.run (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationChain/ConversationChain.js:111:19)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:598:22)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-03-26 23:52:55 [INFO]: 🖊 PUT /api/v1/chatflows/5e72aedc-3771-4a39-8011-f571e8cf8ca2
+2026-03-26 23:52:59 [INFO]: ⬆️ POST /api/v1/internal-prediction/5e72aedc-3771-4a39-8011-f571e8cf8ca2
+2026-03-26 23:52:59 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/5e72aedc-3771-4a39-8011-f571e8cf8ca2/f903baef-6152-48b2-b88f-7670c588b424 Error: memory.getChatMessages is not a function
+TypeError: memory.getChatMessages is not a function
+    at RunnableLambda.chat_history [as func] (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationChain/ConversationChain.js:213:46)
+    at /usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1711:45
+    at MockAsyncLocalStorage.run (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/singletons/async_local_storage/index.cjs:13:16)
+    at AsyncLocalStorageProvider.runWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/singletons/async_local_storage/index.cjs:60:24)
+    at /usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1709:64
+    at new Promise (<anonymous>)
+    at RunnableLambda._invoke (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1704:16)
+    at RunnableLambda._callWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:231:34)
+    at async /usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1525:31
+    at async Promise.all (index 1)
+    at async RunnableMap.invoke (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1529:13)
+    at async RunnableSequence.invoke (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1305:33)
+    at async ConversationChain_Chains.run (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationChain/ConversationChain.js:111:19)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:598:22)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-03-26 23:53:13 [INFO]: 🖊 PUT /api/v1/chatflows/5e72aedc-3771-4a39-8011-f571e8cf8ca2
+2026-03-26 23:53:22 [INFO]: 🖊 PUT /api/v1/chatflows/5e72aedc-3771-4a39-8011-f571e8cf8ca2
+2026-03-26 23:53:26 [INFO]: ⬆️ POST /api/v1/internal-prediction/5e72aedc-3771-4a39-8011-f571e8cf8ca2
+2026-03-26 23:53:26 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/5e72aedc-3771-4a39-8011-f571e8cf8ca2/348e10a2-a0f5-4424-bd25-fa281c4dec96 Error: memory.getChatMessages is not a function
+TypeError: memory.getChatMessages is not a function
+    at RunnableLambda.chat_history [as func] (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationChain/ConversationChain.js:213:46)
+    at /usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1711:45
+    at MockAsyncLocalStorage.run (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/singletons/async_local_storage/index.cjs:13:16)
+    at AsyncLocalStorageProvider.runWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/singletons/async_local_storage/index.cjs:60:24)
+    at /usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1709:64
+    at new Promise (<anonymous>)
+    at RunnableLambda._invoke (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1704:16)
+    at RunnableLambda._callWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:231:34)
+    at async /usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1525:31
+    at async Promise.all (index 1)
+    at async RunnableMap.invoke (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1529:13)
+    at async RunnableSequence.invoke (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1305:33)
+    at async ConversationChain_Chains.run (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationChain/ConversationChain.js:111:19)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:598:22)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)

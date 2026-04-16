@@ -1,0 +1,8 @@
+2026-02-11 12:12:44 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-11 12:12:44 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-11 12:12:44 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-11 12:12:44 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-11 12:15:42 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-11 12:26:05 [INFO]: ⬆️ POST /api/v1/node-load-method/openAIEmbeddings
+2026-02-11 12:26:05 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStore
+2026-02-11 12:26:05 [INFO]: ⬆️ POST /api/v1/node-load-method/chatMistralAI

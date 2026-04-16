@@ -1,0 +1,10 @@
+2026-01-14 11:19:07 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=6a17e03f-7dc6-4f9e-a382-aef4492e1a2f&chatType=INTERNAL
+2026-01-14 11:19:12 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-14 11:21:48 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=2153fa50-a0c0-4cf2-af17-636305b2ba5f&chatType=INTERNAL
+2026-01-14 11:21:57 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-14 11:30:16 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=6b6f7e39-3f41-4500-801c-f7d2ad4fe293&chatType=INTERNAL
+2026-01-14 11:30:41 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-14 11:40:30 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=3dc9e7fe-93b6-48e2-8bc1-0dd6881a4223&chatType=INTERNAL
+2026-01-14 11:40:38 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-14 11:49:27 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=443fbdfb-c8be-4d2e-b078-6544125e9cae&chatType=INTERNAL
+2026-01-14 11:49:31 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa

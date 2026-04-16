@@ -1,0 +1,195 @@
+2026-02-05 17:00:54 [INFO]: ❌ DELETE /api/v1/chatmessage/b4ba85a6-8a9c-4122-a9e5-0028a7841293?chatId=dec1c93a-ead8-444c-9297-a3f3db9c57b2&chatType=INTERNAL
+2026-02-05 17:00:59 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 17:02:47 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-05 17:02:47 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 17:03:01 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 17:03:01 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 17:03:14 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 17:03:34 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+2026-02-05 17:03:34 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/b4ba85a6-8a9c-4122-a9e5-0028a7841293/626107c9-7adf-45de-8798-d74c4cac6131 Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-05 17:04:27 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 17:04:28 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 17:04:28 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 17:04:28 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 17:05:28 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 17:06:31 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 17:06:31 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 17:06:31 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 17:06:31 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 17:06:35 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 17:06:35 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-05 17:06:53 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 17:06:55 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-05 17:06:55 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 17:07:52 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 17:07:52 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 17:07:52 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 17:07:52 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 17:08:27 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 17:08:27 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 17:08:27 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 17:09:15 [INFO]: ❌ DELETE /api/v1/chatmessage/b4ba85a6-8a9c-4122-a9e5-0028a7841293?chatId=599a9865-531b-4522-b4bb-f9ab058a9b41&chatType=INTERNAL
+2026-02-05 17:12:38 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 17:12:38 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-05 17:12:56 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-05 17:12:56 [INFO]: ⬆️ POST /api/v1/node-load-method/toolAgentflow
+2026-02-05 17:13:29 [INFO]: ⬆️ POST /api/v1/node-load-method/toolAgentflow
+2026-02-05 17:13:29 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-05 17:13:29 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-05 17:15:08 [INFO]: ⬆️ POST /api/v1/node-load-method/toolAgentflow
+2026-02-05 17:15:31 [INFO]: ⬆️ POST /api/v1/node-load-method/toolAgentflow
+2026-02-05 17:17:12 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+2026-02-05 17:17:12 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/b4ba85a6-8a9c-4122-a9e5-0028a7841293/e7d25422-9616-4e0e-b471-9b3e610d4820 Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-05 17:18:00 [INFO]: ⬆️ POST /api/v1/node-load-method/toolAgentflow
+2026-02-05 17:18:01 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-05 17:18:01 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-05 17:18:58 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 17:19:44 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 17:19:44 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-05 17:19:50 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-05 17:19:50 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 17:19:59 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 17:22:46 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 17:24:51 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+2026-02-05 17:24:52 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/b4ba85a6-8a9c-4122-a9e5-0028a7841293/a22d00f7-051e-41db-992d-977b06c273b8 Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-05 17:25:55 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 17:25:56 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-05 17:25:56 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-05 17:27:57 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-05 17:27:57 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-05 17:28:36 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 17:29:15 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 17:29:27 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 17:29:30 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 17:30:42 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 17:30:42 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-05 17:30:42 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-05 17:32:50 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 17:33:24 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 17:34:45 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 17:34:52 [INFO]: ❌ DELETE /api/v1/chatmessage/b4ba85a6-8a9c-4122-a9e5-0028a7841293?chatId=befae1e2-3ee3-46fe-a10e-3d25eb2f917c&chatType=INTERNAL
+2026-02-05 17:34:57 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 17:35:01 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Failed to parse. Text: "{
+  "refined_question": "How can I register in website?",
+  "detected_language": "English"
+}". Error: [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "rewritten_question"
+    ],
+    "message": "Required"
+  }
+]
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+2026-02-05 17:35:01 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/b4ba85a6-8a9c-4122-a9e5-0028a7841293/f695f436-da95-4438-abe8-9364e451eb58 Error: Error in LLM node: Failed to parse. Text: "{
+  "refined_question": "How can I register in website?",
+  "detected_language": "English"
+}". Error: [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "rewritten_question"
+    ],
+    "message": "Required"
+  }
+]
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+Error: Error in LLM node: Failed to parse. Text: "{
+  "refined_question": "How can I register in website?",
+  "detected_language": "English"
+}". Error: [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "rewritten_question"
+    ],
+    "message": "Required"
+  }
+]
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-05 17:35:23 [INFO]: ❌ DELETE /api/v1/chatmessage/b4ba85a6-8a9c-4122-a9e5-0028a7841293?chatId=f695f436-da95-4438-abe8-9364e451eb58&chatType=INTERNAL
+2026-02-05 17:35:23 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 17:35:28 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 17:35:32 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Failed to parse. Text: "{
+  "refined_question": "How can I register on the Elster website?",
+  "detected_language": "English"
+}". Error: [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "rewritten_question"
+    ],
+    "message": "Required"
+  }
+]
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+2026-02-05 17:35:32 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/b4ba85a6-8a9c-4122-a9e5-0028a7841293/8920a064-a2e0-4c09-8f58-68db8cb59316 Error: Error in LLM node: Failed to parse. Text: "{
+  "refined_question": "How can I register on the Elster website?",
+  "detected_language": "English"
+}". Error: [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "rewritten_question"
+    ],
+    "message": "Required"
+  }
+]
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+Error: Error in LLM node: Failed to parse. Text: "{
+  "refined_question": "How can I register on the Elster website?",
+  "detected_language": "English"
+}". Error: [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "rewritten_question"
+    ],
+    "message": "Required"
+  }
+]
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-05 17:35:59 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293

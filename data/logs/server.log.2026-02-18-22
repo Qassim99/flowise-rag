@@ -1,0 +1,237 @@
+2026-02-18 22:13:37 [INFO]: ❌ DELETE /api/v1/chatmessage/b4ba85a6-8a9c-4122-a9e5-0028a7841293?chatId=43c086d0-0458-4ca6-835e-02fb98493e30&chatType=INTERNAL
+2026-02-18 22:17:13 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-18 22:17:36 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-18 22:17:36 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 22:17:45 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 22:17:45 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-18 22:18:06 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:18:08 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-18 22:18:08 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-18 22:18:12 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-18 22:18:12 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 22:18:21 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 22:18:21 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 22:18:28 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:18:28 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Missing credentials. Please pass an `apiKey`, or set the `OPENAI_API_KEY` environment variable.
+2026-02-18 22:18:28 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/b4ba85a6-8a9c-4122-a9e5-0028a7841293/64e9de67-a381-4cbc-a7a7-fba2df625fab Error: Error in LLM node: Missing credentials. Please pass an `apiKey`, or set the `OPENAI_API_KEY` environment variable.
+Error: Error in LLM node: Missing credentials. Please pass an `apiKey`, or set the `OPENAI_API_KEY` environment variable.
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-18 22:18:42 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 22:18:42 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 22:18:43 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 22:18:43 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 22:18:53 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 22:18:53 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-18 22:19:02 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-18 22:19:02 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 22:19:14 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 22:19:14 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 22:19:19 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 22:19:34 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:19:43 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:19:51 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Missing credentials. Please pass an `apiKey`, or set the `OPENAI_API_KEY` environment variable.
+2026-02-18 22:19:51 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/b4ba85a6-8a9c-4122-a9e5-0028a7841293/9582af89-7d37-4b49-b33d-f957aef83cb8 Error: Error in Condition Agent node: Missing credentials. Please pass an `apiKey`, or set the `OPENAI_API_KEY` environment variable.
+Error: Error in Condition Agent node: Missing credentials. Please pass an `apiKey`, or set the `OPENAI_API_KEY` environment variable.
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-18 22:20:00 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 22:20:00 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-18 22:20:07 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:20:11 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-18 22:20:11 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-18 22:20:11 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-18 22:20:11 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-18 22:20:17 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:20:22 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-18 22:20:22 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-18 22:20:32 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:20:43 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:20:46 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-18 22:20:46 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-18 22:20:58 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:21:00 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-18 22:21:00 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 22:21:09 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:21:10 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 22:21:10 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 22:21:18 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:21:20 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 22:21:20 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 22:21:28 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:21:44 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:21:44 [INFO]: [server]: Request originated from http://localhost:5173
+2026-02-18 22:21:53 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:21:58 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:23:21 [INFO]: ❌ DELETE /api/v1/chatmessage/b4ba85a6-8a9c-4122-a9e5-0028a7841293?chatId=c9ba6ad6-243d-40e2-9bda-0a3586fa9e33&chatType=INTERNAL
+2026-02-18 22:23:25 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:23:48 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:26:39 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:26:39 [INFO]: [server]: Request originated from http://localhost:5173
+2026-02-18 22:26:54 [ERROR]: [server]: Error executing node agentAgentflow_0: Error in Agent node: No Tavily API key found. Either set an environment variable named "TAVILY_API_KEY" or pass an API key as "apiKey".
+2026-02-18 22:26:54 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/b4ba85a6-8a9c-4122-a9e5-0028a7841293/ Error: Error in Agent node: No Tavily API key found. Either set an environment variable named "TAVILY_API_KEY" or pass an API key as "apiKey".
+Error: Error in Agent node: No Tavily API key found. Either set an environment variable named "TAVILY_API_KEY" or pass an API key as "apiKey".
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-02-18 22:27:22 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:27:36 [ERROR]: [server]: Error executing node agentAgentflow_0: Error in Agent node: No Tavily API key found. Either set an environment variable named "TAVILY_API_KEY" or pass an API key as "apiKey".
+2026-02-18 22:27:36 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/b4ba85a6-8a9c-4122-a9e5-0028a7841293/fef54004-a8b2-4681-b0d9-6436846ae423 Error: Error in Agent node: No Tavily API key found. Either set an environment variable named "TAVILY_API_KEY" or pass an API key as "apiKey".
+Error: Error in Agent node: No Tavily API key found. Either set an environment variable named "TAVILY_API_KEY" or pass an API key as "apiKey".
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-18 22:27:41 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 22:27:41 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-18 22:27:41 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-18 22:27:41 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-18 22:27:52 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:28:20 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:28:41 [ERROR]: [server]: Error executing node agentAgentflow_0: Error in Agent node: 400 Input required: specify "prompt" or "messages"
+2026-02-18 22:28:41 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/b4ba85a6-8a9c-4122-a9e5-0028a7841293/fef54004-a8b2-4681-b0d9-6436846ae423 Error: Error in Agent node: 400 Input required: specify "prompt" or "messages"
+Error: Error in Agent node: 400 Input required: specify "prompt" or "messages"
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-18 22:28:51 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-18 22:28:51 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-18 22:28:51 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-18 22:29:12 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-18 22:29:12 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-18 22:29:12 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-18 22:29:23 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:29:31 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:29:46 [ERROR]: [server]: Error executing node agentAgentflow_0: Error in Agent node: 400 Input required: specify "prompt" or "messages"
+2026-02-18 22:29:46 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/b4ba85a6-8a9c-4122-a9e5-0028a7841293/fef54004-a8b2-4681-b0d9-6436846ae423 Error: Error in Agent node: 400 Input required: specify "prompt" or "messages"
+Error: Error in Agent node: 400 Input required: specify "prompt" or "messages"
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-18 22:29:53 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-18 22:29:53 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-18 22:29:53 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-18 22:30:52 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:31:08 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:31:13 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-18 22:31:13 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-18 22:31:13 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-18 22:31:22 [ERROR]: [server]: Error executing node agentAgentflow_0: Error in Agent node: 400 Input required: specify "prompt" or "messages"
+2026-02-18 22:31:22 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/b4ba85a6-8a9c-4122-a9e5-0028a7841293/fef54004-a8b2-4681-b0d9-6436846ae423 Error: Error in Agent node: 400 Input required: specify "prompt" or "messages"
+Error: Error in Agent node: 400 Input required: specify "prompt" or "messages"
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-18 22:32:48 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-18 22:32:48 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-18 22:32:48 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-18 22:32:56 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:33:02 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:33:24 [ERROR]: [server]: Error executing node agentAgentflow_0: Error in Agent node: 400 Input required: specify "prompt" or "messages"
+2026-02-18 22:33:24 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/b4ba85a6-8a9c-4122-a9e5-0028a7841293/fef54004-a8b2-4681-b0d9-6436846ae423 Error: Error in Agent node: 400 Input required: specify "prompt" or "messages"
+Error: Error in Agent node: 400 Input required: specify "prompt" or "messages"
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-18 22:34:58 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-18 22:34:58 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 22:34:58 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 22:34:58 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 22:35:07 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:35:34 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:35:42 [ERROR]: [server]: Error executing node agentAgentflow_0: Error in Agent node: 400 Input required: specify "prompt" or "messages"
+2026-02-18 22:35:42 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/b4ba85a6-8a9c-4122-a9e5-0028a7841293/fef54004-a8b2-4681-b0d9-6436846ae423 Error: Error in Agent node: 400 Input required: specify "prompt" or "messages"
+Error: Error in Agent node: 400 Input required: specify "prompt" or "messages"
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-18 22:37:54 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 22:37:54 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-18 22:37:54 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-18 22:37:54 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-18 22:40:21 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:40:31 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-18 22:40:31 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-18 22:40:31 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-18 22:41:28 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-18 22:41:28 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-18 22:41:28 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-18 22:41:40 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:42:27 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:42:27 [INFO]: [server]: Request originated from http://localhost:5173
+2026-02-18 22:42:40 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:42:44 [ERROR]: [server]: Error executing node conditionAgentAgentflow_2: Error in Condition Agent node: Missing credentials. Please pass an `apiKey`, or set the `OPENAI_API_KEY` environment variable.
+2026-02-18 22:42:44 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/b4ba85a6-8a9c-4122-a9e5-0028a7841293/ Error: Error in Condition Agent node: Missing credentials. Please pass an `apiKey`, or set the `OPENAI_API_KEY` environment variable.
+Error: Error in Condition Agent node: Missing credentials. Please pass an `apiKey`, or set the `OPENAI_API_KEY` environment variable.
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-02-18 22:42:53 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Failed to parse. Text: "". Error: SyntaxError: Unexpected end of JSON input
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+2026-02-18 22:42:53 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/b4ba85a6-8a9c-4122-a9e5-0028a7841293/fef54004-a8b2-4681-b0d9-6436846ae423 Error: Error in LLM node: Failed to parse. Text: "". Error: SyntaxError: Unexpected end of JSON input
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+Error: Error in LLM node: Failed to parse. Text: "". Error: SyntaxError: Unexpected end of JSON input
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-18 22:42:59 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-18 22:42:59 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 22:42:59 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 22:42:59 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 22:44:14 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 22:44:14 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 22:44:14 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 22:44:23 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:44:32 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:44:32 [INFO]: [server]: Request originated from http://localhost:5173
+2026-02-18 22:44:46 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:44:48 [ERROR]: [server]: Error executing node conditionAgentAgentflow_2: Error in Condition Agent node: Missing credentials. Please pass an `apiKey`, or set the `OPENAI_API_KEY` environment variable.
+2026-02-18 22:44:48 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/b4ba85a6-8a9c-4122-a9e5-0028a7841293/ Error: Error in Condition Agent node: Missing credentials. Please pass an `apiKey`, or set the `OPENAI_API_KEY` environment variable.
+Error: Error in Condition Agent node: Missing credentials. Please pass an `apiKey`, or set the `OPENAI_API_KEY` environment variable.
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-02-18 22:44:55 [ERROR]: [server]: Error executing node conditionAgentAgentflow_2: Error in Condition Agent node: Missing credentials. Please pass an `apiKey`, or set the `OPENAI_API_KEY` environment variable.
+2026-02-18 22:44:55 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/b4ba85a6-8a9c-4122-a9e5-0028a7841293/fef54004-a8b2-4681-b0d9-6436846ae423 Error: Error in Condition Agent node: Missing credentials. Please pass an `apiKey`, or set the `OPENAI_API_KEY` environment variable.
+Error: Error in Condition Agent node: Missing credentials. Please pass an `apiKey`, or set the `OPENAI_API_KEY` environment variable.
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-18 22:45:02 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 22:45:02 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-18 22:45:11 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:45:22 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:45:44 [ERROR]: [server]: Error executing node llmAgentflow_4: Error in LLM node: 400 Provider returned error
+2026-02-18 22:45:44 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/b4ba85a6-8a9c-4122-a9e5-0028a7841293/fef54004-a8b2-4681-b0d9-6436846ae423 Error: Error in LLM node: 400 Provider returned error
+Error: Error in LLM node: 400 Provider returned error
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-18 22:45:52 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-18 22:45:52 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 22:46:16 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 22:46:37 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 22:46:51 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:47:01 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:47:47 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:47:47 [INFO]: [server]: Request originated from http://localhost:5173
+2026-02-18 22:48:09 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:56:19 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:56:19 [INFO]: [server]: Request originated from http://localhost:5173
+2026-02-18 22:57:27 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:57:27 [INFO]: [server]: Request originated from http://localhost:5173
+2026-02-18 22:58:23 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:58:23 [INFO]: [server]: Request originated from http://localhost:5173
+2026-02-18 22:59:03 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 22:59:03 [INFO]: [server]: Request originated from http://localhost:5173
