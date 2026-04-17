@@ -32,7 +32,7 @@ Edit `.env` to set your admin email/password:
 ```
 ADMIN_NAME=Qasim
 ADMIN_EMAIL=qasimlo900@gmail.com
-ADMIN_PASSWORD=your-secure-password
+ADMIN_PASSWORD=Helloworld1$
 ```
 
 ### 3. Start the stack
