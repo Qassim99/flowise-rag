@@ -139,22 +139,25 @@ encrypt() {
 # Create credential helper
 create_cred() {
   local name="$1" credName="$2" jsonData="$3"
-  local exists=$($RUNTIME exec "$CONTAINER" sqlite3 "$DB_PATH" \
-    "SELECT COUNT(*) FROM credential WHERE name='$name' AND credentialName='$credName';")
-  if [ "$exists" -gt 0 ]; then
-    echo "  skip: $name (exists)"
-    return
-  fi
-  local uuid=$(cat /proc/sys/kernel/random/uuid 2>/dev/null || uuidgen | tr '[:upper:]' '[:lower:]')
   local enc=$(encrypt "$jsonData")
   if [ -z "$enc" ]; then
     echo "  FAIL: $name (encryption error)"
     return
   fi
+  local exists=$($RUNTIME exec "$CONTAINER" sqlite3 "$DB_PATH" \
+    "SELECT COUNT(*) FROM credential WHERE name='$name' AND credentialName='$credName';")
+  if [ "$exists" -gt 0 ]; then
+    $RUNTIME exec "$CONTAINER" sqlite3 "$DB_PATH" \
+      "UPDATE credential SET encryptedData='$enc', updatedDate=datetime('now')
+       WHERE name='$name' AND credentialName='$credName';"
+    echo "  ✓ $name ($credName) [updated]"
+    return
+  fi
+  local uuid=$(cat /proc/sys/kernel/random/uuid 2>/dev/null || uuidgen | tr '[:upper:]' '[:lower:]')
   $RUNTIME exec "$CONTAINER" sqlite3 "$DB_PATH" \
     "INSERT INTO credential (id, name, credentialName, encryptedData, createdDate, updatedDate, workspaceId)
      VALUES ('$uuid', '$name', '$credName', '$enc', datetime('now'), datetime('now'), '$WORKSPACE_ID');"
-  echo "  ✓ $name ($credName)"
+  echo "  ✓ $name ($credName) [created]"
 }
 
 # ── Create each credential if key exists ──

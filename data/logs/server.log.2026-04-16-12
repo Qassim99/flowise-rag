@@ -5,3 +5,263 @@
 2026-04-16 12:07:00 [INFO]: ⬆️ POST /api/v1/auth/resolve
 2026-04-16 12:09:01 [INFO]: ⬆️ POST /api/v1/auth/login
 2026-04-16 12:09:12 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-04-16 12:10:26 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-04-16 12:10:37 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 12:10:38 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 12:10:38 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 12:13:30 [INFO]: Shutting down Flowise...
+2026-04-16 12:14:25 [INFO]: Starting Flowise...
+2026-04-16 12:14:25 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-04-16 12:14:25 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-04-16 12:14:25 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-04-16 12:14:26 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-04-16 12:14:26 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-04-16 12:14:26 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-04-16 12:14:26 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-04-16 12:14:26 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-04-16 12:14:26 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-04-16 12:14:26 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-04-16 12:14:26 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-04-16 12:14:26 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-04-16 12:14:26 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-04-16 12:14:30 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-04-16 12:14:45 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-04-16 12:14:54 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 12:14:54 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 12:14:54 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 12:17:50 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 12:17:51 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-04-16 12:18:07 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 12:18:08 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-04-16 12:18:09 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 12:18:09 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 12:18:09 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 12:18:15 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 12:18:15 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-04-16 12:18:15 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-04-16 12:18:20 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 12:18:20 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 12:18:37 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 12:18:39 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 12:18:39 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 12:18:57 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 12:18:58 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 12:18:59 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 12:19:15 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 12:19:17 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 12:19:17 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-04-16 12:19:31 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-04-16 12:19:32 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 12:19:50 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 12:19:53 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 12:19:53 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-04-16 12:19:53 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-04-16 12:19:53 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-04-16 12:20:04 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 12:20:07 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-04-16 12:20:07 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-04-16 12:20:21 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 12:20:23 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-04-16 12:20:23 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 12:20:32 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 12:20:34 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 12:20:34 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 12:20:45 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 12:20:48 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 12:20:48 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 12:20:53 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 12:21:00 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 12:21:00 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 12:21:05 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 12:21:05 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-04-16 12:21:12 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-04-16 12:21:12 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 12:21:19 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 12:21:23 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 12:21:23 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-04-16 12:21:23 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-04-16 12:21:28 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 12:22:07 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 12:22:09 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: 401 User not found.
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+2026-04-16 12:22:09 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/0ff09d12-11b9-48a3-a24f-b923354a9c86 Error: Error in LLM node: 401 User not found.
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+Error: Error in LLM node: 401 User not found.
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-16 12:22:26 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 12:22:26 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 12:22:26 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 12:22:35 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 12:22:43 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 12:22:44 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: 401 User not found.
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+2026-04-16 12:22:44 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/6e40e02f-5960-41b9-81dc-b1503119d3c6 Error: Error in LLM node: 401 User not found.
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+Error: Error in LLM node: 401 User not found.
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-16 12:22:48 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 12:22:48 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 12:22:48 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 12:22:57 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 12:23:02 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 12:23:03 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: 401 User not found.
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+2026-04-16 12:23:03 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/4d94ea94-f3b0-41d7-9112-241236c28a28 Error: Error in LLM node: 401 User not found.
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+Error: Error in LLM node: 401 User not found.
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-16 12:23:26 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-04-16 12:23:31 [INFO]: 🖊 PUT /api/v1/chatflows/55a0ac0f-4c95-48c1-bdeb-f26a457fa539
+2026-04-16 12:23:37 [INFO]: ⬆️ POST /api/v1/internal-prediction/55a0ac0f-4c95-48c1-bdeb-f26a457fa539
+2026-04-16 12:23:38 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/55a0ac0f-4c95-48c1-bdeb-f26a457fa539/69ab0218-6a95-4973-9967-dd4985af5419 Error: 401 User not found.
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+Error: 401 User not found.
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+    at APIError.generate (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/core/error.js:48:20)
+    at OpenAI.makeStatusError (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:163:32)
+    at OpenAI.makeRequest (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:331:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/dist/embeddings.cjs:185:29
+    at async RetryOperation._fn (/usr/local/lib/node_modules/flowise/node_modules/p-retry/index.js:50:12)
+2026-04-16 12:24:27 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-04-16 12:24:33 [INFO]: ⬆️ POST /api/v1/internal-prediction/55a0ac0f-4c95-48c1-bdeb-f26a457fa539
+2026-04-16 12:24:34 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/55a0ac0f-4c95-48c1-bdeb-f26a457fa539/208c389b-2b88-4bce-a83a-05c092cb742c Error: 401 User not found.
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+Error: 401 User not found.
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+    at APIError.generate (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/core/error.js:48:20)
+    at OpenAI.makeStatusError (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:163:32)
+    at OpenAI.makeRequest (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:331:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/dist/embeddings.cjs:185:29
+    at async RetryOperation._fn (/usr/local/lib/node_modules/flowise/node_modules/p-retry/index.js:50:12)
+2026-04-16 12:28:57 [INFO]: Shutting down Flowise...
+2026-04-16 12:29:10 [INFO]: Starting Flowise...
+2026-04-16 12:29:10 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-04-16 12:29:10 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-04-16 12:29:10 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-04-16 12:29:11 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-04-16 12:29:11 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-04-16 12:29:11 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-04-16 12:29:11 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-04-16 12:29:11 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-04-16 12:29:11 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-04-16 12:29:11 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-04-16 12:29:11 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-04-16 12:29:11 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-04-16 12:29:11 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-04-16 12:29:39 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-04-16 12:29:51 [INFO]: 🖊 PUT /api/v1/chatflows/55a0ac0f-4c95-48c1-bdeb-f26a457fa539
+2026-04-16 12:30:00 [INFO]: ⬆️ POST /api/v1/internal-prediction/55a0ac0f-4c95-48c1-bdeb-f26a457fa539
+2026-04-16 12:30:03 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/55a0ac0f-4c95-48c1-bdeb-f26a457fa539/66b08ead-98bf-4a53-9829-b1f6b10f49ed Error: 401 User not found.
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+Error: 401 User not found.
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+    at APIError.generate (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/core/error.js:48:20)
+    at OpenAI.makeStatusError (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:163:32)
+    at OpenAI.makeRequest (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:331:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/dist/embeddings.cjs:185:29
+    at async RetryOperation._fn (/usr/local/lib/node_modules/flowise/node_modules/p-retry/index.js:50:12)
+2026-04-16 12:35:33 [INFO]: Shutting down Flowise...
+2026-04-16 12:35:47 [INFO]: Starting Flowise...
+2026-04-16 12:35:47 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-04-16 12:35:47 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-04-16 12:35:47 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-04-16 12:35:48 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-04-16 12:35:48 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-04-16 12:35:48 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-04-16 12:35:48 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-04-16 12:35:48 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-04-16 12:35:48 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-04-16 12:35:48 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-04-16 12:35:48 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-04-16 12:35:48 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-04-16 12:35:48 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-04-16 12:36:34 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-04-16 12:36:36 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-04-16 12:36:48 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-04-16 12:37:00 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-04-16 12:37:00 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Expected a Runnable, function or object.
+Instead got an unsupported type.
+Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+    at _coerceToRunnable (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:2125:15)
+    at _coerceToRunnable (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:2118:30)
+    at RunnableBinding.pipe (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:370:19)
+    at createRetrieverChain (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:258:53)
+    at createChain (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:289:28)
+    at ConversationalRetrievalQAChain_Chains.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:133:29)
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:58)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:389:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-16 12:37:00 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/7e708632-6ee7-46a0-814b-f9bad35ea8fa/436b9e08-74c1-4f5b-bb53-bcbfb6097417 Error: Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+Error: Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:389:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-16 12:37:20 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-04-16 12:37:21 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-04-16 12:37:31 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-04-16 12:38:19 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-04-16 12:38:24 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=169f8bd0-4b4d-48ad-868c-91e72b38a020&chatType=INTERNAL
+2026-04-16 12:38:30 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-04-16 12:38:59 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-04-16 12:39:16 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 12:39:16 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 12:39:16 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 12:39:29 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 12:39:37 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 12:40:13 [INFO]: ❌ DELETE /api/v1/chatmessage/616c4ca5-330c-4068-bbd0-1d8fa9889449?chatId=80bde722-ac3b-409e-b9b3-faac92a87d20&chatType=INTERNAL
+2026-04-16 12:40:20 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 12:41:31 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 12:41:31 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-04-16 12:41:31 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-04-16 12:41:31 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-04-16 12:43:11 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-04-16 12:43:11 [INFO]: ⬆️ POST /api/v1/node-load-method/customFunctionAgentflow
+2026-04-16 12:43:32 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 12:44:00 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
