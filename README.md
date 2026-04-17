@@ -22,6 +22,10 @@ OPENROUTER_API_KEY=sk-or-your-key-here
 ```
 
 ### 2. Configure admin account (optional)
+```bash
+cp .env.example .env
+nano .env
+```
 
 Edit `.env` to set your admin email/password:
 
