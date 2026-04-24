@@ -1,0 +1,12 @@
+2026-02-26 14:16:51 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-02-26 14:16:56 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-02-26 14:17:58 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-26 14:17:58 [INFO]: [server]: Request originated from http://localhost:8080
+2026-02-26 14:53:30 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-26 14:53:30 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-26 14:53:31 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-26 14:53:42 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-26 14:53:42 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-26 14:53:42 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-26 14:56:00 [INFO]: ⬆️ POST /api/v1/document-store/store
+2026-02-26 14:57:54 [INFO]: Shutting down Flowise...

@@ -1,0 +1,34 @@
+2026-04-16 07:47:24 [INFO]: Starting Flowise...
+2026-04-16 07:47:24 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-04-16 07:47:24 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-04-16 07:47:24 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-04-16 07:47:25 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-04-16 07:47:25 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-04-16 07:47:25 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-04-16 07:47:25 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-04-16 07:47:25 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-04-16 07:47:25 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-04-16 07:47:25 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-04-16 07:47:26 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-04-16 07:47:26 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-04-16 07:47:26 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-04-16 07:47:56 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-04-16 07:48:01 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-04-16 07:48:45 [INFO]: Shutting down Flowise...
+2026-04-16 07:50:00 [INFO]: Starting Flowise...
+2026-04-16 07:50:00 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-04-16 07:50:00 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-04-16 07:50:00 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-04-16 07:50:01 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-04-16 07:50:01 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-04-16 07:50:01 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-04-16 07:50:01 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-04-16 07:50:01 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-04-16 07:50:01 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-04-16 07:50:01 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-04-16 07:50:01 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-04-16 07:50:01 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-04-16 07:50:01 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-04-16 07:50:09 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-04-16 07:50:13 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-04-16 07:51:43 [INFO]: Shutting down Flowise...

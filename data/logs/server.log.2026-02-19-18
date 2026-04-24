@@ -1,0 +1,38 @@
+2026-02-19 18:00:47 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-19 18:00:47 [INFO]: [server]: Request originated from http://localhost:8080
+2026-02-19 18:50:37 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-19 18:50:37 [INFO]: [server]: Request originated from http://localhost:8080
+2026-02-19 18:50:49 [ERROR]: [server]: Error executing node retrieverAgentflow_0: connect ECONNREFUSED 10.215.240.103:9200
+2026-02-19 18:50:49 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/b4ba85a6-8a9c-4122-a9e5-0028a7841293/c82e3648-cedf-4be8-b2ad-1889675e00e3 Error: connect ECONNREFUSED 10.215.240.103:9200
+Error: connect ECONNREFUSED 10.215.240.103:9200
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:73:41)
+2026-02-19 18:51:37 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-19 18:51:37 [INFO]: [server]: Request originated from http://localhost:8080
+2026-02-19 18:52:46 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-19 18:52:46 [INFO]: [server]: Request originated from http://localhost:8080
+2026-02-19 18:52:59 [ERROR]: [server]: Error executing node retrieverAgentflow_0: connect ECONNREFUSED 10.215.240.103:9200
+2026-02-19 18:52:59 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/b4ba85a6-8a9c-4122-a9e5-0028a7841293/9200d548-bd57-4ae0-9159-0d3abacac945 Error: connect ECONNREFUSED 10.215.240.103:9200
+Error: connect ECONNREFUSED 10.215.240.103:9200
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:73:41)
+2026-02-19 18:56:37 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-19 18:56:37 [INFO]: [server]: Request originated from http://localhost:8080
+2026-02-19 18:56:54 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-19 18:56:54 [INFO]: [server]: Request originated from http://localhost:8080
+2026-02-19 18:57:22 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 18:57:49 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 18:57:49 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 18:58:05 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 18:58:05 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 18:58:19 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 18:58:19 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 18:58:35 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 18:58:35 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 18:59:16 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 18:59:16 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 18:59:50 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293

@@ -1,0 +1,24 @@
+2026-03-26 10:27:24 [INFO]: Starting Flowise...
+2026-03-26 10:27:24 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-03-26 10:27:24 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-03-26 10:27:24 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-03-26 10:27:27 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-03-26 10:27:27 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-03-26 10:27:27 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-03-26 10:27:27 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-03-26 10:27:27 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-03-26 10:27:27 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-03-26 10:27:27 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-03-26 10:27:27 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-03-26 10:27:27 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-03-26 10:27:27 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-03-26 10:27:32 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-03-26 10:27:32 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-03-26 10:27:36 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-03-26 10:28:16 [INFO]: ❌ DELETE /api/v1/document-store/store/dbeb98b4-4307-49a6-a5b1-fc95acb8f2c2
+2026-03-26 10:28:16 [ERROR]: [server]: Error deleting file storage for documentStore dbeb98b4-4307-49a6-a5b1-fc95acb8f2c2
+2026-03-26 10:28:27 [INFO]: ❌ DELETE /api/v1/document-store/store/b3625e02-d6db-4f4d-8cb6-9c5a30340b08
+2026-03-26 10:28:27 [ERROR]: [server]: Error deleting file storage for documentStore b3625e02-d6db-4f4d-8cb6-9c5a30340b08
+2026-03-26 10:28:38 [INFO]: ❌ DELETE /api/v1/document-store/vectorstore/046b5ee8-b42a-47d9-a11c-9316fd3854dc
+2026-03-26 10:28:39 [INFO]: ❌ DELETE /api/v1/document-store/store/046b5ee8-b42a-47d9-a11c-9316fd3854dc
+2026-03-26 10:28:39 [ERROR]: [server]: Error deleting file storage for documentStore 046b5ee8-b42a-47d9-a11c-9316fd3854dc

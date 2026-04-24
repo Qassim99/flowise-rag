@@ -1,0 +1,85 @@
+2026-04-23 15:32:47 [INFO]: Starting Flowise...
+2026-04-23 15:32:47 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-04-23 15:32:47 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-04-23 15:32:47 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-04-23 15:32:49 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-04-23 15:32:49 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-04-23 15:32:49 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-04-23 15:32:49 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-04-23 15:32:49 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-04-23 15:32:49 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-04-23 15:32:49 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-04-23 15:32:49 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-04-23 15:32:49 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-04-23 15:32:49 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-04-23 15:37:41 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-04-23 15:37:41 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-04-23 15:37:45 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-04-23 15:41:54 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-23 15:41:54 [INFO]: [server]: Request originated from http://localhost:8080
+2026-04-23 15:43:22 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-23 15:43:22 [INFO]: [server]: Request originated from http://localhost:8080
+2026-04-23 15:44:15 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-23 15:44:15 [INFO]: [server]: Request originated from http://localhost:8080
+2026-04-23 15:50:17 [INFO]: Shutting down Flowise...
+2026-04-23 15:50:50 [INFO]: Starting Flowise...
+2026-04-23 15:50:50 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-04-23 15:50:50 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-04-23 15:50:50 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-04-23 15:50:52 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-04-23 15:50:52 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-04-23 15:50:52 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-04-23 15:50:52 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-04-23 15:50:52 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-04-23 15:50:52 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-04-23 15:50:52 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-04-23 15:50:52 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-04-23 15:50:52 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-04-23 15:50:52 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-04-23 15:51:16 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-23 15:51:16 [INFO]: [server]: Request originated from http://localhost:8080
+2026-04-23 15:51:51 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-23 15:51:51 [INFO]: [server]: Request originated from http://localhost:8080
+2026-04-23 15:52:25 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-23 15:52:25 [INFO]: [server]: Request originated from http://localhost:8080
+2026-04-23 15:55:56 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-23 15:55:56 [INFO]: [server]: Request originated from http://localhost:8080
+2026-04-23 15:57:13 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-23 15:57:13 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-23 15:57:13 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-23 15:57:32 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-23 15:57:32 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-04-23 15:57:42 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-04-23 15:57:42 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-23 15:57:52 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-23 15:57:52 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-23 15:58:00 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-23 15:58:05 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-23 15:58:05 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-23 15:58:05 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-23 15:58:12 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-23 15:58:14 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-23 15:58:14 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-04-23 15:58:21 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-23 15:58:24 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-04-23 15:58:24 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-23 15:58:33 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-23 15:58:34 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-23 15:58:34 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-04-23 15:58:34 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-04-23 15:58:34 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-04-23 15:58:42 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-23 15:58:46 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-04-23 15:58:46 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-04-23 15:58:53 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-23 15:58:55 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-04-23 15:58:55 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-23 15:59:02 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-23 15:59:03 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-23 15:59:10 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-23 15:59:13 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-23 15:59:13 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-23 15:59:23 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-23 15:59:27 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-23 15:59:37 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-23 15:59:37 [INFO]: [server]: Request originated from http://localhost:8080

@@ -1,0 +1,33 @@
+2026-03-06 08:40:25 [INFO]: Starting Flowise...
+2026-03-06 08:40:25 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-03-06 08:40:25 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-03-06 08:40:25 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-03-06 08:40:27 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-03-06 08:40:27 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-03-06 08:40:27 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-03-06 08:40:27 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-03-06 08:40:27 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-03-06 08:40:27 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-03-06 08:40:27 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-03-06 08:40:27 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-03-06 08:40:27 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-03-06 08:40:27 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-03-06 08:42:56 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-06 08:42:56 [INFO]: [server]: Request originated from http://localhost:8080
+2026-03-06 08:44:03 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-06 08:44:03 [INFO]: [server]: Request originated from http://localhost:8080
+2026-03-06 08:45:01 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-06 08:45:01 [INFO]: [server]: Request originated from http://localhost:8080
+2026-03-06 08:46:20 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-06 08:46:20 [INFO]: [server]: Request originated from http://localhost:8080
+2026-03-06 08:47:04 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-03-06 08:47:07 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-03-06 08:47:22 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-03-06 08:48:03 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-06 08:48:03 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/7e708632-6ee7-46a0-814b-f9bad35ea8fa/c6376523-adf1-4787-8209-b63449ef2670 Error: this.baseRetriever.getRelevantDocuments is not a function
+TypeError: this.baseRetriever.getRelevantDocuments is not a function
+    at ContextualCompressionRetriever._getRelevantDocuments (/usr/local/lib/node_modules/flowise/node_modules/langchain/dist/retrievers/contextual_compression.cjs:48:47)
+    at ContextualCompressionRetriever.getRelevantDocuments (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/retrievers/index.cjs:121:40)
+    at async ContextualCompressionRetriever._streamIterator (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:173:9)
+    at async ContextualCompressionRetriever.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:410:9)
+    at async RunnableSequence._streamIterator (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1369:30)

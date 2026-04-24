@@ -1,0 +1,33 @@
+2026-04-23 16:00:27 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-23 16:00:27 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-23 16:01:45 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-23 16:01:54 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-23 16:01:54 [INFO]: [server]: Request originated from http://localhost:8080
+2026-04-23 16:02:30 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-23 16:02:30 [INFO]: [server]: Request originated from http://localhost:8080
+2026-04-23 16:03:31 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-23 16:08:53 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-23 16:08:53 [INFO]: [server]: Request originated from http://localhost:8080
+2026-04-23 16:09:46 [INFO]: ❌ DELETE /api/v1/chatmessage/616c4ca5-330c-4068-bbd0-1d8fa9889449?chatId=6b9ec5dd-7199-4bab-9ecc-4430bebb35de&chatType=INTERNAL
+2026-04-23 16:09:50 [INFO]: ❌ DELETE /api/v1/chatmessage/616c4ca5-330c-4068-bbd0-1d8fa9889449?chatId=39dfb83d-46a5-4a05-980d-484ce58d94a0&chatType=INTERNAL
+2026-04-23 16:09:54 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-23 16:13:01 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-23 16:13:41 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-23 16:13:41 [INFO]: [server]: Request originated from http://localhost:8080
+2026-04-23 16:17:17 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-23 16:17:17 [INFO]: [server]: Request originated from http://localhost:8080
+2026-04-23 16:18:14 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-23 16:18:14 [INFO]: [server]: Request originated from http://localhost:8080
+2026-04-23 16:19:53 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-23 16:19:53 [INFO]: [server]: Request originated from http://localhost:8080
+2026-04-23 16:20:23 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-23 16:20:23 [INFO]: [server]: Request originated from http://localhost:8080
+2026-04-23 16:20:55 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-23 16:20:55 [INFO]: [server]: Request originated from http://localhost:8080
+2026-04-23 16:34:50 [ERROR]: [server]: Error executing node agentAgentflow_0: Error in Agent node: 400 This endpoint's maximum context length is 131072 tokens. However, you requested about 131967 tokens (131853 of text input, 114 of tool input). Please reduce the length of either one, or use the context-compression plugin to compress your prompt automatically.
+2026-04-23 16:34:50 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/568a289f-6c50-4406-b2a2-9b4beff56ecd Error: Error in Agent node: 400 This endpoint's maximum context length is 131072 tokens. However, you requested about 131967 tokens (131853 of text input, 114 of tool input). Please reduce the length of either one, or use the context-compression plugin to compress your prompt automatically.
+Error: Error in Agent node: 400 This endpoint's maximum context length is 131072 tokens. However, you requested about 131967 tokens (131853 of text input, 114 of tool input). Please reduce the length of either one, or use the context-compression plugin to compress your prompt automatically.
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:73:41)

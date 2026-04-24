@@ -1,0 +1,140 @@
+2026-02-19 09:34:18 [INFO]: Starting Flowise...
+2026-02-19 09:34:18 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-02-19 09:34:18 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-02-19 09:34:18 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-02-19 09:34:20 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-02-19 09:34:20 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-02-19 09:34:20 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-02-19 09:34:20 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-02-19 09:34:20 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-02-19 09:34:20 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-02-19 09:34:20 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-02-19 09:34:20 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-02-19 09:34:20 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-02-19 09:34:20 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-02-19 09:34:42 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-02-19 09:34:42 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-02-19 09:34:46 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-02-19 09:35:04 [INFO]: ⬆️ POST /api/v1/internal-prediction/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1
+2026-02-19 09:36:43 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Request timed out.
+2026-02-19 09:36:43 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1/65fd518f-ac3f-42e7-88cd-1340de83e045 Error: Error in LLM node: Request timed out.
+Error: Error in LLM node: Request timed out.
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-19 09:40:56 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 09:40:56 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 09:40:56 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 09:41:13 [INFO]: 🖊 PUT /api/v1/chatflows/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1
+2026-02-19 09:41:18 [INFO]: ⬆️ POST /api/v1/internal-prediction/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1
+2026-02-19 09:42:01 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 09:42:01 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 09:42:01 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 09:42:36 [INFO]: 🖊 PUT /api/v1/chatflows/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1
+2026-02-19 09:42:43 [INFO]: ⬆️ POST /api/v1/internal-prediction/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1
+2026-02-19 09:43:01 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Request timed out.
+2026-02-19 09:43:01 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1/0e877540-d0a3-4d87-b673-b8eda550c2cf Error: Error in LLM node: Request timed out.
+Error: Error in LLM node: Request timed out.
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-19 09:44:30 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Request timed out.
+2026-02-19 09:44:30 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1/0cab6de3-2092-4388-a4bc-63cc08d87441 Error: Error in LLM node: Request timed out.
+Error: Error in LLM node: Request timed out.
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-19 09:44:48 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 09:44:48 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 09:44:48 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 09:45:15 [INFO]: ⬆️ POST /api/v1/internal-prediction/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1
+2026-02-19 09:46:21 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 09:46:21 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 09:46:21 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 09:46:44 [INFO]: 🖊 PUT /api/v1/chatflows/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1
+2026-02-19 09:46:49 [INFO]: ❌ DELETE /api/v1/chatmessage/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1?chatId=0cab6de3-2092-4388-a4bc-63cc08d87441&chatType=INTERNAL
+2026-02-19 09:46:54 [INFO]: ⬆️ POST /api/v1/internal-prediction/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1
+2026-02-19 09:46:55 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Request timed out.
+2026-02-19 09:46:55 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1/87b70bcf-9fcb-4f65-8067-de1864794963 Error: Error in LLM node: Request timed out.
+Error: Error in LLM node: Request timed out.
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-19 09:47:25 [INFO]: ❌ DELETE /api/v1/chatmessage/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1?chatId=87b70bcf-9fcb-4f65-8067-de1864794963&chatType=INTERNAL
+2026-02-19 09:47:29 [INFO]: ⬆️ POST /api/v1/internal-prediction/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1
+2026-02-19 09:48:39 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Request timed out.
+2026-02-19 09:48:39 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1/8d2f0c11-1de0-4bd1-8754-49181a21efa7 Error: Error in LLM node: Request timed out.
+Error: Error in LLM node: Request timed out.
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-19 09:48:53 [INFO]: ❌ DELETE /api/v1/chatmessage/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1?chatId=8d2f0c11-1de0-4bd1-8754-49181a21efa7&chatType=INTERNAL
+2026-02-19 09:48:58 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Request timed out.
+2026-02-19 09:48:58 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1/b2876a97-1db7-4691-870b-94c2a2050410 Error: Error in LLM node: Request timed out.
+Error: Error in LLM node: Request timed out.
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-19 09:49:02 [INFO]: ⬆️ POST /api/v1/internal-prediction/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1
+2026-02-19 09:50:28 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Request timed out.
+2026-02-19 09:50:28 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1/12f0fd45-8ae9-43c3-b07f-9b2994d5c240 Error: Error in LLM node: Request timed out.
+Error: Error in LLM node: Request timed out.
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-19 09:50:56 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 09:50:56 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 09:50:56 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 09:51:28 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 09:51:28 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 09:51:28 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 09:51:38 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 09:51:38 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 09:51:38 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 09:52:21 [INFO]: ❌ DELETE /api/v1/chatmessage/b4ba85a6-8a9c-4122-a9e5-0028a7841293?chatId=fef54004-a8b2-4681-b0d9-6436846ae423&chatType=INTERNAL
+2026-02-19 09:52:37 [INFO]: ❌ DELETE /api/v1/chatmessage/b4ba85a6-8a9c-4122-a9e5-0028a7841293?chatId=5561c5c1-4987-4cb5-b13f-8bb6c85e6ada&chatType=INTERNAL
+2026-02-19 09:52:51 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-19 09:53:23 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 09:53:23 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 09:53:23 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 09:53:23 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 09:53:44 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 09:53:44 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 09:54:09 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-19 09:54:21 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: 400 Provider returned error
+2026-02-19 09:54:21 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/b4ba85a6-8a9c-4122-a9e5-0028a7841293/ea14e612-2096-442a-9747-ece68049a250 Error: Error in LLM node: 400 Provider returned error
+Error: Error in LLM node: 400 Provider returned error
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-19 09:54:32 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 09:54:49 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 09:54:57 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 09:55:09 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 09:55:09 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 09:55:09 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 09:55:09 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 09:55:47 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 09:55:47 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 09:55:47 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 09:55:47 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 09:56:31 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-19 09:56:47 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: 400 Provider returned error
+2026-02-19 09:56:47 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/b4ba85a6-8a9c-4122-a9e5-0028a7841293/ea14e612-2096-442a-9747-ece68049a250 Error: Error in LLM node: 400 Provider returned error
+Error: Error in LLM node: 400 Provider returned error
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-19 09:58:02 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 09:58:22 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-19 09:58:24 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 09:59:34 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-19 09:59:44 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-19 09:59:52 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: 400 Provider returned error
+2026-02-19 09:59:52 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/b4ba85a6-8a9c-4122-a9e5-0028a7841293/ea14e612-2096-442a-9747-ece68049a250 Error: Error in LLM node: 400 Provider returned error
+Error: Error in LLM node: 400 Provider returned error
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-19 09:59:53 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-19 09:59:56 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293

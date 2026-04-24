@@ -1,0 +1,472 @@
+2026-01-30 01:02:41 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:02:47 [INFO]: ⬆️ POST /api/v1/internal-prediction/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:02:47 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Invalid MCP Server Config: Error: Security validation failed: Argument contains potential local file access: "/home/kassim/mcp-server/mcp-elster/wrapper.js"
+Error: Invalid MCP Server Config: Error: Security validation failed: Argument contains potential local file access: "/home/kassim/mcp-server/mcp-elster/wrapper.js"
+    at Custom_MCP.getTools (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/tools/MCP/CustomMCP/CustomMCP.js:180:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Custom_MCP.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/tools/MCP/CustomMCP/CustomMCP.js:101:23)
+    at async buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:36)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:02:47 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62/a5c7bef3-5821-4483-bbb1-5a495f62541c Error: Error: Invalid MCP Server Config: Error: Security validation failed: Argument contains potential local file access: "/home/kassim/mcp-server/mcp-elster/wrapper.js"
+Error: Error: Invalid MCP Server Config: Error: Security validation failed: Argument contains potential local file access: "/home/kassim/mcp-server/mcp-elster/wrapper.js"
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:06:48 [INFO]: ⬆️ POST /api/v1/node-load-method/customMCP
+2026-01-30 01:06:48 [INFO]: ⬆️ POST /api/v1/node-load-method/customMCP
+2026-01-30 01:06:49 [INFO]: ⬆️ POST /api/v1/node-load-method/customMCP
+2026-01-30 01:06:49 [INFO]: ⬆️ POST /api/v1/node-load-method/customMCP
+2026-01-30 01:07:22 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:07:26 [INFO]: ⬆️ POST /api/v1/internal-prediction/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:07:26 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Invalid MCP Server Config: Error: Security validation failed: Argument contains potentially dangerous characters: "require('/home/kassim/mcp-server/mcp-elster/wrapper.js')"
+Error: Invalid MCP Server Config: Error: Security validation failed: Argument contains potentially dangerous characters: "require('/home/kassim/mcp-server/mcp-elster/wrapper.js')"
+    at Custom_MCP.getTools (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/tools/MCP/CustomMCP/CustomMCP.js:180:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Custom_MCP.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/tools/MCP/CustomMCP/CustomMCP.js:101:23)
+    at async buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:36)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:07:26 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62/142c7680-f91a-44e8-89cf-71954c495fe8 Error: Error: Invalid MCP Server Config: Error: Security validation failed: Argument contains potentially dangerous characters: "require('/home/kassim/mcp-server/mcp-elster/wrapper.js')"
+Error: Error: Invalid MCP Server Config: Error: Security validation failed: Argument contains potentially dangerous characters: "require('/home/kassim/mcp-server/mcp-elster/wrapper.js')"
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:11:37 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-01-30 01:11:37 [INFO]: ⬆️ POST /api/v1/node-load-method/customMCP
+2026-01-30 01:13:31 [INFO]: Shutting down Flowise...
+2026-01-30 01:14:45 [INFO]: Starting Flowise...
+2026-01-30 01:14:45 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-01-30 01:14:45 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-01-30 01:14:45 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-01-30 01:14:47 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-01-30 01:14:47 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-01-30 01:14:47 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-01-30 01:14:47 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-01-30 01:14:47 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-01-30 01:14:47 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-01-30 01:14:47 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-01-30 01:14:47 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-01-30 01:14:47 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-01-30 01:14:47 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-01-30 01:21:20 [INFO]: ⬆️ POST /api/v1/node-load-method/braveSearchMCP
+2026-01-30 01:22:48 [INFO]: ⬆️ POST /api/v1/chatflows
+2026-01-30 01:22:52 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-01-30 01:22:52 [INFO]: ⬆️ POST /api/v1/node-load-method/customMCP
+2026-01-30 01:23:04 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:23:08 [INFO]: ⬆️ POST /api/v1/internal-prediction/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:23:08 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Agent must have a predecessor!
+Error: Agent must have a predecessor!
+    at LLMNode_SeqAgents.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/sequentialagents/LLMNode/LLMNode.js:360:19)
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:23:08 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62/15cfe971-0810-4570-9bfb-d5bbc4465235 Error: Error: Agent must have a predecessor!
+Error: Error: Agent must have a predecessor!
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:24:55 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:24:59 [INFO]: ⬆️ POST /api/v1/internal-prediction/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:24:59 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Agent must have a predecessor!
+Error: Agent must have a predecessor!
+    at LLMNode_SeqAgents.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/sequentialagents/LLMNode/LLMNode.js:360:19)
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:24:59 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62/90b160cf-add1-450a-8b01-13cf6f5d8ced Error: Error: Agent must have a predecessor!
+Error: Error: Agent must have a predecessor!
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:25:54 [INFO]: ⬆️ POST /api/v1/internal-prediction/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:25:54 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Agent must have a predecessor!
+Error: Agent must have a predecessor!
+    at LLMNode_SeqAgents.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/sequentialagents/LLMNode/LLMNode.js:360:19)
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:25:54 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62/292309af-d89b-49e4-9c9d-f2386e039056 Error: Error: Agent must have a predecessor!
+Error: Error: Agent must have a predecessor!
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:26:43 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:26:47 [INFO]: ⬆️ POST /api/v1/internal-prediction/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:26:47 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Tool node must have a predecessor!
+Error: Tool node must have a predecessor!
+    at ToolNode_SeqAgents.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/sequentialagents/ToolNode/ToolNode.js:286:19)
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:26:47 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62/3f759618-b105-44c4-9315-99458cf1d20e Error: Error: Tool node must have a predecessor!
+Error: Error: Tool node must have a predecessor!
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:28:03 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:28:06 [INFO]: ⬆️ POST /api/v1/internal-prediction/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:28:06 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Tool node must have a predecessor!
+Error: Tool node must have a predecessor!
+    at ToolNode_SeqAgents.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/sequentialagents/ToolNode/ToolNode.js:286:19)
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:28:06 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62/941e97c9-160d-4387-99d7-e5b6825ef69c Error: Error: Tool node must have a predecessor!
+Error: Error: Tool node must have a predecessor!
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:28:17 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:28:54 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:28:57 [INFO]: ⬆️ POST /api/v1/internal-prediction/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:28:57 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Condition Agent must have a predecessor!
+Error: Condition Agent must have a predecessor!
+    at ConditionAgent_SeqAgents.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/sequentialagents/ConditionAgent/ConditionAgent.js:348:19)
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:58)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:28:57 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62/287d0f63-154e-4a6b-bcb3-e824ea18705b Error: Error: Condition Agent must have a predecessor!
+Error: Error: Condition Agent must have a predecessor!
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:29:27 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:29:30 [INFO]: ⬆️ POST /api/v1/internal-prediction/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:29:30 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Tool node must have a predecessor!
+Error: Tool node must have a predecessor!
+    at ToolNode_SeqAgents.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/sequentialagents/ToolNode/ToolNode.js:286:19)
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:29:30 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62/74ffa154-7976-479b-b0a0-253c759a7f0b Error: Error: Tool node must have a predecessor!
+Error: Error: Tool node must have a predecessor!
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:30:24 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:30:27 [INFO]: ⬆️ POST /api/v1/internal-prediction/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:30:27 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Agent must have a predecessor!
+Error: Agent must have a predecessor!
+    at LLMNode_SeqAgents.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/sequentialagents/LLMNode/LLMNode.js:360:19)
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:30:27 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62/d1d17c9b-54b0-40fc-8237-ad11c08a4303 Error: Error: Agent must have a predecessor!
+Error: Error: Agent must have a predecessor!
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:30:50 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:30:53 [INFO]: ⬆️ POST /api/v1/internal-prediction/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:30:53 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Agent must have a predecessor!
+Error: Agent must have a predecessor!
+    at LLMNode_SeqAgents.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/sequentialagents/LLMNode/LLMNode.js:360:19)
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:30:53 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62/84381139-2684-4404-8eaf-a4ff914ab8c1 Error: Error: Agent must have a predecessor!
+Error: Error: Agent must have a predecessor!
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:31:10 [INFO]: ⬆️ POST /api/v1/internal-prediction/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:31:10 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Agent must have a predecessor!
+Error: Agent must have a predecessor!
+    at LLMNode_SeqAgents.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/sequentialagents/LLMNode/LLMNode.js:360:19)
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:31:10 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62/465c3551-3b6e-4c92-a0b9-a9235df77cf3 Error: Error: Agent must have a predecessor!
+Error: Error: Agent must have a predecessor!
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:31:16 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:31:19 [INFO]: ⬆️ POST /api/v1/internal-prediction/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:31:19 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Agent must have a predecessor!
+Error: Agent must have a predecessor!
+    at LLMNode_SeqAgents.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/sequentialagents/LLMNode/LLMNode.js:360:19)
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:31:19 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62/14fd9e82-3856-4892-9c33-fb4c17b03794 Error: Error: Agent must have a predecessor!
+Error: Error: Agent must have a predecessor!
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:31:58 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:32:01 [INFO]: ⬆️ POST /api/v1/internal-prediction/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:32:01 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Agent must have a predecessor!
+Error: Agent must have a predecessor!
+    at LLMNode_SeqAgents.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/sequentialagents/LLMNode/LLMNode.js:360:19)
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:32:01 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62/128bfd07-a7d4-4833-a34b-5ae22a84de1d Error: Error: Agent must have a predecessor!
+Error: Error: Agent must have a predecessor!
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:32:30 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:32:33 [INFO]: ⬆️ POST /api/v1/internal-prediction/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:32:33 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Agent must have a predecessor!
+Error: Agent must have a predecessor!
+    at LLMNode_SeqAgents.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/sequentialagents/LLMNode/LLMNode.js:360:19)
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:32:33 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62/30e4e4ec-724d-4cf1-83a3-7bc044e6f8c5 Error: Error: Agent must have a predecessor!
+Error: Error: Agent must have a predecessor!
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:33:30 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:33:34 [INFO]: ⬆️ POST /api/v1/internal-prediction/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:33:34 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Agent must have a predecessor!
+Error: Agent must have a predecessor!
+    at LLMNode_SeqAgents.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/sequentialagents/LLMNode/LLMNode.js:360:19)
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:33:34 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62/37ca9ebe-661e-4f33-8d12-ed99e5e02cab Error: Error: Agent must have a predecessor!
+Error: Error: Agent must have a predecessor!
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:33:37 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:33:42 [INFO]: ⬆️ POST /api/v1/internal-prediction/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:33:42 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Agent must have a predecessor!
+Error: Agent must have a predecessor!
+    at LLMNode_SeqAgents.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/sequentialagents/LLMNode/LLMNode.js:360:19)
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:33:42 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62/0ff7f37d-a0e1-4a1d-a384-7f1b25d9c476 Error: Error: Agent must have a predecessor!
+Error: Error: Agent must have a predecessor!
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:34:02 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:34:05 [INFO]: ⬆️ POST /api/v1/internal-prediction/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:34:05 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Agent must have a predecessor!
+Error: Agent must have a predecessor!
+    at LLMNode_SeqAgents.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/sequentialagents/LLMNode/LLMNode.js:360:19)
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:34:05 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62/8bd8e8db-454c-4c1a-9677-a2a335edc41e Error: Error: Agent must have a predecessor!
+Error: Error: Agent must have a predecessor!
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:35:25 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:35:53 [INFO]: ⬆️ POST /api/v1/node-load-method/teradataMCP
+2026-01-30 01:36:04 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:36:10 [INFO]: ⬆️ POST /api/v1/internal-prediction/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:36:10 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Agent must have a predecessor!
+Error: Agent must have a predecessor!
+    at LLMNode_SeqAgents.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/sequentialagents/LLMNode/LLMNode.js:360:19)
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:36:10 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62/8e689804-abcf-43b1-98f7-18deb577afed Error: Error: Agent must have a predecessor!
+Error: Error: Agent must have a predecessor!
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:40:51 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:40:54 [INFO]: ⬆️ POST /api/v1/internal-prediction/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:40:54 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Agent must have a predecessor!
+Error: Agent must have a predecessor!
+    at LLMNode_SeqAgents.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/sequentialagents/LLMNode/LLMNode.js:360:19)
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:40:54 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62/cba2815c-b03d-4a8b-8b4d-54e6e10ffc23 Error: Error: Agent must have a predecessor!
+Error: Error: Agent must have a predecessor!
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:41:02 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:43:17 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:43:27 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:43:30 [INFO]: ⬆️ POST /api/v1/internal-prediction/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:43:31 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Error: Error initialize agent nodes - Node `noresponse` already present.
+Error: Error initialize agent nodes - Node `noresponse` already present.
+    at buildAgentGraph (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentGraph.js:348:19)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:418:31)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:43:31 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62/50a351d4-967b-4fc0-a050-3ee085a35c36 Error: Error buildAgentGraph - Error initialize agent nodes - Node `noresponse` already present.
+Error: Error buildAgentGraph - Error initialize agent nodes - Node `noresponse` already present.
+    at buildAgentGraph (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentGraph.js:354:15)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:418:31)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:44:51 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:44:56 [INFO]: ⬆️ POST /api/v1/internal-prediction/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:44:56 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Error: Condition `conditionalEdge` already present for node `__start__`
+Error: Condition `conditionalEdge` already present for node `__start__`
+    at buildAgentGraph (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentGraph.js:348:19)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:418:31)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:44:56 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62/c3ab2aaa-b81a-432c-b801-efa9193eacc6 Error: Error buildAgentGraph - Condition `conditionalEdge` already present for node `__start__`
+Error: Error buildAgentGraph - Condition `conditionalEdge` already present for node `__start__`
+    at buildAgentGraph (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentGraph.js:354:15)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:418:31)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:47:36 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:48:20 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:48:23 [INFO]: ⬆️ POST /api/v1/internal-prediction/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:48:24 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Error: Condition `conditionalEdge` already present for node `__start__`
+Error: Condition `conditionalEdge` already present for node `__start__`
+    at buildAgentGraph (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentGraph.js:348:19)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:418:31)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:48:24 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62/05716788-2d40-4882-b151-54159037c796 Error: Error buildAgentGraph - Condition `conditionalEdge` already present for node `__start__`
+Error: Error buildAgentGraph - Condition `conditionalEdge` already present for node `__start__`
+    at buildAgentGraph (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentGraph.js:354:15)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:418:31)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:48:49 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:48:52 [INFO]: ⬆️ POST /api/v1/internal-prediction/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:48:52 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Error: Condition `conditionalEdge` already present for node `__start__`
+Error: Condition `conditionalEdge` already present for node `__start__`
+    at buildAgentGraph (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentGraph.js:348:19)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:418:31)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:48:52 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62/7ff3f7a0-dc42-407a-9f49-2a58d7821fa3 Error: Error buildAgentGraph - Condition `conditionalEdge` already present for node `__start__`
+Error: Error buildAgentGraph - Condition `conditionalEdge` already present for node `__start__`
+    at buildAgentGraph (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentGraph.js:354:15)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:418:31)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:49:06 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:49:14 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:49:18 [INFO]: ⬆️ POST /api/v1/internal-prediction/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:49:19 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Error: Condition `conditionalEdge` already present for node `__start__`
+Error: Condition `conditionalEdge` already present for node `__start__`
+    at buildAgentGraph (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentGraph.js:348:19)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:418:31)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:49:19 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62/8be168c6-5546-411c-855c-20b8c458ff98 Error: Error buildAgentGraph - Condition `conditionalEdge` already present for node `__start__`
+Error: Error buildAgentGraph - Condition `conditionalEdge` already present for node `__start__`
+    at buildAgentGraph (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentGraph.js:354:15)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:418:31)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:49:31 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:49:39 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:49:42 [INFO]: ⬆️ POST /api/v1/internal-prediction/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:49:42 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Error: Condition `conditionalEdge` already present for node `__start__`
+Error: Condition `conditionalEdge` already present for node `__start__`
+    at buildAgentGraph (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentGraph.js:348:19)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:418:31)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:49:42 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62/c03c0765-4819-4129-94dd-ed38702dbca1 Error: Error buildAgentGraph - Condition `conditionalEdge` already present for node `__start__`
+Error: Error buildAgentGraph - Condition `conditionalEdge` already present for node `__start__`
+    at buildAgentGraph (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentGraph.js:354:15)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:418:31)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:50:03 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:50:10 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:50:12 [INFO]: ⬆️ POST /api/v1/internal-prediction/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:50:13 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Error: Condition `conditionalEdge` already present for node `__start__`
+Error: Condition `conditionalEdge` already present for node `__start__`
+    at buildAgentGraph (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentGraph.js:348:19)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:418:31)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:50:13 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62/96a64444-a261-4d5f-b6cb-702b8c93b962 Error: Error buildAgentGraph - Condition `conditionalEdge` already present for node `__start__`
+Error: Error buildAgentGraph - Condition `conditionalEdge` already present for node `__start__`
+    at buildAgentGraph (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentGraph.js:354:15)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:418:31)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 01:50:38 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 01:51:53 [INFO]: ⬆️ POST /api/v1/node-load-method/braveSearchMCP

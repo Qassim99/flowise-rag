@@ -1,0 +1,91 @@
+2026-04-16 19:01:23 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:01:23 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:02:27 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:02:27 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:02:46 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:02:46 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:03:36 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:03:36 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:04:08 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:04:08 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:04:49 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:04:49 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:05:18 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:05:18 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:05:44 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:05:44 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:06:14 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:06:14 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:06:43 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:06:43 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:07:18 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:07:18 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:08:26 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:08:26 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:20:41 [ERROR]: [server]: Error executing node agentAgentflow_0: Error in Agent node: Request failed with status code 429: undefined
+2026-04-16 19:20:41 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/a006ca6f-c3ad-4709-8f63-733d72f19787 Error: Error in Agent node: Request failed with status code 429: undefined
+Error: Error in Agent node: Request failed with status code 429: undefined
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-16 19:26:21 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:26:21 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:32:21 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:32:21 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:32:54 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:32:54 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:33:08 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:33:08 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:33:58 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:33:58 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:34:23 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:34:23 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:35:57 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:35:57 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:36:17 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:36:17 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:36:52 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:36:52 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:37:38 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:37:38 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:43:21 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:43:21 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:43:51 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:43:51 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:44:02 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:44:02 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:44:42 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:44:42 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:45:00 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:45:00 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:45:36 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:45:36 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:45:52 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:45:52 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:46:24 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:46:24 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:46:40 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:46:40 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:47:05 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:47:05 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:47:21 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:47:21 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:47:45 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:47:45 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:48:34 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:48:34 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:49:16 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:49:16 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:49:40 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:49:40 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:50:11 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:50:11 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:50:30 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:50:30 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:51:10 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:51:10 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:51:37 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:51:37 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-16 19:52:20 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 19:52:20 [INFO]: [server]: Request originated from UNKNOWN ORIGIN

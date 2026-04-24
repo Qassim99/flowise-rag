@@ -1,0 +1,18 @@
+2026-01-30 02:02:46 [INFO]: 🖊 PUT /api/v1/chatflows/3aa6faea-ea02-43e1-b43c-a49b1c2b553f
+2026-01-30 02:02:51 [INFO]: ❌ DELETE /api/v1/chatmessage/3aa6faea-ea02-43e1-b43c-a49b1c2b553f?chatId=f51fb9a2-ff81-44e0-b949-c2d5ac4ab4c9&chatType=INTERNAL
+2026-01-30 02:02:54 [INFO]: ⬆️ POST /api/v1/internal-prediction/3aa6faea-ea02-43e1-b43c-a49b1c2b553f
+2026-01-30 02:02:54 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/3aa6faea-ea02-43e1-b43c-a49b1c2b553f/bb53a470-0d66-4e9e-8cde-6dd2dd986a3b Error: Start input type not found
+Error: Start input type not found
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1126:15)
+    at executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:308:54)
+    at utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:58)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 02:03:15 [INFO]: ❌ DELETE /api/v1/chatflows/3aa6faea-ea02-43e1-b43c-a49b1c2b553f
+2026-01-30 02:03:15 [ERROR]: [server]: Error deleting file storage for chatflow 3aa6faea-ea02-43e1-b43c-a49b1c2b553f
+2026-01-30 02:03:52 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-01-30 02:04:28 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-01-30 02:05:11 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-01-30 02:06:29 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-01-30 02:06:29 [INFO]: ⬆️ POST /api/v1/node-load-method/toolAgentflow
+2026-01-30 02:07:14 [INFO]: ⬆️ POST /api/v1/chatflows
+2026-01-30 02:14:11 [INFO]: Shutting down Flowise...

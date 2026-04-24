@@ -1,0 +1,79 @@
+2026-04-10 07:36:34 [INFO]: Starting Flowise...
+2026-04-10 07:36:34 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-04-10 07:36:34 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-04-10 07:36:34 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-04-10 07:36:36 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-04-10 07:36:36 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-04-10 07:36:36 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-04-10 07:36:36 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-04-10 07:36:36 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-04-10 07:36:36 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-04-10 07:36:36 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-04-10 07:36:36 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-04-10 07:36:36 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-04-10 07:36:36 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-04-10 07:40:24 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-04-10 07:40:24 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-04-10 07:40:27 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-04-10 07:41:11 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-10 07:41:11 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-10 07:41:11 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-10 07:41:31 [INFO]: ❌ DELETE /api/v1/chatflows/aa45aeb4-b376-48a3-a09d-2af8b89bdefd
+2026-04-10 07:43:36 [INFO]: ⬆️ POST /api/v1/document-store/store
+2026-04-10 07:45:07 [INFO]: ⬆️ POST /api/v1/document-store/loader/preview
+2026-04-10 07:45:31 [INFO]: ⬆️ POST /api/v1/document-store/loader/preview
+2026-04-10 07:45:32 [INFO]: ⬆️ POST /api/v1/document-store/loader/preview
+2026-04-10 07:45:42 [INFO]: ⬆️ POST /api/v1/document-store/loader/preview
+2026-04-10 07:45:59 [INFO]: ⬆️ POST /api/v1/document-store/loader/preview
+2026-04-10 07:46:00 [INFO]: ⬆️ POST /api/v1/document-store/loader/preview
+2026-04-10 07:46:14 [INFO]: ⬆️ POST /api/v1/document-store/loader/preview
+2026-04-10 07:46:48 [INFO]: ⬆️ POST /api/v1/document-store/loader/preview
+2026-04-10 07:47:00 [INFO]: ⬆️ POST /api/v1/document-store/loader/preview
+2026-04-10 07:47:07 [INFO]: ⬆️ POST /api/v1/document-store/loader/save
+2026-04-10 07:47:07 [INFO]: ⬆️ POST /api/v1/document-store/loader/process/057030ee-af4a-4087-aacb-c9b59b22ccec
+2026-04-10 07:47:49 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-04-10 07:47:49 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-04-10 07:47:54 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-10 07:47:54 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-10 07:47:54 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-10 07:48:01 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-10 07:49:12 [INFO]: ⬆️ POST /api/v1/node-load-method/mistralAIEmbeddings
+2026-04-10 07:51:18 [INFO]: Shutting down Flowise...
+2026-04-10 07:52:05 [INFO]: Starting Flowise...
+2026-04-10 07:52:05 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-04-10 07:52:05 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-04-10 07:52:05 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-04-10 07:52:06 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-04-10 07:52:06 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-04-10 07:52:06 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-04-10 07:52:06 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-04-10 07:52:06 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-04-10 07:52:06 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-04-10 07:52:06 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-04-10 07:52:06 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-04-10 07:52:06 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-04-10 07:52:06 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-04-10 07:54:15 [INFO]: ⬆️ POST /api/v1/document-store/vectorstore/save
+2026-04-10 07:54:23 [INFO]: ⬆️ POST /api/v1/document-store/loader/preview
+2026-04-10 07:54:31 [INFO]: ⬆️ POST /api/v1/document-store/loader/save
+2026-04-10 07:54:31 [INFO]: ⬆️ POST /api/v1/document-store/loader/process/057030ee-af4a-4087-aacb-c9b59b22ccec
+2026-04-10 07:54:46 [INFO]: ⬆️ POST /api/v1/document-store/vectorstore/insert
+2026-04-10 07:55:28 [INFO]: ⬆️ POST /api/v1/document-store/vectorstore/query
+2026-04-10 07:55:48 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-04-10 07:55:48 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-04-10 07:55:56 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-04-10 07:56:03 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-10 07:56:05 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-10 07:56:05 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-10 07:56:05 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-10 07:56:35 [INFO]: ❌ DELETE /api/v1/document-store/store/1192d28d-c5ea-46fa-a70d-099f3af98f63
+2026-04-10 07:56:40 [INFO]: ❌ DELETE /api/v1/document-store/store/39951564-2645-4a39-949e-c58311850a97
+2026-04-10 07:56:51 [INFO]: ❌ DELETE /api/v1/document-store/store/3a407034-3f19-4936-b713-89ef2ba47c00
+2026-04-10 07:56:56 [INFO]: ❌ DELETE /api/v1/document-store/loader/b3a3c36b-4401-408d-ab5a-54470114f0e8/fa05564e-8090-4624-a23b-8f6a43bfa89c
+2026-04-10 07:57:08 [INFO]: ❌ DELETE /api/v1/document-store/store/b3a3c36b-4401-408d-ab5a-54470114f0e8
+2026-04-10 07:57:12 [INFO]: ❌ DELETE /api/v1/document-store/store/f70ec4f3-836d-45e4-b572-b7862fc8180b
+2026-04-10 07:57:23 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-04-10 07:57:27 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-04-10 07:57:30 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-04-10 07:57:32 [INFO]: 🖊 PUT /api/v1/chatflows/55a0ac0f-4c95-48c1-bdeb-f26a457fa539
+2026-04-10 07:57:39 [INFO]: 🖊 PUT /api/v1/chatflows/55a0ac0f-4c95-48c1-bdeb-f26a457fa539

@@ -1,0 +1,171 @@
+2026-02-05 14:06:54 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-05 14:06:54 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-05 14:06:54 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-05 14:06:54 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-05 14:14:23 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-05 14:14:23 [INFO]: ⬆️ POST /api/v1/node-load-method/toolAgentflow
+2026-02-05 14:14:55 [INFO]: ⬆️ POST /api/v1/node-load-method/toolAgentflow
+2026-02-05 14:14:55 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-05 14:15:46 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-05 14:18:30 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-05 14:23:27 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 14:23:54 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-05 14:24:00 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 14:24:01 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-05 14:24:23 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 14:24:44 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-05 14:24:54 [INFO]: ❌ DELETE /api/v1/chatmessage/b4ba85a6-8a9c-4122-a9e5-0028a7841293?chatId=9e45ae55-56d0-4a66-b96d-cfae65d6a931&chatType=INTERNAL
+2026-02-05 14:24:57 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 14:25:05 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-05 14:25:05 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-05 14:25:32 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-05 14:25:32 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-05 14:25:40 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-05 14:25:44 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-05 14:25:44 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-05 14:25:44 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-05 14:25:50 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-05 14:25:50 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-05 14:25:57 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-05 14:25:57 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-05 14:26:01 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-05 14:26:25 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-05 14:26:56 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-05 14:27:09 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 14:28:31 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 14:28:31 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-05 14:28:31 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-05 14:30:26 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 14:32:28 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-05 14:32:28 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-05 14:35:40 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-05 14:36:10 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-05 14:36:43 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 14:40:41 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 14:44:24 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 14:44:34 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 14:44:44 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 14:44:44 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 14:44:53 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 14:45:34 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 14:45:37 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 14:47:41 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 14:47:47 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 14:47:47 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-05 14:51:05 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-05 14:54:03 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 14:54:13 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-05 14:54:13 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 14:54:13 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 14:54:13 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 14:55:29 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 14:55:29 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 14:55:29 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 14:56:01 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 14:56:01 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 14:56:01 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 14:56:16 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 14:56:18 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 14:56:18 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 14:56:18 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 14:57:09 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 14:57:11 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 14:57:11 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 14:57:11 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 14:58:52 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 14:58:55 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 14:58:55 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 14:58:55 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 14:59:12 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 14:59:13 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 14:59:13 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-05 14:59:34 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 14:59:37 [INFO]: ❌ DELETE /api/v1/chatmessage/b4ba85a6-8a9c-4122-a9e5-0028a7841293?chatId=31e73761-6fb8-48c7-8413-02c3b9234503&chatType=INTERNAL
+2026-02-05 14:59:42 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 14:59:50 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Failed to parse. Text: "```json
+{
+  "standalone_question": "hello",
+  "language": "English"
+}
+```". Error: [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "rewritten_question"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "detected_language"
+    ],
+    "message": "Required"
+  }
+]
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+2026-02-05 14:59:50 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/b4ba85a6-8a9c-4122-a9e5-0028a7841293/46a187fb-12c5-487d-bf9f-9c9de0b4d0cd Error: Error in LLM node: Failed to parse. Text: "```json
+{
+  "standalone_question": "hello",
+  "language": "English"
+}
+```". Error: [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "rewritten_question"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "detected_language"
+    ],
+    "message": "Required"
+  }
+]
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+Error: Error in LLM node: Failed to parse. Text: "```json
+{
+  "standalone_question": "hello",
+  "language": "English"
+}
+```". Error: [
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "rewritten_question"
+    ],
+    "message": "Required"
+  },
+  {
+    "code": "invalid_type",
+    "expected": "string",
+    "received": "undefined",
+    "path": [
+      "detected_language"
+    ],
+    "message": "Required"
+  }
+]
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)

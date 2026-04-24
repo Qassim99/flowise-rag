@@ -1,0 +1,36 @@
+2026-01-23 09:02:29 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-01-23 09:02:29 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-01-23 09:02:35 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-01-23 09:02:52 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-23 09:06:34 [INFO]: Shutting down Flowise...
+2026-01-23 09:06:45 [INFO]: Starting Flowise...
+2026-01-23 09:06:45 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-01-23 09:06:45 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-01-23 09:06:45 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-01-23 09:06:46 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-01-23 09:06:46 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-01-23 09:06:46 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-01-23 09:06:46 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-01-23 09:06:46 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-01-23 09:06:46 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-01-23 09:06:46 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-01-23 09:06:46 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-01-23 09:06:46 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-01-23 09:06:46 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-01-23 09:07:02 [INFO]: Shutting down Flowise...
+2026-01-23 09:07:52 [INFO]: Starting Flowise...
+2026-01-23 09:07:52 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-01-23 09:07:52 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-01-23 09:07:52 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-01-23 09:07:54 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-01-23 09:07:54 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-01-23 09:07:54 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-01-23 09:07:54 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-01-23 09:07:54 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-01-23 09:07:54 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-01-23 09:07:54 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-01-23 09:07:54 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-01-23 09:07:54 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-01-23 09:07:54 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-01-23 09:24:36 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=6b595922-fa2b-4006-8a5a-41014ef39025&chatType=INTERNAL
+2026-01-23 09:24:42 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa

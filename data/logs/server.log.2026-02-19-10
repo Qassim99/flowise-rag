@@ -1,0 +1,42 @@
+2026-02-19 10:00:07 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-19 10:00:12 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: 400 Provider returned error
+2026-02-19 10:00:12 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/b4ba85a6-8a9c-4122-a9e5-0028a7841293/ea14e612-2096-442a-9747-ece68049a250 Error: Error in LLM node: 400 Provider returned error
+Error: Error in LLM node: 400 Provider returned error
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-19 10:00:16 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 10:00:45 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 10:01:11 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-19 10:01:24 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-19 10:02:24 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 10:03:28 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-19 10:03:37 [INFO]: ❌ DELETE /api/v1/chatmessage/b4ba85a6-8a9c-4122-a9e5-0028a7841293?chatId=ea14e612-2096-442a-9747-ece68049a250&chatType=INTERNAL
+2026-02-19 10:03:58 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-19 10:04:29 [INFO]: ❌ DELETE /api/v1/chatmessage/b4ba85a6-8a9c-4122-a9e5-0028a7841293?chatId=a41bd522-bded-4617-98dc-6fa7e03aa1a2&chatType=INTERNAL
+2026-02-19 10:04:39 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-19 10:04:39 [INFO]: [server]: Request originated from http://localhost:8000
+2026-02-19 10:05:41 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-19 10:05:41 [INFO]: [server]: Request originated from http://localhost:8000
+2026-02-19 10:23:38 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 10:42:00 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-19 10:42:00 [INFO]: [server]: Request originated from http://127.0.0.1:5500
+2026-02-19 10:42:34 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-19 10:42:34 [INFO]: [server]: Request originated from http://127.0.0.1:5500
+2026-02-19 10:43:37 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-19 10:43:37 [INFO]: [server]: Request originated from http://127.0.0.1:5500
+2026-02-19 10:47:16 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-19 10:47:16 [INFO]: [server]: Request originated from http://127.0.0.1:5500
+2026-02-19 10:47:48 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-19 10:47:48 [INFO]: [server]: Request originated from http://127.0.0.1:5500
+2026-02-19 10:47:59 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Internal Server Error
+2026-02-19 10:47:59 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/b4ba85a6-8a9c-4122-a9e5-0028a7841293/b47ed030-cbae-41da-bc15-f5886e01cc46 Error: Error in LLM node: Internal Server Error
+Error: Error in LLM node: Internal Server Error
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-02-19 10:48:12 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-19 10:48:12 [INFO]: [server]: Request originated from http://127.0.0.1:5500
+2026-02-19 10:56:03 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-19 10:56:03 [INFO]: [server]: Request originated from http://127.0.0.1:5500

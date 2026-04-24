@@ -1,0 +1,70 @@
+2026-02-05 11:09:05 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 11:09:05 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 11:09:05 [INFO]: ⬆️ POST /api/v1/node-load-method/chatOpenAI
+2026-02-05 11:09:44 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 11:09:44 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 11:09:44 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 11:09:44 [INFO]: ⬆️ POST /api/v1/node-load-method/chatOpenAI
+2026-02-05 11:10:01 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 11:10:01 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-05 11:10:01 [INFO]: ⬆️ POST /api/v1/node-load-method/chatOpenAI
+2026-02-05 11:10:19 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-05 11:10:19 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-05 11:11:32 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-05 11:11:32 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-05 11:11:32 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-05 11:11:32 [INFO]: ⬆️ POST /api/v1/node-load-method/chatGoogleGenerativeAI
+2026-02-05 11:12:59 [INFO]: ⬆️ POST /api/v1/node-load-method/chatOpenAI
+2026-02-05 11:14:02 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-05 11:16:19 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-05 11:16:19 [INFO]: ⬆️ POST /api/v1/node-load-method/toolAgentflow
+2026-02-05 11:16:44 [INFO]: ⬆️ POST /api/v1/node-load-method/toolAgentflow
+2026-02-05 11:16:44 [INFO]: ⬆️ POST /api/v1/node-load-method/customTool
+2026-02-05 11:19:34 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-02-05 11:23:32 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-05 11:23:32 [INFO]: ⬆️ POST /api/v1/node-load-method/chatOpenAI
+2026-02-05 11:25:09 [INFO]: ⬆️ POST /api/v1/node-load-method/toolAgentflow
+2026-02-05 11:25:09 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-05 11:29:30 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-05 11:30:32 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 11:31:15 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-05 11:32:04 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-05 11:33:12 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-05 11:34:12 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 11:36:15 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-05 11:36:38 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-05 11:36:50 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-05 11:37:12 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-05 11:38:27 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-05 11:38:27 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 11:38:45 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 11:44:32 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-05 11:44:32 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-05 11:46:05 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 11:46:14 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 11:46:20 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 11:48:53 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-05 11:54:36 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-05 11:55:28 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 11:55:41 [INFO]: ❌ DELETE /api/v1/chatmessage/b4ba85a6-8a9c-4122-a9e5-0028a7841293?chatId=d1706987-5869-414f-92a5-ab4d4ba017f8&chatType=INTERNAL
+2026-02-05 11:55:44 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 11:55:44 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/b4ba85a6-8a9c-4122-a9e5-0028a7841293/1306956c-bf14-4332-992a-c507c3ac748d Error: Multiple starting nodes are not allowed
+Error: Multiple starting nodes are not allowed
+    at checkForMultipleStartNodes (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1082:15)
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1338:9)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-05 11:55:56 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 11:55:56 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/b4ba85a6-8a9c-4122-a9e5-0028a7841293/1306956c-bf14-4332-992a-c507c3ac748d Error: Multiple starting nodes are not allowed
+Error: Multiple starting nodes are not allowed
+    at checkForMultipleStartNodes (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1082:15)
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1338:9)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-05 11:56:11 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-05 11:56:11 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/b4ba85a6-8a9c-4122-a9e5-0028a7841293/b6f5b56c-c1d6-4138-8460-312147a259a5 Error: Multiple starting nodes are not allowed
+Error: Multiple starting nodes are not allowed
+    at checkForMultipleStartNodes (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1082:15)
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1338:9)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)

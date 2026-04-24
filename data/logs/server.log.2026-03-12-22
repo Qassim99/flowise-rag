@@ -1,0 +1,55 @@
+2026-03-12 22:31:34 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-12 22:31:52 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-03-12 22:31:52 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-03-12 22:32:27 [INFO]: 🖊 PUT /api/v1/chatflows/aa45aeb4-b376-48a3-a09d-2af8b89bdefd
+2026-03-12 22:32:31 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-03-12 22:36:09 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=5f6e7935-3363-435a-8945-b52228ec49da&chatType=INTERNAL
+2026-03-12 22:36:38 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-12 22:36:38 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Chroma getOrCreateCollection error: ChromaConnectionError: Failed to connect to chromadb. Make sure your server is running and try again. If you are running from a browser, make sure that your chromadb instance is configured to allow requests from the current origin using the CHROMA_SERVER_CORS_ALLOW_ORIGINS environment variable.
+Error: Chroma getOrCreateCollection error: ChromaConnectionError: Failed to connect to chromadb. Make sure your server is running and try again. If you are running from a browser, make sure that your chromadb instance is configured to allow requests from the current origin using the CHROMA_SERVER_CORS_ALLOW_ORIGINS environment variable.
+    at Chroma.ensureCollection (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/vectorstores/Chroma/core.js:88:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Chroma.fromExistingCollection (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/vectorstores/Chroma/core.js:269:9)
+    at async Chroma_VectorStores.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/vectorstores/Chroma/Chroma.js:184:29)
+    at async DocStore_VectorStores.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/vectorstores/DocumentStoreVS/DocStoreVector.js:111:40)
+    at async buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:36)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:389:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-03-12 22:36:38 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/7e708632-6ee7-46a0-814b-f9bad35ea8fa/6c55f70e-fb0d-49c4-9ab8-f4fb5f1874d3 Error: Error: Chroma getOrCreateCollection error: ChromaConnectionError: Failed to connect to chromadb. Make sure your server is running and try again. If you are running from a browser, make sure that your chromadb instance is configured to allow requests from the current origin using the CHROMA_SERVER_CORS_ALLOW_ORIGINS environment variable.
+Error: Error: Chroma getOrCreateCollection error: ChromaConnectionError: Failed to connect to chromadb. Make sure your server is running and try again. If you are running from a browser, make sure that your chromadb instance is configured to allow requests from the current origin using the CHROMA_SERVER_CORS_ALLOW_ORIGINS environment variable.
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:389:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-03-12 22:37:01 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-12 22:37:13 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-12 22:37:13 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Chroma getOrCreateCollection error: ChromaConnectionError: Failed to connect to chromadb. Make sure your server is running and try again. If you are running from a browser, make sure that your chromadb instance is configured to allow requests from the current origin using the CHROMA_SERVER_CORS_ALLOW_ORIGINS environment variable.
+Error: Chroma getOrCreateCollection error: ChromaConnectionError: Failed to connect to chromadb. Make sure your server is running and try again. If you are running from a browser, make sure that your chromadb instance is configured to allow requests from the current origin using the CHROMA_SERVER_CORS_ALLOW_ORIGINS environment variable.
+    at Chroma.ensureCollection (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/vectorstores/Chroma/core.js:88:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Chroma.fromExistingCollection (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/vectorstores/Chroma/core.js:269:9)
+    at async Chroma_VectorStores.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/vectorstores/Chroma/Chroma.js:184:29)
+    at async DocStore_VectorStores.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/vectorstores/DocumentStoreVS/DocStoreVector.js:111:40)
+    at async buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:36)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:389:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-03-12 22:37:13 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/7e708632-6ee7-46a0-814b-f9bad35ea8fa/7e14def9-3fef-4eb3-bdfb-200bb84ff04a Error: Error: Chroma getOrCreateCollection error: ChromaConnectionError: Failed to connect to chromadb. Make sure your server is running and try again. If you are running from a browser, make sure that your chromadb instance is configured to allow requests from the current origin using the CHROMA_SERVER_CORS_ALLOW_ORIGINS environment variable.
+Error: Error: Chroma getOrCreateCollection error: ChromaConnectionError: Failed to connect to chromadb. Make sure your server is running and try again. If you are running from a browser, make sure that your chromadb instance is configured to allow requests from the current origin using the CHROMA_SERVER_CORS_ALLOW_ORIGINS environment variable.
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:389:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-03-12 22:37:51 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=7e14def9-3fef-4eb3-bdfb-200bb84ff04a&chatType=INTERNAL
+2026-03-12 22:37:54 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-12 22:39:52 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=4e326a10-9384-43aa-889c-22e0e8a22a73&chatType=INTERNAL
+2026-03-12 22:40:27 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-12 22:41:20 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-12 22:41:23 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=d361d4eb-74b6-4f95-8600-1734a40745aa&chatType=INTERNAL
+2026-03-12 22:41:27 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-12 22:42:16 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-12 22:42:18 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=1d25f3c8-71a7-44fb-b07a-ef8691625b74&chatType=INTERNAL
+2026-03-12 22:42:22 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa

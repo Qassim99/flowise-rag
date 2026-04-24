@@ -1,0 +1,513 @@
+<!doctype html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8" />
+        <title>ELSTER Assistant</title>
+    </head>
+    <body>
+        <script type="module">
+            import Chatbot from "/web.js";
+            import { francAll } from "https://cdn.jsdelivr.net/npm/franc-min@6/+esm";
+
+            const CHATFLOW_ID = "616c4ca5-330c-4068-bbd0-1d8fa9889449";
+            const API_HOST = "http://localhost:3000";
+
+            const translations = {
+                en: {
+                    title: "ELSTER Tax Assistant",
+                    placeholder: "Ask about ELSTER...",
+                    welcomeMessage: "Hello! I can help with ELSTER.",
+                    tooltipMessage: "Need help with ELSTER?",
+                    starterPrompts: [
+                        "How do I do my tax return via ELSTER?",
+                        "Forgot ELSTER access",
+                    ],
+                    errorMessage: "Something went wrong. Please try again.",
+                    disclaimerTitle: "Notice",
+                    disclaimerMessage:
+                        "General ELSTER guidance only. No professional tax advice.",
+                    disclaimerButton: "Start chat",
+                    maxCharsWarningMessage:
+                        "Please use less than 100 characters.",
+                },
+                de: {
+                    title: "ELSTER Steuerhilfe",
+                    placeholder: "Fragen zu ELSTER...",
+                    welcomeMessage: "Hallo! Ich helfe bei ELSTER.",
+                    tooltipMessage: "Hilfe zu ELSTER?",
+                    starterPrompts: [
+                        "Wie mache ich meine Steuererklärung über ELSTER?",
+                        "Ich habe ELSTER-Zugang vergessen",
+                    ],
+                    errorMessage:
+                        "Es ist ein Fehler aufgetreten. Bitte erneut versuchen.",
+                    disclaimerTitle: "Hinweis",
+                    disclaimerMessage:
+                        "Allgemeine ELSTER-Hilfe. Keine steuerliche Beratung.",
+                    disclaimerButton: "Chat starten",
+                    maxCharsWarningMessage:
+                        "Bitte weniger als 100 Zeichen eingeben.",
+                },
+                fr: {
+                    title: "Assistant fiscal ELSTER",
+                    placeholder: "Question sur ELSTER...",
+                    welcomeMessage: "Bonjour. Je peux aider sur ELSTER.",
+                    tooltipMessage: "Besoin d'aide ELSTER ?",
+                    starterPrompts: [
+                        "Declaration via ELSTER",
+                        "Identifiants ELSTER oublies",
+                        "Formulaire independant",
+                        "Date limite Allemagne",
+                    ],
+                    errorMessage:
+                        "Une erreur est survenue. Veuillez reessayer.",
+                    disclaimerTitle: "Avis",
+                    disclaimerMessage:
+                        "Informations generales ELSTER uniquement.",
+                    disclaimerButton: "Demarrer le chat",
+                    maxCharsWarningMessage:
+                        "Veuillez saisir moins de 100 caracteres.",
+                },
+                es: {
+                    title: "Asistente fiscal ELSTER",
+                    placeholder: "Pregunta sobre ELSTER...",
+                    welcomeMessage: "Hola. Puedo ayudar con ELSTER.",
+                    tooltipMessage: "Ayuda con ELSTER?",
+                    starterPrompts: [
+                        "Declaracion en ELSTER",
+                        "Olvide acceso ELSTER",
+                        "Formulario autonomo",
+                        "Plazo en Alemania",
+                    ],
+                    errorMessage: "Ocurrio un error. Intentalo de nuevo.",
+                    disclaimerTitle: "Aviso",
+                    disclaimerMessage:
+                        "Orientacion general de ELSTER, sin asesoramiento fiscal.",
+                    disclaimerButton: "Iniciar chat",
+                    maxCharsWarningMessage: "Escribe menos de 50 caracteres.",
+                },
+            };
+
+            const baseTheme = {
+                button: {
+                    backgroundColor: "#3B81F6",
+                    right: 20,
+                    bottom: 20,
+                    size: 48,
+                    dragAndDrop: true,
+                    iconColor: "white",
+                    customIconSrc:
+                        "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/google-messages.svg",
+                    autoWindowOpen: {
+                        autoOpen: true,
+                        openDelay: 2,
+                        autoOpenOnMobile: false,
+                    },
+                },
+                tooltip: {
+                    showTooltip: true,
+                    tooltipBackgroundColor: "black",
+                    tooltipTextColor: "white",
+                    tooltipFontSize: 12,
+                },
+                disclaimer: {
+                    textColor: "black",
+                    buttonColor: "#3b82f6",
+                    buttonTextColor: "white",
+                    blurredBackgroundColor: "rgba(0, 0, 0, 0.4)",
+                    backgroundColor: "white",
+                },
+                customCSS: "",
+                chatWindow: {
+                    showTitle: true,
+                    showAgentMessages: false,
+                    titleAvatarSrc:
+                        "https://raw.githubusercontent.com/walkxcode/dashboard-icons/main/svg/google-messages.svg",
+                    backgroundColor: "#ffffff",
+                    height: 700,
+                    width: 400,
+                    fontSize: 12,
+                    starterPromptFontSize: 12,
+                    clearChatOnReload: false,
+                    sourceDocsTitle: "Sources:",
+                    renderHTML: true,
+                    botMessage: {
+                        backgroundColor: "#f7f8ff",
+                        textColor: "#303235",
+                        showAvatar: true,
+                        avatarSrc:
+                            "https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/parroticon.png",
+                    },
+                    userMessage: {
+                        backgroundColor: "#3B81F6",
+                        textColor: "#ffffff",
+                        showAvatar: true,
+                        avatarSrc:
+                            "https://raw.githubusercontent.com/zahidkhawaja/langchain-chat-nextjs/main/public/usericon.png",
+                    },
+                    textInput: {
+                        backgroundColor: "#ffffff",
+                        textColor: "#303235",
+                        sendButtonColor: "#3B81F6",
+                        maxChars: 100,
+                        autoFocus: true,
+                        sendMessageSound: false,
+                        receiveMessageSound: false,
+                    },
+                    feedback: {
+                        color: "#303235",
+                    },
+                    dateTimeToggle: {
+                        date: true,
+                        time: true,
+                    },
+                    footer: {
+                        textColor: "#303235",
+                        text: "Powered by",
+                        company: "ElsterAI",
+                        companyLink: "https://flowiseai.com",
+                    },
+                },
+            };
+
+            const iso3ToLang = { eng: "en", deu: "de", fra: "fr", spa: "es" };
+            const knownTitles = new Set(
+                Object.values(translations).map((t) => normalizeText(t.title)),
+            );
+            const knownWelcomes = new Set(
+                Object.values(translations).map((t) =>
+                    normalizeText(t.welcomeMessage),
+                ),
+            );
+
+            let currentLang = getInitialLang();
+            let languageLocked = false;
+            let listenersAttached = false;
+            let lastDraftText = "";
+
+            function getInitialLang() {
+                const params = new URLSearchParams(window.location.search);
+                const fromQuery = (params.get("lang") || "").toLowerCase();
+                if (translations[fromQuery]) return fromQuery;
+
+                const browserLang = (navigator.language || "de")
+                    .slice(0, 2)
+                    .toLowerCase();
+                return translations[browserLang] ? browserLang : "de";
+            }
+
+            function normalizeText(text) {
+                return (text || "").replace(/\s+/g, " ").trim().toLowerCase();
+            }
+
+            function buildTheme(lang) {
+                const t = translations[lang] || translations.en;
+                return {
+                    ...baseTheme,
+                    tooltip: {
+                        ...baseTheme.tooltip,
+                        tooltipMessage: t.tooltipMessage,
+                    },
+                    disclaimer: {
+                        ...baseTheme.disclaimer,
+                        title: t.disclaimerTitle,
+                        message: t.disclaimerMessage,
+                        buttonText: t.disclaimerButton,
+                    },
+                    chatWindow: {
+                        ...baseTheme.chatWindow,
+                        title: t.title,
+                        welcomeMessage: t.welcomeMessage,
+                        errorMessage: t.errorMessage,
+                        starterPrompts: t.starterPrompts,
+                        textInput: {
+                            ...baseTheme.chatWindow.textInput,
+                            placeholder: t.placeholder,
+                            maxCharsWarningMessage: t.maxCharsWarningMessage,
+                        },
+                    },
+                };
+            }
+
+            function detectLang(text) {
+                const cleaned = (text || "").trim();
+                if (cleaned.length < 4) return null;
+                const lower = cleaned.toLowerCase();
+                const asciiOnly = /^[\x00-\x7f]+$/.test(cleaned);
+
+                if (/[äöüß]/i.test(cleaned)) return "de";
+                if (/[ñáéíóú¿¡]/i.test(cleaned)) return "es";
+                if (/[àâçéèêëîïôûùüÿœ]/i.test(cleaned)) return "fr";
+
+                const enHits =
+                    lower.match(
+                        /\b(how|what|when|where|why|can|please|help|register|website|login|tax|return|form|deadline)\b/g,
+                    )?.length || 0;
+                const deHits =
+                    lower.match(
+                        /\b(ich|wie|hilfe|steuer|erklaerung|formular|frist|anmelden)\b/g,
+                    )?.length || 0;
+                const frHits =
+                    lower.match(
+                        /\b(bonjour|merci|comment|aide|impot|formulaire)\b/g,
+                    )?.length || 0;
+                const esHits =
+                    lower.match(
+                        /\b(hola|gracias|como|ayuda|impuesto|formulario)\b/g,
+                    )?.length || 0;
+
+                if (
+                    asciiOnly &&
+                    enHits >= 2 &&
+                    enHits >= deHits &&
+                    enHits >= frHits &&
+                    enHits >= esHits
+                ) {
+                    return "en";
+                }
+
+                const ranked = francAll(cleaned, {
+                    minLength: 4,
+                    only: ["eng", "deu", "spa", "fra"],
+                });
+
+                const guess = iso3ToLang[ranked[0]?.[0]] || null;
+                if (asciiOnly && guess === "de" && enHits >= 2) return "en";
+                return guess;
+            }
+
+            function switchUiLanguage(lang) {
+                if (!translations[lang] || lang === currentLang) return;
+                currentLang = lang;
+
+                const host = document.querySelector("flowise-chatbot");
+                if (!host) return;
+
+                const nextTheme = buildTheme(lang);
+                host.theme = nextTheme;
+                host.setAttribute("theme", JSON.stringify(nextTheme));
+
+                applyVisibleText(lang);
+                window.setTimeout(() => applyVisibleText(lang), 250);
+            }
+
+            function applyVisibleText(lang) {
+                const root =
+                    document.querySelector("flowise-chatbot")?.shadowRoot;
+                if (!root) return;
+
+                const t = translations[lang] || translations.en;
+                const input = root.querySelector(
+                    "textarea, input[type='text']",
+                );
+                if (input) {
+                    input.placeholder = t.placeholder;
+                    input.setAttribute("placeholder", t.placeholder);
+                }
+
+                const leaves = [
+                    ...root.querySelectorAll("span, p, div, button"),
+                ].filter(
+                    (el) =>
+                        el.children.length === 0 &&
+                        el.textContent.trim().length > 0,
+                );
+
+                leaves.forEach((el) => {
+                    const normalized = normalizeText(el.textContent);
+                    if (knownTitles.has(normalized)) {
+                        el.textContent = t.title;
+                        return;
+                    }
+                    if (knownWelcomes.has(normalized)) {
+                        el.textContent = t.welcomeMessage;
+                    }
+                });
+            }
+
+            function handleFirstUserMessage(text) {
+                if (languageLocked) return;
+
+                const cleaned = (text || "").trim();
+                if (!cleaned) return;
+
+                const detected = detectLang(cleaned);
+                if (!detected) return;
+
+                switchUiLanguage(detected);
+                languageLocked = true;
+            }
+
+            function previewLanguageFromDraft(text) {
+                if (languageLocked) return;
+
+                const cleaned = (text || "").trim();
+                if (cleaned.length < 8) return;
+
+                const detected = detectLang(cleaned);
+                if (!detected) return;
+                switchUiLanguage(detected);
+            }
+
+            function getCurrentInputValue(root) {
+                const input = root?.querySelector(
+                    "textarea, input[type='text']",
+                );
+                return input?.value?.trim() || "";
+            }
+
+            function isLikelySendControl(node) {
+                if (!(node instanceof HTMLElement)) return false;
+
+                const aria = (
+                    node.getAttribute("aria-label") || ""
+                ).toLowerCase();
+                const title = (node.getAttribute("title") || "").toLowerCase();
+                const controlText = `${aria} ${title}`;
+
+                if (node.tagName === "BUTTON") {
+                    const type = (
+                        node.getAttribute("type") || ""
+                    ).toLowerCase();
+                    if (type === "submit") return true;
+                    if (/send|senden|envoyer|enviar/.test(controlText))
+                        return true;
+                }
+
+                const role = (node.getAttribute("role") || "").toLowerCase();
+                return (
+                    role === "button" &&
+                    /send|senden|envoyer|enviar/.test(controlText)
+                );
+            }
+
+            function attachFirstMessageListeners(root) {
+                if (!root || listenersAttached) return;
+
+                root.addEventListener(
+                    "input",
+                    (event) => {
+                        const target = event.target;
+                        if (
+                            target instanceof HTMLTextAreaElement ||
+                            (target instanceof HTMLInputElement &&
+                                target.type === "text")
+                        ) {
+                            const value = (target.value || "").trim();
+                            if (value) {
+                                lastDraftText = value;
+                                previewLanguageFromDraft(value);
+                            }
+                        }
+                    },
+                    true,
+                );
+
+                root.addEventListener(
+                    "submit",
+                    () => {
+                        handleFirstUserMessage(
+                            getCurrentInputValue(root) || lastDraftText,
+                        );
+                    },
+                    true,
+                );
+
+                root.addEventListener(
+                    "keydown",
+                    (event) => {
+                        if (!(event instanceof KeyboardEvent)) return;
+                        if (
+                            event.key !== "Enter" ||
+                            event.shiftKey ||
+                            event.isComposing
+                        )
+                            return;
+
+                        const target = event.target;
+                        if (target instanceof HTMLTextAreaElement) {
+                            handleFirstUserMessage(
+                                target.value ||
+                                    getCurrentInputValue(root) ||
+                                    lastDraftText,
+                            );
+                            return;
+                        }
+
+                        handleFirstUserMessage(
+                            getCurrentInputValue(root) || lastDraftText,
+                        );
+                    },
+                    true,
+                );
+
+                root.addEventListener(
+                    "click",
+                    (event) => {
+                        const target = event.target;
+                        if (!(target instanceof Element)) return;
+
+                        const control = target.closest(
+                            "button, [role='button']",
+                        );
+                        if (!control) return;
+
+                        const draft =
+                            getCurrentInputValue(root) || lastDraftText;
+                        if (!draft) return;
+                        if (!isLikelySendControl(control) && draft.length < 4)
+                            return;
+
+                        handleFirstUserMessage(draft);
+                    },
+                    true,
+                );
+
+                listenersAttached = true;
+            }
+
+            function waitForHostAndAttach() {
+                const attachToShadowRoot = (host) => {
+                    const tryAttach = () => {
+                        if (!host?.shadowRoot) {
+                            window.setTimeout(tryAttach, 200);
+                            return;
+                        }
+                        attachFirstMessageListeners(host.shadowRoot);
+                    };
+
+                    tryAttach();
+                };
+
+                const existingHost = document.querySelector("flowise-chatbot");
+                if (existingHost) {
+                    attachToShadowRoot(existingHost);
+                    return;
+                }
+
+                const observer = new MutationObserver(() => {
+                    const host = document.querySelector("flowise-chatbot");
+                    if (!host) return;
+                    observer.disconnect();
+                    attachToShadowRoot(host);
+                });
+
+                observer.observe(document.body, {
+                    childList: true,
+                    subtree: true,
+                });
+            }
+
+            function initChatbot(lang) {
+                Chatbot.init({
+                    chatflowid: CHATFLOW_ID,
+                    apiHost: API_HOST,
+                    theme: buildTheme(lang),
+                });
+            }
+
+            initChatbot(currentLang);
+            waitForHostAndAttach();
+        </script>
+    </body>
+</html>

@@ -1,0 +1,40 @@
+2026-02-17 21:21:59 [INFO]: Starting Flowise...
+2026-02-17 21:22:00 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-02-17 21:22:00 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-02-17 21:22:00 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-02-17 21:22:01 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-02-17 21:22:01 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-02-17 21:22:01 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-02-17 21:22:01 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-02-17 21:22:01 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-02-17 21:22:01 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-02-17 21:22:01 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-02-17 21:22:01 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-02-17 21:22:01 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-02-17 21:22:01 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-02-17 21:22:10 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-02-17 21:22:14 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-02-17 21:28:02 [INFO]: ⬆️ POST /api/v1/assistants/generate/instruction
+2026-02-17 21:33:27 [INFO]: ⬆️ POST /api/v1/chatflows
+2026-02-17 21:33:27 [INFO]: 🖊 PUT /api/v1/assistants/a56ca345-5632-4488-9cfa-38b4b49db039
+2026-02-17 21:33:42 [INFO]: ⬆️ POST /api/v1/prediction/a56ca345-5632-4488-9cfa-38b4b49db039
+2026-02-17 21:33:42 [INFO]: [server]: Request originated from http://localhost:3000
+2026-02-17 21:35:01 [INFO]: 🖊 PUT /api/v1/chatflows/a56ca345-5632-4488-9cfa-38b4b49db039
+2026-02-17 21:35:01 [INFO]: 🖊 PUT /api/v1/assistants/a56ca345-5632-4488-9cfa-38b4b49db039
+2026-02-17 21:35:35 [INFO]: ⬆️ POST /api/v1/prediction/a56ca345-5632-4488-9cfa-38b4b49db039
+2026-02-17 21:35:35 [INFO]: [server]: Request originated from http://localhost:3000
+2026-02-17 21:35:44 [INFO]: 🖊 PUT /api/v1/chatflows/a56ca345-5632-4488-9cfa-38b4b49db039
+2026-02-17 21:35:44 [INFO]: 🖊 PUT /api/v1/assistants/a56ca345-5632-4488-9cfa-38b4b49db039
+2026-02-17 21:35:50 [INFO]: ⬆️ POST /api/v1/prediction/a56ca345-5632-4488-9cfa-38b4b49db039
+2026-02-17 21:35:50 [INFO]: [server]: Request originated from http://localhost:3000
+2026-02-17 21:36:02 [INFO]: 🖊 PUT /api/v1/chatflows/a56ca345-5632-4488-9cfa-38b4b49db039
+2026-02-17 21:36:02 [INFO]: 🖊 PUT /api/v1/assistants/a56ca345-5632-4488-9cfa-38b4b49db039
+2026-02-17 21:36:17 [INFO]: 🖊 PUT /api/v1/chatflows/a56ca345-5632-4488-9cfa-38b4b49db039
+2026-02-17 21:36:17 [INFO]: 🖊 PUT /api/v1/assistants/a56ca345-5632-4488-9cfa-38b4b49db039
+2026-02-17 21:36:26 [INFO]: ⬆️ POST /api/v1/prediction/a56ca345-5632-4488-9cfa-38b4b49db039
+2026-02-17 21:36:26 [INFO]: [server]: Request originated from http://localhost:3000
+2026-02-17 21:37:32 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-17 21:37:32 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-17 21:37:32 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-17 21:37:32 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-17 21:37:32 [INFO]: ⬆️ POST /api/v1/node-load-method/chatAnthropic

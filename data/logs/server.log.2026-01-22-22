@@ -1,0 +1,192 @@
+2026-01-22 22:04:05 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 22:07:04 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 22:07:12 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=f3e34ccc-2675-412c-a87a-94e0fd919e8c&chatType=INTERNAL
+2026-01-22 22:07:26 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 22:07:44 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 22:07:44 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/7e708632-6ee7-46a0-814b-f9bad35ea8fa/c3080306-00c7-4be5-8f79-46a9b9791998 Error: memory.getChatMessages is not a function
+TypeError: memory.getChatMessages is not a function
+    at RunnableLambda.chat_history [as func] (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/agents/ConversationalAgent/ConversationalAgent.js:226:48)
+    at /usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1798:44
+    at MockAsyncLocalStorage.run (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/singletons/async_local_storage/index.cjs:13:16)
+    at AsyncLocalStorageProvider.runWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/singletons/async_local_storage/index.cjs:60:24)
+    at output (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1796:64)
+    at new Promise (<anonymous>)
+    at RunnableLambda._transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1795:30)
+    at async RunnableLambda._transformStreamWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:316:30)
+    at async RunnableMap._transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1555:42)
+    at async RunnableMap._transformStreamWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:316:30)
+    at async ChatPromptTemplate.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:399:26)
+    at async ChatOpenRouter.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:399:26)
+    at async RunnableBinding.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:928:9)
+    at async ChatConversationalAgentOutputParserWithRetries.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:399:26)
+    at async RunnableSequence._streamIterator (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1369:30)
+2026-01-22 22:08:02 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 22:08:17 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 22:08:17 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/7e708632-6ee7-46a0-814b-f9bad35ea8fa/c3080306-00c7-4be5-8f79-46a9b9791998 Error: memory.getChatMessages is not a function
+TypeError: memory.getChatMessages is not a function
+    at RunnableLambda.chat_history [as func] (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/agents/ConversationalAgent/ConversationalAgent.js:226:48)
+    at /usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1798:44
+    at MockAsyncLocalStorage.run (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/singletons/async_local_storage/index.cjs:13:16)
+    at AsyncLocalStorageProvider.runWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/singletons/async_local_storage/index.cjs:60:24)
+    at output (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1796:64)
+    at new Promise (<anonymous>)
+    at RunnableLambda._transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1795:30)
+    at async RunnableLambda._transformStreamWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:316:30)
+    at async RunnableMap._transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1555:42)
+    at async RunnableMap._transformStreamWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:316:30)
+    at async ChatPromptTemplate.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:399:26)
+    at async ChatOpenRouter.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:399:26)
+    at async RunnableBinding.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:928:9)
+    at async ChatConversationalAgentOutputParserWithRetries.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:399:26)
+    at async RunnableSequence._streamIterator (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1369:30)
+2026-01-22 22:08:57 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 22:09:08 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 22:09:22 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 22:10:13 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=c3080306-00c7-4be5-8f79-46a9b9791998&chatType=INTERNAL
+2026-01-22 22:10:28 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 22:14:05 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=2aed14a5-3aae-4475-8f72-ff2b48b9a94f&chatType=INTERNAL
+2026-01-22 22:14:10 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 22:16:26 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 22:16:32 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=25a7f10d-de50-480a-bb56-cb8d632ad76a&chatType=INTERNAL
+2026-01-22 22:16:47 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 22:19:50 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 22:30:12 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=e6a62628-9982-413e-bcd1-5101a5d6a245&chatType=INTERNAL
+2026-01-22 22:30:16 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 22:32:40 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 22:32:46 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=50cb9d29-42b8-4f94-ba61-d6c011ea054e&chatType=INTERNAL
+2026-01-22 22:33:00 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 22:33:40 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 22:33:48 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=c88658cb-553b-43ea-b4bf-49984dd9a073&chatType=INTERNAL
+2026-01-22 22:33:52 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 22:34:51 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=2e81661d-9ade-43b3-9797-c62e50d49023&chatType=INTERNAL
+2026-01-22 22:34:56 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 22:36:16 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 22:37:11 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 22:37:17 [INFO]: ⬆️ POST /api/v1/vector/internal-upsert/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 22:37:29 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 22:38:36 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 22:38:53 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=830a0ed4-4b07-4be6-9fc7-88d47c9d733f&chatType=INTERNAL
+2026-01-22 22:39:12 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 22:39:43 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 22:40:17 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=b5e08c0d-33c8-4fab-be09-857174258fec&chatType=INTERNAL
+2026-01-22 22:40:22 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=4c2668fb-7052-4765-bd71-1b67d8ef7241&chatType=INTERNAL
+2026-01-22 22:40:27 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 22:46:22 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 22:46:26 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=15766d16-5f34-4384-a82f-98419cc0b3f2&chatType=INTERNAL
+2026-01-22 22:47:30 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 22:47:32 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/7e708632-6ee7-46a0-814b-f9bad35ea8fa/f915e3a9-cdf2-43a2-b588-8999f7de5102 Error: There are no living connections
+NoLivingConnectionsError: There are no living connections
+    at SniffingTransport._request (/usr/local/lib/node_modules/flowise/node_modules/@elastic/transport/lib/Transport.js:448:27)
+    at /usr/local/lib/node_modules/flowise/node_modules/@elastic/transport/lib/Transport.js:670:43
+    at NoopContextManager.with (/usr/local/lib/node_modules/flowise/node_modules/@opentelemetry/api/build/src/context/NoopContextManager.js:25:19)
+    at ContextAPI.with (/usr/local/lib/node_modules/flowise/node_modules/@opentelemetry/api/build/src/api/context.js:60:46)
+    at NoopTracer.startActiveSpan (/usr/local/lib/node_modules/flowise/node_modules/@opentelemetry/api/build/src/trace/NoopTracer.js:65:31)
+    at ProxyTracer.startActiveSpan (/usr/local/lib/node_modules/flowise/node_modules/@opentelemetry/api/build/src/trace/ProxyTracer.js:36:24)
+    at SniffingTransport.request (/usr/local/lib/node_modules/flowise/node_modules/@elastic/transport/lib/Transport.js:666:54)
+    at Client.SearchApi [as search] (/usr/local/lib/node_modules/flowise/node_modules/@elastic/elasticsearch/lib/api/api/search.js:73:33)
+    at ElasticVectorSearch.similaritySearchVectorWithScore (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/node_modules/@langchain/community/dist/vectorstores/elasticsearch.cjs:158:42)
+    at vectorStore.similaritySearchVectorWithScore (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/vectorstores/Elasticsearch/Elasticsearch.js:200:75)
+    at ElasticVectorSearch.similaritySearchWithScore (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/vectorstores.cjs:280:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ScoreThresholdRetriever.getRelevantDocuments (/usr/local/lib/node_modules/flowise/node_modules/langchain/dist/retrievers/score_threshold.cjs:36:29)
+    at async ScoreThresholdRetriever._streamIterator (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:173:9)
+    at async ScoreThresholdRetriever.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:410:9)
+    at async RunnableSequence._streamIterator (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1369:30)
+2026-01-22 22:48:07 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 22:48:08 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/7e708632-6ee7-46a0-814b-f9bad35ea8fa/0d200bfc-3c8c-48fb-947e-af31d7450665 Error: There are no living connections
+NoLivingConnectionsError: There are no living connections
+    at SniffingTransport._request (/usr/local/lib/node_modules/flowise/node_modules/@elastic/transport/lib/Transport.js:448:27)
+    at /usr/local/lib/node_modules/flowise/node_modules/@elastic/transport/lib/Transport.js:670:43
+    at NoopContextManager.with (/usr/local/lib/node_modules/flowise/node_modules/@opentelemetry/api/build/src/context/NoopContextManager.js:25:19)
+    at ContextAPI.with (/usr/local/lib/node_modules/flowise/node_modules/@opentelemetry/api/build/src/api/context.js:60:46)
+    at NoopTracer.startActiveSpan (/usr/local/lib/node_modules/flowise/node_modules/@opentelemetry/api/build/src/trace/NoopTracer.js:65:31)
+    at ProxyTracer.startActiveSpan (/usr/local/lib/node_modules/flowise/node_modules/@opentelemetry/api/build/src/trace/ProxyTracer.js:36:24)
+    at SniffingTransport.request (/usr/local/lib/node_modules/flowise/node_modules/@elastic/transport/lib/Transport.js:666:54)
+    at Client.SearchApi [as search] (/usr/local/lib/node_modules/flowise/node_modules/@elastic/elasticsearch/lib/api/api/search.js:73:33)
+    at ElasticVectorSearch.similaritySearchVectorWithScore (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/node_modules/@langchain/community/dist/vectorstores/elasticsearch.cjs:158:42)
+    at vectorStore.similaritySearchVectorWithScore (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/vectorstores/Elasticsearch/Elasticsearch.js:200:75)
+    at ElasticVectorSearch.similaritySearchWithScore (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/vectorstores.cjs:280:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ScoreThresholdRetriever.getRelevantDocuments (/usr/local/lib/node_modules/flowise/node_modules/langchain/dist/retrievers/score_threshold.cjs:36:29)
+    at async ScoreThresholdRetriever._streamIterator (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:173:9)
+    at async ScoreThresholdRetriever.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:410:9)
+    at async RunnableSequence._streamIterator (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1369:30)
+2026-01-22 22:48:34 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 22:48:35 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/7e708632-6ee7-46a0-814b-f9bad35ea8fa/56aff178-9925-4b24-80d6-e42309961448 Error: There are no living connections
+NoLivingConnectionsError: There are no living connections
+    at SniffingTransport._request (/usr/local/lib/node_modules/flowise/node_modules/@elastic/transport/lib/Transport.js:448:27)
+    at /usr/local/lib/node_modules/flowise/node_modules/@elastic/transport/lib/Transport.js:670:43
+    at NoopContextManager.with (/usr/local/lib/node_modules/flowise/node_modules/@opentelemetry/api/build/src/context/NoopContextManager.js:25:19)
+    at ContextAPI.with (/usr/local/lib/node_modules/flowise/node_modules/@opentelemetry/api/build/src/api/context.js:60:46)
+    at NoopTracer.startActiveSpan (/usr/local/lib/node_modules/flowise/node_modules/@opentelemetry/api/build/src/trace/NoopTracer.js:65:31)
+    at ProxyTracer.startActiveSpan (/usr/local/lib/node_modules/flowise/node_modules/@opentelemetry/api/build/src/trace/ProxyTracer.js:36:24)
+    at SniffingTransport.request (/usr/local/lib/node_modules/flowise/node_modules/@elastic/transport/lib/Transport.js:666:54)
+    at Client.SearchApi [as search] (/usr/local/lib/node_modules/flowise/node_modules/@elastic/elasticsearch/lib/api/api/search.js:73:33)
+    at ElasticVectorSearch.similaritySearchVectorWithScore (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/node_modules/@langchain/community/dist/vectorstores/elasticsearch.cjs:158:42)
+    at vectorStore.similaritySearchVectorWithScore (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/vectorstores/Elasticsearch/Elasticsearch.js:200:75)
+    at ElasticVectorSearch.similaritySearchWithScore (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/vectorstores.cjs:280:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ScoreThresholdRetriever.getRelevantDocuments (/usr/local/lib/node_modules/flowise/node_modules/langchain/dist/retrievers/score_threshold.cjs:36:29)
+    at async ScoreThresholdRetriever._streamIterator (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:173:9)
+    at async ScoreThresholdRetriever.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:410:9)
+    at async RunnableSequence._streamIterator (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1369:30)
+2026-01-22 22:49:10 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 22:49:38 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 22:49:43 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/7e708632-6ee7-46a0-814b-f9bad35ea8fa/56aff178-9925-4b24-80d6-e42309961448 Error: There are no living connections
+NoLivingConnectionsError: There are no living connections
+    at SniffingTransport._request (/usr/local/lib/node_modules/flowise/node_modules/@elastic/transport/lib/Transport.js:448:27)
+    at /usr/local/lib/node_modules/flowise/node_modules/@elastic/transport/lib/Transport.js:670:43
+    at NoopContextManager.with (/usr/local/lib/node_modules/flowise/node_modules/@opentelemetry/api/build/src/context/NoopContextManager.js:25:19)
+    at ContextAPI.with (/usr/local/lib/node_modules/flowise/node_modules/@opentelemetry/api/build/src/api/context.js:60:46)
+    at NoopTracer.startActiveSpan (/usr/local/lib/node_modules/flowise/node_modules/@opentelemetry/api/build/src/trace/NoopTracer.js:65:31)
+    at ProxyTracer.startActiveSpan (/usr/local/lib/node_modules/flowise/node_modules/@opentelemetry/api/build/src/trace/ProxyTracer.js:36:24)
+    at SniffingTransport.request (/usr/local/lib/node_modules/flowise/node_modules/@elastic/transport/lib/Transport.js:666:54)
+    at Client.SearchApi [as search] (/usr/local/lib/node_modules/flowise/node_modules/@elastic/elasticsearch/lib/api/api/search.js:73:33)
+    at ElasticVectorSearch.similaritySearchVectorWithScore (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/node_modules/@langchain/community/dist/vectorstores/elasticsearch.cjs:158:42)
+    at vectorStore.similaritySearchVectorWithScore (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/vectorstores/Elasticsearch/Elasticsearch.js:200:75)
+    at ElasticVectorSearch.similaritySearchWithScore (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/vectorstores.cjs:280:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ScoreThresholdRetriever.getRelevantDocuments (/usr/local/lib/node_modules/flowise/node_modules/langchain/dist/retrievers/score_threshold.cjs:36:29)
+    at async ScoreThresholdRetriever._streamIterator (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:173:9)
+    at async ScoreThresholdRetriever.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:410:9)
+    at async RunnableSequence._streamIterator (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1369:30)
+2026-01-22 22:50:13 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 22:50:16 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/7e708632-6ee7-46a0-814b-f9bad35ea8fa/56aff178-9925-4b24-80d6-e42309961448 Error: There are no living connections
+NoLivingConnectionsError: There are no living connections
+    at SniffingTransport._request (/usr/local/lib/node_modules/flowise/node_modules/@elastic/transport/lib/Transport.js:448:27)
+    at /usr/local/lib/node_modules/flowise/node_modules/@elastic/transport/lib/Transport.js:670:43
+    at NoopContextManager.with (/usr/local/lib/node_modules/flowise/node_modules/@opentelemetry/api/build/src/context/NoopContextManager.js:25:19)
+    at ContextAPI.with (/usr/local/lib/node_modules/flowise/node_modules/@opentelemetry/api/build/src/api/context.js:60:46)
+    at NoopTracer.startActiveSpan (/usr/local/lib/node_modules/flowise/node_modules/@opentelemetry/api/build/src/trace/NoopTracer.js:65:31)
+    at ProxyTracer.startActiveSpan (/usr/local/lib/node_modules/flowise/node_modules/@opentelemetry/api/build/src/trace/ProxyTracer.js:36:24)
+    at SniffingTransport.request (/usr/local/lib/node_modules/flowise/node_modules/@elastic/transport/lib/Transport.js:666:54)
+    at Client.SearchApi [as search] (/usr/local/lib/node_modules/flowise/node_modules/@elastic/elasticsearch/lib/api/api/search.js:73:33)
+    at ElasticVectorSearch.similaritySearchVectorWithScore (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/node_modules/@langchain/community/dist/vectorstores/elasticsearch.cjs:158:42)
+    at vectorStore.similaritySearchVectorWithScore (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/vectorstores/Elasticsearch/Elasticsearch.js:200:75)
+    at ElasticVectorSearch.similaritySearchWithScore (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/vectorstores.cjs:280:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ScoreThresholdRetriever.getRelevantDocuments (/usr/local/lib/node_modules/flowise/node_modules/langchain/dist/retrievers/score_threshold.cjs:36:29)
+    at async ScoreThresholdRetriever._streamIterator (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:173:9)
+    at async ScoreThresholdRetriever.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:410:9)
+    at async RunnableSequence._streamIterator (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1369:30)
+2026-01-22 22:50:56 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 22:51:03 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=56aff178-9925-4b24-80d6-e42309961448&chatType=INTERNAL
+2026-01-22 22:51:16 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 22:51:18 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/7e708632-6ee7-46a0-814b-f9bad35ea8fa/5a3b86ad-3399-4d05-86fb-7c845098fff6 Error: There are no living connections
+NoLivingConnectionsError: There are no living connections
+    at SniffingTransport._request (/usr/local/lib/node_modules/flowise/node_modules/@elastic/transport/lib/Transport.js:448:27)
+    at /usr/local/lib/node_modules/flowise/node_modules/@elastic/transport/lib/Transport.js:670:43
+    at NoopContextManager.with (/usr/local/lib/node_modules/flowise/node_modules/@opentelemetry/api/build/src/context/NoopContextManager.js:25:19)
+    at ContextAPI.with (/usr/local/lib/node_modules/flowise/node_modules/@opentelemetry/api/build/src/api/context.js:60:46)
+    at NoopTracer.startActiveSpan (/usr/local/lib/node_modules/flowise/node_modules/@opentelemetry/api/build/src/trace/NoopTracer.js:65:31)
+    at ProxyTracer.startActiveSpan (/usr/local/lib/node_modules/flowise/node_modules/@opentelemetry/api/build/src/trace/ProxyTracer.js:36:24)
+    at SniffingTransport.request (/usr/local/lib/node_modules/flowise/node_modules/@elastic/transport/lib/Transport.js:666:54)
+    at Client.SearchApi [as search] (/usr/local/lib/node_modules/flowise/node_modules/@elastic/elasticsearch/lib/api/api/search.js:73:33)
+    at ElasticVectorSearch.similaritySearchVectorWithScore (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/node_modules/@langchain/community/dist/vectorstores/elasticsearch.cjs:158:42)
+    at vectorStore.similaritySearchVectorWithScore (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/vectorstores/Elasticsearch/Elasticsearch.js:200:75)
+    at ElasticVectorSearch.similaritySearchWithScore (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/vectorstores.cjs:280:21)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async ScoreThresholdRetriever.getRelevantDocuments (/usr/local/lib/node_modules/flowise/node_modules/langchain/dist/retrievers/score_threshold.cjs:36:29)
+    at async ScoreThresholdRetriever._streamIterator (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:173:9)
+    at async ScoreThresholdRetriever.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:410:9)
+    at async RunnableSequence._streamIterator (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1369:30)

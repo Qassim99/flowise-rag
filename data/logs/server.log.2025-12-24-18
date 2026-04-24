@@ -1,0 +1,199 @@
+2025-12-24 18:01:39 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-12-24 18:03:01 [INFO]: 🖊 PUT /api/v1/chatflows/3aa6faea-ea02-43e1-b43c-a49b1c2b553f
+2025-12-24 18:03:21 [INFO]: ⬆️ POST /api/v1/internal-prediction/3aa6faea-ea02-43e1-b43c-a49b1c2b553f
+2025-12-24 18:03:31 [ERROR]: [server]: Error executing node agentAgentflow_0: Error in Agent node: fetch failed
+2025-12-24 18:03:31 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/3aa6faea-ea02-43e1-b43c-a49b1c2b553f/175af338-1de0-4176-89a3-0443343c441b Error: Error in Agent node: fetch failed
+Error: Error in Agent node: fetch failed
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2025-12-24 18:05:15 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-12-24 18:05:28 [INFO]: 🖊 PUT /api/v1/chatflows/3aa6faea-ea02-43e1-b43c-a49b1c2b553f
+2025-12-24 18:05:35 [INFO]: ⬆️ POST /api/v1/internal-prediction/3aa6faea-ea02-43e1-b43c-a49b1c2b553f
+2025-12-24 18:05:46 [ERROR]: [server]: Error executing node agentAgentflow_0: Error in Agent node: fetch failed
+2025-12-24 18:05:46 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/3aa6faea-ea02-43e1-b43c-a49b1c2b553f/a1c5205d-35cf-4da1-94d5-6522743b638b Error: Error in Agent node: fetch failed
+Error: Error in Agent node: fetch failed
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2025-12-24 18:05:52 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-12-24 18:06:13 [INFO]: 🖊 PUT /api/v1/chatflows/3aa6faea-ea02-43e1-b43c-a49b1c2b553f
+2025-12-24 18:06:18 [INFO]: ⬆️ POST /api/v1/internal-prediction/3aa6faea-ea02-43e1-b43c-a49b1c2b553f
+2025-12-24 18:06:18 [ERROR]: [server]: Error executing node agentAgentflow_0: Error in Agent node: fetch failed
+2025-12-24 18:06:18 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/3aa6faea-ea02-43e1-b43c-a49b1c2b553f/3514f9fd-823c-4990-aa9e-47e502b8894c Error: Error in Agent node: fetch failed
+Error: Error in Agent node: fetch failed
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2025-12-24 18:09:57 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-12-24 18:10:12 [INFO]: 🖊 PUT /api/v1/chatflows/3aa6faea-ea02-43e1-b43c-a49b1c2b553f
+2025-12-24 18:10:17 [INFO]: ⬆️ POST /api/v1/internal-prediction/3aa6faea-ea02-43e1-b43c-a49b1c2b553f
+2025-12-24 18:10:27 [ERROR]: [server]: Error executing node agentAgentflow_0: Error in Agent node: fetch failed
+2025-12-24 18:10:28 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/3aa6faea-ea02-43e1-b43c-a49b1c2b553f/cc16fb76-f7e3-4d40-bcf7-cf361cdde700 Error: Error in Agent node: fetch failed
+Error: Error in Agent node: fetch failed
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2025-12-24 18:16:36 [INFO]: 🖊 PUT /api/v1/chatflows/3aa6faea-ea02-43e1-b43c-a49b1c2b553f
+2025-12-24 18:16:41 [INFO]: ⬆️ POST /api/v1/internal-prediction/3aa6faea-ea02-43e1-b43c-a49b1c2b553f
+2025-12-24 18:16:52 [ERROR]: [server]: Error executing node agentAgentflow_0: Error in Agent node: fetch failed
+2025-12-24 18:16:52 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/3aa6faea-ea02-43e1-b43c-a49b1c2b553f/11b9bc74-84ba-4aea-890f-9d913fddc562 Error: Error in Agent node: fetch failed
+Error: Error in Agent node: fetch failed
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2025-12-24 18:17:05 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-12-24 18:17:05 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-12-24 18:17:05 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-12-24 18:17:16 [INFO]: 🖊 PUT /api/v1/chatflows/3aa6faea-ea02-43e1-b43c-a49b1c2b553f
+2025-12-24 18:17:21 [INFO]: ⬆️ POST /api/v1/internal-prediction/3aa6faea-ea02-43e1-b43c-a49b1c2b553f
+2025-12-24 18:17:21 [ERROR]: [server]: Error executing node agentAgentflow_0: Error in Agent node: Cannot read properties of undefined (reading 'filePath')
+2025-12-24 18:17:21 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/3aa6faea-ea02-43e1-b43c-a49b1c2b553f/748deda5-0792-440d-b46e-7d8e569279a4 Error: Error in Agent node: Cannot read properties of undefined (reading 'filePath')
+Error: Error in Agent node: Cannot read properties of undefined (reading 'filePath')
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2025-12-24 18:17:26 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-12-24 18:17:26 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-12-24 18:17:26 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-12-24 18:17:29 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-12-24 18:17:30 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-12-24 18:17:30 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-12-24 18:18:06 [INFO]: 🖊 PUT /api/v1/chatflows/3aa6faea-ea02-43e1-b43c-a49b1c2b553f
+2025-12-24 18:18:14 [INFO]: ⬆️ POST /api/v1/internal-prediction/3aa6faea-ea02-43e1-b43c-a49b1c2b553f
+2025-12-24 18:18:14 [ERROR]: [server]: Error executing node agentAgentflow_0: Error in Agent node: Cannot read properties of undefined (reading 'filePath')
+2025-12-24 18:18:14 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/3aa6faea-ea02-43e1-b43c-a49b1c2b553f/fe10a75a-7741-44a1-b53e-378ee9b51a3c Error: Error in Agent node: Cannot read properties of undefined (reading 'filePath')
+Error: Error in Agent node: Cannot read properties of undefined (reading 'filePath')
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2025-12-24 18:18:24 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-12-24 18:18:24 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-12-24 18:18:24 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-12-24 18:18:52 [INFO]: 🖊 PUT /api/v1/chatflows/3aa6faea-ea02-43e1-b43c-a49b1c2b553f
+2025-12-24 18:18:57 [INFO]: ⬆️ POST /api/v1/internal-prediction/3aa6faea-ea02-43e1-b43c-a49b1c2b553f
+2025-12-24 18:18:57 [ERROR]: [server]: Error executing node agentAgentflow_0: Error in Agent node: Cannot read properties of undefined (reading 'filePath')
+2025-12-24 18:18:57 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/3aa6faea-ea02-43e1-b43c-a49b1c2b553f/190f0f9d-2f49-48d9-a18a-542573bd80b5 Error: Error in Agent node: Cannot read properties of undefined (reading 'filePath')
+Error: Error in Agent node: Cannot read properties of undefined (reading 'filePath')
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2025-12-24 18:19:07 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-12-24 18:19:07 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-12-24 18:19:07 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-12-24 18:19:27 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-12-24 18:19:27 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-12-24 18:19:27 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-12-24 18:19:27 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-12-24 18:19:31 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-12-24 18:19:40 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-12-24 18:19:49 [INFO]: 🖊 PUT /api/v1/chatflows/3aa6faea-ea02-43e1-b43c-a49b1c2b553f
+2025-12-24 18:19:57 [INFO]: ⬆️ POST /api/v1/internal-prediction/3aa6faea-ea02-43e1-b43c-a49b1c2b553f
+2025-12-24 18:19:57 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/3aa6faea-ea02-43e1-b43c-a49b1c2b553f/bbac9181-d7da-45ad-8fcb-db2f5542c33d Error: Multiple starting nodes are not allowed
+Error: Multiple starting nodes are not allowed
+    at checkForMultipleStartNodes (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1082:15)
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1338:9)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2025-12-24 18:20:49 [INFO]: 🖊 PUT /api/v1/chatflows/3aa6faea-ea02-43e1-b43c-a49b1c2b553f
+2025-12-24 18:21:03 [INFO]: ⬆️ POST /api/v1/internal-prediction/3aa6faea-ea02-43e1-b43c-a49b1c2b553f
+2025-12-24 18:21:03 [ERROR]: [server]: Error executing node agentAgentflow_0: Error in Agent node: fetch failed
+2025-12-24 18:21:03 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/3aa6faea-ea02-43e1-b43c-a49b1c2b553f/533a9b80-99ca-472e-95ba-b1575c493040 Error: Error in Agent node: fetch failed
+Error: Error in Agent node: fetch failed
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2025-12-24 18:21:07 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-12-24 18:23:03 [INFO]: 🖊 PUT /api/v1/chatflows/3aa6faea-ea02-43e1-b43c-a49b1c2b553f
+2025-12-24 18:23:07 [INFO]: ⬆️ POST /api/v1/internal-prediction/3aa6faea-ea02-43e1-b43c-a49b1c2b553f
+2025-12-24 18:23:17 [ERROR]: [server]: Error executing node agentAgentflow_0: Error in Agent node: fetch failed
+2025-12-24 18:23:17 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/3aa6faea-ea02-43e1-b43c-a49b1c2b553f/82f8f8a6-1399-4a65-bf7b-d10ada455af5 Error: Error in Agent node: fetch failed
+Error: Error in Agent node: fetch failed
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2025-12-24 18:24:31 [INFO]: ⬆️ POST /api/v1/internal-prediction/3aa6faea-ea02-43e1-b43c-a49b1c2b553f
+2025-12-24 18:24:42 [ERROR]: [server]: Error executing node agentAgentflow_0: Error in Agent node: fetch failed
+2025-12-24 18:24:42 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/3aa6faea-ea02-43e1-b43c-a49b1c2b553f/82f8f8a6-1399-4a65-bf7b-d10ada455af5 Error: Error in Agent node: fetch failed
+Error: Error in Agent node: fetch failed
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2025-12-24 18:33:43 [INFO]: ⬆️ POST /api/v1/internal-prediction/3aa6faea-ea02-43e1-b43c-a49b1c2b553f
+2025-12-24 18:33:53 [ERROR]: [server]: Error executing node agentAgentflow_0: Error in Agent node: fetch failed
+2025-12-24 18:33:53 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/3aa6faea-ea02-43e1-b43c-a49b1c2b553f/b434bf37-9048-4da2-873b-7f33ac90cee7 Error: Error in Agent node: fetch failed
+Error: Error in Agent node: fetch failed
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2025-12-24 18:37:58 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-12-24 18:38:10 [INFO]: 🖊 PUT /api/v1/chatflows/3aa6faea-ea02-43e1-b43c-a49b1c2b553f
+2025-12-24 18:38:21 [INFO]: ⬆️ POST /api/v1/internal-prediction/3aa6faea-ea02-43e1-b43c-a49b1c2b553f
+2025-12-24 18:38:21 [ERROR]: [server]: Error executing node agentAgentflow_0: Error in Agent node: fetch failed
+2025-12-24 18:38:21 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/3aa6faea-ea02-43e1-b43c-a49b1c2b553f/7e227dfd-6144-463d-af4d-842f9f07b19a Error: Error in Agent node: fetch failed
+Error: Error in Agent node: fetch failed
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2025-12-24 18:43:31 [INFO]: ⬆️ POST /api/v1/internal-prediction/3aa6faea-ea02-43e1-b43c-a49b1c2b553f
+2025-12-24 18:43:31 [ERROR]: [server]: Error executing node agentAgentflow_0: Error in Agent node: model 'gpt-oss:20b' not found
+2025-12-24 18:43:31 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/3aa6faea-ea02-43e1-b43c-a49b1c2b553f/1dc79fc5-6f9a-489c-b002-3176e654332e Error: Error in Agent node: model 'gpt-oss:20b' not found
+Error: Error in Agent node: model 'gpt-oss:20b' not found
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2025-12-24 18:43:35 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-12-24 18:44:05 [INFO]: 🖊 PUT /api/v1/chatflows/3aa6faea-ea02-43e1-b43c-a49b1c2b553f
+2025-12-24 18:44:08 [INFO]: ⬆️ POST /api/v1/internal-prediction/3aa6faea-ea02-43e1-b43c-a49b1c2b553f
+2025-12-24 18:44:08 [ERROR]: [server]: Error executing node agentAgentflow_0: Error in Agent node: fetch failed
+2025-12-24 18:44:08 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/3aa6faea-ea02-43e1-b43c-a49b1c2b553f/4236725d-dc4e-41f1-b6fb-3f8d449cda38 Error: Error in Agent node: fetch failed
+Error: Error in Agent node: fetch failed
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2025-12-24 18:44:12 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-12-24 18:44:19 [INFO]: ⬆️ POST /api/v1/internal-prediction/3aa6faea-ea02-43e1-b43c-a49b1c2b553f
+2025-12-24 18:44:19 [ERROR]: [server]: Error executing node agentAgentflow_0: Error in Agent node: fetch failed
+2025-12-24 18:44:19 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/3aa6faea-ea02-43e1-b43c-a49b1c2b553f/d493c753-ddb5-4112-a101-fc03aca4e8ba Error: Error in Agent node: fetch failed
+Error: Error in Agent node: fetch failed
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2025-12-24 18:44:58 [INFO]: ⬆️ POST /api/v1/internal-prediction/3aa6faea-ea02-43e1-b43c-a49b1c2b553f
+2025-12-24 18:44:58 [ERROR]: [server]: Error executing node agentAgentflow_0: Error in Agent node: fetch failed
+2025-12-24 18:44:58 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/3aa6faea-ea02-43e1-b43c-a49b1c2b553f/248c8b9b-1c67-4bd3-817e-5f1a413cfcbe Error: Error in Agent node: fetch failed
+Error: Error in Agent node: fetch failed
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2025-12-24 18:45:02 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-12-24 18:45:12 [INFO]: 🖊 PUT /api/v1/chatflows/3aa6faea-ea02-43e1-b43c-a49b1c2b553f
+2025-12-24 18:45:19 [INFO]: ⬆️ POST /api/v1/internal-prediction/3aa6faea-ea02-43e1-b43c-a49b1c2b553f
+2025-12-24 18:45:19 [ERROR]: [server]: Error executing node agentAgentflow_0: Error in Agent node: model 'gpt-oss:20b' not found
+2025-12-24 18:45:19 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/3aa6faea-ea02-43e1-b43c-a49b1c2b553f/4c6a2903-de2a-4d0f-9191-7bfc2b01dd5e Error: Error in Agent node: model 'gpt-oss:20b' not found
+Error: Error in Agent node: model 'gpt-oss:20b' not found
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2025-12-24 18:55:46 [INFO]: ⬆️ POST /api/v1/internal-prediction/3aa6faea-ea02-43e1-b43c-a49b1c2b553f
+2025-12-24 18:56:30 [INFO]: Shutting down Flowise...
+2025-12-24 18:58:19 [INFO]: Starting Flowise...
+2025-12-24 18:58:19 [INFO]: 📦 [server]: Data Source initialized successfully
+2025-12-24 18:58:19 [INFO]: 🔄 [server]: Database migrations completed successfully
+2025-12-24 18:58:19 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2025-12-24 18:58:21 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2025-12-24 18:58:21 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2025-12-24 18:58:21 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2025-12-24 18:58:21 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2025-12-24 18:58:21 [INFO]: 💾 [server]: Cache pool initialized successfully
+2025-12-24 18:58:21 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2025-12-24 18:58:21 [INFO]: 📈 [server]: Telemetry initialized successfully
+2025-12-24 18:58:21 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2025-12-24 18:58:21 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2025-12-24 18:58:21 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2025-12-24 18:58:25 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2025-12-24 18:58:25 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2025-12-24 18:58:31 [INFO]: ⬆️ POST /api/v1/auth/login
+2025-12-24 18:58:49 [INFO]: ❌ DELETE /api/v1/chatmessage/3aa6faea-ea02-43e1-b43c-a49b1c2b553f?chatId=cfc4877f-1364-4639-832b-fe46d80c5d3e&chatType=INTERNAL
+2025-12-24 18:58:54 [INFO]: ⬆️ POST /api/v1/internal-prediction/3aa6faea-ea02-43e1-b43c-a49b1c2b553f
+2025-12-24 18:59:25 [INFO]: ⬆️ POST /api/v1/internal-prediction/3aa6faea-ea02-43e1-b43c-a49b1c2b553f

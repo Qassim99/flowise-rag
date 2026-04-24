@@ -1,0 +1,131 @@
+2026-01-13 22:18:17 [INFO]: Starting Flowise...
+2026-01-13 22:18:17 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-01-13 22:18:17 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-01-13 22:18:17 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-01-13 22:18:19 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-01-13 22:18:19 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-01-13 22:18:19 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-01-13 22:18:19 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-01-13 22:18:19 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-01-13 22:18:19 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-01-13 22:18:19 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-01-13 22:18:19 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-01-13 22:18:19 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-01-13 22:18:19 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-01-13 22:18:22 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-01-13 22:18:22 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-01-13 22:18:26 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-01-13 22:20:22 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 22:27:20 [INFO]: ⬆️ POST /api/v1/vector/internal-upsert/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 22:31:34 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: ResponseError
+Error: ResponseError
+    at Elasticsearch_VectorStores.upsert (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/vectorstores/Elasticsearch/Elasticsearch.js:62:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:464:37)
+    at async executeUpsert (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:143:28)
+    at async upsertVector (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:272:28)
+    at async Object.upsertVectorMiddleware (/usr/local/lib/node_modules/flowise/dist/services/vectors/index.js:9:16)
+    at async createInternalUpsert (/usr/local/lib/node_modules/flowise/dist/controllers/vectors/index.js:28:29)
+2026-01-13 22:31:34 [ERROR]: [server]: Error: Error: ResponseError
+Error: Error: ResponseError
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeUpsert (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:143:28)
+    at async upsertVector (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:272:28)
+    at async Object.upsertVectorMiddleware (/usr/local/lib/node_modules/flowise/dist/services/vectors/index.js:9:16)
+    at async createInternalUpsert (/usr/local/lib/node_modules/flowise/dist/controllers/vectors/index.js:28:29)
+2026-01-13 22:36:49 [INFO]: ⬆️ POST /api/v1/vector/internal-upsert/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 22:37:36 [INFO]: ⬆️ POST /api/v1/credentials
+2026-01-13 22:37:48 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 22:37:51 [INFO]: ⬆️ POST /api/v1/vector/internal-upsert/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 22:38:22 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Cloud ID base64 must contain at least two "$" separated parts: "<cloudUrl>$<esId>[$<kibanaId>]".
+ConfigurationError: Cloud ID base64 must contain at least two "$" separated parts: "<cloudUrl>$<esId>[$<kibanaId>]".
+    at new Client (/usr/local/lib/node_modules/flowise/node_modules/@elastic/elasticsearch/lib/client.js:109:23)
+    at prepareClientArgs (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/vectorstores/Elasticsearch/Elasticsearch.js:274:27)
+    at Elasticsearch_VectorStores.upsert (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/vectorstores/Elasticsearch/Elasticsearch.js:36:68)
+    at async buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:464:37)
+    at async executeUpsert (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:143:28)
+    at async upsertVector (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:272:28)
+    at async Object.upsertVectorMiddleware (/usr/local/lib/node_modules/flowise/dist/services/vectors/index.js:9:16)
+    at async createInternalUpsert (/usr/local/lib/node_modules/flowise/dist/controllers/vectors/index.js:28:29)
+2026-01-13 22:38:22 [ERROR]: [server]: Error: ConfigurationError: Cloud ID base64 must contain at least two "$" separated parts: "<cloudUrl>$<esId>[$<kibanaId>]".
+Error: ConfigurationError: Cloud ID base64 must contain at least two "$" separated parts: "<cloudUrl>$<esId>[$<kibanaId>]".
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at async executeUpsert (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:143:28)
+    at async upsertVector (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:272:28)
+    at async Object.upsertVectorMiddleware (/usr/local/lib/node_modules/flowise/dist/services/vectors/index.js:9:16)
+    at async createInternalUpsert (/usr/local/lib/node_modules/flowise/dist/controllers/vectors/index.js:28:29)
+2026-01-13 22:41:29 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: ResponseError
+Error: ResponseError
+    at Elasticsearch_VectorStores.upsert (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/vectorstores/Elasticsearch/Elasticsearch.js:62:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:464:37)
+    at async executeUpsert (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:143:28)
+    at async upsertVector (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:272:28)
+    at async Object.upsertVectorMiddleware (/usr/local/lib/node_modules/flowise/dist/services/vectors/index.js:9:16)
+    at async createInternalUpsert (/usr/local/lib/node_modules/flowise/dist/controllers/vectors/index.js:28:29)
+2026-01-13 22:41:29 [ERROR]: [server]: Error: Error: ResponseError
+Error: Error: ResponseError
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeUpsert (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:143:28)
+    at async upsertVector (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:272:28)
+    at async Object.upsertVectorMiddleware (/usr/local/lib/node_modules/flowise/dist/services/vectors/index.js:9:16)
+    at async createInternalUpsert (/usr/local/lib/node_modules/flowise/dist/controllers/vectors/index.js:28:29)
+2026-01-13 22:48:38 [INFO]: 🖊 PUT /api/v1/credentials/647b37f5-eb00-4547-8eb3-deb789debadf
+2026-01-13 22:48:44 [INFO]: ⬆️ POST /api/v1/vector/internal-upsert/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 22:53:35 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: ConnectionError
+Error: ConnectionError
+    at Elasticsearch_VectorStores.upsert (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/vectorstores/Elasticsearch/Elasticsearch.js:62:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:464:37)
+    at async executeUpsert (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:143:28)
+    at async upsertVector (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:272:28)
+    at async Object.upsertVectorMiddleware (/usr/local/lib/node_modules/flowise/dist/services/vectors/index.js:9:16)
+    at async createInternalUpsert (/usr/local/lib/node_modules/flowise/dist/controllers/vectors/index.js:28:29)
+2026-01-13 22:53:35 [ERROR]: [server]: Error: Error: ConnectionError
+Error: Error: ConnectionError
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeUpsert (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:143:28)
+    at async upsertVector (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:272:28)
+    at async Object.upsertVectorMiddleware (/usr/local/lib/node_modules/flowise/dist/services/vectors/index.js:9:16)
+    at async createInternalUpsert (/usr/local/lib/node_modules/flowise/dist/controllers/vectors/index.js:28:29)
+2026-01-13 22:54:37 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 22:54:42 [INFO]: ⬆️ POST /api/v1/vector/internal-upsert/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 22:55:40 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: ConnectionError
+Error: ConnectionError
+    at Elasticsearch_VectorStores.upsert (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/vectorstores/Elasticsearch/Elasticsearch.js:62:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:464:37)
+    at async executeUpsert (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:143:28)
+    at async upsertVector (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:272:28)
+    at async Object.upsertVectorMiddleware (/usr/local/lib/node_modules/flowise/dist/services/vectors/index.js:9:16)
+    at async createInternalUpsert (/usr/local/lib/node_modules/flowise/dist/controllers/vectors/index.js:28:29)
+2026-01-13 22:55:40 [ERROR]: [server]: Error: Error: ConnectionError
+Error: Error: ConnectionError
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeUpsert (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:143:28)
+    at async upsertVector (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:272:28)
+    at async Object.upsertVectorMiddleware (/usr/local/lib/node_modules/flowise/dist/services/vectors/index.js:9:16)
+    at async createInternalUpsert (/usr/local/lib/node_modules/flowise/dist/controllers/vectors/index.js:28:29)
+2026-01-13 22:58:03 [INFO]: 🖊 PUT /api/v1/credentials/647b37f5-eb00-4547-8eb3-deb789debadf
+2026-01-13 22:58:08 [INFO]: ⬆️ POST /api/v1/vector/internal-upsert/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 22:58:54 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: ResponseError
+Error: ResponseError
+    at Elasticsearch_VectorStores.upsert (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/vectorstores/Elasticsearch/Elasticsearch.js:62:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:464:37)
+    at async executeUpsert (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:143:28)
+    at async upsertVector (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:272:28)
+    at async Object.upsertVectorMiddleware (/usr/local/lib/node_modules/flowise/dist/services/vectors/index.js:9:16)
+    at async createInternalUpsert (/usr/local/lib/node_modules/flowise/dist/controllers/vectors/index.js:28:29)
+2026-01-13 22:58:54 [ERROR]: [server]: Error: Error: ResponseError
+Error: Error: ResponseError
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeUpsert (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:143:28)
+    at async upsertVector (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:272:28)
+    at async Object.upsertVectorMiddleware (/usr/local/lib/node_modules/flowise/dist/services/vectors/index.js:9:16)
+    at async createInternalUpsert (/usr/local/lib/node_modules/flowise/dist/controllers/vectors/index.js:28:29)

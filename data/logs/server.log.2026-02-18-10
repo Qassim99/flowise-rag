@@ -1,0 +1,52 @@
+2026-02-18 10:00:05 [INFO]: Starting Flowise...
+2026-02-18 10:00:05 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-02-18 10:00:05 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-02-18 10:00:05 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-02-18 10:00:07 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-02-18 10:00:07 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-02-18 10:00:07 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-02-18 10:00:07 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-02-18 10:00:07 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-02-18 10:00:07 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-02-18 10:00:07 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-02-18 10:00:07 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-02-18 10:00:07 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-02-18 10:00:07 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-02-18 10:00:27 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-02-18 10:00:27 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-02-18 10:00:32 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-02-18 10:01:27 [INFO]: ⬆️ POST /api/v1/chatflows
+2026-02-18 10:02:27 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 10:02:27 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 10:02:30 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 10:02:30 [INFO]: ⬆️ POST /api/v1/node-load-method/customFunctionAgentflow
+2026-02-18 10:02:30 [INFO]: ⬆️ POST /api/v1/node-load-method/customFunctionAgentflow
+2026-02-18 10:03:13 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-02-18 10:03:22 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-02-18 10:03:53 [INFO]: ⬆️ POST /api/v1/prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-02-18 10:03:53 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-02-18 10:04:02 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: connect ECONNREFUSED 10.215.240.103:9200
+ConnectionError: connect ECONNREFUSED 10.215.240.103:9200
+    at SniffingTransport._request (/usr/local/lib/node_modules/flowise/node_modules/@elastic/transport/lib/Transport.js:610:31)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /usr/local/lib/node_modules/flowise/node_modules/@elastic/transport/lib/Transport.js:670:32
+    at async SniffingTransport.request (/usr/local/lib/node_modules/flowise/node_modules/@elastic/transport/lib/Transport.js:666:20)
+    at async Indices.exists (/usr/local/lib/node_modules/flowise/node_modules/@elastic/elasticsearch/lib/api/api/indices.js:585:16)
+    at async ElasticVectorSearch.doesIndexExist (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/node_modules/@langchain/community/dist/vectorstores/elasticsearch.cjs:347:16)
+    at async ElasticVectorSearch.fromExistingIndex (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/node_modules/@langchain/community/dist/vectorstores/elasticsearch.cjs:235:24)
+    at async Elasticsearch_VectorStores.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/vectorstores/Elasticsearch/Elasticsearch.js:197:29)
+    at async buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:36)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-02-18 10:04:02 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/7e708632-6ee7-46a0-814b-f9bad35ea8fa/dcd79075-3572-4f8d-94df-f257d74c1808 Error: ConnectionError: connect ECONNREFUSED 10.215.240.103:9200
+Error: ConnectionError: connect ECONNREFUSED 10.215.240.103:9200
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-02-18 10:23:59 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 10:23:59 [INFO]: [server]: Request originated from http://localhost:8000

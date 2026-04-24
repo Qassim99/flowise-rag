@@ -1,0 +1,58 @@
+2026-03-05 12:00:38 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-05 12:00:38 [INFO]: [server]: Request originated from http://localhost:8080
+2026-03-05 12:01:41 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-05 12:01:41 [INFO]: [server]: Request originated from http://localhost:8080
+2026-03-05 12:04:13 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-05 12:04:13 [INFO]: [server]: Request originated from http://localhost:8080
+2026-03-05 12:05:03 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-05 12:05:03 [INFO]: [server]: Request originated from http://localhost:8080
+2026-03-05 12:11:52 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-03-05 12:17:41 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-05 12:17:41 [INFO]: [server]: Request originated from http://localhost:8080
+2026-03-05 12:18:48 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-05 12:18:48 [INFO]: [server]: Request originated from http://localhost:8080
+2026-03-05 12:19:50 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-05 12:19:50 [INFO]: [server]: Request originated from http://localhost:8080
+2026-03-05 12:21:51 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-05 12:21:51 [INFO]: [server]: Request originated from http://localhost:8080
+2026-03-05 12:30:02 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-05 12:30:02 [INFO]: [server]: Request originated from http://localhost:8080
+2026-03-05 12:31:28 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-05 12:31:28 [INFO]: [server]: Request originated from http://localhost:8080
+2026-03-05 12:32:15 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-03-05 12:32:42 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-03-05 12:33:12 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-05 12:33:12 [INFO]: [server]: Request originated from http://localhost:8080
+2026-03-05 12:33:46 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-05 12:33:46 [INFO]: [server]: Request originated from http://localhost:8080
+2026-03-05 12:34:53 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-05 12:34:53 [INFO]: [server]: Request originated from http://localhost:8080
+2026-03-05 12:35:18 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-05 12:35:18 [INFO]: [server]: Request originated from http://localhost:8080
+2026-03-05 12:35:18 [ERROR]: [server]: Error executing node llmAgentflow_4: Error in LLM node: terminated
+2026-03-05 12:35:18 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/b4ba85a6-8a9c-4122-a9e5-0028a7841293/276d0d65-7382-4db0-9943-90503aaa0c63 Error: Error in LLM node: terminated
+Error: Error in LLM node: terminated
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:73:41)
+2026-03-05 12:37:02 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-05 12:37:02 [INFO]: [server]: Request originated from http://localhost:8080
+2026-03-05 12:41:27 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-05 12:41:27 [INFO]: [server]: Request originated from http://localhost:8080
+2026-03-05 12:42:13 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-05 12:42:13 [INFO]: [server]: Request originated from http://localhost:8080
+2026-03-05 12:46:41 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-05 12:46:41 [INFO]: [server]: Request originated from http://localhost:8080
+2026-03-05 12:49:01 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-05 12:49:01 [INFO]: [server]: Request originated from http://localhost:8080
+2026-03-05 12:51:15 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-05 12:51:15 [INFO]: [server]: Request originated from http://localhost:8080
+2026-03-05 12:54:32 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-05 12:54:32 [INFO]: [server]: Request originated from http://localhost:8080
+2026-03-05 12:55:11 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-05 12:55:11 [INFO]: [server]: Request originated from http://localhost:8080
+2026-03-05 12:59:10 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-05 12:59:10 [INFO]: [server]: Request originated from http://localhost:8080
+2026-03-05 12:59:31 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-05 12:59:32 [INFO]: [server]: Request originated from http://localhost:8080

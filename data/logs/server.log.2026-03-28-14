@@ -1,0 +1,12 @@
+2026-03-28 14:09:05 [INFO]: ⬆️ POST /api/v1/document-store/vectorstore/insert
+2026-03-28 14:09:33 [INFO]: ⬆️ POST /api/v1/document-store/vectorstore/query
+2026-03-28 14:10:06 [INFO]: ⬆️ POST /api/v1/document-store/vectorstore/update
+2026-03-28 14:10:22 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-03-28 14:10:22 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-03-28 14:10:31 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-03-28 14:10:34 [INFO]: 🖊 PUT /api/v1/chatflows/aa45aeb4-b376-48a3-a09d-2af8b89bdefd
+2026-03-28 14:11:03 [INFO]: ❌ DELETE /api/v1/chatmessage/aa45aeb4-b376-48a3-a09d-2af8b89bdefd?chatId=c9190d6b-4e78-402e-8c13-86e168415d81&chatType=INTERNAL
+2026-03-28 14:11:09 [INFO]: ⬆️ POST /api/v1/internal-prediction/aa45aeb4-b376-48a3-a09d-2af8b89bdefd
+2026-03-28 14:12:10 [INFO]: ⬆️ POST /api/v1/internal-prediction/aa45aeb4-b376-48a3-a09d-2af8b89bdefd
+2026-03-28 14:13:26 [INFO]: ⬆️ POST /api/v1/export-import/export
+2026-03-28 14:34:13 [INFO]: Shutting down Flowise...

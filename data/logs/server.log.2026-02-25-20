@@ -1,0 +1,42 @@
+2026-02-25 20:04:55 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-25 20:04:55 [INFO]: [server]: Request originated from http://localhost:8080
+2026-02-25 20:27:10 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-25 20:27:10 [INFO]: [server]: Request originated from http://localhost:8080
+2026-02-25 20:27:55 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-25 20:27:55 [INFO]: [server]: Request originated from http://localhost:8080
+2026-02-25 20:28:12 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-25 20:28:12 [INFO]: [server]: Request originated from http://localhost:8080
+2026-02-25 20:33:18 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-25 20:33:18 [INFO]: [server]: Request originated from http://localhost:8080
+2026-02-25 20:37:58 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-25 20:37:58 [INFO]: [server]: Request originated from http://localhost:8080
+2026-02-25 20:41:53 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-25 20:41:53 [INFO]: [server]: Request originated from http://localhost:8080
+2026-02-25 20:46:20 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-25 20:46:20 [INFO]: [server]: Request originated from http://localhost:8080
+2026-02-25 20:49:49 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-25 20:49:49 [INFO]: [server]: Request originated from http://localhost:8080
+2026-02-25 20:50:39 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-25 20:50:39 [INFO]: [server]: Request originated from http://localhost:8080
+2026-02-25 20:55:52 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-25 20:55:52 [INFO]: [server]: Request originated from http://localhost:8080
+2026-02-25 20:56:39 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-02-25 20:56:42 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-02-25 20:56:53 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-25 20:58:56 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-25 20:59:10 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-25 20:59:10 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-25 20:59:20 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-25 20:59:21 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-25 20:59:21 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-25 20:59:25 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-25 20:59:35 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-25 20:59:48 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-25 20:59:48 [INFO]: [server]: Request originated from http://localhost:8080
+2026-02-25 20:59:56 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+2026-02-25 20:59:56 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/b4ba85a6-8a9c-4122-a9e5-0028a7841293/f0b69396-3cd0-4c54-8302-592200cb8cee Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:73:41)

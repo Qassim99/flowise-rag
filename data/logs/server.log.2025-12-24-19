@@ -1,0 +1,27 @@
+2025-12-24 19:01:01 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2025-12-24 19:03:56 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2025-12-24 19:03:56 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/7e708632-6ee7-46a0-814b-f9bad35ea8fa/71512741-1334-4cf7-93f7-4154341ca00e Error: Ending node must be either a Chain or Agent or Engine
+Error: Ending node must be either a Chain or Agent or Engine
+    at getEndingNodes (/usr/local/lib/node_modules/flowise/dist/utils/index.js:286:25)
+    at executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:344:52)
+    at utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:58)
+    at async createInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:26:33)
+2025-12-24 19:04:37 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2025-12-24 19:04:42 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2025-12-24 19:04:42 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/7e708632-6ee7-46a0-814b-f9bad35ea8fa/6384e596-d582-4352-81eb-42945831d7f1 Error: Ending node must be either a Chain or Agent or Engine
+Error: Ending node must be either a Chain or Agent or Engine
+    at getEndingNodes (/usr/local/lib/node_modules/flowise/dist/utils/index.js:286:25)
+    at executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:344:52)
+    at utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:58)
+    at async createInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:26:33)
+2025-12-24 19:10:05 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2025-12-24 19:11:10 [INFO]: ⬆️ POST /api/v1/prompts-list
+2025-12-24 19:11:13 [INFO]: ⬆️ POST /api/v1/load-prompt
+2025-12-24 19:11:56 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2025-12-24 19:12:11 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2025-12-24 19:12:39 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2025-12-24 19:12:50 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2025-12-24 19:15:58 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2025-12-24 19:16:04 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=fb78d069-d684-45b8-b76c-cd6bcb1e2dd3&chatType=INTERNAL
+2025-12-24 19:16:28 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2025-12-24 19:19:22 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
