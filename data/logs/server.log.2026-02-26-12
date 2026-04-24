@@ -1,0 +1,20 @@
+2026-02-26 12:24:45 [INFO]: Starting Flowise...
+2026-02-26 12:24:45 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-02-26 12:24:45 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-02-26 12:24:45 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-02-26 12:24:48 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-02-26 12:24:48 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-02-26 12:24:48 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-02-26 12:24:48 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-02-26 12:24:48 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-02-26 12:24:48 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-02-26 12:24:48 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-02-26 12:24:48 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-02-26 12:24:48 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-02-26 12:24:48 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-02-26 12:25:28 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-26 12:25:28 [INFO]: [server]: Request originated from http://localhost:8080
+2026-02-26 12:25:59 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-26 12:25:59 [INFO]: [server]: Request originated from http://localhost:8080
+2026-02-26 12:30:17 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-26 12:30:17 [INFO]: [server]: Request originated from http://localhost:8080

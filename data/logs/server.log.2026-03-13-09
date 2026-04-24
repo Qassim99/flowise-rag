@@ -1,0 +1,31 @@
+2026-03-13 09:02:02 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-13 09:02:12 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=7ab4cc92-7720-4473-9589-fa52ccfa476d&chatType=INTERNAL
+2026-03-13 09:02:15 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-13 09:03:53 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-13 09:04:13 [INFO]: ❌ DELETE /api/v1/chatmessage/b4ba85a6-8a9c-4122-a9e5-0028a7841293?chatId=d166ae7c-70c8-4cd0-84f6-4dd95e5f3563&chatType=INTERNAL
+2026-03-13 09:04:17 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-13 09:07:24 [INFO]: ❌ DELETE /api/v1/chatmessage/b4ba85a6-8a9c-4122-a9e5-0028a7841293?chatId=fcbd802e-f8db-49f9-84d5-e81c891d8b41&chatType=INTERNAL
+2026-03-13 09:07:35 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-03-13 09:07:58 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-03-13 09:09:38 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-13 09:12:22 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-13 09:12:22 [INFO]: [server]: Request originated from http://localhost:8080
+2026-03-13 09:14:13 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-13 09:14:13 [INFO]: [server]: Request originated from http://localhost:8080
+2026-03-13 09:15:49 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-13 09:15:49 [INFO]: [server]: Request originated from http://localhost:8080
+2026-03-13 09:37:08 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-03-13 09:38:26 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-03-13 09:38:26 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-03-13 09:38:51 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-03-13 09:38:51 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-03-13 09:38:51 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-03-13 09:38:51 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-03-13 09:38:51 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-03-13 09:38:51 [INFO]: ⬆️ POST /api/v1/node-load-method/ChatflowTool
+2026-03-13 09:47:59 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-03-13 09:49:57 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-13 09:49:57 [INFO]: [server]: Request originated from http://localhost:8080
+2026-03-13 09:51:52 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-13 09:51:52 [INFO]: [server]: Request originated from http://localhost:8080
+2026-03-13 09:55:13 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293

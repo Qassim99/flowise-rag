@@ -1,0 +1,38 @@
+2025-12-24 22:05:46 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2025-12-24 22:06:00 [INFO]: ⬆️ POST /api/v1/vector/internal-upsert/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2025-12-24 22:10:50 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Error: Chroma getOrCreateCollection error: ChromaConnectionError: Failed to connect to chromadb. Make sure your server is running and try again. If you are running from a browser, make sure that your chromadb instance is configured to allow requests from the current origin using the CHROMA_SERVER_CORS_ALLOW_ORIGINS environment variable.
+Error: Error: Chroma getOrCreateCollection error: ChromaConnectionError: Failed to connect to chromadb. Make sure your server is running and try again. If you are running from a browser, make sure that your chromadb instance is configured to allow requests from the current origin using the CHROMA_SERVER_CORS_ALLOW_ORIGINS environment variable.
+    at Chroma_VectorStores.upsert (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/vectorstores/Chroma/Chroma.js:52:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:464:37)
+    at async executeUpsert (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:143:28)
+    at async upsertVector (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:272:28)
+    at async Object.upsertVectorMiddleware (/usr/local/lib/node_modules/flowise/dist/services/vectors/index.js:9:16)
+    at async createInternalUpsert (/usr/local/lib/node_modules/flowise/dist/controllers/vectors/index.js:28:29)
+2025-12-24 22:10:50 [ERROR]: [server]: Error: Error: Error: Chroma getOrCreateCollection error: ChromaConnectionError: Failed to connect to chromadb. Make sure your server is running and try again. If you are running from a browser, make sure that your chromadb instance is configured to allow requests from the current origin using the CHROMA_SERVER_CORS_ALLOW_ORIGINS environment variable.
+Error: Error: Error: Chroma getOrCreateCollection error: ChromaConnectionError: Failed to connect to chromadb. Make sure your server is running and try again. If you are running from a browser, make sure that your chromadb instance is configured to allow requests from the current origin using the CHROMA_SERVER_CORS_ALLOW_ORIGINS environment variable.
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeUpsert (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:143:28)
+    at async upsertVector (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:272:28)
+    at async Object.upsertVectorMiddleware (/usr/local/lib/node_modules/flowise/dist/services/vectors/index.js:9:16)
+    at async createInternalUpsert (/usr/local/lib/node_modules/flowise/dist/controllers/vectors/index.js:28:29)
+2025-12-24 22:23:27 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2025-12-24 22:23:47 [INFO]: ⬆️ POST /api/v1/vector/internal-upsert/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2025-12-24 22:29:09 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2025-12-24 22:31:30 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2025-12-24 22:33:14 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=6b17c15d-e414-4d91-bbc3-e29a96077fae&chatType=INTERNAL
+2025-12-24 22:33:21 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2025-12-24 22:33:51 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2025-12-24 22:34:21 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2025-12-24 22:35:37 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2025-12-24 22:36:17 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2025-12-24 22:36:27 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=81069677-d10c-4397-8289-45e9f386a2ab&chatType=INTERNAL
+2025-12-24 22:36:35 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2025-12-24 22:37:47 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2025-12-24 22:39:39 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2025-12-24 22:40:07 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2025-12-24 22:41:38 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2025-12-24 22:42:48 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2025-12-24 22:43:10 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2025-12-24 22:46:26 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa

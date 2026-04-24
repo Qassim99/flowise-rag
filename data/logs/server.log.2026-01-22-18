@@ -1,0 +1,29 @@
+2026-01-22 18:14:39 [INFO]: ⬆️ POST /api/v1/vector/internal-upsert/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 18:15:50 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 18:15:54 [INFO]: ⬆️ POST /api/v1/vector/internal-upsert/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 18:20:31 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 18:20:34 [INFO]: ⬆️ POST /api/v1/vector/internal-upsert/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 18:20:37 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: TypeError: this.embeddings.embedDocuments is not a function
+Error: TypeError: this.embeddings.embedDocuments is not a function
+    at Elasticsearch_VectorStores.upsert (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/vectorstores/Elasticsearch/Elasticsearch.js:62:27)
+    at async buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:464:37)
+    at async executeUpsert (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:143:28)
+    at async upsertVector (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:272:28)
+    at async Object.upsertVectorMiddleware (/usr/local/lib/node_modules/flowise/dist/services/vectors/index.js:9:16)
+    at async createInternalUpsert (/usr/local/lib/node_modules/flowise/dist/controllers/vectors/index.js:28:29)
+2026-01-22 18:20:37 [ERROR]: [server]: Error: Error: TypeError: this.embeddings.embedDocuments is not a function
+Error: Error: TypeError: this.embeddings.embedDocuments is not a function
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at async executeUpsert (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:143:28)
+    at async upsertVector (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:272:28)
+    at async Object.upsertVectorMiddleware (/usr/local/lib/node_modules/flowise/dist/services/vectors/index.js:9:16)
+    at async createInternalUpsert (/usr/local/lib/node_modules/flowise/dist/controllers/vectors/index.js:28:29)
+2026-01-22 18:21:14 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 18:22:02 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 18:26:01 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 18:26:18 [INFO]: ⬆️ POST /api/v1/vector/internal-upsert/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 18:37:12 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 18:37:29 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=8eb94084-c5d3-4182-8a0a-6aa71aab9d57&chatType=INTERNAL
+2026-01-22 18:38:04 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 18:43:31 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-22 18:46:08 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa

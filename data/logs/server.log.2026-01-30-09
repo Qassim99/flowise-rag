@@ -1,0 +1,75 @@
+2026-01-30 09:05:28 [INFO]: Starting Flowise...
+2026-01-30 09:05:28 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-01-30 09:05:28 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-01-30 09:05:28 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-01-30 09:05:30 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-01-30 09:05:30 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-01-30 09:05:30 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-01-30 09:05:30 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-01-30 09:05:30 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-01-30 09:05:30 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-01-30 09:05:30 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-01-30 09:05:30 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-01-30 09:05:30 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-01-30 09:05:30 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-01-30 09:05:41 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-01-30 09:05:41 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-01-30 09:05:45 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-01-30 09:06:23 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-01-30 09:06:27 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 09:06:30 [INFO]: ⬆️ POST /api/v1/internal-prediction/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 09:06:31 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Error: Condition `conditionalEdge` already present for node `__start__`
+Error: Condition `conditionalEdge` already present for node `__start__`
+    at buildAgentGraph (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentGraph.js:348:19)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:418:31)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 09:06:31 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62/5a9cd0d3-3310-499a-ad31-759b1c990f08 Error: Error buildAgentGraph - Condition `conditionalEdge` already present for node `__start__`
+Error: Error buildAgentGraph - Condition `conditionalEdge` already present for node `__start__`
+    at buildAgentGraph (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentGraph.js:354:15)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:418:31)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 09:07:35 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 09:07:41 [INFO]: ⬆️ POST /api/v1/internal-prediction/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 09:07:42 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Error: Condition `conditionalEdge` already present for node `__start__`
+Error: Condition `conditionalEdge` already present for node `__start__`
+    at buildAgentGraph (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentGraph.js:348:19)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:418:31)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 09:07:42 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62/05c5cbc2-59a3-4eca-ae61-9b424ef57732 Error: Error buildAgentGraph - Condition `conditionalEdge` already present for node `__start__`
+Error: Error buildAgentGraph - Condition `conditionalEdge` already present for node `__start__`
+    at buildAgentGraph (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentGraph.js:354:15)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:418:31)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 09:11:19 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 09:19:27 [INFO]: ⬆️ POST /api/v1/internal-prediction/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 09:19:28 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Error: Condition `conditionalEdge` already present for node `__start__`
+Error: Condition `conditionalEdge` already present for node `__start__`
+    at buildAgentGraph (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentGraph.js:348:19)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:418:31)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 09:19:28 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62/fd030038-8e5c-4f4c-a50b-e8a7ef1544df Error: Error buildAgentGraph - Condition `conditionalEdge` already present for node `__start__`
+Error: Error buildAgentGraph - Condition `conditionalEdge` already present for node `__start__`
+    at buildAgentGraph (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentGraph.js:354:15)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:418:31)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 09:24:01 [INFO]: 🖊 PUT /api/v1/chatflows/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 09:26:18 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-01-30 09:26:51 [INFO]: ⬆️ POST /api/v1/internal-prediction/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62
+2026-01-30 09:26:52 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Error: Condition `conditionalEdge` already present for node `__start__`
+Error: Condition `conditionalEdge` already present for node `__start__`
+    at buildAgentGraph (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentGraph.js:348:19)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:418:31)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-30 09:26:52 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/e7e7f7cf-826b-46d7-b27a-e3f1b3a0fe62/883e0281-9a9f-4b85-96cf-283470f0b709 Error: Error buildAgentGraph - Condition `conditionalEdge` already present for node `__start__`
+Error: Error buildAgentGraph - Condition `conditionalEdge` already present for node `__start__`
+    at buildAgentGraph (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentGraph.js:354:15)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:418:31)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)

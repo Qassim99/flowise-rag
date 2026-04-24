@@ -1,0 +1,229 @@
+2026-04-16 13:02:15 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 13:07:21 [INFO]: ⬆️ POST /api/v1/chatflows
+2026-04-16 13:07:45 [INFO]: 🖊 PUT /api/v1/chatflows/5cc5a5f2-64c2-46f7-a34c-bdd47831464a
+2026-04-16 13:10:56 [INFO]: ⬆️ POST /api/v1/node-load-method/awsBedrockKBRetriever
+2026-04-16 13:11:56 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-04-16 13:13:05 [INFO]: 🖊 PUT /api/v1/chatflows/5cc5a5f2-64c2-46f7-a34c-bdd47831464a
+2026-04-16 13:13:37 [INFO]: 🖊 PUT /api/v1/chatflows/5cc5a5f2-64c2-46f7-a34c-bdd47831464a
+2026-04-16 13:13:42 [INFO]: ⬆️ POST /api/v1/internal-prediction/5cc5a5f2-64c2-46f7-a34c-bdd47831464a
+2026-04-16 13:13:43 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/5cc5a5f2-64c2-46f7-a34c-bdd47831464a/b67fb371-90ae-433e-ac2c-5eaa0cd0f8f8 Error: 401 Incorrect API key provided: sk-or-v1*************************************************************b7ff. You can find your API key at https://platform.openai.com/account/api-keys.
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+Error: 401 Incorrect API key provided: sk-or-v1*************************************************************b7ff. You can find your API key at https://platform.openai.com/account/api-keys.
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+    at APIError.generate (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/core/error.js:48:20)
+    at OpenAI.makeStatusError (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:163:32)
+    at OpenAI.makeRequest (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:331:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/dist/embeddings.cjs:185:29
+    at async RetryOperation._fn (/usr/local/lib/node_modules/flowise/node_modules/p-retry/index.js:50:12)
+2026-04-16 13:14:05 [INFO]: 🖊 PUT /api/v1/chatflows/5cc5a5f2-64c2-46f7-a34c-bdd47831464a
+2026-04-16 13:14:27 [INFO]: ⬆️ POST /api/v1/internal-prediction/5cc5a5f2-64c2-46f7-a34c-bdd47831464a
+2026-04-16 13:14:32 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/5cc5a5f2-64c2-46f7-a34c-bdd47831464a/f80e4aad-29d6-4331-88a7-8d1b7255ed19 Error: 401 Incorrect API key provided: sk-or-v1*************************************************************b7ff. You can find your API key at https://platform.openai.com/account/api-keys.
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+Error: 401 Incorrect API key provided: sk-or-v1*************************************************************b7ff. You can find your API key at https://platform.openai.com/account/api-keys.
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+    at APIError.generate (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/core/error.js:48:20)
+    at OpenAI.makeStatusError (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:163:32)
+    at OpenAI.makeRequest (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:331:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/dist/embeddings.cjs:185:29
+    at async RetryOperation._fn (/usr/local/lib/node_modules/flowise/node_modules/p-retry/index.js:50:12)
+2026-04-16 13:14:48 [INFO]: 🖊 PUT /api/v1/chatflows/5cc5a5f2-64c2-46f7-a34c-bdd47831464a
+2026-04-16 13:14:53 [INFO]: ⬆️ POST /api/v1/internal-prediction/5cc5a5f2-64c2-46f7-a34c-bdd47831464a
+2026-04-16 13:14:55 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/5cc5a5f2-64c2-46f7-a34c-bdd47831464a/5793648d-3be2-4977-b84f-d29217c475d0 Error: 401 Incorrect API key provided: sk-or-v1*************************************************************b7ff. You can find your API key at https://platform.openai.com/account/api-keys.
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+Error: 401 Incorrect API key provided: sk-or-v1*************************************************************b7ff. You can find your API key at https://platform.openai.com/account/api-keys.
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+    at APIError.generate (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/core/error.js:48:20)
+    at OpenAI.makeStatusError (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:163:32)
+    at OpenAI.makeRequest (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:331:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/dist/embeddings.cjs:185:29
+    at async RetryOperation._fn (/usr/local/lib/node_modules/flowise/node_modules/p-retry/index.js:50:12)
+2026-04-16 13:15:08 [INFO]: ⬆️ POST /api/v1/internal-prediction/5cc5a5f2-64c2-46f7-a34c-bdd47831464a
+2026-04-16 13:15:09 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/5cc5a5f2-64c2-46f7-a34c-bdd47831464a/627b5144-4726-43fb-9412-24052ae53468 Error: 401 Incorrect API key provided: sk-or-v1*************************************************************b7ff. You can find your API key at https://platform.openai.com/account/api-keys.
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+Error: 401 Incorrect API key provided: sk-or-v1*************************************************************b7ff. You can find your API key at https://platform.openai.com/account/api-keys.
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+    at APIError.generate (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/core/error.js:48:20)
+    at OpenAI.makeStatusError (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:163:32)
+    at OpenAI.makeRequest (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:331:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/dist/embeddings.cjs:185:29
+    at async RetryOperation._fn (/usr/local/lib/node_modules/flowise/node_modules/p-retry/index.js:50:12)
+2026-04-16 13:15:14 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-04-16 13:15:21 [INFO]: ⬆️ POST /api/v1/internal-prediction/55a0ac0f-4c95-48c1-bdeb-f26a457fa539
+2026-04-16 13:15:42 [INFO]: ⬆️ POST /api/v1/internal-prediction/5cc5a5f2-64c2-46f7-a34c-bdd47831464a
+2026-04-16 13:15:43 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/5cc5a5f2-64c2-46f7-a34c-bdd47831464a/49ac30f7-a92f-4e3f-adf2-94d1a0a12988 Error: 401 Incorrect API key provided: sk-or-v1*************************************************************b7ff. You can find your API key at https://platform.openai.com/account/api-keys.
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+Error: 401 Incorrect API key provided: sk-or-v1*************************************************************b7ff. You can find your API key at https://platform.openai.com/account/api-keys.
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+    at APIError.generate (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/core/error.js:48:20)
+    at OpenAI.makeStatusError (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:163:32)
+    at OpenAI.makeRequest (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:331:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/dist/embeddings.cjs:185:29
+    at async RetryOperation._fn (/usr/local/lib/node_modules/flowise/node_modules/p-retry/index.js:50:12)
+2026-04-16 13:16:46 [INFO]: 🖊 PUT /api/v1/chatflows/5cc5a5f2-64c2-46f7-a34c-bdd47831464a
+2026-04-16 13:17:14 [INFO]: ⬆️ POST /api/v1/internal-prediction/5cc5a5f2-64c2-46f7-a34c-bdd47831464a
+2026-04-16 13:17:16 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/5cc5a5f2-64c2-46f7-a34c-bdd47831464a/ecc04551-f347-432e-adf1-737d523d2455 Error: 401 User not found.
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+Error: 401 User not found.
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+    at APIError.generate (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/core/error.js:48:20)
+    at OpenAI.makeStatusError (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:163:32)
+    at OpenAI.makeRequest (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:331:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/dist/chat_models.cjs:1933:28
+    at async RetryOperation._fn (/usr/local/lib/node_modules/flowise/node_modules/p-retry/index.js:50:12)
+2026-04-16 13:17:38 [INFO]: 🖊 PUT /api/v1/chatflows/5cc5a5f2-64c2-46f7-a34c-bdd47831464a
+2026-04-16 13:17:51 [INFO]: 🖊 PUT /api/v1/chatflows/5cc5a5f2-64c2-46f7-a34c-bdd47831464a
+2026-04-16 13:17:56 [INFO]: ⬆️ POST /api/v1/internal-prediction/5cc5a5f2-64c2-46f7-a34c-bdd47831464a
+2026-04-16 13:18:02 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/5cc5a5f2-64c2-46f7-a34c-bdd47831464a/a1b00f9c-ae84-460f-8e7e-f70fe1156e0d Error: 401 User not found.
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+Error: 401 User not found.
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+    at APIError.generate (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/core/error.js:48:20)
+    at OpenAI.makeStatusError (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:163:32)
+    at OpenAI.makeRequest (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:331:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/dist/chat_models.cjs:1933:28
+    at async RetryOperation._fn (/usr/local/lib/node_modules/flowise/node_modules/p-retry/index.js:50:12)
+2026-04-16 13:18:22 [INFO]: 🖊 PUT /api/v1/chatflows/5cc5a5f2-64c2-46f7-a34c-bdd47831464a
+2026-04-16 13:18:28 [INFO]: ⬆️ POST /api/v1/internal-prediction/5cc5a5f2-64c2-46f7-a34c-bdd47831464a
+2026-04-16 13:18:28 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Expected a Runnable, function or object.
+Instead got an unsupported type.
+Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+    at _coerceToRunnable (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:2125:15)
+    at _coerceToRunnable (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:2118:30)
+    at RunnableBinding.pipe (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:370:19)
+    at createRetrieverChain (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:258:53)
+    at createChain (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:289:28)
+    at ConversationalRetrievalQAChain_Chains.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:133:29)
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:58)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:389:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-16 13:18:28 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/5cc5a5f2-64c2-46f7-a34c-bdd47831464a/7887d74e-4f7a-4ccf-bcaf-6c580799cb54 Error: Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+Error: Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:389:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-16 13:18:40 [INFO]: 🖊 PUT /api/v1/chatflows/5cc5a5f2-64c2-46f7-a34c-bdd47831464a
+2026-04-16 13:18:44 [INFO]: ⬆️ POST /api/v1/internal-prediction/5cc5a5f2-64c2-46f7-a34c-bdd47831464a
+2026-04-16 13:18:48 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/5cc5a5f2-64c2-46f7-a34c-bdd47831464a/ccbdc58f-fac8-4dce-8add-1b0869e7383d Error: 401 User not found.
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+Error: 401 User not found.
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+    at APIError.generate (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/core/error.js:48:20)
+    at OpenAI.makeStatusError (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:163:32)
+    at OpenAI.makeRequest (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:331:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/dist/chat_models.cjs:1933:28
+    at async RetryOperation._fn (/usr/local/lib/node_modules/flowise/node_modules/p-retry/index.js:50:12)
+2026-04-16 13:19:10 [INFO]: 🖊 PUT /api/v1/chatflows/5cc5a5f2-64c2-46f7-a34c-bdd47831464a
+2026-04-16 13:19:18 [INFO]: ⬆️ POST /api/v1/internal-prediction/5cc5a5f2-64c2-46f7-a34c-bdd47831464a
+2026-04-16 13:19:45 [INFO]: ❌ DELETE /api/v1/credentials/f3bc614d-2d88-4d2e-9005-6e7ff10f6e5d
+2026-04-16 13:19:52 [INFO]: ❌ DELETE /api/v1/credentials/d84d42e1-3df5-45e2-b861-aaf5fc848c24
+2026-04-16 13:19:58 [INFO]: ❌ DELETE /api/v1/credentials/58548e79-b7c7-447f-b527-1b87c2788647
+2026-04-16 13:20:01 [INFO]: ❌ DELETE /api/v1/credentials/7f05a42a-be27-43e1-a297-2af7afe72d25
+2026-04-16 13:20:07 [INFO]: ❌ DELETE /api/v1/credentials/4e34b5d7-d7ac-43ef-aa40-0d63f3b915f1
+2026-04-16 13:20:10 [INFO]: ❌ DELETE /api/v1/credentials/502d3437-2998-4f1a-b163-0b01128cb0dc
+2026-04-16 13:20:13 [INFO]: ❌ DELETE /api/v1/credentials/647b37f5-eb00-4547-8eb3-deb789debadf
+2026-04-16 13:20:21 [INFO]: ❌ DELETE /api/v1/credentials/24cfde04-f888-416c-8e81-42e71c3b75ee
+2026-04-16 13:20:43 [INFO]: 🖊 PUT /api/v1/chatflows/5cc5a5f2-64c2-46f7-a34c-bdd47831464a
+2026-04-16 13:22:29 [INFO]: 🖊 PUT /api/v1/chatflows/5cc5a5f2-64c2-46f7-a34c-bdd47831464a
+2026-04-16 13:23:06 [INFO]: 🖊 PUT /api/v1/chatflows/5cc5a5f2-64c2-46f7-a34c-bdd47831464a
+2026-04-16 13:23:30 [INFO]: ❌ DELETE /api/v1/chatmessage/5cc5a5f2-64c2-46f7-a34c-bdd47831464a?chatId=c8186351-b08b-4d46-afb1-84e9bbb8c702&chatType=INTERNAL
+2026-04-16 13:23:35 [INFO]: ⬆️ POST /api/v1/internal-prediction/5cc5a5f2-64c2-46f7-a34c-bdd47831464a
+2026-04-16 13:23:41 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/5cc5a5f2-64c2-46f7-a34c-bdd47831464a/bf04fb37-e5b1-4696-a67d-7d6bd34af562 Error: Bad Request
+Error: Bad Request
+    at Object.fun [as searchPoints] (/usr/local/lib/node_modules/flowise/node_modules/@qdrant/openapi-typescript-fetch/dist/cjs/fetcher.js:172:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async QdrantClient.search (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/node_modules/@qdrant/js-client-rest/dist/cjs/qdrant-client.js:170:26)
+    at async QdrantVectorStore.similaritySearchVectorWithScore (/usr/local/lib/node_modules/flowise/node_modules/@langchain/qdrant/dist/vectorstores.cjs:137:25)
+    at async DynamicMetadataRetriever.getRelevantDocuments (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/retrievers/ExtractMetadataRetriever/ExtractMetadataRetriever.js:154:25)
+    at async DynamicMetadataRetriever._streamIterator (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:173:9)
+    at async DynamicMetadataRetriever.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:410:9)
+    at async RunnableSequence._streamIterator (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1369:30)
+2026-04-16 13:24:01 [INFO]: 🖊 PUT /api/v1/chatflows/5cc5a5f2-64c2-46f7-a34c-bdd47831464a
+2026-04-16 13:24:06 [INFO]: ⬆️ POST /api/v1/internal-prediction/5cc5a5f2-64c2-46f7-a34c-bdd47831464a
+2026-04-16 13:24:09 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/5cc5a5f2-64c2-46f7-a34c-bdd47831464a/bada5ea5-4a3d-4aca-aafb-201b92ff99a6 Error: Bad Request
+Error: Bad Request
+    at Object.fun [as searchPoints] (/usr/local/lib/node_modules/flowise/node_modules/@qdrant/openapi-typescript-fetch/dist/cjs/fetcher.js:172:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async QdrantClient.search (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/node_modules/@qdrant/js-client-rest/dist/cjs/qdrant-client.js:170:26)
+    at async QdrantVectorStore.similaritySearchVectorWithScore (/usr/local/lib/node_modules/flowise/node_modules/@langchain/qdrant/dist/vectorstores.cjs:137:25)
+    at async DynamicMetadataRetriever.getRelevantDocuments (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/retrievers/ExtractMetadataRetriever/ExtractMetadataRetriever.js:154:25)
+    at async DynamicMetadataRetriever._streamIterator (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:173:9)
+    at async DynamicMetadataRetriever.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:410:9)
+    at async RunnableSequence._streamIterator (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1369:30)
+2026-04-16 13:25:34 [INFO]: 🖊 PUT /api/v1/chatflows/5cc5a5f2-64c2-46f7-a34c-bdd47831464a
+2026-04-16 13:25:46 [INFO]: ⬆️ POST /api/v1/internal-prediction/5cc5a5f2-64c2-46f7-a34c-bdd47831464a
+2026-04-16 13:25:50 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/5cc5a5f2-64c2-46f7-a34c-bdd47831464a/3007e228-2e58-462a-85c8-632510ad3816 Error: Bad Request
+Error: Bad Request
+    at Object.fun [as searchPoints] (/usr/local/lib/node_modules/flowise/node_modules/@qdrant/openapi-typescript-fetch/dist/cjs/fetcher.js:172:23)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async QdrantClient.search (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/node_modules/@qdrant/js-client-rest/dist/cjs/qdrant-client.js:170:26)
+    at async QdrantVectorStore.similaritySearchVectorWithScore (/usr/local/lib/node_modules/flowise/node_modules/@langchain/qdrant/dist/vectorstores.cjs:137:25)
+    at async DynamicMetadataRetriever.getRelevantDocuments (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/retrievers/ExtractMetadataRetriever/ExtractMetadataRetriever.js:154:25)
+    at async DynamicMetadataRetriever._streamIterator (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:173:9)
+    at async DynamicMetadataRetriever.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:410:9)
+    at async RunnableSequence._streamIterator (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1369:30)
+2026-04-16 13:26:21 [INFO]: 🖊 PUT /api/v1/chatflows/5cc5a5f2-64c2-46f7-a34c-bdd47831464a
+2026-04-16 13:29:57 [INFO]: 🖊 PUT /api/v1/chatflows/5cc5a5f2-64c2-46f7-a34c-bdd47831464a
+2026-04-16 13:31:42 [INFO]: 🖊 PUT /api/v1/chatflows/5cc5a5f2-64c2-46f7-a34c-bdd47831464a
+2026-04-16 13:31:49 [INFO]: ⬆️ POST /api/v1/internal-prediction/5cc5a5f2-64c2-46f7-a34c-bdd47831464a
+2026-04-16 13:32:34 [INFO]: 🖊 PUT /api/v1/chatflows/5cc5a5f2-64c2-46f7-a34c-bdd47831464a
+2026-04-16 13:34:16 [INFO]: 🖊 PUT /api/v1/chatflows/5cc5a5f2-64c2-46f7-a34c-bdd47831464a
+2026-04-16 13:34:47 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 13:34:59 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 13:34:59 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 13:36:00 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 13:36:01 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 13:36:01 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 13:36:34 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 13:36:34 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 13:36:36 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-16 13:36:36 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-04-16 13:36:36 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-04-16 13:36:36 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-04-16 13:36:43 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 13:36:50 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-16 13:44:10 [INFO]: ⬆️ POST /api/v1/auth/resolve

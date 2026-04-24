@@ -1,0 +1,41 @@
+2026-04-23 17:19:17 [INFO]: Starting Flowise...
+2026-04-23 17:19:17 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-04-23 17:19:17 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-04-23 17:19:17 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-04-23 17:19:18 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-04-23 17:19:18 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-04-23 17:19:18 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-04-23 17:19:18 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-04-23 17:19:18 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-04-23 17:19:18 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-04-23 17:19:18 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-04-23 17:19:18 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-04-23 17:19:18 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-04-23 17:19:18 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-04-23 17:21:42 [INFO]: ⬆️ POST /api/v1/variables
+2026-04-23 17:21:47 [INFO]: ❌ DELETE /api/v1/variables/14aa7d1b-419e-4532-a1ea-3a41e69dcb46
+2026-04-23 17:22:16 [INFO]: ⬆️ POST /api/v1/variables
+2026-04-23 17:22:52 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-23 17:24:39 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-23 17:24:39 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-23 17:24:39 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-23 17:24:39 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-23 17:25:06 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-23 17:25:21 [INFO]: 🖊 PUT /api/v1/variables/919522ab-6505-4c58-971b-24c916650377
+2026-04-23 17:25:35 [INFO]: ❌ DELETE /api/v1/chatmessage/616c4ca5-330c-4068-bbd0-1d8fa9889449?chatId=d13a8a9a-16a3-42c2-9a9b-4029a9f78ef1&chatType=INTERNAL
+2026-04-23 17:25:38 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-23 17:25:44 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: 400 $vars.model is not a valid model ID
+2026-04-23 17:25:44 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/88aed5f7-7378-4798-9dbe-56dfeb039248 Error: Error in LLM node: 400 $vars.model is not a valid model ID
+Error: Error in LLM node: 400 $vars.model is not a valid model ID
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-23 17:25:49 [INFO]: ❌ DELETE /api/v1/chatmessage/616c4ca5-330c-4068-bbd0-1d8fa9889449?chatId=88aed5f7-7378-4798-9dbe-56dfeb039248&chatType=INTERNAL
+2026-04-23 17:25:52 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-04-23 17:25:58 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-04-23 17:25:58 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-23 17:25:58 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-23 17:25:58 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-23 17:27:05 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-23 17:27:09 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-23 17:27:15 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449

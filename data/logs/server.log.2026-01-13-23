@@ -1,0 +1,535 @@
+2026-01-13 23:07:22 [INFO]: 🖊 PUT /api/v1/credentials/647b37f5-eb00-4547-8eb3-deb789debadf
+2026-01-13 23:07:26 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 23:07:28 [INFO]: ⬆️ POST /api/v1/vector/internal-upsert/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 23:08:34 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: ConnectionError: 4802DAC54F760000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:354:
+
+Error: ConnectionError: 4802DAC54F760000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:354:
+
+    at Elasticsearch_VectorStores.upsert (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/vectorstores/Elasticsearch/Elasticsearch.js:62:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:464:37)
+    at async executeUpsert (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:143:28)
+    at async upsertVector (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:272:28)
+    at async Object.upsertVectorMiddleware (/usr/local/lib/node_modules/flowise/dist/services/vectors/index.js:9:16)
+    at async createInternalUpsert (/usr/local/lib/node_modules/flowise/dist/controllers/vectors/index.js:28:29)
+2026-01-13 23:08:34 [ERROR]: [server]: Error: Error: ConnectionError: 4802DAC54F760000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:354:
+
+Error: Error: ConnectionError: 4802DAC54F760000:error:0A00010B:SSL routines:ssl3_get_record:wrong version number:../deps/openssl/openssl/ssl/record/ssl3_record.c:354:
+
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeUpsert (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:143:28)
+    at async upsertVector (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:272:28)
+    at async Object.upsertVectorMiddleware (/usr/local/lib/node_modules/flowise/dist/services/vectors/index.js:9:16)
+    at async createInternalUpsert (/usr/local/lib/node_modules/flowise/dist/controllers/vectors/index.js:28:29)
+2026-01-13 23:09:18 [INFO]: 🖊 PUT /api/v1/credentials/647b37f5-eb00-4547-8eb3-deb789debadf
+2026-01-13 23:09:21 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 23:09:27 [INFO]: ⬆️ POST /api/v1/vector/internal-upsert/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 23:10:17 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: ResponseError
+Error: ResponseError
+    at Elasticsearch_VectorStores.upsert (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/vectorstores/Elasticsearch/Elasticsearch.js:62:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:464:37)
+    at async executeUpsert (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:143:28)
+    at async upsertVector (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:272:28)
+    at async Object.upsertVectorMiddleware (/usr/local/lib/node_modules/flowise/dist/services/vectors/index.js:9:16)
+    at async createInternalUpsert (/usr/local/lib/node_modules/flowise/dist/controllers/vectors/index.js:28:29)
+2026-01-13 23:10:17 [ERROR]: [server]: Error: Error: ResponseError
+Error: Error: ResponseError
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeUpsert (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:143:28)
+    at async upsertVector (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:272:28)
+    at async Object.upsertVectorMiddleware (/usr/local/lib/node_modules/flowise/dist/services/vectors/index.js:9:16)
+    at async createInternalUpsert (/usr/local/lib/node_modules/flowise/dist/controllers/vectors/index.js:28:29)
+2026-01-13 23:15:09 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 23:15:11 [INFO]: ⬆️ POST /api/v1/vector/internal-upsert/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 23:15:55 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: ResponseError
+Error: ResponseError
+    at Elasticsearch_VectorStores.upsert (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/vectorstores/Elasticsearch/Elasticsearch.js:62:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:464:37)
+    at async executeUpsert (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:143:28)
+    at async upsertVector (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:272:28)
+    at async Object.upsertVectorMiddleware (/usr/local/lib/node_modules/flowise/dist/services/vectors/index.js:9:16)
+    at async createInternalUpsert (/usr/local/lib/node_modules/flowise/dist/controllers/vectors/index.js:28:29)
+2026-01-13 23:15:55 [ERROR]: [server]: Error: Error: ResponseError
+Error: Error: ResponseError
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeUpsert (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:143:28)
+    at async upsertVector (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:272:28)
+    at async Object.upsertVectorMiddleware (/usr/local/lib/node_modules/flowise/dist/services/vectors/index.js:9:16)
+    at async createInternalUpsert (/usr/local/lib/node_modules/flowise/dist/controllers/vectors/index.js:28:29)
+2026-01-13 23:16:37 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 23:16:42 [INFO]: ⬆️ POST /api/v1/vector/internal-upsert/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 23:18:26 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 23:18:34 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=0caa3766-d72b-4e80-831f-a896a139540d&chatType=INTERNAL
+2026-01-13 23:18:39 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=24d59f67-d368-401c-96e3-c919848fb0de&chatType=INTERNAL
+2026-01-13 23:18:45 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 23:18:45 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Expected a Runnable, function or object.
+Instead got an unsupported type.
+Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+    at _coerceToRunnable (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:2125:15)
+    at _coerceToRunnable (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:2118:30)
+    at RunnableBinding.pipe (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:370:19)
+    at createRetrieverChain (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:258:53)
+    at createChain (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:289:28)
+    at ConversationalRetrievalQAChain_Chains.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:133:29)
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:26:33)
+2026-01-13 23:18:45 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/7e708632-6ee7-46a0-814b-f9bad35ea8fa/01b9ae69-83e6-46ba-8d99-c43d25c66ab8 Error: Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+Error: Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:26:33)
+2026-01-13 23:19:02 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=01b9ae69-83e6-46ba-8d99-c43d25c66ab8&chatType=INTERNAL
+2026-01-13 23:19:09 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 23:19:09 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Expected a Runnable, function or object.
+Instead got an unsupported type.
+Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+    at _coerceToRunnable (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:2125:15)
+    at _coerceToRunnable (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:2118:30)
+    at RunnableBinding.pipe (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:370:19)
+    at createRetrieverChain (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:258:53)
+    at createChain (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:289:28)
+    at ConversationalRetrievalQAChain_Chains.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:133:29)
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:26:33)
+2026-01-13 23:19:09 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/7e708632-6ee7-46a0-814b-f9bad35ea8fa/26b31b7e-5c14-4af6-bb6f-73036018acd7 Error: Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+Error: Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:26:33)
+2026-01-13 23:19:49 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 23:19:49 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Expected a Runnable, function or object.
+Instead got an unsupported type.
+Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+    at _coerceToRunnable (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:2125:15)
+    at _coerceToRunnable (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:2118:30)
+    at RunnableBinding.pipe (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:370:19)
+    at createRetrieverChain (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:258:53)
+    at createChain (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:289:28)
+    at ConversationalRetrievalQAChain_Chains.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:133:29)
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:26:33)
+2026-01-13 23:19:49 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/7e708632-6ee7-46a0-814b-f9bad35ea8fa/84f0c3c3-767e-4d15-96aa-1160ffca22bd Error: Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+Error: Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:26:33)
+2026-01-13 23:21:02 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 23:21:02 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Expected a Runnable, function or object.
+Instead got an unsupported type.
+Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+    at _coerceToRunnable (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:2125:15)
+    at _coerceToRunnable (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:2118:30)
+    at RunnableBinding.pipe (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:370:19)
+    at createRetrieverChain (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:258:53)
+    at createChain (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:289:28)
+    at ConversationalRetrievalQAChain_Chains.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:133:29)
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:26:33)
+2026-01-13 23:21:02 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/7e708632-6ee7-46a0-814b-f9bad35ea8fa/f6eaed7e-69bd-425c-ba3b-b1088766c4a2 Error: Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+Error: Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:26:33)
+2026-01-13 23:23:42 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 23:23:48 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 23:23:48 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Expected a Runnable, function or object.
+Instead got an unsupported type.
+Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+    at _coerceToRunnable (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:2125:15)
+    at _coerceToRunnable (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:2118:30)
+    at RunnableBinding.pipe (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:370:19)
+    at createRetrieverChain (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:258:53)
+    at createChain (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:289:28)
+    at ConversationalRetrievalQAChain_Chains.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:133:29)
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:26:33)
+2026-01-13 23:23:48 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/7e708632-6ee7-46a0-814b-f9bad35ea8fa/08aad187-58ce-41f8-b3ec-31f42392ec61 Error: Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+Error: Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:26:33)
+2026-01-13 23:24:07 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 23:24:13 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 23:26:41 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 23:26:41 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Expected a Runnable, function or object.
+Instead got an unsupported type.
+Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+    at _coerceToRunnable (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:2125:15)
+    at _coerceToRunnable (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:2118:30)
+    at RunnableBinding.pipe (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:370:19)
+    at createRetrieverChain (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:258:53)
+    at createChain (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:289:28)
+    at ConversationalRetrievalQAChain_Chains.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:133:29)
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:26:33)
+2026-01-13 23:26:41 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/7e708632-6ee7-46a0-814b-f9bad35ea8fa/586bdf9e-245b-413a-b488-4c3ce6bd2af2 Error: Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+Error: Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:26:33)
+2026-01-13 23:27:15 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 23:27:15 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Expected a Runnable, function or object.
+Instead got an unsupported type.
+Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+    at _coerceToRunnable (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:2125:15)
+    at _coerceToRunnable (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:2118:30)
+    at RunnableBinding.pipe (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:370:19)
+    at createRetrieverChain (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:258:53)
+    at createChain (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:289:28)
+    at ConversationalRetrievalQAChain_Chains.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:133:29)
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:26:33)
+2026-01-13 23:27:15 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/7e708632-6ee7-46a0-814b-f9bad35ea8fa/54d7dcb4-41cb-4823-84be-4b9ab3918290 Error: Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+Error: Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:26:33)
+2026-01-13 23:27:29 [INFO]: Shutting down Flowise...
+2026-01-13 23:28:02 [INFO]: Starting Flowise...
+2026-01-13 23:28:02 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-01-13 23:28:02 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-01-13 23:28:02 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-01-13 23:28:04 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-01-13 23:28:04 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-01-13 23:28:04 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-01-13 23:28:04 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-01-13 23:28:04 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-01-13 23:28:04 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-01-13 23:28:04 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-01-13 23:28:04 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-01-13 23:28:04 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-01-13 23:28:04 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-01-13 23:28:12 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 23:28:13 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Expected a Runnable, function or object.
+Instead got an unsupported type.
+Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+    at _coerceToRunnable (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:2125:15)
+    at _coerceToRunnable (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:2118:30)
+    at RunnableBinding.pipe (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:370:19)
+    at createRetrieverChain (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:258:53)
+    at createChain (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:289:28)
+    at ConversationalRetrievalQAChain_Chains.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:133:29)
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:26:33)
+2026-01-13 23:28:13 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/7e708632-6ee7-46a0-814b-f9bad35ea8fa/17a4b4d8-0377-4f66-b456-fa4651a78948 Error: Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+Error: Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:26:33)
+2026-01-13 23:28:37 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 23:28:37 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Expected a Runnable, function or object.
+Instead got an unsupported type.
+Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+    at _coerceToRunnable (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:2125:15)
+    at _coerceToRunnable (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:2118:30)
+    at RunnableBinding.pipe (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:370:19)
+    at createRetrieverChain (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:258:53)
+    at createChain (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:289:28)
+    at ConversationalRetrievalQAChain_Chains.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:133:29)
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:26:33)
+2026-01-13 23:28:37 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/7e708632-6ee7-46a0-814b-f9bad35ea8fa/21050858-019c-46ce-b9f5-7da692adb761 Error: Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+Error: Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:26:33)
+2026-01-13 23:29:54 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 23:29:54 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Expected a Runnable, function or object.
+Instead got an unsupported type.
+Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+    at _coerceToRunnable (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:2125:15)
+    at _coerceToRunnable (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:2118:30)
+    at RunnableBinding.pipe (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:370:19)
+    at createRetrieverChain (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:258:53)
+    at createChain (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:289:28)
+    at ConversationalRetrievalQAChain_Chains.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:133:29)
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:26:33)
+2026-01-13 23:29:54 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/7e708632-6ee7-46a0-814b-f9bad35ea8fa/6466a9e9-6a04-42e3-8ce6-c142caff9860 Error: Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+Error: Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:26:33)
+2026-01-13 23:32:56 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 23:32:59 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 23:32:59 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Expected a Runnable, function or object.
+Instead got an unsupported type.
+Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+    at _coerceToRunnable (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:2125:15)
+    at _coerceToRunnable (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:2118:30)
+    at RunnableBinding.pipe (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:370:19)
+    at createRetrieverChain (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:258:53)
+    at createChain (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:289:28)
+    at ConversationalRetrievalQAChain_Chains.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:133:29)
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:26:33)
+2026-01-13 23:32:59 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/7e708632-6ee7-46a0-814b-f9bad35ea8fa/885074f5-6ddb-4afd-914a-73c69043fa07 Error: Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+Error: Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:26:33)
+2026-01-13 23:33:40 [INFO]: Shutting down Flowise...
+2026-01-13 23:34:43 [INFO]: Starting Flowise...
+2026-01-13 23:34:43 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-01-13 23:34:43 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-01-13 23:34:43 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-01-13 23:34:46 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-01-13 23:34:46 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-01-13 23:34:46 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-01-13 23:34:46 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-01-13 23:34:46 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-01-13 23:34:46 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-01-13 23:34:46 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-01-13 23:34:46 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-01-13 23:34:46 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-01-13 23:34:46 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-01-13 23:34:50 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-01-13 23:34:57 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-01-13 23:35:05 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 23:35:06 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Expected a Runnable, function or object.
+Instead got an unsupported type.
+Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+    at _coerceToRunnable (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:2125:15)
+    at _coerceToRunnable (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:2118:30)
+    at RunnableBinding.pipe (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:370:19)
+    at createRetrieverChain (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:258:53)
+    at createChain (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:289:28)
+    at ConversationalRetrievalQAChain_Chains.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:133:29)
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:26:33)
+2026-01-13 23:35:06 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/7e708632-6ee7-46a0-814b-f9bad35ea8fa/98143d39-2b4a-4ba8-baa3-97b39e665444 Error: Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+Error: Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:26:33)
+2026-01-13 23:36:33 [INFO]: 🖊 PUT /api/v1/credentials/f3bc614d-2d88-4d2e-9005-6e7ff10f6e5d
+2026-01-13 23:36:50 [INFO]: 🖊 PUT /api/v1/credentials/f3bc614d-2d88-4d2e-9005-6e7ff10f6e5d
+2026-01-13 23:36:57 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 23:36:57 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Expected a Runnable, function or object.
+Instead got an unsupported type.
+Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+    at _coerceToRunnable (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:2125:15)
+    at _coerceToRunnable (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:2118:30)
+    at RunnableBinding.pipe (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:370:19)
+    at createRetrieverChain (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:258:53)
+    at createChain (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:289:28)
+    at ConversationalRetrievalQAChain_Chains.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:133:29)
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:26:33)
+2026-01-13 23:36:57 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/7e708632-6ee7-46a0-814b-f9bad35ea8fa/1c43d009-bed2-4ee0-b16b-228467f8a5f0 Error: Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+Error: Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:26:33)
+2026-01-13 23:37:34 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 23:38:15 [INFO]: ⬆️ POST /api/v1/chatflows
+2026-01-13 23:38:20 [INFO]: ⬆️ POST /api/v1/internal-prediction/3893d8e3-7c4d-4857-bfe2-1d209a590237
+2026-01-13 23:38:20 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/3893d8e3-7c4d-4857-bfe2-1d209a590237/3205b8ad-ac28-4301-b27b-aef7d5e34e5f Error: Ending node must be either a Chain or Agent or Engine
+Error: Ending node must be either a Chain or Agent or Engine
+    at getEndingNodes (/usr/local/lib/node_modules/flowise/dist/utils/index.js:286:25)
+    at executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:344:52)
+    at utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:58)
+    at async createInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:26:33)
+2026-01-13 23:38:44 [INFO]: 🖊 PUT /api/v1/chatflows/3893d8e3-7c4d-4857-bfe2-1d209a590237
+2026-01-13 23:38:48 [INFO]: ⬆️ POST /api/v1/internal-prediction/3893d8e3-7c4d-4857-bfe2-1d209a590237
+2026-01-13 23:38:48 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/3893d8e3-7c4d-4857-bfe2-1d209a590237/1b8fe366-0e1d-4854-aa0f-3cb3fbef13b4 Error: memory.getChatMessages is not a function
+TypeError: memory.getChatMessages is not a function
+    at RunnableLambda.chat_history [as func] (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationChain/ConversationChain.js:213:46)
+    at /usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1711:45
+    at MockAsyncLocalStorage.run (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/singletons/async_local_storage/index.cjs:13:16)
+    at AsyncLocalStorageProvider.runWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/singletons/async_local_storage/index.cjs:60:24)
+    at /usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1709:64
+    at new Promise (<anonymous>)
+    at RunnableLambda._invoke (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1704:16)
+    at RunnableLambda._callWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:231:34)
+    at async /usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1525:31
+    at async Promise.all (index 1)
+    at async RunnableMap.invoke (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1529:13)
+    at async RunnableSequence.invoke (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1305:33)
+    at async ConversationChain_Chains.run (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationChain/ConversationChain.js:111:19)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:593:22)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-01-13 23:40:18 [INFO]: 🖊 PUT /api/v1/chatflows/3893d8e3-7c4d-4857-bfe2-1d209a590237
+2026-01-13 23:40:21 [INFO]: ⬆️ POST /api/v1/internal-prediction/3893d8e3-7c4d-4857-bfe2-1d209a590237
+2026-01-13 23:40:22 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/3893d8e3-7c4d-4857-bfe2-1d209a590237/88fb9a0a-f4b7-4cb5-b1d0-09824ce74f37 Error: 400 No models provided
+Error: 400 No models provided
+    at APIError.generate (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/core/error.js:45:20)
+    at OpenAI.makeStatusError (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:163:32)
+    at OpenAI.makeRequest (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:331:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/dist/chat_models.cjs:1933:28
+    at async RetryOperation._fn (/usr/local/lib/node_modules/flowise/node_modules/p-retry/index.js:50:12)
+2026-01-13 23:40:37 [INFO]: 🖊 PUT /api/v1/chatflows/3893d8e3-7c4d-4857-bfe2-1d209a590237
+2026-01-13 23:40:40 [INFO]: ⬆️ POST /api/v1/internal-prediction/3893d8e3-7c4d-4857-bfe2-1d209a590237
+2026-01-13 23:41:16 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 23:41:16 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Expected a Runnable, function or object.
+Instead got an unsupported type.
+Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+    at _coerceToRunnable (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:2125:15)
+    at _coerceToRunnable (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:2118:30)
+    at RunnableBinding.pipe (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:370:19)
+    at createRetrieverChain (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:258:53)
+    at createChain (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:289:28)
+    at ConversationalRetrievalQAChain_Chains.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:133:29)
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:26:33)
+2026-01-13 23:41:16 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/7e708632-6ee7-46a0-814b-f9bad35ea8fa/467cdc46-bc6b-4600-baed-b33461b3b7d9 Error: Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+Error: Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:26:33)
+2026-01-13 23:41:22 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 23:41:26 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 23:41:26 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Expected a Runnable, function or object.
+Instead got an unsupported type.
+Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+    at _coerceToRunnable (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:2125:15)
+    at _coerceToRunnable (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:2118:30)
+    at RunnableBinding.pipe (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:370:19)
+    at createRetrieverChain (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:258:53)
+    at createChain (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:289:28)
+    at ConversationalRetrievalQAChain_Chains.init (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/chains/ConversationalRetrievalQAChain/ConversationalRetrievalQAChain.js:133:29)
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:495:58)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:26:33)
+2026-01-13 23:41:26 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/7e708632-6ee7-46a0-814b-f9bad35ea8fa/c56eec07-c42e-4790-abe9-2af19c068c4a Error: Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+Error: Error: Expected a Runnable, function or object.
+Instead got an unsupported type.
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:384:28)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:26:33)
+2026-01-13 23:41:37 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 23:41:42 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 23:42:15 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 23:46:02 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 23:46:05 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=53cccae1-36cc-4b59-bd64-764cfed55522&chatType=INTERNAL
+2026-01-13 23:46:14 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 23:46:20 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 23:53:40 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 23:55:05 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=1390dcb5-e077-4467-9320-dadc8ccf6f3a&chatType=INTERNAL
+2026-01-13 23:55:10 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=9849a219-0469-4410-83a2-2890b073bf01&chatType=INTERNAL
+2026-01-13 23:55:21 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa

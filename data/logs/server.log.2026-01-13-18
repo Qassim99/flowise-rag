@@ -1,0 +1,26 @@
+2026-01-13 18:20:10 [INFO]: Starting Flowise...
+2026-01-13 18:20:10 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-01-13 18:20:10 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-01-13 18:20:10 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-01-13 18:20:12 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-01-13 18:20:12 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-01-13 18:20:12 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-01-13 18:20:12 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-01-13 18:20:12 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-01-13 18:20:12 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-01-13 18:20:12 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-01-13 18:20:12 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-01-13 18:20:12 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-01-13 18:20:12 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-01-13 18:20:12 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-01-13 18:20:16 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-01-13 18:20:39 [INFO]: ⬆️ POST /api/v1/document-store/store
+2026-01-13 18:22:33 [INFO]: ⬆️ POST /api/v1/document-store/loader/save
+2026-01-13 18:22:33 [INFO]: ⬆️ POST /api/v1/document-store/loader/process/58c04f92-67a3-4664-a1de-9e6201e406ef
+2026-01-13 18:23:35 [INFO]: ⬆️ POST /api/v1/document-store/loader/preview
+2026-01-13 18:48:35 [INFO]: ⬆️ POST /api/v1/document-store/loader/preview
+2026-01-13 18:49:36 [INFO]: ⬆️ POST /api/v1/document-store/loader/preview
+2026-01-13 18:50:08 [INFO]: ⬆️ POST /api/v1/document-store/loader/save
+2026-01-13 18:50:08 [INFO]: ⬆️ POST /api/v1/document-store/loader/process/58c04f92-67a3-4664-a1de-9e6201e406ef
+2026-01-13 18:50:54 [INFO]: ⬆️ POST /api/v1/node-load-method/openAIEmbeddings
+2026-01-13 18:57:06 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa

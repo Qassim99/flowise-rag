@@ -1,0 +1,31 @@
+2026-02-19 16:13:25 [INFO]: Starting Flowise...
+2026-02-19 16:13:25 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-02-19 16:13:25 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-02-19 16:13:25 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-02-19 16:13:26 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-02-19 16:13:26 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-02-19 16:13:26 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-02-19 16:13:26 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-02-19 16:13:26 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-02-19 16:13:26 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-02-19 16:13:26 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-02-19 16:13:26 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-02-19 16:13:26 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-02-19 16:13:26 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-02-19 16:13:31 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-02-19 16:13:31 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-02-19 16:13:35 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-02-19 16:15:40 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-19 16:15:40 [INFO]: [server]: Request originated from http://localhost:8080
+2026-02-19 16:16:22 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-19 16:16:22 [INFO]: [server]: Request originated from http://localhost:8080
+2026-02-19 16:19:27 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-19 16:19:27 [INFO]: [server]: Request originated from http://localhost:8080
+2026-02-19 16:20:15 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-02-19 16:20:23 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-02-19 16:21:19 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-19 16:21:28 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-19 16:21:28 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-19 16:21:28 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-19 16:21:46 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-19 16:21:48 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293

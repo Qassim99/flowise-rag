@@ -1,0 +1,261 @@
+2026-02-18 23:02:23 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 23:02:23 [INFO]: [server]: Request originated from http://localhost:5173
+2026-02-18 23:08:07 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:08:07 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:08:07 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:08:20 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:08:20 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-18 23:08:45 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 23:08:45 [INFO]: [server]: Request originated from http://localhost:5173
+2026-02-18 23:12:00 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-18 23:13:06 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:13:06 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:13:06 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:13:18 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:13:18 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-18 23:13:51 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-18 23:14:05 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-18 23:14:05 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:14:10 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:14:59 [INFO]: ⬆️ POST /api/v1/chatflows
+2026-02-18 23:15:04 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:15:04 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-18 23:15:12 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-18 23:15:21 [INFO]: 🖊 PUT /api/v1/chatflows/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1
+2026-02-18 23:15:23 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-18 23:15:23 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-18 23:15:31 [INFO]: 🖊 PUT /api/v1/chatflows/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1
+2026-02-18 23:15:34 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-18 23:15:34 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:15:39 [INFO]: 🖊 PUT /api/v1/chatflows/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1
+2026-02-18 23:15:43 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:15:43 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-18 23:15:50 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-18 23:15:50 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-18 23:15:50 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-18 23:15:50 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-18 23:16:17 [INFO]: 🖊 PUT /api/v1/chatflows/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1
+2026-02-18 23:16:18 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-02-18 23:16:18 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-18 23:16:29 [INFO]: 🖊 PUT /api/v1/chatflows/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1
+2026-02-18 23:16:31 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-18 23:16:31 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:16:42 [INFO]: 🖊 PUT /api/v1/chatflows/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1
+2026-02-18 23:16:44 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:16:44 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:16:50 [INFO]: 🖊 PUT /api/v1/chatflows/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1
+2026-02-18 23:16:53 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:16:53 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-18 23:17:02 [INFO]: ⬆️ POST /api/v1/internal-prediction/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1
+2026-02-18 23:17:16 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-18 23:17:16 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:17:16 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:17:16 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:17:27 [INFO]: 🖊 PUT /api/v1/chatflows/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1
+2026-02-18 23:17:33 [INFO]: ⬆️ POST /api/v1/internal-prediction/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1
+2026-02-18 23:18:30 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Request timed out.
+2026-02-18 23:18:30 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1/b9040efc-7847-42d2-9956-efc97a242a46 Error: Error in LLM node: Request timed out.
+Error: Error in LLM node: Request timed out.
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-18 23:18:37 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:18:37 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:18:37 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:18:57 [INFO]: 🖊 PUT /api/v1/chatflows/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1
+2026-02-18 23:19:01 [INFO]: ⬆️ POST /api/v1/internal-prediction/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1
+2026-02-18 23:19:17 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Request timed out.
+2026-02-18 23:19:17 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1/bacd53af-299a-4010-881c-8faf83efda9b Error: Error in LLM node: Request timed out.
+Error: Error in LLM node: Request timed out.
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-18 23:19:30 [INFO]: 🖊 PUT /api/v1/chatflows/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1
+2026-02-18 23:19:31 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:19:31 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:19:31 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:19:51 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:19:51 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:19:51 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:20:02 [INFO]: 🖊 PUT /api/v1/chatflows/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1
+2026-02-18 23:20:05 [INFO]: ⬆️ POST /api/v1/internal-prediction/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1
+2026-02-18 23:20:22 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:20:23 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:20:23 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:20:27 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Request timed out.
+2026-02-18 23:20:27 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1/4772810d-7e53-4efb-8938-13642afaf441 Error: Error in LLM node: Request timed out.
+Error: Error in LLM node: Request timed out.
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-18 23:20:28 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 23:20:28 [INFO]: [server]: Request originated from http://localhost:5173
+2026-02-18 23:20:38 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:20:38 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:20:38 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:21:16 [INFO]: ⬆️ POST /api/v1/internal-prediction/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1
+2026-02-18 23:21:20 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Request timed out.
+2026-02-18 23:21:20 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1/bd71e047-33b5-43fe-89be-c7c461224e37 Error: Error in LLM node: Request timed out.
+Error: Error in LLM node: Request timed out.
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-18 23:22:29 [INFO]: 🖊 PUT /api/v1/chatflows/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1
+2026-02-18 23:22:35 [INFO]: ⬆️ POST /api/v1/internal-prediction/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1
+2026-02-18 23:22:50 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Request timed out.
+2026-02-18 23:22:50 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1/3dc3ec55-e96d-485e-9a73-a2b10f57daa2 Error: Error in LLM node: Request timed out.
+Error: Error in LLM node: Request timed out.
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-18 23:22:55 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:22:55 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:22:55 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:23:30 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:23:30 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:23:30 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:23:43 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:24:06 [INFO]: 🖊 PUT /api/v1/chatflows/8087f9dd-7c0d-440d-97b4-f50d1540f25c
+2026-02-18 23:24:08 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Request timed out.
+2026-02-18 23:24:08 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1/a00bfaae-0175-4c05-8da5-5ccbdf10bff2 Error: Error in LLM node: Request timed out.
+Error: Error in LLM node: Request timed out.
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-18 23:24:09 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:24:39 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:24:39 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:24:39 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:24:44 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:25:17 [INFO]: 🖊 PUT /api/v1/chatflows/8087f9dd-7c0d-440d-97b4-f50d1540f25c
+2026-02-18 23:25:32 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:25:32 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:25:32 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:25:32 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:25:33 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:25:33 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:27:46 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:27:47 [INFO]: ⬆️ POST /api/v1/node-load-method/customFunctionAgentflow
+2026-02-18 23:28:24 [INFO]: ⬆️ POST /api/v1/node-load-method/customFunctionAgentflow
+2026-02-18 23:30:07 [INFO]: 🖊 PUT /api/v1/chatflows/8087f9dd-7c0d-440d-97b4-f50d1540f25c
+2026-02-18 23:31:17 [INFO]: ⬆️ POST /api/v1/internal-prediction/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1
+2026-02-18 23:31:37 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:31:37 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:31:37 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:31:42 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:31:43 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:31:43 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:32:23 [INFO]: 🖊 PUT /api/v1/chatflows/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1
+2026-02-18 23:32:27 [INFO]: ❌ DELETE /api/v1/chatmessage/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1?chatId=a00bfaae-0175-4c05-8da5-5ccbdf10bff2&chatType=INTERNAL
+2026-02-18 23:32:32 [INFO]: ⬆️ POST /api/v1/internal-prediction/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1
+2026-02-18 23:32:50 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:32:50 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:32:50 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:33:00 [INFO]: 🖊 PUT /api/v1/chatflows/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1
+2026-02-18 23:33:04 [INFO]: ⬆️ POST /api/v1/internal-prediction/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1
+2026-02-18 23:33:11 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Request timed out.
+2026-02-18 23:33:11 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1/df2fbe99-2bff-4a73-ad09-3ffb7f28f1d0 Error: Error in LLM node: Request timed out.
+Error: Error in LLM node: Request timed out.
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-18 23:34:19 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Request timed out.
+2026-02-18 23:34:19 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1/eba28106-50f4-4ef8-b6d3-f56d08edbab6 Error: Error in LLM node: Request timed out.
+Error: Error in LLM node: Request timed out.
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-18 23:34:38 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Request timed out.
+2026-02-18 23:34:38 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1/badd3732-8436-48b7-b5b6-1a13ea5e3508 Error: Error in LLM node: Request timed out.
+Error: Error in LLM node: Request timed out.
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-18 23:35:22 [INFO]: 🖊 PUT /api/v1/chatflows/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1
+2026-02-18 23:35:26 [INFO]: ⬆️ POST /api/v1/internal-prediction/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1
+2026-02-18 23:35:39 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 23:35:39 [INFO]: [server]: Request originated from http://localhost:5173
+2026-02-18 23:36:48 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 23:36:48 [INFO]: [server]: Request originated from http://localhost:5173
+2026-02-18 23:37:03 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Request timed out.
+2026-02-18 23:37:03 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1/9860bffe-4d2a-4fbb-9ec8-71f3ae22a559 Error: Error in LLM node: Request timed out.
+Error: Error in LLM node: Request timed out.
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-18 23:37:25 [INFO]: ❌ DELETE /api/v1/chatmessage/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1?chatId=9860bffe-4d2a-4fbb-9ec8-71f3ae22a559&chatType=INTERNAL
+2026-02-18 23:37:56 [INFO]: ⬆️ POST /api/v1/internal-prediction/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1
+2026-02-18 23:38:14 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-18 23:38:46 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-18 23:38:46 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:39:10 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Request timed out.
+2026-02-18 23:39:10 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1/d5ca2307-43e8-4e9f-aa6b-f418f38249e4 Error: Error in LLM node: Request timed out.
+Error: Error in LLM node: Request timed out.
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-18 23:39:56 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:39:56 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:40:48 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:40:48 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-18 23:40:57 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-02-18 23:40:57 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-18 23:40:57 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-18 23:41:06 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-18 23:41:06 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-18 23:41:10 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-18 23:41:19 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-18 23:41:19 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-18 23:41:39 [INFO]: 🖊 PUT /api/v1/chatflows/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1
+2026-02-18 23:43:26 [INFO]: ⬆️ POST /api/v1/document-store/vectorstore/insert
+2026-02-18 23:43:57 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-18 23:43:57 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-18 23:44:01 [INFO]: 🖊 PUT /api/v1/chatflows/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1
+2026-02-18 23:44:15 [INFO]: ⬆️ POST /api/v1/internal-prediction/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1
+2026-02-18 23:44:36 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-18 23:44:36 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-02-18 23:44:51 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:44:51 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:44:51 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:45:30 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 23:45:30 [INFO]: [server]: Request originated from http://localhost:5173
+2026-02-18 23:45:54 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Request timed out.
+2026-02-18 23:45:54 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1/64cd7078-b1a2-48cc-81ee-351afaa3d1ee Error: Error in LLM node: Request timed out.
+Error: Error in LLM node: Request timed out.
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-02-18 23:46:19 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 23:46:19 [INFO]: [server]: Request originated from http://localhost:5173
+2026-02-18 23:47:12 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 23:47:12 [INFO]: [server]: Request originated from http://localhost:5173
+2026-02-18 23:47:27 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:48:29 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 23:48:29 [INFO]: [server]: Request originated from http://localhost:5173
+2026-02-18 23:49:13 [INFO]: Shutting down Flowise...
+2026-02-18 23:50:15 [INFO]: Starting Flowise...
+2026-02-18 23:50:15 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-02-18 23:50:15 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-02-18 23:50:15 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-02-18 23:50:17 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-02-18 23:50:17 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-02-18 23:50:17 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-02-18 23:50:17 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-02-18 23:50:17 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-02-18 23:50:17 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-02-18 23:50:17 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-02-18 23:50:17 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-02-18 23:50:17 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-02-18 23:50:17 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-02-18 23:50:24 [INFO]: ⬆️ POST /api/v1/internal-prediction/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1
+2026-02-18 23:50:41 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:50:41 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:50:41 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-18 23:52:00 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 23:52:00 [INFO]: [server]: Request originated from http://localhost:5173
+2026-02-18 23:52:22 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Request timed out.
+2026-02-18 23:52:22 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/2fa0fcc4-ec78-4c75-9d6c-a0a84a2f5bf1/22a9be23-a40c-48c6-94f8-32abff4266ba Error: Error in LLM node: Request timed out.
+Error: Error in LLM node: Request timed out.
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)

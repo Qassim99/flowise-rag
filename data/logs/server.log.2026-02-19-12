@@ -1,0 +1,9 @@
+2026-02-19 12:04:04 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 12:04:26 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 12:04:26 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-02-19 12:06:47 [INFO]: ? OPTIONS /api/v1/public-chatbotConfig/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-19 12:08:48 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-19 12:08:53 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-19 12:10:06 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-19 12:10:06 [INFO]: [server]: Request originated from http://localhost:8080
+2026-02-19 12:11:45 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293

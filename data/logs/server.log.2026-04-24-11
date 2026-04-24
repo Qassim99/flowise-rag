@@ -1,0 +1,40 @@
+2026-04-24 11:49:59 [INFO]: Starting Flowise...
+2026-04-24 11:49:59 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-04-24 11:49:59 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-04-24 11:49:59 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-04-24 11:50:01 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-04-24 11:50:01 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-04-24 11:50:01 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-04-24 11:50:01 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-04-24 11:50:01 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-04-24 11:50:01 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-04-24 11:50:01 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-04-24 11:50:01 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-04-24 11:50:01 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-04-24 11:50:01 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-04-24 11:53:46 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-24 11:53:46 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-24 11:55:10 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-24 11:55:10 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-24 11:56:48 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-24 11:56:48 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-24 11:57:08 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-24 11:57:08 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-24 11:57:28 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-24 11:57:28 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-24 11:57:42 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-24 11:57:42 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-24 11:58:04 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-24 11:58:04 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-24 11:58:19 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-24 11:58:19 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-24 11:58:44 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-24 11:58:44 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-24 11:59:06 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-24 11:59:06 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-24 11:59:22 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-24 11:59:22 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-24 11:59:40 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-24 11:59:40 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-24 11:59:59 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-24 11:59:59 [INFO]: [server]: Request originated from UNKNOWN ORIGIN

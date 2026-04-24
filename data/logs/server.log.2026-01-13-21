@@ -1,0 +1,82 @@
+2026-01-13 21:02:17 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 21:15:49 [INFO]: ⬆️ POST /api/v1/credentials
+2026-01-13 21:16:40 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 21:16:43 [INFO]: ⬆️ POST /api/v1/vector/internal-upsert/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 21:17:27 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Error: Invalid API key. Verify your API key at https://jina.ai/api-dashboard/key-manager or generate a new one.
+Error: Error: Invalid API key. Verify your API key at https://jina.ai/api-dashboard/key-manager or generate a new one.
+    at Elasticsearch_VectorStores.upsert (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/vectorstores/Elasticsearch/Elasticsearch.js:62:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:464:37)
+    at async executeUpsert (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:143:28)
+    at async upsertVector (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:272:28)
+    at async Object.upsertVectorMiddleware (/usr/local/lib/node_modules/flowise/dist/services/vectors/index.js:9:16)
+    at async createInternalUpsert (/usr/local/lib/node_modules/flowise/dist/controllers/vectors/index.js:28:29)
+2026-01-13 21:17:27 [ERROR]: [server]: Error: Error: Error: Invalid API key. Verify your API key at https://jina.ai/api-dashboard/key-manager or generate a new one.
+Error: Error: Error: Invalid API key. Verify your API key at https://jina.ai/api-dashboard/key-manager or generate a new one.
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeUpsert (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:143:28)
+    at async upsertVector (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:272:28)
+    at async Object.upsertVectorMiddleware (/usr/local/lib/node_modules/flowise/dist/services/vectors/index.js:9:16)
+    at async createInternalUpsert (/usr/local/lib/node_modules/flowise/dist/controllers/vectors/index.js:28:29)
+2026-01-13 21:18:01 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 21:18:37 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 21:18:58 [INFO]: ⬆️ POST /api/v1/vector/internal-upsert/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 21:19:40 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Error: Concurrency limit exceeded: 3/2 concurrent requests. Wait for pending requests to complete before sending new ones.
+Error: Error: Concurrency limit exceeded: 3/2 concurrent requests. Wait for pending requests to complete before sending new ones.
+    at Elasticsearch_VectorStores.upsert (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/vectorstores/Elasticsearch/Elasticsearch.js:62:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:464:37)
+    at async executeUpsert (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:143:28)
+    at async upsertVector (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:272:28)
+    at async Object.upsertVectorMiddleware (/usr/local/lib/node_modules/flowise/dist/services/vectors/index.js:9:16)
+    at async createInternalUpsert (/usr/local/lib/node_modules/flowise/dist/controllers/vectors/index.js:28:29)
+2026-01-13 21:19:40 [ERROR]: [server]: Error: Error: Error: Concurrency limit exceeded: 3/2 concurrent requests. Wait for pending requests to complete before sending new ones.
+Error: Error: Error: Concurrency limit exceeded: 3/2 concurrent requests. Wait for pending requests to complete before sending new ones.
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeUpsert (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:143:28)
+    at async upsertVector (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:272:28)
+    at async Object.upsertVectorMiddleware (/usr/local/lib/node_modules/flowise/dist/services/vectors/index.js:9:16)
+    at async createInternalUpsert (/usr/local/lib/node_modules/flowise/dist/controllers/vectors/index.js:28:29)
+2026-01-13 21:22:16 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 21:22:35 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 21:27:37 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 21:27:41 [INFO]: ⬆️ POST /api/v1/vector/internal-upsert/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 21:28:18 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: Error: 400 Model openai/jina-embeddings-v3 does not exist
+Error: Error: 400 Model openai/jina-embeddings-v3 does not exist
+    at Elasticsearch_VectorStores.upsert (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/vectorstores/Elasticsearch/Elasticsearch.js:62:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:464:37)
+    at async executeUpsert (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:143:28)
+    at async upsertVector (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:272:28)
+    at async Object.upsertVectorMiddleware (/usr/local/lib/node_modules/flowise/dist/services/vectors/index.js:9:16)
+    at async createInternalUpsert (/usr/local/lib/node_modules/flowise/dist/controllers/vectors/index.js:28:29)
+2026-01-13 21:28:18 [ERROR]: [server]: Error: Error: Error: 400 Model openai/jina-embeddings-v3 does not exist
+Error: Error: Error: 400 Model openai/jina-embeddings-v3 does not exist
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeUpsert (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:143:28)
+    at async upsertVector (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:272:28)
+    at async Object.upsertVectorMiddleware (/usr/local/lib/node_modules/flowise/dist/services/vectors/index.js:9:16)
+    at async createInternalUpsert (/usr/local/lib/node_modules/flowise/dist/controllers/vectors/index.js:28:29)
+2026-01-13 21:28:54 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 21:28:57 [INFO]: ⬆️ POST /api/v1/vector/internal-upsert/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-01-13 21:33:18 [ERROR]: [server]: [933c1aaa-7133-456d-88b8-515bf22c4716]: ResponseError
+Error: ResponseError
+    at Elasticsearch_VectorStores.upsert (/usr/local/lib/node_modules/flowise/node_modules/flowise-components/dist/nodes/vectorstores/Elasticsearch/Elasticsearch.js:62:27)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:464:37)
+    at async executeUpsert (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:143:28)
+    at async upsertVector (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:272:28)
+    at async Object.upsertVectorMiddleware (/usr/local/lib/node_modules/flowise/dist/services/vectors/index.js:9:16)
+    at async createInternalUpsert (/usr/local/lib/node_modules/flowise/dist/controllers/vectors/index.js:28:29)
+2026-01-13 21:33:18 [ERROR]: [server]: Error: Error: ResponseError
+Error: Error: ResponseError
+    at buildFlow (/usr/local/lib/node_modules/flowise/dist/utils/index.js:550:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async executeUpsert (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:143:28)
+    at async upsertVector (/usr/local/lib/node_modules/flowise/dist/utils/upsertVector.js:272:28)
+    at async Object.upsertVectorMiddleware (/usr/local/lib/node_modules/flowise/dist/services/vectors/index.js:9:16)
+    at async createInternalUpsert (/usr/local/lib/node_modules/flowise/dist/controllers/vectors/index.js:28:29)
+2026-01-13 21:41:13 [INFO]: Shutting down Flowise...

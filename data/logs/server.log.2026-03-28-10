@@ -1,0 +1,69 @@
+2026-03-28 10:30:40 [INFO]: Starting Flowise...
+2026-03-28 10:30:40 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-03-28 10:30:40 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-03-28 10:30:40 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-03-28 10:30:42 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-03-28 10:30:42 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-03-28 10:30:42 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-03-28 10:30:42 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-03-28 10:30:42 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-03-28 10:30:42 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-03-28 10:30:42 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-03-28 10:30:42 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-03-28 10:30:42 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-03-28 10:30:42 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-03-28 10:30:55 [INFO]: Starting Flowise...
+2026-03-28 10:30:55 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-03-28 10:30:55 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-03-28 10:30:55 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-03-28 10:30:56 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-03-28 10:30:56 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-03-28 10:30:56 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-03-28 10:30:56 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-03-28 10:30:56 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-03-28 10:30:56 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-03-28 10:30:56 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-03-28 10:30:56 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-03-28 10:30:56 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-03-28 10:30:56 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-03-28 10:33:33 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-03-28 10:33:37 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-03-28 10:33:45 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-03-28 10:33:45 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-03-28 10:33:51 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-03-28 10:33:51 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-03-28 10:34:11 [INFO]: ❌ DELETE /api/v1/chatmessage/b4ba85a6-8a9c-4122-a9e5-0028a7841293?chatId=50ffb784-d9f8-4d75-9d6d-e5e691ed8212&chatType=INTERNAL
+2026-03-28 10:34:46 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-28 10:36:33 [INFO]: ❌ DELETE /api/v1/chatmessage/b4ba85a6-8a9c-4122-a9e5-0028a7841293?chatId=13b1768a-97fb-4be3-9aa7-1137723d22d0&chatType=INTERNAL
+2026-03-28 10:36:37 [INFO]: ⬆️ POST /api/v1/internal-prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-03-28 10:48:06 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-03-28 10:48:06 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-03-28 10:48:35 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-03-28 10:48:35 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-03-28 10:48:39 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-03-28 10:48:46 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-03-28 10:48:46 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-03-28 10:48:52 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-03-28 10:48:52 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-03-28 10:48:52 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-03-28 10:48:52 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-03-28 10:49:05 [INFO]: ❌ DELETE /api/v1/chatmessage/aa45aeb4-b376-48a3-a09d-2af8b89bdefd?chatId=19b34533-2750-4edd-a333-ce78d7bff576&chatType=INTERNAL
+2026-03-28 10:49:19 [INFO]: ⬆️ POST /api/v1/internal-prediction/aa45aeb4-b376-48a3-a09d-2af8b89bdefd
+2026-03-28 10:49:23 [ERROR]: [server]: Error executing node retrieverAgentflow_0: docStoreVectorInstance.invoke is not a function
+2026-03-28 10:49:23 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/aa45aeb4-b376-48a3-a09d-2af8b89bdefd/54ec6280-8492-4dcf-b1d7-9914e5fc93bc Error: docStoreVectorInstance.invoke is not a function
+Error: docStoreVectorInstance.invoke is not a function
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-03-28 10:49:48 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-03-28 10:49:48 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-03-28 10:49:48 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-03-28 10:50:06 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-03-28 10:50:12 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-03-28 10:50:16 [INFO]: 🖊 PUT /api/v1/chatflows/aa45aeb4-b376-48a3-a09d-2af8b89bdefd
+2026-03-28 10:50:23 [INFO]: ⬆️ POST /api/v1/internal-prediction/aa45aeb4-b376-48a3-a09d-2af8b89bdefd
+2026-03-28 10:51:55 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-03-28 10:51:55 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-03-28 10:51:55 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-03-28 10:51:55 [INFO]: ⬆️ POST /api/v1/node-load-method/agentAgentflow
+2026-03-28 10:51:55 [INFO]: ⬆️ POST /api/v1/node-load-method/ChatflowTool

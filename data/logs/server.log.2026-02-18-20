@@ -1,0 +1,59 @@
+2026-02-18 20:02:06 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 20:02:06 [INFO]: [server]: Request originated from http://localhost:5173
+2026-02-18 20:03:09 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 20:03:09 [INFO]: [server]: Request originated from http://localhost:5173
+2026-02-18 20:03:23 [ERROR]: [server]: Error executing node retrieverAgentflow_0: connect ECONNREFUSED 10.215.240.103:9200
+2026-02-18 20:03:23 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/b4ba85a6-8a9c-4122-a9e5-0028a7841293/466b2735-ee3c-4e75-99b4-60ee3bfec473 Error: connect ECONNREFUSED 10.215.240.103:9200
+Error: connect ECONNREFUSED 10.215.240.103:9200
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-02-18 20:03:54 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 20:03:54 [INFO]: [server]: Request originated from http://localhost:5173
+2026-02-18 20:04:11 [ERROR]: [server]: Error executing node retrieverAgentflow_0: connect ECONNREFUSED 10.215.240.103:9200
+2026-02-18 20:04:11 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/b4ba85a6-8a9c-4122-a9e5-0028a7841293/466b2735-ee3c-4e75-99b4-60ee3bfec473 Error: connect ECONNREFUSED 10.215.240.103:9200
+Error: connect ECONNREFUSED 10.215.240.103:9200
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-02-18 20:06:20 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 20:06:20 [INFO]: [server]: Request originated from http://localhost:5173
+2026-02-18 20:07:01 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 20:07:01 [INFO]: [server]: Request originated from http://localhost:5173
+2026-02-18 20:10:35 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 20:10:38 [INFO]: 🖊 PUT /api/v1/chatflows/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 20:11:08 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 20:11:08 [INFO]: [server]: Request originated from http://localhost:5173
+2026-02-18 20:11:21 [ERROR]: [server]: Error executing node retrieverAgentflow_0: connect ECONNREFUSED 10.215.240.103:9200
+2026-02-18 20:11:21 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/b4ba85a6-8a9c-4122-a9e5-0028a7841293/466b2735-ee3c-4e75-99b4-60ee3bfec473 Error: connect ECONNREFUSED 10.215.240.103:9200
+Error: connect ECONNREFUSED 10.215.240.103:9200
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:877:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-02-18 20:14:27 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 20:14:27 [INFO]: [server]: Request originated from http://localhost:5173
+2026-02-18 20:19:15 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 20:19:15 [INFO]: [server]: Request originated from http://localhost:5173
+2026-02-18 20:26:48 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 20:26:48 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-02-18 20:29:41 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 20:29:41 [INFO]: [server]: Request originated from http://localhost:5173
+2026-02-18 20:29:52 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 20:29:52 [INFO]: [server]: Request originated from http://localhost:5173
+2026-02-18 20:30:47 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 20:30:47 [INFO]: [server]: Request originated from http://localhost:5173
+2026-02-18 20:32:11 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 20:32:11 [INFO]: [server]: Request originated from http://localhost:5173
+2026-02-18 20:42:59 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 20:42:59 [INFO]: [server]: Request originated from http://localhost:5173
+2026-02-18 20:43:29 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 20:43:29 [INFO]: [server]: Request originated from http://localhost:5173
+2026-02-18 20:47:52 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 20:47:52 [INFO]: [server]: Request originated from http://localhost:5173
+2026-02-18 20:51:00 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 20:51:00 [INFO]: [server]: Request originated from http://localhost:5173
+2026-02-18 20:54:18 [INFO]: ⬆️ POST /api/v1/prediction/b4ba85a6-8a9c-4122-a9e5-0028a7841293
+2026-02-18 20:54:18 [INFO]: [server]: Request originated from http://localhost:5173
