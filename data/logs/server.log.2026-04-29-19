@@ -1,0 +1,72 @@
+2026-04-29 19:38:10 [INFO]: Starting Flowise...
+2026-04-29 19:38:10 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-04-29 19:38:10 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-04-29 19:38:10 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-04-29 19:38:12 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-04-29 19:38:12 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-04-29 19:38:12 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-04-29 19:38:12 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-04-29 19:38:12 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-04-29 19:38:12 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-04-29 19:38:12 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-04-29 19:38:12 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-04-29 19:38:12 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-04-29 19:38:12 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-04-29 19:39:00 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-04-29 19:39:00 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-04-29 19:39:05 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-04-29 19:39:17 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-04-29 19:39:20 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-04-29 19:39:48 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-29 19:39:53 [INFO]: ❌ DELETE /api/v1/chatmessage/616c4ca5-330c-4068-bbd0-1d8fa9889449?chatId=17a0e415-a3a1-45e8-9d81-9ad934453523&chatType=INTERNAL
+2026-04-29 19:40:00 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-29 19:40:20 [INFO]: ❌ DELETE /api/v1/chatmessage/616c4ca5-330c-4068-bbd0-1d8fa9889449?chatId=4cc835b8-dab6-4796-b4ad-7fe3e91070e9&chatType=INTERNAL
+2026-04-29 19:40:25 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-29 19:40:52 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-04-29 19:41:23 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-04-29 19:41:23 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-29 19:41:23 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-29 19:41:23 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-29 19:41:40 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-29 19:48:58 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-04-29 19:50:07 [INFO]: ⬆️ POST /api/v1/credentials
+2026-04-29 19:51:44 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-04-29 19:51:46 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-04-29 19:51:50 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-04-29 19:52:12 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/7e708632-6ee7-46a0-814b-f9bad35ea8fa/cc708f81-e245-4ab8-b0f3-66a70e32d8c5 Error: Error 404: Not Found
+ResponseError: Error 404: Not Found
+    at checkOk (/usr/local/lib/node_modules/flowise/node_modules/ollama/dist/browser.cjs:77:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async post (/usr/local/lib/node_modules/flowise/node_modules/ollama/dist/browser.cjs:141:3)
+    at async Ollama.processStreamableRequest (/usr/local/lib/node_modules/flowise/node_modules/ollama/dist/browser.cjs:260:25)
+    at async ChatOllama._streamResponseChunks (/usr/local/lib/node_modules/flowise/node_modules/@langchain/ollama/dist/chat_models.cjs:759:24)
+    at async ChatOllama._streamIterator (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/language_models/chat_models.cjs:127:34)
+    at async ChatOllama.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:410:9)
+    at async wrapInputForTracing (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:283:30)
+    at async pipeGeneratorWithSetup (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/utils/stream.cjs:272:19)
+    at async StringOutputParser._transformStreamWithConfig (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:304:26)
+    at async StringOutputParser.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/output_parsers/transform.cjs:36:9)
+    at async RunnableSequence._streamIterator (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1369:30)
+    at async RunnableSequence.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:410:9)
+    at async RunnableBinding.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:928:9)
+    at async RunnableSequence._streamIterator (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1369:30)
+2026-04-29 19:54:26 [INFO]: ⬆️ POST /api/v1/credentials
+2026-04-29 19:54:38 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-04-29 19:54:42 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-04-29 19:55:36 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-04-29 19:55:38 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/7e708632-6ee7-46a0-814b-f9bad35ea8fa/7d6bdbc0-b37f-46bc-a9c2-fe59a26183ce Error: Cannot read properties of undefined (reading 'replace')
+TypeError: Cannot read properties of undefined (reading 'replace')
+    at OpenAIEmbeddings.embedQuery (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/dist/embeddings.cjs:150:46)
+    at QdrantVectorStore.similaritySearch (/usr/local/lib/node_modules/flowise/node_modules/@langchain/qdrant/node_modules/@langchain/core/dist/vectorstores.cjs:108:90)
+    at VectorStoreRetriever._getRelevantDocuments (/usr/local/lib/node_modules/flowise/node_modules/@langchain/qdrant/node_modules/@langchain/core/dist/vectorstores.cjs:71:33)
+    at VectorStoreRetriever.getRelevantDocuments (/usr/local/lib/node_modules/flowise/node_modules/@langchain/qdrant/node_modules/@langchain/core/dist/retrievers/index.cjs:72:40)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async VectorStoreRetriever._streamIterator (/usr/local/lib/node_modules/flowise/node_modules/@langchain/qdrant/node_modules/@langchain/core/dist/runnables/base.cjs:165:9)
+    at async VectorStoreRetriever.transform (/usr/local/lib/node_modules/flowise/node_modules/@langchain/qdrant/node_modules/@langchain/core/dist/runnables/base.cjs:402:9)
+    at async RunnableSequence._streamIterator (/usr/local/lib/node_modules/flowise/node_modules/@langchain/core/dist/runnables/base.cjs:1369:30)
+2026-04-29 19:55:47 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=7d6bdbc0-b37f-46bc-a9c2-fe59a26183ce&chatType=INTERNAL
+2026-04-29 19:55:53 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-04-29 19:56:31 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=94b71bb8-01ec-458b-8811-007d90648d69&chatType=INTERNAL
+2026-04-29 19:56:33 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-04-29 19:56:36 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-04-29 19:56:41 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa

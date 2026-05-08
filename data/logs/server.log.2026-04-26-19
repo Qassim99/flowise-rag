@@ -1,0 +1,438 @@
+2026-04-26 19:00:07 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:00:08 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:00:10 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:00:15 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:00:19 [ERROR]: [server]: Error executing node llmAgentflow_2: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+2026-04-26 19:00:19 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/b6147cdc-9a9d-4249-87c2-bbcefcedf94b Error: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+Error: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-26 19:00:26 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:01:39 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:01:44 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:01:49 [ERROR]: [server]: Error executing node llmAgentflow_2: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+2026-04-26 19:01:49 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/6da78f4a-5543-468e-bc9b-fbae66357931 Error: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+Error: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-26 19:01:53 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:02:11 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:02:13 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:02:16 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:02:23 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:02:28 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:02:32 [ERROR]: [server]: Error executing node llmAgentflow_2: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+2026-04-26 19:02:32 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/cb243ea6-b77e-4a6b-8760-f12931e537a2 Error: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+Error: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-26 19:02:36 [INFO]: ❌ DELETE /api/v1/chatmessage/616c4ca5-330c-4068-bbd0-1d8fa9889449?chatId=cb243ea6-b77e-4a6b-8760-f12931e537a2&chatType=INTERNAL
+2026-04-26 19:02:37 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:03:41 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:04:06 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:04:10 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:04:14 [ERROR]: [server]: Error executing node llmAgentflow_2: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+2026-04-26 19:04:14 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/7d35d495-3cdd-445b-a2a8-ae9cbffe561d Error: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+Error: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-26 19:04:44 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:06:58 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:07:11 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:07:16 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:07:21 [ERROR]: [server]: Error executing node llmAgentflow_2: Error in LLM node: 400 "{{$vars.model}}" is not a valid model ID
+2026-04-26 19:07:21 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/f6485f0b-5e69-4b50-917a-14b7b4c21be5 Error: Error in LLM node: 400 "{{$vars.model}}" is not a valid model ID
+Error: Error in LLM node: 400 "{{$vars.model}}" is not a valid model ID
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-26 19:07:41 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:08:05 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:08:08 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:08:13 [ERROR]: [server]: Error executing node llmAgentflow_2: Error in LLM node: 400 {{model}} is not a valid model ID
+2026-04-26 19:08:13 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/5fe41af0-d556-4124-a1de-469df4fb506c Error: Error in LLM node: 400 {{model}} is not a valid model ID
+Error: Error in LLM node: 400 {{model}} is not a valid model ID
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-26 19:08:18 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:08:55 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:09:02 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:09:06 [ERROR]: [server]: Error executing node llmAgentflow_2: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+2026-04-26 19:09:06 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/6e8bc62e-02ec-4913-bcb9-70a11bbc39f9 Error: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+Error: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-26 19:10:35 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:10:41 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-04-26 19:10:49 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-04-26 19:12:40 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-04-26 19:12:59 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-04-26 19:13:03 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=b467fec3-92aa-42ba-88d9-e696acaded53&chatType=INTERNAL
+2026-04-26 19:13:07 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-04-26 19:13:14 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-04-26 19:13:17 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-04-26 19:13:51 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:13:54 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:14:01 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:14:05 [ERROR]: [server]: Error executing node llmAgentflow_2: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+2026-04-26 19:14:05 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/34db2d17-b1e5-4c7a-866a-0c07d65c9040 Error: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+Error: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-26 19:15:11 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:15:23 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:15:27 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:15:32 [ERROR]: [server]: Error executing node llmAgentflow_2: Error in LLM node: 400 $vars.model is not a valid model ID
+2026-04-26 19:15:32 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/ab762663-c823-44ae-9535-232f2f220f2d Error: Error in LLM node: 400 $vars.model is not a valid model ID
+Error: Error in LLM node: 400 $vars.model is not a valid model ID
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-26 19:15:57 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:16:13 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:16:22 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:16:26 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:16:30 [ERROR]: [server]: Error executing node llmAgentflow_2: Error in LLM node: 400 $vars.model is not a valid model ID
+2026-04-26 19:16:30 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/f1f6d2d8-d4cf-40af-a1d9-993acefa7195 Error: Error in LLM node: 400 $vars.model is not a valid model ID
+Error: Error in LLM node: 400 $vars.model is not a valid model ID
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-26 19:16:34 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:16:47 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:16:50 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:16:54 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+2026-04-26 19:16:54 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/3dd6c8f0-8349-4fe7-b795-db0774c5e3e7 Error: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+Error: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-26 19:17:01 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:17:08 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:17:11 [ERROR]: [server]: Error executing node llmAgentflow_2: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+2026-04-26 19:17:11 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/0deb13a5-c917-45ed-8f00-cb5eb886fbdd Error: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+Error: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-26 19:17:25 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:17:56 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:18:03 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:18:35 [INFO]: ⬆️ POST /api/v1/chatflows
+2026-04-26 19:18:38 [INFO]: ⬆️ POST /api/v1/internal-prediction/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:18:39 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+2026-04-26 19:18:39 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/781509f4-64dd-4197-b3f8-f2871924fbbe/2e2478cd-7810-4bed-b503-0e093d1e570f Error: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+Error: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-26 19:18:55 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:18:58 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:19:01 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:19:06 [INFO]: ⬆️ POST /api/v1/internal-prediction/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:19:06 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+2026-04-26 19:19:06 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/781509f4-64dd-4197-b3f8-f2871924fbbe/1f1d59ac-683e-466c-b20d-149e3020f551 Error: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+Error: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-26 19:19:18 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:19:30 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:19:36 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:19:38 [INFO]: ⬆️ POST /api/v1/internal-prediction/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:19:41 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+2026-04-26 19:19:41 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/781509f4-64dd-4197-b3f8-f2871924fbbe/d0052583-02af-408f-9c41-67616a2cc59d Error: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+Error: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-26 19:19:44 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:19:54 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:19:58 [INFO]: ⬆️ POST /api/v1/internal-prediction/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:19:59 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: 400 {$vars.model} is not a valid model ID
+2026-04-26 19:19:59 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/781509f4-64dd-4197-b3f8-f2871924fbbe/c9df0326-9854-48c1-bea9-ffe4a92646d0 Error: Error in LLM node: 400 {$vars.model} is not a valid model ID
+Error: Error in LLM node: 400 {$vars.model} is not a valid model ID
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-26 19:20:02 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:20:14 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:20:17 [INFO]: ⬆️ POST /api/v1/internal-prediction/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:20:30 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: 400 $vars.model is not a valid model ID
+2026-04-26 19:20:30 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/781509f4-64dd-4197-b3f8-f2871924fbbe/38e833d9-cf20-4d75-a74d-076215dc6575 Error: Error in LLM node: 400 $vars.model is not a valid model ID
+Error: Error in LLM node: 400 $vars.model is not a valid model ID
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-26 19:20:35 [INFO]: ❌ DELETE /api/v1/chatmessage/781509f4-64dd-4197-b3f8-f2871924fbbe?chatId=38e833d9-cf20-4d75-a74d-076215dc6575&chatType=INTERNAL
+2026-04-26 19:20:38 [INFO]: ⬆️ POST /api/v1/internal-prediction/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:20:40 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: 400 $vars.model is not a valid model ID
+2026-04-26 19:20:40 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/781509f4-64dd-4197-b3f8-f2871924fbbe/08286ad7-cb20-40f5-a31f-0bf10b9463b4 Error: Error in LLM node: 400 $vars.model is not a valid model ID
+Error: Error in LLM node: 400 $vars.model is not a valid model ID
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-26 19:20:43 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:21:03 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:21:09 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:21:17 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:21:22 [INFO]: ⬆️ POST /api/v1/internal-prediction/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:21:23 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: 400 $vars.model is not a valid model ID
+2026-04-26 19:21:23 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/781509f4-64dd-4197-b3f8-f2871924fbbe/590c55dd-7024-4565-be5d-43e37bfbe467 Error: Error in LLM node: 400 $vars.model is not a valid model ID
+Error: Error in LLM node: 400 $vars.model is not a valid model ID
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-26 19:21:25 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:21:35 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:21:36 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:21:40 [INFO]: ⬆️ POST /api/v1/internal-prediction/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:21:41 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+2026-04-26 19:21:41 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/781509f4-64dd-4197-b3f8-f2871924fbbe/af932d58-931f-41e5-80b0-2735803459e0 Error: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+Error: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-26 19:21:43 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:21:51 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:21:54 [INFO]: ⬆️ POST /api/v1/internal-prediction/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:21:55 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: 400 {{{{$vars.model}}}} is not a valid model ID
+2026-04-26 19:21:55 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/781509f4-64dd-4197-b3f8-f2871924fbbe/c2a8744a-6eac-4e8e-9a4f-953117fe601b Error: Error in LLM node: 400 {{{{$vars.model}}}} is not a valid model ID
+Error: Error in LLM node: 400 {{{{$vars.model}}}} is not a valid model ID
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-26 19:21:57 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:22:06 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:22:09 [INFO]: ⬆️ POST /api/v1/internal-prediction/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:22:13 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+2026-04-26 19:22:13 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/781509f4-64dd-4197-b3f8-f2871924fbbe/aab84f53-512a-40bf-86a7-54b1ad7efedf Error: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+Error: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-26 19:22:26 [INFO]: 🖊 PUT /api/v1/variables/919522ab-6505-4c58-971b-24c916650377
+2026-04-26 19:25:01 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-04-26 19:25:46 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:25:59 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:26:02 [INFO]: ⬆️ POST /api/v1/internal-prediction/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:26:03 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: 400 ${{$vars.model}} is not a valid model ID
+2026-04-26 19:26:03 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/781509f4-64dd-4197-b3f8-f2871924fbbe/3e88570e-aff0-4f04-9540-e4b88f67ddd1 Error: Error in LLM node: 400 ${{$vars.model}} is not a valid model ID
+Error: Error in LLM node: 400 ${{$vars.model}} is not a valid model ID
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-26 19:26:09 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:26:10 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:26:17 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:26:19 [INFO]: ⬆️ POST /api/v1/internal-prediction/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:26:22 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: 400 ${{vars.model}} is not a valid model ID
+2026-04-26 19:26:22 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/781509f4-64dd-4197-b3f8-f2871924fbbe/23ee212a-9dfb-49d7-be4b-c85cc53df133 Error: Error in LLM node: 400 ${{vars.model}} is not a valid model ID
+Error: Error in LLM node: 400 ${{vars.model}} is not a valid model ID
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-26 19:26:33 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:26:36 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:26:47 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:26:50 [INFO]: ⬆️ POST /api/v1/internal-prediction/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:26:51 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: 400 `${{vars.model}}` is not a valid model ID
+2026-04-26 19:26:51 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/781509f4-64dd-4197-b3f8-f2871924fbbe/d35822cd-4808-40a9-89b7-05d2f6f8a29a Error: Error in LLM node: 400 `${{vars.model}}` is not a valid model ID
+Error: Error in LLM node: 400 `${{vars.model}}` is not a valid model ID
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-26 19:28:06 [INFO]: ❌ DELETE /api/v1/chatmessage/781509f4-64dd-4197-b3f8-f2871924fbbe?chatId=d35822cd-4808-40a9-89b7-05d2f6f8a29a&chatType=INTERNAL
+2026-04-26 19:28:08 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:28:46 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:31:44 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:31:48 [INFO]: ⬆️ POST /api/v1/internal-prediction/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:31:54 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: 400 ${{model}} is not a valid model ID
+2026-04-26 19:31:54 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/781509f4-64dd-4197-b3f8-f2871924fbbe/969ed018-78bd-41ca-91d8-f66b64288b18 Error: Error in LLM node: 400 ${{model}} is not a valid model ID
+Error: Error in LLM node: 400 ${{model}} is not a valid model ID
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-26 19:31:59 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:32:08 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:32:11 [INFO]: ⬆️ POST /api/v1/internal-prediction/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:32:12 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: 400 {{$model}} is not a valid model ID
+2026-04-26 19:32:12 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/781509f4-64dd-4197-b3f8-f2871924fbbe/80b0ccd4-8bb6-421f-81e4-d3badbe88534 Error: Error in LLM node: 400 {{$model}} is not a valid model ID
+Error: Error in LLM node: 400 {{$model}} is not a valid model ID
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-26 19:32:15 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:32:24 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:32:27 [INFO]: ⬆️ POST /api/v1/internal-prediction/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:32:27 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+2026-04-26 19:32:27 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/781509f4-64dd-4197-b3f8-f2871924fbbe/4f19d3c0-5088-4f92-b393-eeb085a43e8a Error: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+Error: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-26 19:32:30 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:32:38 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:32:41 [INFO]: ⬆️ POST /api/v1/internal-prediction/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:32:43 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: 400 `{{$vars.model}}` is not a valid model ID
+2026-04-26 19:32:43 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/781509f4-64dd-4197-b3f8-f2871924fbbe/d15f9850-55bf-4df9-a8e5-7810e7a38934 Error: Error in LLM node: 400 `{{$vars.model}}` is not a valid model ID
+Error: Error in LLM node: 400 `{{$vars.model}}` is not a valid model ID
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-26 19:33:06 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:33:12 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:33:26 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:33:29 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:34:51 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:34:51 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:34:55 [INFO]: ⬆️ POST /api/v1/internal-prediction/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:35:03 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:35:34 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:35:37 [INFO]: ⬆️ POST /api/v1/internal-prediction/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:35:41 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+2026-04-26 19:35:41 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/781509f4-64dd-4197-b3f8-f2871924fbbe/eab34e5c-9e55-40ed-a0c4-cb2d67ac310e Error: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+Error: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-26 19:38:35 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:38:38 [INFO]: ⬆️ POST /api/v1/internal-prediction/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:38:38 [ERROR]: [server]: Error executing node customFunctionAgentflow_0: Error: NodeVM Execution Error: ReferenceError: fetch is not defined
+2026-04-26 19:38:38 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/781509f4-64dd-4197-b3f8-f2871924fbbe/eab34e5c-9e55-40ed-a0c4-cb2d67ac310e Error: Error: NodeVM Execution Error: ReferenceError: fetch is not defined
+Error: Error: NodeVM Execution Error: ReferenceError: fetch is not defined
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-26 19:39:33 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:39:36 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:39:44 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:40:49 [INFO]: Shutting down Flowise...
+2026-04-26 19:46:28 [INFO]: Starting Flowise...
+2026-04-26 19:46:28 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-04-26 19:46:28 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-04-26 19:46:28 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-04-26 19:46:29 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-04-26 19:46:29 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-04-26 19:46:29 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-04-26 19:46:29 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-04-26 19:46:29 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-04-26 19:46:29 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-04-26 19:46:29 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-04-26 19:46:29 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-04-26 19:46:29 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-04-26 19:46:29 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-04-26 19:46:34 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:46:41 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:46:56 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:47:04 [INFO]: ⬆️ POST /api/v1/internal-prediction/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:47:05 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: 400 $vars.model is not a valid model ID
+2026-04-26 19:47:05 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/781509f4-64dd-4197-b3f8-f2871924fbbe/eab34e5c-9e55-40ed-a0c4-cb2d67ac310e Error: Error in LLM node: 400 $vars.model is not a valid model ID
+Error: Error in LLM node: 400 $vars.model is not a valid model ID
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-26 19:47:09 [INFO]: ❌ DELETE /api/v1/chatmessage/781509f4-64dd-4197-b3f8-f2871924fbbe?chatId=eab34e5c-9e55-40ed-a0c4-cb2d67ac310e&chatType=INTERNAL
+2026-04-26 19:47:10 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:47:13 [INFO]: ⬆️ POST /api/v1/internal-prediction/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:47:14 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: 400 $vars.model is not a valid model ID
+2026-04-26 19:47:14 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/781509f4-64dd-4197-b3f8-f2871924fbbe/ad31b597-5cd1-4333-be1e-133d530de4c4 Error: Error in LLM node: 400 $vars.model is not a valid model ID
+Error: Error in LLM node: 400 $vars.model is not a valid model ID
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-26 19:47:21 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:47:32 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:47:36 [INFO]: ⬆️ POST /api/v1/internal-prediction/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:47:36 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: 400 $model is not a valid model ID
+2026-04-26 19:47:36 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/781509f4-64dd-4197-b3f8-f2871924fbbe/0b310d0d-5315-421c-929d-5e9c41e65cd3 Error: Error in LLM node: 400 $model is not a valid model ID
+Error: Error in LLM node: 400 $model is not a valid model ID
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-26 19:47:38 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:47:45 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:47:49 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-04-26 19:48:01 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-04-26 19:48:04 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=6114f497-70c9-4610-9c66-bd2631bb1cef&chatType=INTERNAL
+2026-04-26 19:48:05 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-04-26 19:48:08 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-04-26 19:48:10 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/7e708632-6ee7-46a0-814b-f9bad35ea8fa/daa04b4d-98ba-48e8-a871-e4b90a0244eb Error: 400 $vars.model is not a valid model ID
+Error: 400 $vars.model is not a valid model ID
+    at APIError.generate (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/core/error.js:45:20)
+    at OpenAI.makeStatusError (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:163:32)
+    at OpenAI.makeRequest (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:331:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/dist/chat_models.cjs:1933:28
+    at async RetryOperation._fn (/usr/local/lib/node_modules/flowise/node_modules/p-retry/index.js:50:12)
+2026-04-26 19:48:21 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-04-26 19:48:26 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-04-26 19:48:31 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=f0035a7d-afe5-4425-adbd-454c1b2eb54b&chatType=INTERNAL
+2026-04-26 19:50:28 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:50:38 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:50:41 [INFO]: ⬆️ POST /api/v1/internal-prediction/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:50:43 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+2026-04-26 19:50:43 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/781509f4-64dd-4197-b3f8-f2871924fbbe/b307a4d4-c6cb-4887-97c1-789398b0be00 Error: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+Error: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-26 19:50:54 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:50:57 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:51:00 [INFO]: ⬆️ POST /api/v1/internal-prediction/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:51:00 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+2026-04-26 19:51:00 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/781509f4-64dd-4197-b3f8-f2871924fbbe/b38419c7-4495-43b7-9c72-400f4f69df4e Error: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+Error: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-26 19:51:05 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:51:17 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:51:19 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:51:22 [INFO]: ⬆️ POST /api/v1/internal-prediction/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:51:22 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+2026-04-26 19:51:22 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/781509f4-64dd-4197-b3f8-f2871924fbbe/a69f3758-f857-41ab-822d-3fc1a11844b8 Error: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+Error: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-26 19:51:25 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:51:33 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-04-26 19:51:54 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:51:54 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:51:54 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:52:09 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:52:11 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:52:11 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-04-26 19:52:22 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:52:24 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-04-26 19:52:24 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:52:35 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:52:37 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:52:37 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:52:45 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:52:47 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:52:47 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:52:47 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:52:54 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:52:56 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:52:56 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-04-26 19:53:05 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:53:25 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-04-26 19:53:25 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:53:32 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:53:33 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:53:33 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 19:53:41 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:53:50 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:57:54 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:58:28 [INFO]: ❌ DELETE /api/v1/chatmessage/616c4ca5-330c-4068-bbd0-1d8fa9889449?chatId=dfeafcb2-06d5-48d7-806a-7dbe29ad379d&chatType=INTERNAL
+2026-04-26 19:58:31 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 19:58:50 [INFO]: ❌ DELETE /api/v1/chatmessage/616c4ca5-330c-4068-bbd0-1d8fa9889449?chatId=a7d3e735-6908-4215-ad29-9295f13b9937&chatType=INTERNAL

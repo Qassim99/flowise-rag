@@ -1,0 +1,158 @@
+2026-05-07 12:24:44 [INFO]: Starting Flowise...
+2026-05-07 12:24:44 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-05-07 12:24:44 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-05-07 12:24:44 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-05-07 12:24:46 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-05-07 12:24:46 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-05-07 12:24:46 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-05-07 12:24:46 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-05-07 12:24:46 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-05-07 12:24:46 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-05-07 12:24:46 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-05-07 12:24:46 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-05-07 12:24:46 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-05-07 12:24:46 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-05-07 12:25:02 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-05-07 12:25:02 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-05-07 12:25:05 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-05-07 12:25:11 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-05-07 12:28:09 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-05-07 12:30:48 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-05-07 12:33:25 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-05-07 12:37:24 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-05-07 12:37:45 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:37:48 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-05-07 12:37:48 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 12:37:49 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 12:37:49 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 12:37:55 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:37:58 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 12:37:58 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-05-07 12:38:20 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:38:25 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-05-07 12:38:36 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:38:39 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-05-07 12:38:39 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 12:38:44 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:39:29 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 12:39:48 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 12:39:48 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-05-07 12:39:53 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:40:00 [INFO]: ❌ DELETE /api/v1/chatmessage/616c4ca5-330c-4068-bbd0-1d8fa9889449?chatId=ddc1f078-1f4f-4666-abac-aa677ca22e31&chatType=INTERNAL
+2026-05-07 12:40:07 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:40:31 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-05-07 12:40:31 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 12:40:31 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 12:40:38 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:40:40 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 12:40:40 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 12:41:17 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:41:23 [INFO]: ❌ DELETE /api/v1/chatmessage/616c4ca5-330c-4068-bbd0-1d8fa9889449?chatId=769bfa19-0677-4afc-ae5e-0dcb41edfe34&chatType=INTERNAL
+2026-05-07 12:41:34 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:42:00 [INFO]: ❌ DELETE /api/v1/chatmessage/616c4ca5-330c-4068-bbd0-1d8fa9889449?chatId=a60e2448-8bbd-4e21-9e56-b2059c885835&chatType=INTERNAL
+2026-05-07 12:42:10 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 12:42:10 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 12:42:16 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 12:42:16 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 12:42:16 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 12:42:16 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 12:42:38 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:42:42 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 12:42:42 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 12:42:58 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:43:00 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 12:43:07 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:43:08 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 12:43:09 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 12:43:15 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:43:16 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 12:43:21 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 12:43:35 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:43:44 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 12:43:44 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 12:43:56 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:43:58 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 12:44:04 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 12:44:17 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:45:19 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:45:19 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-05-07 12:46:05 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:46:05 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-05-07 12:46:13 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:46:13 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-05-07 12:46:34 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:46:34 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-05-07 12:46:54 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:46:54 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-05-07 12:46:59 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:46:59 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-05-07 12:47:40 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:47:40 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-05-07 12:48:08 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:48:08 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-05-07 12:48:41 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:48:41 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-05-07 12:49:01 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:49:01 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-05-07 12:49:24 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:49:24 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-05-07 12:49:43 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:49:43 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-05-07 12:50:05 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:50:05 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-05-07 12:50:28 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:50:28 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-05-07 12:50:44 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:50:44 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-05-07 12:51:11 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:51:11 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-05-07 12:51:38 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:51:38 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-05-07 12:51:49 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:51:49 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-05-07 12:52:34 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:52:34 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-05-07 12:52:39 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:52:39 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-05-07 12:52:48 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:52:48 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-05-07 12:52:59 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:52:59 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-05-07 12:53:08 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:53:08 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-05-07 12:53:12 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:53:12 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-05-07 12:55:09 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:55:09 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-05-07 12:55:35 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:55:35 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-05-07 12:55:47 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:55:47 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-05-07 12:56:18 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:56:18 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-05-07 12:56:40 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:56:40 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-05-07 12:57:12 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:57:12 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-05-07 12:57:26 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:57:26 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-05-07 12:57:43 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:57:43 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-05-07 12:57:53 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:57:53 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-05-07 12:58:01 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:58:01 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-05-07 12:58:11 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:58:11 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-05-07 12:58:19 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:58:19 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-05-07 12:58:27 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:58:27 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-05-07 12:58:48 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:58:48 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-05-07 12:58:56 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:58:56 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-05-07 12:59:24 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:59:24 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-05-07 12:59:32 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 12:59:32 [INFO]: [server]: Request originated from UNKNOWN ORIGIN

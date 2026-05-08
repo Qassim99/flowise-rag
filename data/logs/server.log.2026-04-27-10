@@ -1,0 +1,63 @@
+2026-04-27 10:24:41 [INFO]: Starting Flowise...
+2026-04-27 10:24:41 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-04-27 10:24:41 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-04-27 10:24:41 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-04-27 10:24:43 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-04-27 10:24:43 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-04-27 10:24:43 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-04-27 10:24:43 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-04-27 10:24:43 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-04-27 10:24:43 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-04-27 10:24:43 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-04-27 10:24:43 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-04-27 10:24:43 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-04-27 10:24:43 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-04-27 10:26:05 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 10:26:05 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 10:26:29 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 10:26:29 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 10:27:12 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 10:27:12 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 10:27:13 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 10:27:13 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 10:28:10 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 10:28:10 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 10:28:14 [ERROR]: [server]: Error executing node conditionAgentAgentflow_1: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+2026-04-27 10:28:14 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/732936a2-5df0-4388-8516-bd0895b9ceea Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 10:28:16 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 10:28:16 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 10:29:12 [ERROR]: [server]: Error executing node conditionAgentAgentflow_1: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+2026-04-27 10:29:12 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/e36692b3-e1c3-49ec-a7cb-9c786e09c77a Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 10:29:14 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 10:29:14 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 10:32:21 [INFO]: Shutting down Flowise...
+2026-04-27 10:32:34 [INFO]: Starting Flowise...
+2026-04-27 10:32:34 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-04-27 10:32:34 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-04-27 10:32:34 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-04-27 10:32:35 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-04-27 10:32:35 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-04-27 10:32:35 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-04-27 10:32:35 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-04-27 10:32:35 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-04-27 10:32:35 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-04-27 10:32:35 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-04-27 10:32:35 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-04-27 10:32:35 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-04-27 10:32:35 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-04-27 10:33:22 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 10:34:01 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 10:34:07 [INFO]: ❌ DELETE /api/v1/chatmessage/616c4ca5-330c-4068-bbd0-1d8fa9889449?chatId=ec01d320-4e62-4489-bba3-f5c4c7ea16c0&chatType=INTERNAL
+2026-04-27 10:34:08 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 10:37:32 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 10:37:32 [INFO]: [server]: Request originated from UNKNOWN ORIGIN

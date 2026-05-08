@@ -1,0 +1,197 @@
+2026-04-27 16:49:03 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 16:49:03 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 16:49:07 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Failed to parse. Text: "". Error: SyntaxError: Unexpected end of JSON input
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+2026-04-27 16:49:07 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/e980e8b7-8d14-4013-8957-739261541e83 Error: Error in LLM node: Failed to parse. Text: "". Error: SyntaxError: Unexpected end of JSON input
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+Error: Error in LLM node: Failed to parse. Text: "". Error: SyntaxError: Unexpected end of JSON input
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 16:49:09 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 16:49:09 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 16:49:13 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Failed to parse. Text: "". Error: SyntaxError: Unexpected end of JSON input
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+2026-04-27 16:49:13 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/c35ab29f-3b39-4032-9a00-e4b8b31f6d37 Error: Error in LLM node: Failed to parse. Text: "". Error: SyntaxError: Unexpected end of JSON input
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+Error: Error in LLM node: Failed to parse. Text: "". Error: SyntaxError: Unexpected end of JSON input
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 16:49:18 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 16:49:18 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 16:49:24 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+2026-04-27 16:49:24 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/8cbccd9c-b6c9-44a3-8bb8-532d648199ad Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 16:49:24 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 16:49:24 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 16:49:27 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Failed to parse. Text: "". Error: SyntaxError: Unexpected end of JSON input
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+2026-04-27 16:49:27 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/b0675ed6-055c-46ca-a12e-a9737f68fc51 Error: Error in LLM node: Failed to parse. Text: "". Error: SyntaxError: Unexpected end of JSON input
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+Error: Error in LLM node: Failed to parse. Text: "". Error: SyntaxError: Unexpected end of JSON input
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 16:49:29 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 16:49:29 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 16:49:33 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Failed to parse. Text: "". Error: SyntaxError: Unexpected end of JSON input
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+2026-04-27 16:49:33 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/20ca1037-3d60-46be-8f96-f266c4201084 Error: Error in LLM node: Failed to parse. Text: "". Error: SyntaxError: Unexpected end of JSON input
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+Error: Error in LLM node: Failed to parse. Text: "". Error: SyntaxError: Unexpected end of JSON input
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 16:49:38 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 16:49:38 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 16:49:42 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Failed to parse. Text: "". Error: SyntaxError: Unexpected end of JSON input
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+2026-04-27 16:49:42 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/909a7daf-e72b-473a-8a2e-1cadc43142a4 Error: Error in LLM node: Failed to parse. Text: "". Error: SyntaxError: Unexpected end of JSON input
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+Error: Error in LLM node: Failed to parse. Text: "". Error: SyntaxError: Unexpected end of JSON input
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 16:49:42 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 16:49:42 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 16:49:48 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+2026-04-27 16:49:48 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/96a55a83-d713-455b-ae4c-7a8b34659519 Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 16:49:50 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 16:49:50 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 16:49:54 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Failed to parse. Text: "". Error: SyntaxError: Unexpected end of JSON input
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+2026-04-27 16:49:54 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/c0a5dd5b-574a-4130-90cd-27ca463a5ee2 Error: Error in LLM node: Failed to parse. Text: "". Error: SyntaxError: Unexpected end of JSON input
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+Error: Error in LLM node: Failed to parse. Text: "". Error: SyntaxError: Unexpected end of JSON input
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 16:49:59 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 16:49:59 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 16:50:02 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Failed to parse. Text: "". Error: SyntaxError: Unexpected end of JSON input
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+2026-04-27 16:50:02 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/17c1089f-b388-4fe1-923a-a56cd794316c Error: Error in LLM node: Failed to parse. Text: "". Error: SyntaxError: Unexpected end of JSON input
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+Error: Error in LLM node: Failed to parse. Text: "". Error: SyntaxError: Unexpected end of JSON input
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 16:50:02 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 16:50:02 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 16:50:06 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Failed to parse. Text: "". Error: SyntaxError: Unexpected end of JSON input
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+2026-04-27 16:50:06 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/b59410bf-d126-4bc8-8817-0e3a60bb99db Error: Error in LLM node: Failed to parse. Text: "". Error: SyntaxError: Unexpected end of JSON input
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+Error: Error in LLM node: Failed to parse. Text: "". Error: SyntaxError: Unexpected end of JSON input
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 16:50:12 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 16:50:16 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Failed to parse. Text: "". Error: SyntaxError: Unexpected end of JSON input
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+2026-04-27 16:50:16 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/25861a17-7bee-40cb-9961-8bc0516a427f Error: Error in LLM node: Failed to parse. Text: "". Error: SyntaxError: Unexpected end of JSON input
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+Error: Error in LLM node: Failed to parse. Text: "". Error: SyntaxError: Unexpected end of JSON input
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-27 16:50:30 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-27 16:50:30 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-27 16:50:30 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-27 16:50:51 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-27 16:50:51 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-27 16:50:51 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-27 16:50:58 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 16:51:08 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 16:51:12 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+2026-04-27 16:51:12 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/929b64cb-7577-4e9e-a6f9-e74bec4f2ddf Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-27 16:51:34 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-27 16:51:34 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-04-27 16:51:38 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-04-27 16:51:51 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 16:52:00 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449

@@ -1,0 +1,361 @@
+2026-05-07 16:00:06 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:00:11 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:00:13 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: 400 No models provided
+2026-05-07 16:00:13 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/b23d3f24-a3a0-453f-9d32-a8b28da635f2 Error: Error in LLM node: 400 No models provided
+Error: Error in LLM node: 400 No models provided
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-05-07 16:00:15 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:00:15 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:00:15 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:00:20 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:00:27 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:00:30 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "undefined"
+2026-05-07 16:00:30 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/1eddd984-878f-4a1a-aecd-37db175eac99 Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "undefined"
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "undefined"
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-05-07 16:02:16 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:02:16 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:02:16 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:02:23 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:02:30 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:02:36 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:02:38 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "undefined"
+2026-05-07 16:02:38 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/12f646a8-2936-4a94-bf45-4a25a4c8169c Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "undefined"
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "undefined"
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-05-07 16:04:16 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:04:16 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:04:16 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:04:50 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:04:52 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:04:52 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:04:52 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:07:09 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:07:11 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "undefined"
+2026-05-07 16:07:11 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/a2f79b69-93a0-4b91-9e7e-4dcb0f9fe93d Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "undefined"
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "undefined"
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-05-07 16:07:35 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:07:35 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:07:35 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:09:20 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:09:20 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:09:20 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:09:26 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:09:31 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:11:15 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Failed to perform inference: an HTTP error occurred when requesting the provider.
+2026-05-07 16:11:16 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/5c25f0c7-6f7c-4371-8d7d-d4a8650768ce Error: Error in LLM node: Failed to perform inference: an HTTP error occurred when requesting the provider.
+Error: Error in LLM node: Failed to perform inference: an HTTP error occurred when requesting the provider.
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-05-07 16:11:33 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:11:33 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:11:33 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:12:09 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:12:14 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:12:18 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "undefined"
+2026-05-07 16:12:18 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/ea2c8878-8234-4a59-8753-ca2dc8bb94f5 Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "undefined"
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "undefined"
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-05-07 16:12:21 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:12:21 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-05-07 16:12:28 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:12:36 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "undefined"
+2026-05-07 16:12:36 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/c8560586-846d-44a1-986a-12ec0f7c6b9a Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "undefined"
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "undefined"
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-05-07 16:15:59 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-05-07 16:15:59 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:15:59 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:15:59 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:17:28 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:17:33 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:17:35 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "undefined"
+2026-05-07 16:17:35 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/a8b71ba2-3685-4679-a403-fe3942ceb7c6 Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "undefined"
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "undefined"
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-05-07 16:18:19 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:18:19 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:18:19 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:18:28 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:18:42 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:18:49 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:18:53 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "undefined"
+2026-05-07 16:18:53 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/3b7f2430-9c66-4dd8-a4bc-c2242a709ede Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "undefined"
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "undefined"
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-05-07 16:19:18 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:19:18 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:19:18 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:19:47 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:19:47 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:19:47 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:24:53 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:24:53 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:24:53 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:25:00 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:25:07 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:25:07 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:25:07 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:25:13 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:25:22 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:25:27 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:25:28 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "undefined"
+2026-05-07 16:25:29 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/1f7244e0-d367-48aa-ae37-3278306128b3 Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "undefined"
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "undefined"
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-05-07 16:25:50 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:25:50 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:25:50 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:26:04 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:26:10 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:26:11 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "undefined"
+2026-05-07 16:26:11 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/708bf818-8f19-4791-92f9-59053fa33638 Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "undefined"
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "undefined"
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-05-07 16:26:34 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:26:34 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:26:34 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:27:02 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:28:46 [INFO]: ⬆️ POST /api/v1/credentials
+2026-05-07 16:29:33 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:29:37 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:29:37 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:29:37 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:29:50 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:29:51 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: 400 The requested model 'qwen/qwen3-32b' does not exist.
+2026-05-07 16:29:51 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/7e8bb669-ab2e-4fb6-b0e5-f18edc05d033 Error: Error in LLM node: 400 The requested model 'qwen/qwen3-32b' does not exist.
+Error: Error in LLM node: 400 The requested model 'qwen/qwen3-32b' does not exist.
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-05-07 16:30:09 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:30:09 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-05-07 16:30:16 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-05-07 16:30:16 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:30:16 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:30:16 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:30:22 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:30:27 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:30:27 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: 400 This model does not support response format `json_schema`. See supported models at https://console.groq.com/docs/structured-outputs#supported-models
+2026-05-07 16:30:27 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/664af470-8144-4686-8729-d939eb78043f Error: Error in LLM node: 400 This model does not support response format `json_schema`. See supported models at https://console.groq.com/docs/structured-outputs#supported-models
+Error: Error in LLM node: 400 This model does not support response format `json_schema`. See supported models at https://console.groq.com/docs/structured-outputs#supported-models
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-05-07 16:30:51 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:30:51 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:30:51 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:31:06 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:31:10 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:31:11 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: 400 This model does not support response format `json_schema`. See supported models at https://console.groq.com/docs/structured-outputs#supported-models
+2026-05-07 16:31:11 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/a4bc8d91-4674-4fe0-b60d-26c1dd84351b Error: Error in LLM node: 400 This model does not support response format `json_schema`. See supported models at https://console.groq.com/docs/structured-outputs#supported-models
+Error: Error in LLM node: 400 This model does not support response format `json_schema`. See supported models at https://console.groq.com/docs/structured-outputs#supported-models
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-05-07 16:32:42 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:32:42 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:32:42 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:33:26 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:33:27 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: 400 This model does not support response format `json_schema`. See supported models at https://console.groq.com/docs/structured-outputs#supported-models
+2026-05-07 16:33:27 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/969c88fc-a231-4b94-8b21-2a8a82174995 Error: Error in LLM node: 400 This model does not support response format `json_schema`. See supported models at https://console.groq.com/docs/structured-outputs#supported-models
+Error: Error in LLM node: 400 This model does not support response format `json_schema`. See supported models at https://console.groq.com/docs/structured-outputs#supported-models
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-05-07 16:33:58 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:33:58 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:33:58 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:34:18 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:34:26 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:34:28 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "undefined"
+2026-05-07 16:34:28 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/be4a2fc1-383b-4e9b-9608-346cd6b67477 Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "undefined"
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "undefined"
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-05-07 16:34:44 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:34:44 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-05-07 16:34:49 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-05-07 16:35:02 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:35:04 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "undefined"
+2026-05-07 16:35:04 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/84c7c491-b87d-49b9-ad70-7ca187fa85ea Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "undefined"
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "undefined"
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-05-07 16:35:17 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-05-07 16:35:28 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-05-07 16:35:51 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:35:56 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:36:01 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: 401 Incorrect API key provided: hf_rVwRN*************************LBPh. You can find your API key at https://platform.openai.com/account/api-keys.
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+2026-05-07 16:36:01 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/dd7fd130-070b-4590-8319-903c2bf117c2 Error: Error in Condition Agent node: 401 Incorrect API key provided: hf_rVwRN*************************LBPh. You can find your API key at https://platform.openai.com/account/api-keys.
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+Error: Error in Condition Agent node: 401 Incorrect API key provided: hf_rVwRN*************************LBPh. You can find your API key at https://platform.openai.com/account/api-keys.
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-05-07 16:36:16 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-05-07 16:36:34 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:36:42 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:36:44 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: 401 Incorrect API key provided: hf_rVwRN*************************LBPh. You can find your API key at https://platform.openai.com/account/api-keys.
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+2026-05-07 16:36:45 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/132a4f97-262c-4177-8fd3-6960089b0dd5 Error: Error in Condition Agent node: 401 Incorrect API key provided: hf_rVwRN*************************LBPh. You can find your API key at https://platform.openai.com/account/api-keys.
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+Error: Error in Condition Agent node: 401 Incorrect API key provided: hf_rVwRN*************************LBPh. You can find your API key at https://platform.openai.com/account/api-keys.
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-05-07 16:36:49 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-05-07 16:37:09 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:37:30 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-05-07 16:37:37 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:37:43 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:37:53 [ERROR]: [server]: Error executing node conditionAgentAgentflow_1: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "undefined"
+2026-05-07 16:37:53 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/27a9d896-cfdb-4f1b-b2da-cae0ab37b160 Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "undefined"
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "undefined"
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-05-07 16:38:13 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-05-07 16:38:13 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:38:13 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:38:49 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:39:14 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:39:19 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:39:19 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:39:49 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:39:50 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:39:50 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:39:50 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:39:50 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:40:03 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:40:03 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:40:03 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:40:19 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:40:19 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:40:19 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:40:19 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:40:25 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:40:33 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:40:35 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: 400 The requested model 'swiss-ai/Apertus-70B-2509' is not a chat model.
+2026-05-07 16:40:35 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/e39ae091-1054-4952-8c98-1df834f0defd Error: Error in LLM node: 400 The requested model 'swiss-ai/Apertus-70B-2509' is not a chat model.
+Error: Error in LLM node: 400 The requested model 'swiss-ai/Apertus-70B-2509' is not a chat model.
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-05-07 16:41:01 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:41:01 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:41:01 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:41:06 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:41:11 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:41:12 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: 400 The requested model 'swiss-ai/Apertus-70B-2509' is not a chat model.
+2026-05-07 16:41:12 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/3cfdd728-a688-40c0-8b4e-072f0fe7c434 Error: Error in LLM node: 400 The requested model 'swiss-ai/Apertus-70B-2509' is not a chat model.
+Error: Error in LLM node: 400 The requested model 'swiss-ai/Apertus-70B-2509' is not a chat model.
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-05-07 16:41:23 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:41:23 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:41:23 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:41:28 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:41:34 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:41:36 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: 403 Your request was blocked.
+2026-05-07 16:41:36 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/eca32226-02fa-46db-9830-0a930ed86c80 Error: Error in LLM node: 403 Your request was blocked.
+Error: Error in LLM node: 403 Your request was blocked.
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-05-07 16:42:02 [INFO]: ❌ DELETE /api/v1/chatmessage/616c4ca5-330c-4068-bbd0-1d8fa9889449?chatId=eca32226-02fa-46db-9830-0a930ed86c80&chatType=INTERNAL
+2026-05-07 16:42:10 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:42:10 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: 403 Your request was blocked.
+2026-05-07 16:42:10 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/da5c2bc8-50b5-4780-b5a2-d25848e942fc Error: Error in LLM node: 403 Your request was blocked.
+Error: Error in LLM node: 403 Your request was blocked.
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-05-07 16:42:37 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:42:37 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:42:37 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:42:43 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:42:50 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:42:51 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: 403 Your request was blocked.
+2026-05-07 16:42:51 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/7234c1a8-5d90-484c-a44a-aec271fc1f51 Error: Error in LLM node: 403 Your request was blocked.
+Error: Error in LLM node: 403 Your request was blocked.
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-05-07 16:43:17 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:43:17 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:43:17 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:43:23 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:43:28 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:43:28 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: 400 The requested model 'mistralai/Ministral-3-8B-Reasoning-2512' is not a chat model.
+2026-05-07 16:43:28 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/8a17d6b5-9ee1-4820-82a5-0f05be8e9cac Error: Error in LLM node: 400 The requested model 'mistralai/Ministral-3-8B-Reasoning-2512' is not a chat model.
+Error: Error in LLM node: 400 The requested model 'mistralai/Ministral-3-8B-Reasoning-2512' is not a chat model.
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-05-07 16:44:14 [INFO]: ❌ DELETE /api/v1/chatmessage/616c4ca5-330c-4068-bbd0-1d8fa9889449?chatId=8a17d6b5-9ee1-4820-82a5-0f05be8e9cac&chatType=INTERNAL
+2026-05-07 16:44:18 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:44:19 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:44:19 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:44:25 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:44:30 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:44:31 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: 400 This model does not support response format `json_schema`. See supported models at https://console.groq.com/docs/structured-outputs#supported-models
+2026-05-07 16:44:32 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/89a1a8d3-53ee-4b34-826d-95c51a311607 Error: Error in LLM node: 400 This model does not support response format `json_schema`. See supported models at https://console.groq.com/docs/structured-outputs#supported-models
+Error: Error in LLM node: 400 This model does not support response format `json_schema`. See supported models at https://console.groq.com/docs/structured-outputs#supported-models
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-05-07 16:48:35 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 16:48:36 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: 400 This model does not support response format `json_schema`. See supported models at https://console.groq.com/docs/structured-outputs#supported-models
+2026-05-07 16:48:36 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/63ce6f9d-335d-48dc-b752-6ec0221c8695 Error: Error in LLM node: 400 This model does not support response format `json_schema`. See supported models at https://console.groq.com/docs/structured-outputs#supported-models
+Error: Error in LLM node: 400 This model does not support response format `json_schema`. See supported models at https://console.groq.com/docs/structured-outputs#supported-models
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-05-07 16:49:24 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-05-07 16:49:31 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-05-07 16:49:37 [INFO]: 🖊 PUT /api/v1/chatflows/0712348e-0461-4e6f-8524-0273b3f3ad4d
+2026-05-07 16:49:40 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-05-07 16:51:28 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:51:29 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 16:51:29 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
