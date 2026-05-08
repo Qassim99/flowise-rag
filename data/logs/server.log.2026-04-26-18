@@ -1,0 +1,93 @@
+2026-04-26 18:51:17 [INFO]: Starting Flowise...
+2026-04-26 18:51:17 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-04-26 18:51:17 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-04-26 18:51:17 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-04-26 18:51:19 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-04-26 18:51:19 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-04-26 18:51:19 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-04-26 18:51:19 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-04-26 18:51:19 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-04-26 18:51:19 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-04-26 18:51:19 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-04-26 18:51:19 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-04-26 18:51:19 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-04-26 18:51:19 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-04-26 18:51:27 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-04-26 18:51:32 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-04-26 18:51:39 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-04-26 18:51:44 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=2361a4b1-b947-4c9e-87c3-b5ce00181966&chatType=INTERNAL
+2026-04-26 18:51:48 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-04-26 18:51:59 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-04-26 18:52:49 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-04-26 18:52:53 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=a15a71e4-fd81-47b9-91f1-7f2aa5d19131&chatType=INTERNAL
+2026-04-26 18:52:56 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-04-26 18:52:58 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/7e708632-6ee7-46a0-814b-f9bad35ea8fa/7e020e7b-3dac-460b-93a2-0e3eed6313ce Error: 400 {{MODEL_NAME}} is not a valid model ID
+Error: 400 {{MODEL_NAME}} is not a valid model ID
+    at APIError.generate (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/core/error.js:45:20)
+    at OpenAI.makeStatusError (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:163:32)
+    at OpenAI.makeRequest (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:331:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/dist/chat_models.cjs:1933:28
+    at async RetryOperation._fn (/usr/local/lib/node_modules/flowise/node_modules/p-retry/index.js:50:12)
+2026-04-26 18:53:52 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-04-26 18:54:08 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-04-26 18:54:23 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-04-26 18:54:25 [INFO]: ❌ DELETE /api/v1/chatmessage/7e708632-6ee7-46a0-814b-f9bad35ea8fa?chatId=7e020e7b-3dac-460b-93a2-0e3eed6313ce&chatType=INTERNAL
+2026-04-26 18:54:29 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-04-26 18:54:32 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/7e708632-6ee7-46a0-814b-f9bad35ea8fa/cf1c866a-dc8d-4704-b9a3-aaf1d9f71075 Error: 400 {{model}} is not a valid model ID
+Error: 400 {{model}} is not a valid model ID
+    at APIError.generate (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/core/error.js:45:20)
+    at OpenAI.makeStatusError (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:163:32)
+    at OpenAI.makeRequest (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:331:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/dist/chat_models.cjs:1933:28
+    at async RetryOperation._fn (/usr/local/lib/node_modules/flowise/node_modules/p-retry/index.js:50:12)
+2026-04-26 18:55:48 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-04-26 18:56:04 [INFO]: 🖊 PUT /api/v1/chatflows/55a0ac0f-4c95-48c1-bdeb-f26a457fa539
+2026-04-26 18:56:15 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-04-26 18:56:20 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-04-26 18:56:23 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-04-26 18:56:27 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-04-26 18:56:33 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/7e708632-6ee7-46a0-814b-f9bad35ea8fa/925061ad-7867-4ce1-baf6-992ea3605a49 Error: 400 {{model}} is not a valid model ID
+Error: 400 {{model}} is not a valid model ID
+    at APIError.generate (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/core/error.js:45:20)
+    at OpenAI.makeStatusError (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:163:32)
+    at OpenAI.makeRequest (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:331:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/dist/chat_models.cjs:1933:28
+    at async RetryOperation._fn (/usr/local/lib/node_modules/flowise/node_modules/p-retry/index.js:50:12)
+2026-04-26 18:57:27 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-04-26 18:57:34 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/7e708632-6ee7-46a0-814b-f9bad35ea8fa/c50d6668-063b-4e9d-bc7b-f5592c350c2b Error: 400 {{model}} is not a valid model ID
+Error: 400 {{model}} is not a valid model ID
+    at APIError.generate (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/core/error.js:45:20)
+    at OpenAI.makeStatusError (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:163:32)
+    at OpenAI.makeRequest (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:331:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/dist/chat_models.cjs:1933:28
+    at async RetryOperation._fn (/usr/local/lib/node_modules/flowise/node_modules/p-retry/index.js:50:12)
+2026-04-26 18:57:38 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-04-26 18:57:39 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-04-26 18:57:43 [INFO]: ⬆️ POST /api/v1/internal-prediction/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-04-26 18:58:04 [INFO]: 🖊 PUT /api/v1/chatflows/7e708632-6ee7-46a0-814b-f9bad35ea8fa
+2026-04-26 18:58:16 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 18:58:27 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 18:58:37 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 18:58:37 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 18:58:45 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 18:58:48 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 18:58:48 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 18:58:56 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 18:59:00 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 18:59:08 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 18:59:08 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-26 18:59:16 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 18:59:22 [INFO]: ❌ DELETE /api/v1/chatmessage/616c4ca5-330c-4068-bbd0-1d8fa9889449?chatId=71b2e55a-67b3-4521-9388-a653a94c254a&chatType=INTERNAL
+2026-04-26 18:59:26 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 18:59:29 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-26 18:59:34 [ERROR]: [server]: Error executing node llmAgentflow_2: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+2026-04-26 18:59:34 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/b7f2c275-5522-4ad4-9228-dd01882c1fc2 Error: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+Error: Error in LLM node: 400 {{$vars.model}} is not a valid model ID
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-04-26 18:59:52 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow

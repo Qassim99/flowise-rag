@@ -52,7 +52,7 @@ def query(payload):
 
 
 DATASET_PATH = current_dir / "dataset-de.json"
-RESULTS_PATH = current_dir / "results/eval_results_test_qwen3_32B_de.json"
+RESULTS_PATH = current_dir / "results/eval_results_test_llama_3.3_70B_instruct_de.json"
 
 _BERT_SCORERS: dict[str, BERTScorer] = {}
 
@@ -312,7 +312,9 @@ def run_evaluation():
     print("EVALUATION SUMMARY")
     print("=" * 60)
     print(f"Samples: {summary['total_samples']}")
-    print(f"Failed:  {summary['failed_samples']} ({summary['failure_rate'] * 100:.1f}%)")
+    print(
+        f"Failed:  {summary['failed_samples']} ({summary['failure_rate'] * 100:.1f}%)"
+    )
     print(f"Judge:   {summary['judge_model']}")
     print(f"\nOverall Scores (failures excluded from averages):")
     for k, v in summary["overall"].items():

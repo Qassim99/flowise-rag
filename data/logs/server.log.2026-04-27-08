@@ -1,0 +1,374 @@
+2026-04-27 08:01:51 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-27 08:01:51 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-27 08:01:51 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-27 08:04:20 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-27 08:04:20 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-27 08:04:20 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-27 08:04:32 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:04:34 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-27 08:04:34 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-04-27 08:04:44 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:04:46 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-04-27 08:04:46 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-27 08:05:03 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:05:06 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-27 08:05:06 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-27 08:05:06 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-27 08:05:15 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:05:17 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-27 08:05:17 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-04-27 08:05:26 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:05:31 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-04-27 08:05:31 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-27 08:05:43 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:05:45 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-27 08:05:45 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-27 08:06:07 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:06:53 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:06:53 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:08:07 [ERROR]: [server]: Error executing node conditionAgentAgentflow_1: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+2026-04-27 08:08:07 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/ec1e2ca5-129d-49e4-8853-dc19641c7ed8 Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 08:08:07 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:08:07 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:09:06 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:09:06 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:09:33 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "{"output": "Tax or EL"
+2026-04-27 08:09:33 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/b72fbbf8-bc58-455a-b769-f98dbbfdc983 Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "{"output": "Tax or EL"
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "{"output": "Tax or EL"
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 08:09:33 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:09:33 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:10:23 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:10:23 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:10:50 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+2026-04-27 08:10:50 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/48d892a3-8be5-4b03-b3fb-0dd9851e0b98 Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 08:10:50 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:10:50 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:11:44 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:11:44 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:12:09 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+2026-04-27 08:12:09 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/4aae82ed-4fb4-4439-a1dd-45e70ce5e0ad Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 08:12:09 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:12:09 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:12:25 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+2026-04-27 08:12:25 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/8bfd5392-61d3-4aac-bd2a-bc0c3f75ffd8 Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 08:12:25 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:12:25 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:12:44 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+2026-04-27 08:12:44 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/842374df-8330-4b07-a928-72d9d196b9a6 Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 08:12:44 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:12:44 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:13:44 [ERROR]: [server]: Error executing node conditionAgentAgentflow_1: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+2026-04-27 08:13:44 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/cbe98b81-b9fb-4c67-8483-2187b4ff7d8c Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 08:13:44 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:13:44 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:14:26 [ERROR]: [server]: Error executing node conditionAgentAgentflow_1: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+2026-04-27 08:14:26 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/921df3c5-af1f-4cd4-8fd9-092f27e06821 Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 08:14:26 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:14:26 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:14:48 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+2026-04-27 08:14:48 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/310be4e1-3091-47d6-8e3c-279a24235752 Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 08:14:48 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:14:48 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:15:07 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+2026-04-27 08:15:07 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/c641fcb5-fde4-4825-bd09-45c8fe7246eb Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 08:15:07 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:15:07 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:16:23 [ERROR]: [server]: Error executing node conditionAgentAgentflow_1: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+2026-04-27 08:16:23 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/b6de4666-9545-4136-b1b5-f6384b711be0 Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 08:20:28 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-27 08:20:44 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-27 08:20:44 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-27 08:20:57 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-27 08:20:57 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-04-27 08:21:44 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-04-27 08:21:44 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-27 08:22:04 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-04-27 08:22:04 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-04-27 08:31:56 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:31:56 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:32:40 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:32:40 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:32:49 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:32:49 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:33:20 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:33:20 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:34:17 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:34:17 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:34:51 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+2026-04-27 08:34:51 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/6a857355-abb6-4309-9800-0a4b376704bd Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 08:34:53 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:34:53 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:35:12 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+2026-04-27 08:35:12 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/ff308be1-e6e1-4c76-96a9-e33877152db9 Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 08:35:17 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:35:17 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:35:39 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+2026-04-27 08:35:39 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/55741f44-0630-45a8-8d16-ee7a308133b6 Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 08:35:39 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:35:39 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:36:30 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "{"output": "Tax"
+2026-04-27 08:36:30 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/34a3bd17-c9f9-4fcb-b990-f77a40a6ce85 Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "{"output": "Tax"
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "{"output": "Tax"
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 08:36:32 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:36:32 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:36:48 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "{"output": "Tax or"
+2026-04-27 08:36:48 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/7c786ee1-de30-43d1-8811-d015d164b549 Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "{"output": "Tax or"
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "{"output": "Tax or"
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 08:36:53 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:36:53 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:37:41 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:37:41 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:37:59 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+2026-04-27 08:37:59 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/04db7e65-8e98-4864-8668-23d33d1ca706 Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 08:38:01 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:38:01 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:38:58 [ERROR]: [server]: Error executing node conditionAgentAgentflow_1: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+2026-04-27 08:38:58 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/7c05b8fa-d018-4c5a-aa50-ecae06d9e1c3 Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 08:39:03 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:39:03 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:40:06 [ERROR]: [server]: Error executing node conditionAgentAgentflow_1: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+2026-04-27 08:40:06 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/b9c2c6c2-7199-4965-aa64-7308e5f60b0c Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 08:40:06 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:40:06 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:40:23 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+2026-04-27 08:40:23 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/33e89d85-efe4-4987-a551-05d9524e2ee6 Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 08:40:25 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:40:25 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:41:00 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+2026-04-27 08:41:00 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/5a077e88-783e-46ff-b22d-bd98d06564fb Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 08:41:05 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:41:05 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:41:33 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+2026-04-27 08:41:33 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/033616e4-8879-4754-a33e-485aa14cdc99 Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 08:41:33 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:41:33 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:42:38 [ERROR]: [server]: Error executing node conditionAgentAgentflow_1: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+2026-04-27 08:42:38 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/9e11581b-a8ac-4c6d-89b3-7802295f4315 Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 08:42:40 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:42:40 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:44:45 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:44:45 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:45:06 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+2026-04-27 08:45:06 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/6aff4f29-f427-4136-9957-df42bc82cad4 Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 08:46:45 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:46:45 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:48:47 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:48:47 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:48:48 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Connection error.
+2026-04-27 08:48:48 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/136d7d63-98dd-4b08-bcfd-39cbf9cf18de Error: Error in LLM node: Connection error.
+Error: Error in LLM node: Connection error.
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 08:50:52 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:50:52 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:52:01 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:52:01 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:52:43 [ERROR]: [server]: Error executing node conditionAgentAgentflow_1: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+2026-04-27 08:52:43 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/1b905637-aedf-475c-8b0e-3544ed942a8b Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 08:52:51 [ERROR]: [server]: Error executing node conditionAgentAgentflow_1: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+2026-04-27 08:52:51 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/07253939-2c66-4de3-86dc-4c2735775096 Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 08:52:53 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:52:53 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:54:37 [ERROR]: [server]: Error executing node conditionAgentAgentflow_1: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+2026-04-27 08:54:37 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/13faa710-dcb3-42f4-9512-20a647ddbe1e Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 08:54:42 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:54:42 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:55:51 [ERROR]: [server]: Error executing node conditionAgentAgentflow_1: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+2026-04-27 08:55:51 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/c9a60b7b-b37a-4ab5-85ee-f08aa09a5574 Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 08:55:51 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:55:51 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:56:17 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "{"output"
+2026-04-27 08:56:17 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/2768f78b-e179-477e-83d0-df422b41636f Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "{"output"
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "{"output"
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 08:56:19 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:56:19 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:56:39 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+2026-04-27 08:56:39 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/4920b8fa-998d-41ea-9dbe-d17b886e33f6 Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 08:56:44 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:56:44 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:57:14 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "{"output": "Tax or ELSTER related request"
+2026-04-27 08:57:14 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/74fbdfa4-2c18-4555-8543-fc713d242ebe Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "{"output": "Tax or ELSTER related request"
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "{"output": "Tax or ELSTER related request"
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 08:57:14 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:57:14 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:57:32 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+2026-04-27 08:57:32 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/34b77bc4-7a79-4c83-b1f0-20af01cbf48f Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 08:57:34 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:57:34 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:58:33 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:58:33 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:58:53 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+2026-04-27 08:58:53 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/98bf6fe7-23d1-4b18-9628-1d338e0d3b2f Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 08:58:55 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:58:55 [INFO]: [server]: Request originated from UNKNOWN ORIGIN
+2026-04-27 08:59:19 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+2026-04-27 08:59:19 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/0d44f626-5f29-4b0a-8f97-2f7eefd25f61 Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: ""
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async Object.buildChatflow (/usr/local/lib/node_modules/flowise/dist/services/predictions/index.js:9:28)
+    at async createPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/predictions/index.js:87:37)
+2026-04-27 08:59:24 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-04-27 08:59:24 [INFO]: [server]: Request originated from UNKNOWN ORIGIN

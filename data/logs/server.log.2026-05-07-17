@@ -1,0 +1,65 @@
+2026-05-07 17:55:20 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 17:55:21 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 17:55:21 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 17:55:22 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 17:55:25 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 17:55:43 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 17:55:43 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 17:55:43 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 17:55:43 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 17:55:51 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 17:55:51 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 17:55:51 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 17:55:51 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 17:56:32 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 17:56:32 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 17:56:32 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 17:57:24 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 17:57:24 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 17:57:33 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 17:57:35 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Failed to parse. Text: "". Error: SyntaxError: Unexpected end of JSON input
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+2026-05-07 17:57:36 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/ca87da3c-6ec7-45e2-8d93-4b334c1d5111 Error: Error in LLM node: Failed to parse. Text: "". Error: SyntaxError: Unexpected end of JSON input
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+Error: Error in LLM node: Failed to parse. Text: "". Error: SyntaxError: Unexpected end of JSON input
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-05-07 17:58:00 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 17:58:00 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 17:58:00 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 17:58:25 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 17:58:32 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 17:58:39 [ERROR]: [server]: Error executing node llmAgentflow_6: Error in LLM node: 400 The requested model 'swiss-ai/Apertus-70B-2509' is not a chat model.
+2026-05-07 17:58:39 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/5c91f702-1bd6-4d14-abef-fcbeb8fedf1b Error: Error in LLM node: 400 The requested model 'swiss-ai/Apertus-70B-2509' is not a chat model.
+Error: Error in LLM node: 400 The requested model 'swiss-ai/Apertus-70B-2509' is not a chat model.
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-05-07 17:58:59 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 17:58:59 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 17:58:59 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-05-07 17:59:19 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 17:59:26 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-05-07 17:59:28 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Failed to parse. Text: "". Error: SyntaxError: Unexpected end of JSON input
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+2026-05-07 17:59:28 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/4a94f70b-b438-47ec-a35e-8fffc986c903 Error: Error in LLM node: Failed to parse. Text: "". Error: SyntaxError: Unexpected end of JSON input
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+Error: Error in LLM node: Failed to parse. Text: "". Error: SyntaxError: Unexpected end of JSON input
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/OUTPUT_PARSING_FAILURE/
+
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
