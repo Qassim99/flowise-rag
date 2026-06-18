@@ -1,0 +1,5 @@
+2026-06-11 13:04:06 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-06-11 13:17:18 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-06-11 13:17:36 [INFO]: ❌ DELETE /api/v1/chatmessage/55a0ac0f-4c95-48c1-bdeb-f26a457fa539?chatId=1bd5410a-9b7e-4fce-ae3c-e141202db14b&chatType=INTERNAL
+2026-06-11 13:17:55 [INFO]: ⬆️ POST /api/v1/internal-prediction/55a0ac0f-4c95-48c1-bdeb-f26a457fa539
+2026-06-11 13:24:54 [INFO]: Shutting down Flowise...

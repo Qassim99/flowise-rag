@@ -1,0 +1,1120 @@
+2026-06-11 11:01:31 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-11 11:01:31 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-11 11:01:31 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-11 11:01:56 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-11 11:02:00 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-11 11:02:00 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Cannot read properties of undefined (reading 'response_metadata')
+2026-06-11 11:02:00 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/9a25e4a4-78a6-45b5-b0fe-22d5be14e5b6 Error: Error in LLM node: Cannot read properties of undefined (reading 'response_metadata')
+Error: Error in LLM node: Cannot read properties of undefined (reading 'response_metadata')
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1628:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:884:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:50:29)
+2026-06-11 11:02:09 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-11 11:02:12 [INFO]: ❌ DELETE /api/v1/chatmessage/616c4ca5-330c-4068-bbd0-1d8fa9889449?chatId=9a25e4a4-78a6-45b5-b0fe-22d5be14e5b6&chatType=INTERNAL
+2026-06-11 11:04:50 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-06-11 11:18:04 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-11 11:18:04 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-11 11:18:04 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-11 11:18:18 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-11 11:19:34 [INFO]: ⬆️ POST /api/v1/credentials
+2026-06-11 11:22:00 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-11 11:22:23 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-11 11:24:03 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-06-11 11:25:58 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-06-11 11:26:08 [INFO]: ⬆️ POST /api/v1/internal-prediction/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-06-11 11:26:08 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/781509f4-64dd-4197-b3f8-f2871924fbbe/a1eec009-6392-4921-9788-05b6e7eb4cb7 Error: Multiple starting nodes are not allowed
+Error: Multiple starting nodes are not allowed
+    at checkForMultipleStartNodes (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1103:15)
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1359:9)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:884:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:50:29)
+2026-06-11 11:26:45 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-06-11 11:26:49 [INFO]: ⬆️ POST /api/v1/internal-prediction/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-06-11 11:26:49 [ERROR]: [server]: Error executing node httpAgentflow_0: Invalid JSON format in body. Original error: JSON5: invalid character '`' at 7:1. After cleanup attempts: JSON5: invalid character '`' at 7:1. 3rd attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON. Final attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON.
+
+Common fixes:
+• Ensure all strings are enclosed in double quotes
+• Remove trailing commas
+• Remove comments (// or /* */)
+• Escape special characters properly (\n for newlines, \" for quotes)
+• Use double quotes instead of single quotes
+• Remove unnecessary backslashes before brackets [ ] { }
+
+Received body: {
+
+  "model": "sft_Soofi_Nano_30B_A3B_nemotron_posttrain_v3_em_v2_cleaned_bridge__iter_0000600",
+
+  "messages": [
+
+```
+{
+
+  "role": "system",
+
+  "content": "Return only valid JSON. No markdown."
+
+},
+
+...
+2026-06-11 11:26:49 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/781509f4-64dd-4197-b3f8-f2871924fbbe/8bfeed53-38dc-48df-ad72-56b4e8f76502 Error: Invalid JSON format in body. Original error: JSON5: invalid character '`' at 7:1. After cleanup attempts: JSON5: invalid character '`' at 7:1. 3rd attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON. Final attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON.
+
+Common fixes:
+• Ensure all strings are enclosed in double quotes
+• Remove trailing commas
+• Remove comments (// or /* */)
+• Escape special characters properly (\n for newlines, \" for quotes)
+• Use double quotes instead of single quotes
+• Remove unnecessary backslashes before brackets [ ] { }
+
+Received body: {
+
+  "model": "sft_Soofi_Nano_30B_A3B_nemotron_posttrain_v3_em_v2_cleaned_bridge__iter_0000600",
+
+  "messages": [
+
+```
+{
+
+  "role": "system",
+
+  "content": "Return only valid JSON. No markdown."
+
+},
+
+...
+Error: Invalid JSON format in body. Original error: JSON5: invalid character '`' at 7:1. After cleanup attempts: JSON5: invalid character '`' at 7:1. 3rd attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON. Final attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON.
+
+Common fixes:
+• Ensure all strings are enclosed in double quotes
+• Remove trailing commas
+• Remove comments (// or /* */)
+• Escape special characters properly (\n for newlines, \" for quotes)
+• Use double quotes instead of single quotes
+• Remove unnecessary backslashes before brackets [ ] { }
+
+Received body: {
+
+  "model": "sft_Soofi_Nano_30B_A3B_nemotron_posttrain_v3_em_v2_cleaned_bridge__iter_0000600",
+
+  "messages": [
+
+```
+{
+
+  "role": "system",
+
+  "content": "Return only valid JSON. No markdown."
+
+},
+
+...
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1628:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:884:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:50:29)
+2026-06-11 11:27:08 [INFO]: ⬆️ POST /api/v1/internal-prediction/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-06-11 11:27:08 [ERROR]: [server]: Error executing node httpAgentflow_0: Invalid JSON format in body. Original error: JSON5: invalid character '`' at 7:1. After cleanup attempts: JSON5: invalid character '`' at 7:1. 3rd attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON. Final attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON.
+
+Common fixes:
+• Ensure all strings are enclosed in double quotes
+• Remove trailing commas
+• Remove comments (// or /* */)
+• Escape special characters properly (\n for newlines, \" for quotes)
+• Use double quotes instead of single quotes
+• Remove unnecessary backslashes before brackets [ ] { }
+
+Received body: {
+
+  "model": "sft_Soofi_Nano_30B_A3B_nemotron_posttrain_v3_em_v2_cleaned_bridge__iter_0000600",
+
+  "messages": [
+
+```
+{
+
+  "role": "system",
+
+  "content": "Return only valid JSON. No markdown."
+
+},
+
+...
+2026-06-11 11:27:08 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/781509f4-64dd-4197-b3f8-f2871924fbbe/b9173560-27a7-4e04-abee-803a733ad92b Error: Invalid JSON format in body. Original error: JSON5: invalid character '`' at 7:1. After cleanup attempts: JSON5: invalid character '`' at 7:1. 3rd attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON. Final attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON.
+
+Common fixes:
+• Ensure all strings are enclosed in double quotes
+• Remove trailing commas
+• Remove comments (// or /* */)
+• Escape special characters properly (\n for newlines, \" for quotes)
+• Use double quotes instead of single quotes
+• Remove unnecessary backslashes before brackets [ ] { }
+
+Received body: {
+
+  "model": "sft_Soofi_Nano_30B_A3B_nemotron_posttrain_v3_em_v2_cleaned_bridge__iter_0000600",
+
+  "messages": [
+
+```
+{
+
+  "role": "system",
+
+  "content": "Return only valid JSON. No markdown."
+
+},
+
+...
+Error: Invalid JSON format in body. Original error: JSON5: invalid character '`' at 7:1. After cleanup attempts: JSON5: invalid character '`' at 7:1. 3rd attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON. Final attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON.
+
+Common fixes:
+• Ensure all strings are enclosed in double quotes
+• Remove trailing commas
+• Remove comments (// or /* */)
+• Escape special characters properly (\n for newlines, \" for quotes)
+• Use double quotes instead of single quotes
+• Remove unnecessary backslashes before brackets [ ] { }
+
+Received body: {
+
+  "model": "sft_Soofi_Nano_30B_A3B_nemotron_posttrain_v3_em_v2_cleaned_bridge__iter_0000600",
+
+  "messages": [
+
+```
+{
+
+  "role": "system",
+
+  "content": "Return only valid JSON. No markdown."
+
+},
+
+...
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1628:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:884:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:50:29)
+2026-06-11 11:28:02 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-06-11 11:28:06 [INFO]: ⬆️ POST /api/v1/internal-prediction/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-06-11 11:28:06 [ERROR]: [server]: Error executing node httpAgentflow_0: Invalid JSON format in body. Original error: JSON5: invalid character '`' at 7:1. After cleanup attempts: JSON5: invalid character '`' at 7:1. 3rd attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON. Final attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON.
+
+Common fixes:
+• Ensure all strings are enclosed in double quotes
+• Remove trailing commas
+• Remove comments (// or /* */)
+• Escape special characters properly (\n for newlines, \" for quotes)
+• Use double quotes instead of single quotes
+• Remove unnecessary backslashes before brackets [ ] { }
+
+Received body: {
+
+  "model": "sft_Soofi_Nano_30B_A3B_nemotron_posttrain_v3_em_v2_cleaned_bridge__iter_0000600",
+
+  "messages": [
+
+```
+{
+
+  "role": "system",
+
+  "content": "Return only valid JSON. No markdown."
+
+},
+
+...
+2026-06-11 11:28:06 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/781509f4-64dd-4197-b3f8-f2871924fbbe/dbbd4447-4f6b-4a7f-aa35-adae248da9ec Error: Invalid JSON format in body. Original error: JSON5: invalid character '`' at 7:1. After cleanup attempts: JSON5: invalid character '`' at 7:1. 3rd attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON. Final attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON.
+
+Common fixes:
+• Ensure all strings are enclosed in double quotes
+• Remove trailing commas
+• Remove comments (// or /* */)
+• Escape special characters properly (\n for newlines, \" for quotes)
+• Use double quotes instead of single quotes
+• Remove unnecessary backslashes before brackets [ ] { }
+
+Received body: {
+
+  "model": "sft_Soofi_Nano_30B_A3B_nemotron_posttrain_v3_em_v2_cleaned_bridge__iter_0000600",
+
+  "messages": [
+
+```
+{
+
+  "role": "system",
+
+  "content": "Return only valid JSON. No markdown."
+
+},
+
+...
+Error: Invalid JSON format in body. Original error: JSON5: invalid character '`' at 7:1. After cleanup attempts: JSON5: invalid character '`' at 7:1. 3rd attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON. Final attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON.
+
+Common fixes:
+• Ensure all strings are enclosed in double quotes
+• Remove trailing commas
+• Remove comments (// or /* */)
+• Escape special characters properly (\n for newlines, \" for quotes)
+• Use double quotes instead of single quotes
+• Remove unnecessary backslashes before brackets [ ] { }
+
+Received body: {
+
+  "model": "sft_Soofi_Nano_30B_A3B_nemotron_posttrain_v3_em_v2_cleaned_bridge__iter_0000600",
+
+  "messages": [
+
+```
+{
+
+  "role": "system",
+
+  "content": "Return only valid JSON. No markdown."
+
+},
+
+...
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1628:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:884:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:50:29)
+2026-06-11 11:34:08 [INFO]: ⬆️ POST /api/v1/internal-prediction/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-06-11 11:34:08 [ERROR]: [server]: Error executing node httpAgentflow_0: Invalid JSON format in body. Original error: JSON5: invalid character '`' at 7:1. After cleanup attempts: JSON5: invalid character '`' at 7:1. 3rd attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON. Final attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON.
+
+Common fixes:
+• Ensure all strings are enclosed in double quotes
+• Remove trailing commas
+• Remove comments (// or /* */)
+• Escape special characters properly (\n for newlines, \" for quotes)
+• Use double quotes instead of single quotes
+• Remove unnecessary backslashes before brackets [ ] { }
+
+Received body: {
+
+  "model": "sft_Soofi_Nano_30B_A3B_nemotron_posttrain_v3_em_v2_cleaned_bridge__iter_0000600",
+
+  "messages": [
+
+```
+{
+
+  "role": "system",
+
+  "content": "Return only valid JSON. No markdown."
+
+},
+
+...
+2026-06-11 11:34:08 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/781509f4-64dd-4197-b3f8-f2871924fbbe/da13b001-4946-45e9-a289-02a374bf1e90 Error: Invalid JSON format in body. Original error: JSON5: invalid character '`' at 7:1. After cleanup attempts: JSON5: invalid character '`' at 7:1. 3rd attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON. Final attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON.
+
+Common fixes:
+• Ensure all strings are enclosed in double quotes
+• Remove trailing commas
+• Remove comments (// or /* */)
+• Escape special characters properly (\n for newlines, \" for quotes)
+• Use double quotes instead of single quotes
+• Remove unnecessary backslashes before brackets [ ] { }
+
+Received body: {
+
+  "model": "sft_Soofi_Nano_30B_A3B_nemotron_posttrain_v3_em_v2_cleaned_bridge__iter_0000600",
+
+  "messages": [
+
+```
+{
+
+  "role": "system",
+
+  "content": "Return only valid JSON. No markdown."
+
+},
+
+...
+Error: Invalid JSON format in body. Original error: JSON5: invalid character '`' at 7:1. After cleanup attempts: JSON5: invalid character '`' at 7:1. 3rd attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON. Final attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON.
+
+Common fixes:
+• Ensure all strings are enclosed in double quotes
+• Remove trailing commas
+• Remove comments (// or /* */)
+• Escape special characters properly (\n for newlines, \" for quotes)
+• Use double quotes instead of single quotes
+• Remove unnecessary backslashes before brackets [ ] { }
+
+Received body: {
+
+  "model": "sft_Soofi_Nano_30B_A3B_nemotron_posttrain_v3_em_v2_cleaned_bridge__iter_0000600",
+
+  "messages": [
+
+```
+{
+
+  "role": "system",
+
+  "content": "Return only valid JSON. No markdown."
+
+},
+
+...
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1628:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:884:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:50:29)
+2026-06-11 11:36:32 [INFO]: ⬆️ POST /api/v1/internal-prediction/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-06-11 11:36:32 [ERROR]: [server]: Error executing node httpAgentflow_0: Invalid JSON format in body. Original error: JSON5: invalid character '`' at 7:1. After cleanup attempts: JSON5: invalid character '`' at 7:1. 3rd attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON. Final attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON.
+
+Common fixes:
+• Ensure all strings are enclosed in double quotes
+• Remove trailing commas
+• Remove comments (// or /* */)
+• Escape special characters properly (\n for newlines, \" for quotes)
+• Use double quotes instead of single quotes
+• Remove unnecessary backslashes before brackets [ ] { }
+
+Received body: {
+
+  "model": "sft_Soofi_Nano_30B_A3B_nemotron_posttrain_v3_em_v2_cleaned_bridge__iter_0000600",
+
+  "messages": [
+
+```
+{
+
+  "role": "system",
+
+  "content": "Return only valid JSON. No markdown."
+
+},
+
+...
+2026-06-11 11:36:32 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/781509f4-64dd-4197-b3f8-f2871924fbbe/aa6e58a5-f876-43da-969d-ef1ab39d384a Error: Invalid JSON format in body. Original error: JSON5: invalid character '`' at 7:1. After cleanup attempts: JSON5: invalid character '`' at 7:1. 3rd attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON. Final attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON.
+
+Common fixes:
+• Ensure all strings are enclosed in double quotes
+• Remove trailing commas
+• Remove comments (// or /* */)
+• Escape special characters properly (\n for newlines, \" for quotes)
+• Use double quotes instead of single quotes
+• Remove unnecessary backslashes before brackets [ ] { }
+
+Received body: {
+
+  "model": "sft_Soofi_Nano_30B_A3B_nemotron_posttrain_v3_em_v2_cleaned_bridge__iter_0000600",
+
+  "messages": [
+
+```
+{
+
+  "role": "system",
+
+  "content": "Return only valid JSON. No markdown."
+
+},
+
+...
+Error: Invalid JSON format in body. Original error: JSON5: invalid character '`' at 7:1. After cleanup attempts: JSON5: invalid character '`' at 7:1. 3rd attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON. Final attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON.
+
+Common fixes:
+• Ensure all strings are enclosed in double quotes
+• Remove trailing commas
+• Remove comments (// or /* */)
+• Escape special characters properly (\n for newlines, \" for quotes)
+• Use double quotes instead of single quotes
+• Remove unnecessary backslashes before brackets [ ] { }
+
+Received body: {
+
+  "model": "sft_Soofi_Nano_30B_A3B_nemotron_posttrain_v3_em_v2_cleaned_bridge__iter_0000600",
+
+  "messages": [
+
+```
+{
+
+  "role": "system",
+
+  "content": "Return only valid JSON. No markdown."
+
+},
+
+...
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1628:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:884:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:50:29)
+2026-06-11 11:37:19 [INFO]: ⬆️ POST /api/v1/internal-prediction/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-06-11 11:37:19 [ERROR]: [server]: Error executing node httpAgentflow_0: Invalid JSON format in body. Original error: JSON5: invalid character '`' at 7:1. After cleanup attempts: JSON5: invalid character '`' at 7:1. 3rd attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON. Final attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON.
+
+Common fixes:
+• Ensure all strings are enclosed in double quotes
+• Remove trailing commas
+• Remove comments (// or /* */)
+• Escape special characters properly (\n for newlines, \" for quotes)
+• Use double quotes instead of single quotes
+• Remove unnecessary backslashes before brackets [ ] { }
+
+Received body: {
+
+  "model": "sft_Soofi_Nano_30B_A3B_nemotron_posttrain_v3_em_v2_cleaned_bridge__iter_0000600",
+
+  "messages": [
+
+```
+{
+
+  "role": "system",
+
+  "content": "Return only valid JSON. No markdown."
+
+},
+
+...
+2026-06-11 11:37:19 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/781509f4-64dd-4197-b3f8-f2871924fbbe/0e0c18d4-b9b0-4318-93ba-054cf69d4e2f Error: Invalid JSON format in body. Original error: JSON5: invalid character '`' at 7:1. After cleanup attempts: JSON5: invalid character '`' at 7:1. 3rd attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON. Final attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON.
+
+Common fixes:
+• Ensure all strings are enclosed in double quotes
+• Remove trailing commas
+• Remove comments (// or /* */)
+• Escape special characters properly (\n for newlines, \" for quotes)
+• Use double quotes instead of single quotes
+• Remove unnecessary backslashes before brackets [ ] { }
+
+Received body: {
+
+  "model": "sft_Soofi_Nano_30B_A3B_nemotron_posttrain_v3_em_v2_cleaned_bridge__iter_0000600",
+
+  "messages": [
+
+```
+{
+
+  "role": "system",
+
+  "content": "Return only valid JSON. No markdown."
+
+},
+
+...
+Error: Invalid JSON format in body. Original error: JSON5: invalid character '`' at 7:1. After cleanup attempts: JSON5: invalid character '`' at 7:1. 3rd attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON. Final attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON.
+
+Common fixes:
+• Ensure all strings are enclosed in double quotes
+• Remove trailing commas
+• Remove comments (// or /* */)
+• Escape special characters properly (\n for newlines, \" for quotes)
+• Use double quotes instead of single quotes
+• Remove unnecessary backslashes before brackets [ ] { }
+
+Received body: {
+
+  "model": "sft_Soofi_Nano_30B_A3B_nemotron_posttrain_v3_em_v2_cleaned_bridge__iter_0000600",
+
+  "messages": [
+
+```
+{
+
+  "role": "system",
+
+  "content": "Return only valid JSON. No markdown."
+
+},
+
+...
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1628:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:884:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:50:29)
+2026-06-11 11:37:32 [INFO]: ❌ DELETE /api/v1/chatmessage/781509f4-64dd-4197-b3f8-f2871924fbbe?chatId=0e0c18d4-b9b0-4318-93ba-054cf69d4e2f&chatType=INTERNAL
+2026-06-11 11:37:39 [INFO]: ⬆️ POST /api/v1/internal-prediction/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-06-11 11:37:39 [ERROR]: [server]: Error executing node httpAgentflow_0: Invalid JSON format in body. Original error: JSON5: invalid character '`' at 7:1. After cleanup attempts: JSON5: invalid character '`' at 7:1. 3rd attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON. Final attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON.
+
+Common fixes:
+• Ensure all strings are enclosed in double quotes
+• Remove trailing commas
+• Remove comments (// or /* */)
+• Escape special characters properly (\n for newlines, \" for quotes)
+• Use double quotes instead of single quotes
+• Remove unnecessary backslashes before brackets [ ] { }
+
+Received body: {
+
+  "model": "sft_Soofi_Nano_30B_A3B_nemotron_posttrain_v3_em_v2_cleaned_bridge__iter_0000600",
+
+  "messages": [
+
+```
+{
+
+  "role": "system",
+
+  "content": "Return only valid JSON. No markdown."
+
+},
+
+...
+2026-06-11 11:37:39 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/781509f4-64dd-4197-b3f8-f2871924fbbe/cfc7aa47-5d44-43ab-a892-a1921e4231da Error: Invalid JSON format in body. Original error: JSON5: invalid character '`' at 7:1. After cleanup attempts: JSON5: invalid character '`' at 7:1. 3rd attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON. Final attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON.
+
+Common fixes:
+• Ensure all strings are enclosed in double quotes
+• Remove trailing commas
+• Remove comments (// or /* */)
+• Escape special characters properly (\n for newlines, \" for quotes)
+• Use double quotes instead of single quotes
+• Remove unnecessary backslashes before brackets [ ] { }
+
+Received body: {
+
+  "model": "sft_Soofi_Nano_30B_A3B_nemotron_posttrain_v3_em_v2_cleaned_bridge__iter_0000600",
+
+  "messages": [
+
+```
+{
+
+  "role": "system",
+
+  "content": "Return only valid JSON. No markdown."
+
+},
+
+...
+Error: Invalid JSON format in body. Original error: JSON5: invalid character '`' at 7:1. After cleanup attempts: JSON5: invalid character '`' at 7:1. 3rd attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON. Final attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON.
+
+Common fixes:
+• Ensure all strings are enclosed in double quotes
+• Remove trailing commas
+• Remove comments (// or /* */)
+• Escape special characters properly (\n for newlines, \" for quotes)
+• Use double quotes instead of single quotes
+• Remove unnecessary backslashes before brackets [ ] { }
+
+Received body: {
+
+  "model": "sft_Soofi_Nano_30B_A3B_nemotron_posttrain_v3_em_v2_cleaned_bridge__iter_0000600",
+
+  "messages": [
+
+```
+{
+
+  "role": "system",
+
+  "content": "Return only valid JSON. No markdown."
+
+},
+
+...
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1628:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:884:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:50:29)
+2026-06-11 11:38:29 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-06-11 11:38:32 [INFO]: ⬆️ POST /api/v1/internal-prediction/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-06-11 11:38:32 [ERROR]: [server]: Error executing node httpAgentflow_0: Invalid JSON format in body. Original error: JSON5: invalid character '`' at 7:1. After cleanup attempts: JSON5: invalid character '`' at 7:1. 3rd attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON. Final attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON.
+
+Common fixes:
+• Ensure all strings are enclosed in double quotes
+• Remove trailing commas
+• Remove comments (// or /* */)
+• Escape special characters properly (\n for newlines, \" for quotes)
+• Use double quotes instead of single quotes
+• Remove unnecessary backslashes before brackets [ ] { }
+
+Received body: {
+
+  "model": "sft_Soofi_Nano_30B_A3B_nemotron_posttrain_v3_em_v2_cleaned_bridge__iter_0000600",
+
+  "messages": [
+
+```
+{
+
+  "role": "system",
+
+  "content": "Return only valid JSON. No markdown. No exp...
+2026-06-11 11:38:32 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/781509f4-64dd-4197-b3f8-f2871924fbbe/d11ee71d-30b4-4215-beb8-98037a8d21e1 Error: Invalid JSON format in body. Original error: JSON5: invalid character '`' at 7:1. After cleanup attempts: JSON5: invalid character '`' at 7:1. 3rd attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON. Final attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON.
+
+Common fixes:
+• Ensure all strings are enclosed in double quotes
+• Remove trailing commas
+• Remove comments (// or /* */)
+• Escape special characters properly (\n for newlines, \" for quotes)
+• Use double quotes instead of single quotes
+• Remove unnecessary backslashes before brackets [ ] { }
+
+Received body: {
+
+  "model": "sft_Soofi_Nano_30B_A3B_nemotron_posttrain_v3_em_v2_cleaned_bridge__iter_0000600",
+
+  "messages": [
+
+```
+{
+
+  "role": "system",
+
+  "content": "Return only valid JSON. No markdown. No exp...
+Error: Invalid JSON format in body. Original error: JSON5: invalid character '`' at 7:1. After cleanup attempts: JSON5: invalid character '`' at 7:1. 3rd attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON. Final attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON.
+
+Common fixes:
+• Ensure all strings are enclosed in double quotes
+• Remove trailing commas
+• Remove comments (// or /* */)
+• Escape special characters properly (\n for newlines, \" for quotes)
+• Use double quotes instead of single quotes
+• Remove unnecessary backslashes before brackets [ ] { }
+
+Received body: {
+
+  "model": "sft_Soofi_Nano_30B_A3B_nemotron_posttrain_v3_em_v2_cleaned_bridge__iter_0000600",
+
+  "messages": [
+
+```
+{
+
+  "role": "system",
+
+  "content": "Return only valid JSON. No markdown. No exp...
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1628:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:884:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:50:29)
+2026-06-11 11:39:01 [INFO]: ⬆️ POST /api/v1/internal-prediction/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-06-11 11:39:01 [ERROR]: [server]: Error executing node httpAgentflow_0: Invalid JSON format in body. Original error: JSON5: invalid character '`' at 7:1. After cleanup attempts: JSON5: invalid character '`' at 7:1. 3rd attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON. Final attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON.
+
+Common fixes:
+• Ensure all strings are enclosed in double quotes
+• Remove trailing commas
+• Remove comments (// or /* */)
+• Escape special characters properly (\n for newlines, \" for quotes)
+• Use double quotes instead of single quotes
+• Remove unnecessary backslashes before brackets [ ] { }
+
+Received body: {
+
+  "model": "sft_Soofi_Nano_30B_A3B_nemotron_posttrain_v3_em_v2_cleaned_bridge__iter_0000600",
+
+  "messages": [
+
+```
+{
+
+  "role": "system",
+
+  "content": "Return only valid JSON. No markdown. No exp...
+2026-06-11 11:39:01 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/781509f4-64dd-4197-b3f8-f2871924fbbe/e3704e72-cd89-4d32-b5b2-ac745a6c4e4b Error: Invalid JSON format in body. Original error: JSON5: invalid character '`' at 7:1. After cleanup attempts: JSON5: invalid character '`' at 7:1. 3rd attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON. Final attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON.
+
+Common fixes:
+• Ensure all strings are enclosed in double quotes
+• Remove trailing commas
+• Remove comments (// or /* */)
+• Escape special characters properly (\n for newlines, \" for quotes)
+• Use double quotes instead of single quotes
+• Remove unnecessary backslashes before brackets [ ] { }
+
+Received body: {
+
+  "model": "sft_Soofi_Nano_30B_A3B_nemotron_posttrain_v3_em_v2_cleaned_bridge__iter_0000600",
+
+  "messages": [
+
+```
+{
+
+  "role": "system",
+
+  "content": "Return only valid JSON. No markdown. No exp...
+Error: Invalid JSON format in body. Original error: JSON5: invalid character '`' at 7:1. After cleanup attempts: JSON5: invalid character '`' at 7:1. 3rd attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON. Final attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON.
+
+Common fixes:
+• Ensure all strings are enclosed in double quotes
+• Remove trailing commas
+• Remove comments (// or /* */)
+• Escape special characters properly (\n for newlines, \" for quotes)
+• Use double quotes instead of single quotes
+• Remove unnecessary backslashes before brackets [ ] { }
+
+Received body: {
+
+  "model": "sft_Soofi_Nano_30B_A3B_nemotron_posttrain_v3_em_v2_cleaned_bridge__iter_0000600",
+
+  "messages": [
+
+```
+{
+
+  "role": "system",
+
+  "content": "Return only valid JSON. No markdown. No exp...
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1628:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:884:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:50:29)
+2026-06-11 11:45:30 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-06-11 11:45:34 [INFO]: ⬆️ POST /api/v1/internal-prediction/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-06-11 11:45:34 [ERROR]: [server]: Error executing node httpAgentflow_0: Invalid JSON format in body. Original error: JSON5: invalid character '`' at 7:1. After cleanup attempts: JSON5: invalid character '`' at 7:1. 3rd attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON. Final attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON.
+
+Common fixes:
+• Ensure all strings are enclosed in double quotes
+• Remove trailing commas
+• Remove comments (// or /* */)
+• Escape special characters properly (\n for newlines, \" for quotes)
+• Use double quotes instead of single quotes
+• Remove unnecessary backslashes before brackets [ ] { }
+
+Received body: {
+
+  "model": "sft_Soofi_Nano_30B_A3B_nemotron_posttrain_v3_em_v2_cleaned_bridge__iter_0000600",
+
+  "messages": [
+
+```
+{
+
+  "role": "system",
+
+  "content": "Return only valid JSON. No markdown. No exp...
+2026-06-11 11:45:34 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/781509f4-64dd-4197-b3f8-f2871924fbbe/87174bc7-6168-42cd-a9c9-456063ef10bd Error: Invalid JSON format in body. Original error: JSON5: invalid character '`' at 7:1. After cleanup attempts: JSON5: invalid character '`' at 7:1. 3rd attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON. Final attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON.
+
+Common fixes:
+• Ensure all strings are enclosed in double quotes
+• Remove trailing commas
+• Remove comments (// or /* */)
+• Escape special characters properly (\n for newlines, \" for quotes)
+• Use double quotes instead of single quotes
+• Remove unnecessary backslashes before brackets [ ] { }
+
+Received body: {
+
+  "model": "sft_Soofi_Nano_30B_A3B_nemotron_posttrain_v3_em_v2_cleaned_bridge__iter_0000600",
+
+  "messages": [
+
+```
+{
+
+  "role": "system",
+
+  "content": "Return only valid JSON. No markdown. No exp...
+Error: Invalid JSON format in body. Original error: JSON5: invalid character '`' at 7:1. After cleanup attempts: JSON5: invalid character '`' at 7:1. 3rd attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON. Final attempt: Unexpected token '`', ..."ages": [
+
+```
+{
+
+  ""... is not valid JSON.
+
+Common fixes:
+• Ensure all strings are enclosed in double quotes
+• Remove trailing commas
+• Remove comments (// or /* */)
+• Escape special characters properly (\n for newlines, \" for quotes)
+• Use double quotes instead of single quotes
+• Remove unnecessary backslashes before brackets [ ] { }
+
+Received body: {
+
+  "model": "sft_Soofi_Nano_30B_A3B_nemotron_posttrain_v3_em_v2_cleaned_bridge__iter_0000600",
+
+  "messages": [
+
+```
+{
+
+  "role": "system",
+
+  "content": "Return only valid JSON. No markdown. No exp...
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1628:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:884:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:50:29)
+2026-06-11 11:46:11 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe

@@ -1,0 +1,163 @@
+2026-06-11 12:28:08 [INFO]: ⬆️ POST /api/v1/chatflows
+2026-06-11 12:28:21 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-11 12:28:30 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-11 12:28:36 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-11 12:29:18 [INFO]: 🖊 PUT /api/v1/chatflows/bf42b14b-5431-4dc5-bb4c-eb2c49f95304
+2026-06-11 12:29:21 [INFO]: ⬆️ POST /api/v1/internal-prediction/bf42b14b-5431-4dc5-bb4c-eb2c49f95304
+2026-06-11 12:29:21 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: Invalid URL
+2026-06-11 12:29:21 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/bf42b14b-5431-4dc5-bb4c-eb2c49f95304/b464067c-d8db-421d-9f6a-ab577a62e3f0 Error: Error in LLM node: Invalid URL
+Error: Error in LLM node: Invalid URL
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1628:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:884:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:50:29)
+2026-06-11 12:29:55 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-11 12:30:20 [INFO]: 🖊 PUT /api/v1/chatflows/bf42b14b-5431-4dc5-bb4c-eb2c49f95304
+2026-06-11 12:30:23 [INFO]: ⬆️ POST /api/v1/internal-prediction/bf42b14b-5431-4dc5-bb4c-eb2c49f95304
+2026-06-11 12:30:43 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-11 12:30:43 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-11 12:30:43 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-11 12:30:49 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-11 12:31:42 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-11 12:31:46 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-11 12:31:46 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/ede5da6f-c263-42a8-80db-59299cf18e21 Error: Multiple starting nodes are not allowed
+Error: Multiple starting nodes are not allowed
+    at checkForMultipleStartNodes (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1103:15)
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1359:9)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:884:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:50:29)
+2026-06-11 12:31:58 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-11 12:32:01 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-11 12:32:02 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Cannot read properties of undefined (reading 'response_metadata')
+2026-06-11 12:32:02 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/3b0083c2-5b68-424d-9b86-99fa3ac41226 Error: Error in LLM node: Cannot read properties of undefined (reading 'response_metadata')
+Error: Error in LLM node: Cannot read properties of undefined (reading 'response_metadata')
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1628:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:884:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:50:29)
+2026-06-11 12:32:08 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-11 12:32:08 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-11 12:32:08 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-11 12:32:44 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-11 12:32:49 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-11 12:32:49 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Cannot read properties of undefined (reading 'response_metadata')
+2026-06-11 12:32:49 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/0dd9edbf-d313-4be6-8dbe-40ef695aafba Error: Error in LLM node: Cannot read properties of undefined (reading 'response_metadata')
+Error: Error in LLM node: Cannot read properties of undefined (reading 'response_metadata')
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1628:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:884:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:50:29)
+2026-06-11 12:32:54 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-11 12:32:55 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-11 12:32:55 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-11 12:33:25 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-11 12:33:47 [INFO]: 🖊 PUT /api/v1/chatflows/bf42b14b-5431-4dc5-bb4c-eb2c49f95304
+2026-06-11 12:33:59 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-11 12:34:35 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-11 12:34:36 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-11 12:34:36 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-11 12:34:53 [INFO]: 🖊 PUT /api/v1/chatflows/bf42b14b-5431-4dc5-bb4c-eb2c49f95304
+2026-06-11 12:35:02 [INFO]: ❌ DELETE /api/v1/chatmessage/bf42b14b-5431-4dc5-bb4c-eb2c49f95304?chatId=c6bcbf36-e629-43c0-8866-176393482236&chatType=INTERNAL
+2026-06-11 12:35:07 [INFO]: ⬆️ POST /api/v1/internal-prediction/bf42b14b-5431-4dc5-bb4c-eb2c49f95304
+2026-06-11 12:35:49 [INFO]: ❌ DELETE /api/v1/chatmessage/bf42b14b-5431-4dc5-bb4c-eb2c49f95304?chatId=e8e79d4e-0116-4c19-92ed-3d5daaeb98d4&chatType=INTERNAL
+2026-06-11 12:35:53 [INFO]: ⬆️ POST /api/v1/internal-prediction/bf42b14b-5431-4dc5-bb4c-eb2c49f95304
+2026-06-11 12:36:08 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-11 12:37:59 [INFO]: 🖊 PUT /api/v1/chatflows/bf42b14b-5431-4dc5-bb4c-eb2c49f95304
+2026-06-11 12:38:01 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-11 12:38:40 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-11 12:39:41 [INFO]: 🖊 PUT /api/v1/chatflows/bf42b14b-5431-4dc5-bb4c-eb2c49f95304
+2026-06-11 12:39:47 [INFO]: ❌ DELETE /api/v1/chatmessage/bf42b14b-5431-4dc5-bb4c-eb2c49f95304?chatId=863add68-9e9b-4191-9144-3d5f014c5854&chatType=INTERNAL
+2026-06-11 12:39:51 [INFO]: ⬆️ POST /api/v1/internal-prediction/bf42b14b-5431-4dc5-bb4c-eb2c49f95304
+2026-06-11 12:39:51 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: 400 litellm.BadRequestError: OpenAIException - Error code: 400 - {'detail': 'Open WebUI: Server Connection Error'}. Received Model Group=soofi
+Available Model Group Fallbacks=None
+2026-06-11 12:39:51 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/bf42b14b-5431-4dc5-bb4c-eb2c49f95304/eaafc87c-f257-4770-a731-30d34e9be327 Error: Error in LLM node: 400 litellm.BadRequestError: OpenAIException - Error code: 400 - {'detail': 'Open WebUI: Server Connection Error'}. Received Model Group=soofi
+Available Model Group Fallbacks=None
+Error: Error in LLM node: 400 litellm.BadRequestError: OpenAIException - Error code: 400 - {'detail': 'Open WebUI: Server Connection Error'}. Received Model Group=soofi
+Available Model Group Fallbacks=None
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1628:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:884:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:50:29)
+2026-06-11 12:40:26 [INFO]: ❌ DELETE /api/v1/chatmessage/bf42b14b-5431-4dc5-bb4c-eb2c49f95304?chatId=eaafc87c-f257-4770-a731-30d34e9be327&chatType=INTERNAL
+2026-06-11 12:40:27 [INFO]: 🖊 PUT /api/v1/chatflows/bf42b14b-5431-4dc5-bb4c-eb2c49f95304
+2026-06-11 12:40:33 [INFO]: ⬆️ POST /api/v1/internal-prediction/bf42b14b-5431-4dc5-bb4c-eb2c49f95304
+2026-06-11 12:40:33 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: 400 litellm.BadRequestError: OpenAIException - Error code: 400 - {'detail': 'Open WebUI: Server Connection Error'}. Received Model Group=soofi
+Available Model Group Fallbacks=None
+2026-06-11 12:40:33 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/bf42b14b-5431-4dc5-bb4c-eb2c49f95304/d036e0ab-f0af-4211-9be8-bd3d12af0422 Error: Error in LLM node: 400 litellm.BadRequestError: OpenAIException - Error code: 400 - {'detail': 'Open WebUI: Server Connection Error'}. Received Model Group=soofi
+Available Model Group Fallbacks=None
+Error: Error in LLM node: 400 litellm.BadRequestError: OpenAIException - Error code: 400 - {'detail': 'Open WebUI: Server Connection Error'}. Received Model Group=soofi
+Available Model Group Fallbacks=None
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1628:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:884:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:50:29)
+2026-06-11 12:40:37 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-11 12:40:58 [INFO]: 🖊 PUT /api/v1/chatflows/bf42b14b-5431-4dc5-bb4c-eb2c49f95304
+2026-06-11 12:41:02 [INFO]: ⬆️ POST /api/v1/internal-prediction/bf42b14b-5431-4dc5-bb4c-eb2c49f95304
+2026-06-11 12:41:02 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: 400 litellm.BadRequestError: OpenAIException - Error code: 400 - {'detail': 'Open WebUI: Server Connection Error'}. Received Model Group=soofi
+Available Model Group Fallbacks=None
+2026-06-11 12:41:02 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/bf42b14b-5431-4dc5-bb4c-eb2c49f95304/cf5cea46-4237-4b3b-b24a-da47ffc33ff9 Error: Error in LLM node: 400 litellm.BadRequestError: OpenAIException - Error code: 400 - {'detail': 'Open WebUI: Server Connection Error'}. Received Model Group=soofi
+Available Model Group Fallbacks=None
+Error: Error in LLM node: 400 litellm.BadRequestError: OpenAIException - Error code: 400 - {'detail': 'Open WebUI: Server Connection Error'}. Received Model Group=soofi
+Available Model Group Fallbacks=None
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1628:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:884:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:50:29)
+2026-06-11 12:41:07 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-11 12:41:40 [INFO]: 🖊 PUT /api/v1/chatflows/bf42b14b-5431-4dc5-bb4c-eb2c49f95304
+2026-06-11 12:41:47 [INFO]: ⬆️ POST /api/v1/internal-prediction/bf42b14b-5431-4dc5-bb4c-eb2c49f95304
+2026-06-11 12:41:47 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: 400 status code (no body)
+2026-06-11 12:41:47 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/bf42b14b-5431-4dc5-bb4c-eb2c49f95304/03d176ed-ceca-4f1e-a92c-4db83f8b9632 Error: Error in LLM node: 400 status code (no body)
+Error: Error in LLM node: 400 status code (no body)
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1628:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:884:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:50:29)
+2026-06-11 12:41:59 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-11 12:42:27 [INFO]: 🖊 PUT /api/v1/chatflows/bf42b14b-5431-4dc5-bb4c-eb2c49f95304
+2026-06-11 12:42:34 [INFO]: ⬆️ POST /api/v1/internal-prediction/bf42b14b-5431-4dc5-bb4c-eb2c49f95304
+2026-06-11 12:42:34 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: 400 status code (no body)
+2026-06-11 12:42:34 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/bf42b14b-5431-4dc5-bb4c-eb2c49f95304/c95732e0-b40e-4807-8d48-138c4b9359c4 Error: Error in LLM node: 400 status code (no body)
+Error: Error in LLM node: 400 status code (no body)
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1628:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:884:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:50:29)
+2026-06-11 12:42:48 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-11 12:43:27 [INFO]: 🖊 PUT /api/v1/chatflows/bf42b14b-5431-4dc5-bb4c-eb2c49f95304
+2026-06-11 12:43:31 [INFO]: ⬆️ POST /api/v1/internal-prediction/bf42b14b-5431-4dc5-bb4c-eb2c49f95304
+2026-06-11 12:43:32 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: 400 litellm.BadRequestError: OpenAIException - Error code: 400 - {'detail': 'Open WebUI: Server Connection Error'}. Received Model Group=soofi
+Available Model Group Fallbacks=None
+2026-06-11 12:43:32 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/bf42b14b-5431-4dc5-bb4c-eb2c49f95304/50fedb37-e2f7-4c73-b8fc-5abaf3e866f8 Error: Error in LLM node: 400 litellm.BadRequestError: OpenAIException - Error code: 400 - {'detail': 'Open WebUI: Server Connection Error'}. Received Model Group=soofi
+Available Model Group Fallbacks=None
+Error: Error in LLM node: 400 litellm.BadRequestError: OpenAIException - Error code: 400 - {'detail': 'Open WebUI: Server Connection Error'}. Received Model Group=soofi
+Available Model Group Fallbacks=None
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1628:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:884:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:50:29)
+2026-06-11 12:57:45 [INFO]: ⬆️ POST /api/v1/internal-prediction/bf42b14b-5431-4dc5-bb4c-eb2c49f95304
+2026-06-11 12:57:53 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-11 12:58:02 [INFO]: ❌ DELETE /api/v1/chatmessage/bf42b14b-5431-4dc5-bb4c-eb2c49f95304?chatId=50fedb37-e2f7-4c73-b8fc-5abaf3e866f8&chatType=INTERNAL
+2026-06-11 12:58:06 [INFO]: ⬆️ POST /api/v1/internal-prediction/bf42b14b-5431-4dc5-bb4c-eb2c49f95304
+2026-06-11 12:58:53 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: 400 litellm.BadRequestError: OpenAIException - Error code: 400 - {'detail': "Model '' was not found"}. Received Model Group=soofi
+Available Model Group Fallbacks=None
+2026-06-11 12:58:53 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/bf42b14b-5431-4dc5-bb4c-eb2c49f95304/61751455-40bb-4abb-951c-8585bb178063 Error: Error in LLM node: 400 litellm.BadRequestError: OpenAIException - Error code: 400 - {'detail': "Model '' was not found"}. Received Model Group=soofi
+Available Model Group Fallbacks=None
+Error: Error in LLM node: 400 litellm.BadRequestError: OpenAIException - Error code: 400 - {'detail': "Model '' was not found"}. Received Model Group=soofi
+Available Model Group Fallbacks=None
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1628:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:884:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:50:29)
+2026-06-11 12:58:56 [INFO]: ❌ DELETE /api/v1/chatmessage/bf42b14b-5431-4dc5-bb4c-eb2c49f95304?chatId=61751455-40bb-4abb-951c-8585bb178063&chatType=INTERNAL
+2026-06-11 12:59:01 [INFO]: ⬆️ POST /api/v1/internal-prediction/bf42b14b-5431-4dc5-bb4c-eb2c49f95304
+2026-06-11 12:59:01 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: 400 litellm.BadRequestError: OpenAIException - Error code: 400 - {'detail': "Model '' was not found"}. Received Model Group=soofi
+Available Model Group Fallbacks=None
+2026-06-11 12:59:01 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/bf42b14b-5431-4dc5-bb4c-eb2c49f95304/56fd0aaf-bbfe-4806-b883-19385519fd5b Error: Error in LLM node: 400 litellm.BadRequestError: OpenAIException - Error code: 400 - {'detail': "Model '' was not found"}. Received Model Group=soofi
+Available Model Group Fallbacks=None
+Error: Error in LLM node: 400 litellm.BadRequestError: OpenAIException - Error code: 400 - {'detail': "Model '' was not found"}. Received Model Group=soofi
+Available Model Group Fallbacks=None
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1628:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:884:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:50:29)
+2026-06-11 12:59:44 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: 400 litellm.BadRequestError: OpenAIException - Error code: 400 - {'detail': "Model '' was not found"}. Received Model Group=soofi
+Available Model Group Fallbacks=None
+2026-06-11 12:59:44 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/bf42b14b-5431-4dc5-bb4c-eb2c49f95304/811dc88c-2c7a-456d-9749-f5bd49caf8ed Error: Error in LLM node: 400 litellm.BadRequestError: OpenAIException - Error code: 400 - {'detail': "Model '' was not found"}. Received Model Group=soofi
+Available Model Group Fallbacks=None
+Error: Error in LLM node: 400 litellm.BadRequestError: OpenAIException - Error code: 400 - {'detail': "Model '' was not found"}. Received Model Group=soofi
+Available Model Group Fallbacks=None
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1628:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:884:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:50:29)

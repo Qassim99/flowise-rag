@@ -144,7 +144,7 @@ services:
       retries: 5
       start_period: 30s
     volumes:
-      - ./data:/root/.flowise
+      - ./data:/root/.flowise:Z
     entrypoint: /bin/sh -c "sleep 3; flowise start"
 
   qdrant:
@@ -161,7 +161,7 @@ services:
       retries: 5
       start_period: 30s
     volumes:
-      - ./qdrant_data:/qdrant/storage
+      - ./qdrant_data:/qdrant/storage:Z
 
   chatbot-demo:
     container_name: chatbot-demo
@@ -170,4 +170,4 @@ services:
     ports:
       - "8080:80"
     volumes:
-      - ./chatbot-demo:/usr/share/nginx/html:ro
+      - ./chatbot-demo:/usr/share/nginx/html:ro,Z
