@@ -1,0 +1,6 @@
+model_list:
+  - model_name: soofi
+    litellm_params:
+      model: openai/sft_Soofi_Nano_30B_A3B_nemotron_posttrain_v3_em_v2_cleaned_bridge__iter_0000600
+      api_base: https://soofi-owu.l3s.de/api
+      api_key: sk-ed443de23ce34d09b86ca3ef4df325f4

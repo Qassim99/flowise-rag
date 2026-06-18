@@ -1,0 +1,56 @@
+2026-06-11 08:23:28 [INFO]: Starting Flowise...
+2026-06-11 08:23:28 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-06-11 08:23:28 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-06-11 08:23:28 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-06-11 08:23:35 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-06-11 08:23:35 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-06-11 08:23:35 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-06-11 08:23:35 [INFO]: 🔐 [server]: Auth initialized successfully
+2026-06-11 08:23:35 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-06-11 08:23:35 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-06-11 08:23:35 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-06-11 08:23:35 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-06-11 08:23:35 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-06-11 08:23:35 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-06-11 08:23:35 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-06-11 08:23:58 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-06-11 08:24:25 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-06-11 08:24:46 [INFO]: ❌ DELETE /api/v1/chatmessage/616c4ca5-330c-4068-bbd0-1d8fa9889449?chatId=f54afe26-c125-4060-9724-556b3ffa226f&chatType=INTERNAL
+2026-06-11 08:24:50 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-11 08:30:16 [INFO]: Shutting down Flowise...
+2026-06-11 08:30:50 [INFO]: Starting Flowise...
+2026-06-11 08:30:50 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-06-11 08:30:50 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-06-11 08:30:50 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-06-11 08:30:56 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-06-11 08:30:56 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-06-11 08:30:56 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-06-11 08:30:56 [INFO]: 🔐 [server]: Auth initialized successfully
+2026-06-11 08:30:56 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-06-11 08:30:56 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-06-11 08:30:56 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-06-11 08:30:56 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-06-11 08:30:56 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-06-11 08:30:56 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-06-11 08:30:56 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-06-11 08:31:19 [INFO]: Shutting down Flowise...
+2026-06-11 08:31:41 [INFO]: Starting Flowise...
+2026-06-11 08:31:41 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-06-11 08:31:41 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-06-11 08:31:41 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-06-11 08:31:47 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-06-11 08:31:47 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-06-11 08:31:47 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-06-11 08:31:47 [INFO]: 🔐 [server]: Auth initialized successfully
+2026-06-11 08:31:47 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-06-11 08:31:47 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-06-11 08:31:47 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-06-11 08:31:47 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-06-11 08:31:47 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-06-11 08:31:47 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-06-11 08:31:47 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-06-11 08:32:54 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-11 08:32:54 [INFO]: [server]: Request originated from http://localhost:8080
+2026-06-11 08:33:33 [INFO]: ⬆️ POST /api/v1/prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-11 08:33:33 [INFO]: [server]: Request originated from http://localhost:8080
+2026-06-11 08:53:02 [INFO]: Shutting down Flowise...
