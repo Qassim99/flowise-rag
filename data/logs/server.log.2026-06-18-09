@@ -1,0 +1,74 @@
+2026-06-18 09:17:26 [INFO]: Starting Flowise...
+2026-06-18 09:17:26 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-06-18 09:17:26 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-06-18 09:17:26 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-06-18 09:17:27 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-06-18 09:17:27 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-06-18 09:17:27 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-06-18 09:17:27 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-06-18 09:17:27 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-06-18 09:17:27 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-06-18 09:17:27 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-06-18 09:17:27 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-06-18 09:17:27 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-06-18 09:17:27 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-06-18 09:17:32 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-06-18 09:17:32 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-06-18 09:17:37 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-06-18 09:17:48 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-18 09:18:16 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-06-18 09:18:22 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-06-18 09:18:29 [INFO]: 🖊 PUT /api/v1/chatflows/55a0ac0f-4c95-48c1-bdeb-f26a457fa539
+2026-06-18 09:19:15 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-06-18 09:19:34 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-06-18 09:20:25 [INFO]: 🖊 PUT /api/v1/chatflows/55a0ac0f-4c95-48c1-bdeb-f26a457fa539
+2026-06-18 09:20:30 [INFO]: ❌ DELETE /api/v1/chatmessage/55a0ac0f-4c95-48c1-bdeb-f26a457fa539?chatId=a02118f2-2289-4325-9f70-4a5b8dd8070d&chatType=INTERNAL
+2026-06-18 09:20:35 [INFO]: ⬆️ POST /api/v1/internal-prediction/55a0ac0f-4c95-48c1-bdeb-f26a457fa539
+2026-06-18 09:20:38 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/55a0ac0f-4c95-48c1-bdeb-f26a457fa539/df665cf6-bca5-448c-a254-14b0268f6bbf Error: 400 status code (no body)
+Error: 400 status code (no body)
+    at APIError.generate (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/core/error.js:45:20)
+    at OpenAI.makeStatusError (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:163:32)
+    at OpenAI.makeRequest (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:331:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/dist/chat_models.cjs:1933:28
+    at async RetryOperation._fn (/usr/local/lib/node_modules/flowise/node_modules/p-retry/index.js:50:12)
+2026-06-18 09:22:25 [INFO]: 🖊 PUT /api/v1/chatflows/55a0ac0f-4c95-48c1-bdeb-f26a457fa539
+2026-06-18 09:22:31 [INFO]: ⬆️ POST /api/v1/internal-prediction/55a0ac0f-4c95-48c1-bdeb-f26a457fa539
+2026-06-18 09:22:33 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/55a0ac0f-4c95-48c1-bdeb-f26a457fa539/70aca4be-3b7a-4a94-8478-2eff4d4d7d3b Error: 400 status code (no body)
+Error: 400 status code (no body)
+    at APIError.generate (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/core/error.js:45:20)
+    at OpenAI.makeStatusError (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:163:32)
+    at OpenAI.makeRequest (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:331:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/dist/chat_models.cjs:1933:28
+    at async RetryOperation._fn (/usr/local/lib/node_modules/flowise/node_modules/p-retry/index.js:50:12)
+2026-06-18 09:22:37 [INFO]: 🖊 PUT /api/v1/chatflows/55a0ac0f-4c95-48c1-bdeb-f26a457fa539
+2026-06-18 09:22:42 [INFO]: ⬆️ POST /api/v1/internal-prediction/55a0ac0f-4c95-48c1-bdeb-f26a457fa539
+2026-06-18 09:22:44 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/55a0ac0f-4c95-48c1-bdeb-f26a457fa539/522dce43-e29b-4bc6-9774-836aaeae274a Error: 400 status code (no body)
+Error: 400 status code (no body)
+    at APIError.generate (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/core/error.js:45:20)
+    at OpenAI.makeStatusError (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:163:32)
+    at OpenAI.makeRequest (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:331:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/dist/chat_models.cjs:1933:28
+    at async RetryOperation._fn (/usr/local/lib/node_modules/flowise/node_modules/p-retry/index.js:50:12)
+2026-06-18 09:23:10 [INFO]: 🖊 PUT /api/v1/chatflows/55a0ac0f-4c95-48c1-bdeb-f26a457fa539
+2026-06-18 09:23:12 [INFO]: ⬆️ POST /api/v1/internal-prediction/55a0ac0f-4c95-48c1-bdeb-f26a457fa539
+2026-06-18 09:23:15 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/55a0ac0f-4c95-48c1-bdeb-f26a457fa539/f291760a-c8e1-49b6-b3b2-f470e4ddf83e Error: 405 status code (no body)
+Error: 405 status code (no body)
+    at APIError.generate (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/core/error.js:68:16)
+    at OpenAI.makeStatusError (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:163:32)
+    at OpenAI.makeRequest (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:331:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/dist/chat_models.cjs:1933:28
+    at async RetryOperation._fn (/usr/local/lib/node_modules/flowise/node_modules/p-retry/index.js:50:12)
+2026-06-18 09:23:39 [INFO]: 🖊 PUT /api/v1/chatflows/55a0ac0f-4c95-48c1-bdeb-f26a457fa539
+2026-06-18 09:23:42 [INFO]: ⬆️ POST /api/v1/internal-prediction/55a0ac0f-4c95-48c1-bdeb-f26a457fa539
+2026-06-18 09:23:50 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/55a0ac0f-4c95-48c1-bdeb-f26a457fa539/0da1e2c0-0492-447d-bab6-19a1db2fe10c Error: 400 status code (no body)
+Error: 400 status code (no body)
+    at APIError.generate (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/core/error.js:45:20)
+    at OpenAI.makeStatusError (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:163:32)
+    at OpenAI.makeRequest (/usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/node_modules/openai/client.js:331:30)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async /usr/local/lib/node_modules/flowise/node_modules/@langchain/openai/dist/chat_models.cjs:1933:28
+    at async RetryOperation._fn (/usr/local/lib/node_modules/flowise/node_modules/p-retry/index.js:50:12)

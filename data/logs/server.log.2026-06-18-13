@@ -1,0 +1,14 @@
+2026-06-18 13:02:35 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-18 13:02:35 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: 400 status code (no body)
+2026-06-18 13:02:35 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/7d68d930-b3a6-4f8d-a3d2-699c29d97625 Error: Error in LLM node: 400 status code (no body)
+Error: Error in LLM node: 400 status code (no body)
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-06-18 13:10:14 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-18 13:10:14 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: 400 status code (no body)
+2026-06-18 13:10:14 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/66bde76e-d359-4d35-9ae6-1b9ab73eb45b Error: Error in LLM node: 400 status code (no body)
+Error: Error in LLM node: 400 status code (no body)
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)

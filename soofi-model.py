@@ -10,7 +10,7 @@ headers = {
 }
 
 payload = {
-    "model": "sft_Soofi_Nano_30B_A3B_nemotron_posttrain_v3_em_v2_cleaned_bridge__iter_0000600",
+    "model": "Soofi-S-Instruct",
     "messages": [
         {
             "role": "system",

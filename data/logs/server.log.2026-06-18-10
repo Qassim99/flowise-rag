@@ -1,0 +1,182 @@
+2026-06-18 10:02:17 [INFO]: 🖊 PUT /api/v1/chatflows/55a0ac0f-4c95-48c1-bdeb-f26a457fa539
+2026-06-18 10:02:23 [INFO]: ⬆️ POST /api/v1/internal-prediction/55a0ac0f-4c95-48c1-bdeb-f26a457fa539
+2026-06-18 10:02:44 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-18 10:03:21 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-18 10:03:29 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-18 10:03:39 [INFO]: ⬆️ POST /api/v1/chatflows
+2026-06-18 10:03:45 [INFO]: ⬆️ POST /api/v1/node-load-method/documentStoreVS
+2026-06-18 10:03:56 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-18 10:04:29 [INFO]: 🖊 PUT /api/v1/chatflows/148deeba-0822-4aba-9a5f-def31134d3bf
+2026-06-18 10:04:35 [INFO]: ⬆️ POST /api/v1/internal-prediction/148deeba-0822-4aba-9a5f-def31134d3bf
+2026-06-18 10:04:35 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: Missing credentials. Please pass an `apiKey`, or set the `OPENAI_API_KEY` environment variable.
+2026-06-18 10:04:35 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/148deeba-0822-4aba-9a5f-def31134d3bf/0967085e-7623-43cf-a5aa-5f5c8cf304f2 Error: Error in LLM node: Missing credentials. Please pass an `apiKey`, or set the `OPENAI_API_KEY` environment variable.
+Error: Error in LLM node: Missing credentials. Please pass an `apiKey`, or set the `OPENAI_API_KEY` environment variable.
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-06-18 10:04:39 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-18 10:04:49 [INFO]: 🖊 PUT /api/v1/chatflows/148deeba-0822-4aba-9a5f-def31134d3bf
+2026-06-18 10:04:52 [INFO]: ⬆️ POST /api/v1/internal-prediction/148deeba-0822-4aba-9a5f-def31134d3bf
+2026-06-18 10:05:01 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-18 10:05:15 [INFO]: 🖊 PUT /api/v1/chatflows/148deeba-0822-4aba-9a5f-def31134d3bf
+2026-06-18 10:05:26 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-18 10:05:26 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-18 10:05:26 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-18 10:05:50 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-18 10:05:54 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-18 10:06:14 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-18 10:06:19 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-18 10:06:19 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-06-18 10:06:30 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-06-18 10:06:53 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-18 10:07:01 [INFO]: ❌ DELETE /api/v1/chatmessage/616c4ca5-330c-4068-bbd0-1d8fa9889449?chatId=ad864fdf-8141-41be-a2ba-ecc5b08e2b6e&chatType=INTERNAL
+2026-06-18 10:07:02 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-18 10:07:05 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-18 10:07:07 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "Scenario 2"
+2026-06-18 10:07:07 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/dc4ee67a-d97e-463c-bc8f-d0e5facd4483 Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "Scenario 2"
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "Scenario 2"
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-06-18 10:07:24 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-06-18 10:07:44 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-18 10:08:52 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-18 10:08:56 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-18 10:08:58 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "Scenario 2"
+2026-06-18 10:08:58 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/34de274e-d1b2-4eb4-89db-25476fa21f96 Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "Scenario 2"
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "Scenario 2"
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-06-18 10:09:45 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-06-18 10:11:53 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-06-18 10:12:14 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-18 10:12:16 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-18 10:12:18 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "Greeting/capability/rewrite-style request"
+2026-06-18 10:12:18 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/c93514cb-af29-4f2a-81f4-433ce720c4be Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "Greeting/capability/rewrite-style request"
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "Greeting/capability/rewrite-style request"
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-06-18 10:13:38 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-06-18 10:13:46 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-18 10:13:49 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-18 10:13:51 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "{"scenario":"Greeting/capability/rewrite-style request"}"
+2026-06-18 10:13:51 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/96d60672-9c4f-45a7-9d44-a04b9882a84e Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "{"scenario":"Greeting/capability/rewrite-style request"}"
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "{"scenario":"Greeting/capability/rewrite-style request"}"
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-06-18 10:14:06 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-06-18 10:14:12 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-18 10:14:14 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "{"scenario":"Greeting/capability/rewrite-style request"}"
+2026-06-18 10:14:14 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/5f621122-6eb9-40da-aa59-e079cfd69e5f Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "{"scenario":"Greeting/capability/rewrite-style request"}"
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "{"scenario":"Greeting/capability/rewrite-style request"}"
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-06-18 10:15:14 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-18 10:15:30 [INFO]: ❌ DELETE /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-06-18 10:17:37 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-18 10:17:50 [INFO]: 🖊 PUT /api/v1/chatflows/148deeba-0822-4aba-9a5f-def31134d3bf
+2026-06-18 10:17:55 [INFO]: ❌ DELETE /api/v1/chatmessage/148deeba-0822-4aba-9a5f-def31134d3bf?chatId=cf4482be-7951-448c-9768-8c068c5aca0a&chatType=INTERNAL
+2026-06-18 10:17:58 [INFO]: ⬆️ POST /api/v1/internal-prediction/148deeba-0822-4aba-9a5f-def31134d3bf
+2026-06-18 10:18:35 [INFO]: ❌ DELETE /api/v1/chatmessage/148deeba-0822-4aba-9a5f-def31134d3bf?chatId=5ed1b4bd-5447-4505-9cbc-b66579260dad&chatType=INTERNAL
+2026-06-18 10:18:36 [INFO]: 🖊 PUT /api/v1/chatflows/148deeba-0822-4aba-9a5f-def31134d3bf
+2026-06-18 10:18:37 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-18 10:18:44 [INFO]: 🖊 PUT /api/v1/chatflows/148deeba-0822-4aba-9a5f-def31134d3bf
+2026-06-18 10:18:49 [INFO]: ⬆️ POST /api/v1/internal-prediction/148deeba-0822-4aba-9a5f-def31134d3bf
+2026-06-18 10:20:57 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-18 10:22:17 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-18 10:22:22 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-18 10:23:32 [INFO]: 🖊 PUT /api/v1/chatflows/148deeba-0822-4aba-9a5f-def31134d3bf
+2026-06-18 10:23:35 [INFO]: ❌ DELETE /api/v1/chatmessage/148deeba-0822-4aba-9a5f-def31134d3bf?chatId=40084e2a-a7a1-4056-a9fc-7df80e80eae0&chatType=INTERNAL
+2026-06-18 10:23:38 [INFO]: ⬆️ POST /api/v1/internal-prediction/148deeba-0822-4aba-9a5f-def31134d3bf
+2026-06-18 10:23:54 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-18 10:24:56 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-06-18 10:25:54 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-18 10:26:43 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-18 10:26:57 [INFO]: ❌ DELETE /api/v1/chatmessage/148deeba-0822-4aba-9a5f-def31134d3bf?chatId=e9a9042c-c016-4e70-950d-94d76545a652&chatType=INTERNAL
+2026-06-18 10:26:58 [INFO]: 🖊 PUT /api/v1/chatflows/148deeba-0822-4aba-9a5f-def31134d3bf
+2026-06-18 10:27:04 [INFO]: 🖊 PUT /api/v1/chatflows/148deeba-0822-4aba-9a5f-def31134d3bf
+2026-06-18 10:27:07 [INFO]: ⬆️ POST /api/v1/internal-prediction/148deeba-0822-4aba-9a5f-def31134d3bf
+2026-06-18 10:27:31 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-18 10:28:54 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-18 10:29:06 [INFO]: 🖊 PUT /api/v1/chatflows/148deeba-0822-4aba-9a5f-def31134d3bf
+2026-06-18 10:29:14 [INFO]: ❌ DELETE /api/v1/chatmessage/148deeba-0822-4aba-9a5f-def31134d3bf?chatId=51c4f838-5c75-46bd-b7ce-48ba3ef3692a&chatType=INTERNAL
+2026-06-18 10:29:22 [INFO]: ⬆️ POST /api/v1/internal-prediction/148deeba-0822-4aba-9a5f-def31134d3bf
+2026-06-18 10:29:26 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-18 10:29:36 [INFO]: 🖊 PUT /api/v1/chatflows/148deeba-0822-4aba-9a5f-def31134d3bf
+2026-06-18 10:29:40 [INFO]: ❌ DELETE /api/v1/chatmessage/148deeba-0822-4aba-9a5f-def31134d3bf?chatId=aec3e796-e9f8-408c-9529-4ee83a0e1df0&chatType=INTERNAL
+2026-06-18 10:29:43 [INFO]: ⬆️ POST /api/v1/internal-prediction/148deeba-0822-4aba-9a5f-def31134d3bf
+2026-06-18 10:29:49 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-18 10:29:59 [INFO]: ❌ DELETE /api/v1/chatmessage/148deeba-0822-4aba-9a5f-def31134d3bf?chatId=4f568a74-5de1-401e-b523-66744b02cf75&chatType=INTERNAL
+2026-06-18 10:30:07 [INFO]: ⬆️ POST /api/v1/internal-prediction/148deeba-0822-4aba-9a5f-def31134d3bf
+2026-06-18 10:30:19 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-18 10:30:48 [INFO]: 🖊 PUT /api/v1/chatflows/148deeba-0822-4aba-9a5f-def31134d3bf
+2026-06-18 10:30:53 [INFO]: ❌ DELETE /api/v1/chatmessage/148deeba-0822-4aba-9a5f-def31134d3bf?chatId=8d4cdd04-6844-420e-ba55-e13404f81cbd&chatType=INTERNAL
+2026-06-18 10:30:57 [INFO]: ⬆️ POST /api/v1/internal-prediction/148deeba-0822-4aba-9a5f-def31134d3bf
+2026-06-18 10:31:02 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-18 10:31:28 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-06-18 10:31:37 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-06-18 10:32:02 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-18 10:32:06 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-18 10:38:44 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-06-18 10:38:54 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-06-18 10:38:59 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-06-18 10:39:02 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-06-18 10:39:28 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-18 10:39:33 [INFO]: ❌ DELETE /api/v1/chatmessage/616c4ca5-330c-4068-bbd0-1d8fa9889449?chatId=9b2b315c-6bc8-4e50-805a-f02e603c4c33&chatType=INTERNAL
+2026-06-18 10:39:36 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-18 10:39:45 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-06-18 10:39:59 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-18 10:40:03 [INFO]: ❌ DELETE /api/v1/chatmessage/616c4ca5-330c-4068-bbd0-1d8fa9889449?chatId=b728449c-546e-41e8-ad0b-ea9c4bff8aed&chatType=INTERNAL
+2026-06-18 10:40:04 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-18 10:40:04 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-18 10:40:09 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-18 10:40:10 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "Scenario 2"
+2026-06-18 10:40:10 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/62837a91-bd79-4e51-8f54-ca8a173d8483 Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "Scenario 2"
+Error: Error in Condition Agent node: Failed to parse a valid scenario from the LLM's response. Please check if the model is capable of following JSON output instructions. Raw LLM Response: "Scenario 2"
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-06-18 10:40:16 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-06-18 10:40:25 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-06-18 10:40:33 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-18 10:40:37 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-18 10:40:47 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-06-18 10:40:47 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-18 10:40:47 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-18 10:40:58 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-18 10:41:02 [INFO]: ❌ DELETE /api/v1/chatmessage/616c4ca5-330c-4068-bbd0-1d8fa9889449?chatId=dc8e5a48-ef6b-422c-871d-19947c8f37f7&chatType=INTERNAL
+2026-06-18 10:41:21 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-18 10:41:27 [ERROR]: [server]: Error executing node llmAgentflow_6: Error in LLM node: 401 Missing Authentication header
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+2026-06-18 10:41:27 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/1663d74c-fadd-4cb8-a494-b1b717afd726 Error: Error in LLM node: 401 Missing Authentication header
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+Error: Error in LLM node: 401 Missing Authentication header
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-06-18 10:41:35 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-18 10:41:35 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-18 10:41:46 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-18 10:41:48 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-18 10:41:48 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-06-18 10:42:09 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-18 10:42:09 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-18 10:42:11 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-06-18 10:42:11 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-18 10:42:28 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-18 10:42:38 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-18 10:43:21 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-18 10:43:31 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-18 10:43:38 [INFO]: ❌ DELETE /api/v1/chatmessage/616c4ca5-330c-4068-bbd0-1d8fa9889449?chatId=f79cea36-3bc4-4cb6-98b6-c4a3f0789850&chatType=INTERNAL
+2026-06-18 10:43:41 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
