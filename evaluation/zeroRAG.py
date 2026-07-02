@@ -85,8 +85,8 @@ def query(question: str) -> dict:
     return last_error if isinstance(last_error, dict) else {"error": str(last_error)}
 
 
-DATASET_PATH = current_dir / "dataset-en.json"
-RESULTS_PATH = current_dir / "results/zeroRAG_results_Soofi_S_Instruct_en.json"
+DATASET_PATH = current_dir / "dataset-de.json"
+RESULTS_PATH = current_dir / "results/zeroRAG_results_Soofi_S_Instruct_de.json"
 
 _BERT_SCORERS: dict[str, BERTScorer] = {}
 
@@ -223,13 +223,19 @@ def run_evaluation():
 
         output = query(question)
 
-        failed = "text" not in output
-        if failed:
+        if "text" not in output:
+            failed = True
             error_msg = str(output)[:300]
             print(f"   FAILED: {error_msg}")
             prediction = ""
         else:
             prediction = output["text"].strip()
+            # An empty answer is a baseline failure and would also crash
+            # BERTScore's tokenizer on the empty string.
+            failed = prediction == ""
+            if failed:
+                error_msg = "model returned empty content"
+                print(f"   FAILED: {error_msg}")
 
         if failed:
             zero_judge = {
