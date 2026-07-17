@@ -1,0 +1,20 @@
+2026-07-10 11:47:01 [INFO]: Starting Flowise...
+2026-07-10 11:47:01 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-10 11:47:01 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-07-10 11:47:01 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-07-10 11:47:06 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-07-10 11:47:06 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-07-10 11:47:06 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-07-10 11:47:06 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-07-10 11:47:06 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-07-10 11:47:06 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-07-10 11:47:06 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-07-10 11:47:06 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-07-10 11:47:06 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-07-10 11:47:06 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-07-10 11:47:09 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-07-10 11:47:09 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-07-10 11:47:13 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-07-10 11:47:27 [INFO]: ❌ DELETE /api/v1/chatmessage/616c4ca5-330c-4068-bbd0-1d8fa9889449?chatId=10ab44ca-1602-453f-a6b3-f5a90d1f94aa&chatType=INTERNAL
+2026-07-10 11:47:47 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-07-10 11:52:10 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow

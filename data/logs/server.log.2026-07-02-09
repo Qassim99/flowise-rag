@@ -1,0 +1,969 @@
+2026-07-02 09:00:16 [INFO]: Starting Flowise...
+2026-07-02 09:00:16 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:00:16 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:00:16 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:00:33 [INFO]: Starting Flowise...
+2026-07-02 09:00:33 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:00:33 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:00:33 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:00:49 [INFO]: Starting Flowise...
+2026-07-02 09:00:49 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:00:49 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:00:50 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:01:06 [INFO]: Starting Flowise...
+2026-07-02 09:01:07 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:01:07 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:01:07 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:01:24 [INFO]: Starting Flowise...
+2026-07-02 09:01:24 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:01:24 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:01:24 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:01:40 [INFO]: Starting Flowise...
+2026-07-02 09:01:41 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:01:41 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:01:41 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:01:57 [INFO]: Starting Flowise...
+2026-07-02 09:01:57 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:01:57 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:01:57 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:02:13 [INFO]: Starting Flowise...
+2026-07-02 09:02:13 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:02:13 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:02:13 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:02:30 [INFO]: Starting Flowise...
+2026-07-02 09:02:30 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:02:30 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:02:30 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:02:46 [INFO]: Starting Flowise...
+2026-07-02 09:02:47 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:02:47 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:02:47 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:03:03 [INFO]: Starting Flowise...
+2026-07-02 09:03:03 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:03:03 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:03:03 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:03:20 [INFO]: Starting Flowise...
+2026-07-02 09:03:20 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:03:20 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:03:20 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:03:36 [INFO]: Starting Flowise...
+2026-07-02 09:03:36 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:03:36 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:03:36 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:03:53 [INFO]: Starting Flowise...
+2026-07-02 09:03:53 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:03:53 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:03:53 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:04:09 [INFO]: Starting Flowise...
+2026-07-02 09:04:09 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:04:09 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:04:09 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:04:26 [INFO]: Starting Flowise...
+2026-07-02 09:04:26 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:04:26 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:04:26 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:04:42 [INFO]: Starting Flowise...
+2026-07-02 09:04:42 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:04:42 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:04:43 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:04:59 [INFO]: Starting Flowise...
+2026-07-02 09:04:59 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:04:59 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:04:59 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:05:16 [INFO]: Starting Flowise...
+2026-07-02 09:05:16 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:05:16 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:05:16 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:05:33 [INFO]: Starting Flowise...
+2026-07-02 09:05:33 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:05:33 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:05:33 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:05:49 [INFO]: Starting Flowise...
+2026-07-02 09:05:49 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:05:49 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:05:49 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:06:07 [INFO]: Starting Flowise...
+2026-07-02 09:06:07 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:06:07 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:06:07 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:06:24 [INFO]: Starting Flowise...
+2026-07-02 09:06:24 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:06:24 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:06:24 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:06:41 [INFO]: Starting Flowise...
+2026-07-02 09:06:42 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:06:42 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:06:42 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:06:59 [INFO]: Starting Flowise...
+2026-07-02 09:06:59 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:06:59 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:06:59 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:07:16 [INFO]: Starting Flowise...
+2026-07-02 09:07:16 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:07:16 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:07:16 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:07:34 [INFO]: Starting Flowise...
+2026-07-02 09:07:34 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:07:34 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:07:34 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:07:51 [INFO]: Starting Flowise...
+2026-07-02 09:07:51 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:07:51 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:07:51 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:08:08 [INFO]: Starting Flowise...
+2026-07-02 09:08:08 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:08:08 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:08:08 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:08:25 [INFO]: Starting Flowise...
+2026-07-02 09:08:25 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:08:25 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:08:25 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:08:41 [INFO]: Starting Flowise...
+2026-07-02 09:08:41 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:08:41 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:08:41 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:08:58 [INFO]: Starting Flowise...
+2026-07-02 09:08:58 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:08:58 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:08:58 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:09:16 [INFO]: Starting Flowise...
+2026-07-02 09:09:16 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:09:16 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:09:16 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:09:33 [INFO]: Starting Flowise...
+2026-07-02 09:09:34 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:09:34 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:09:34 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:09:51 [INFO]: Starting Flowise...
+2026-07-02 09:09:51 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:09:51 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:09:51 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:10:08 [INFO]: Starting Flowise...
+2026-07-02 09:10:08 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:10:08 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:10:08 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:10:26 [INFO]: Starting Flowise...
+2026-07-02 09:10:26 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:10:26 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:10:26 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:10:42 [INFO]: Starting Flowise...
+2026-07-02 09:10:43 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:10:43 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:10:43 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:10:59 [INFO]: Starting Flowise...
+2026-07-02 09:10:59 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:10:59 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:10:59 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:11:15 [INFO]: Starting Flowise...
+2026-07-02 09:11:15 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:11:15 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:11:15 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:11:32 [INFO]: Starting Flowise...
+2026-07-02 09:11:32 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:11:32 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:11:32 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:11:49 [INFO]: Starting Flowise...
+2026-07-02 09:11:49 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:11:49 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:11:49 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:12:06 [INFO]: Starting Flowise...
+2026-07-02 09:12:06 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:12:06 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:12:06 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:12:23 [INFO]: Starting Flowise...
+2026-07-02 09:12:24 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:12:24 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:12:24 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:12:40 [INFO]: Starting Flowise...
+2026-07-02 09:12:40 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:12:40 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:12:40 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:12:57 [INFO]: Starting Flowise...
+2026-07-02 09:12:58 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:12:58 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:12:58 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:13:14 [INFO]: Starting Flowise...
+2026-07-02 09:13:14 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:13:14 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:13:14 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:13:31 [INFO]: Starting Flowise...
+2026-07-02 09:13:31 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:13:31 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:13:31 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:13:47 [INFO]: Starting Flowise...
+2026-07-02 09:13:47 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:13:47 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:13:47 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:14:04 [INFO]: Starting Flowise...
+2026-07-02 09:14:04 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:14:04 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:14:04 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:14:20 [INFO]: Starting Flowise...
+2026-07-02 09:14:20 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:14:20 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:14:20 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:14:36 [INFO]: Starting Flowise...
+2026-07-02 09:14:36 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:14:36 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:14:36 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:14:54 [INFO]: Starting Flowise...
+2026-07-02 09:14:54 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:14:54 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:14:54 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:15:12 [INFO]: Starting Flowise...
+2026-07-02 09:15:12 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:15:12 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:15:12 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:15:30 [INFO]: Starting Flowise...
+2026-07-02 09:15:30 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:15:30 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:15:30 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:15:46 [INFO]: Starting Flowise...
+2026-07-02 09:15:46 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:15:46 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:15:46 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)
+2026-07-02 09:16:03 [INFO]: Starting Flowise...
+2026-07-02 09:16:03 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-02 09:16:03 [ERROR]: ❌ [server]: Error during Data Source initialization: SQLITE_NOTADB: file is not a database
+QueryFailedError: SQLITE_NOTADB: file is not a database
+    at handler (/usr/local/lib/node_modules/flowise/node_modules/typeorm/driver/sqlite/SqliteQueryRunner.js:88:37)
+    at replacement (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/trace.js:25:27)
+    at Statement.errBack (/usr/local/lib/node_modules/flowise/node_modules/sqlite3/lib/sqlite3.js:15:21)
+2026-07-02 09:16:03 [ERROR]: Error: Auth secrets not initialized. Call initAuthSecrets() first.
+    at getExpressSessionSecret (/usr/local/lib/node_modules/flowise/dist/enterprise/utils/authSecrets.js:78:15)
+    at _initializePassportMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:69:59)
+    at initializeJwtCookieMiddleware (/usr/local/lib/node_modules/flowise/dist/enterprise/middleware/passport/index.js:108:11)
+    at App.config (/usr/local/lib/node_modules/flowise/dist/index.js:183:60)
+    at Object.start (/usr/local/lib/node_modules/flowise/dist/index.js:331:21)
+    at async Start.run (/usr/local/lib/node_modules/flowise/dist/commands/start.js:37:9)
+    at async Start._run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/command.js:302:22)
+    at async Config.runCommand (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/config/config.js:424:25)
+    at async Object.run (/usr/local/lib/node_modules/flowise/node_modules/@oclif/core/lib/main.js:94:16)

@@ -1,0 +1,33 @@
+2026-07-10 12:09:22 [INFO]: ❌ DELETE /api/v1/chatmessage/616c4ca5-330c-4068-bbd0-1d8fa9889449?chatId=af74113f-e989-4c57-9e6a-cba55b7a2eab&chatType=INTERNAL
+2026-07-10 12:09:29 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-07-10 12:48:18 [INFO]: ❌ DELETE /api/v1/chatmessage/616c4ca5-330c-4068-bbd0-1d8fa9889449?chatId=590b8ac8-30c9-4619-8572-e13341d9e996&chatType=INTERNAL
+2026-07-10 12:48:23 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-07-10 12:49:14 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-07-10 12:49:18 [ERROR]: [server]: Error executing node llmAgentflow_0: Error in LLM node: 401 Missing Authentication header
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+2026-07-10 12:49:18 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/c3c89e5f-6746-47df-9300-ae8aba5b6f21 Error: Error in LLM node: 401 Missing Authentication header
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+Error: Error in LLM node: 401 Missing Authentication header
+
+Troubleshooting URL: https://js.langchain.com/docs/troubleshooting/errors/MODEL_AUTHENTICATION/
+
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-07-10 12:49:45 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-07-10 12:56:02 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-07-10 12:56:18 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-07-10 12:56:18 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-07-10 12:56:19 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-07-10 12:56:19 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-07-10 12:58:11 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-07-10 12:58:11 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-07-10 12:58:11 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-07-10 12:58:11 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-07-10 12:59:13 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-07-10 12:59:23 [INFO]: ❌ DELETE /api/v1/chatmessage/616c4ca5-330c-4068-bbd0-1d8fa9889449?chatId=c3c89e5f-6746-47df-9300-ae8aba5b6f21&chatType=INTERNAL
+2026-07-10 12:59:30 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449

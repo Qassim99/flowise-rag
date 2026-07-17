@@ -3,7 +3,7 @@ version: "3.1"
 services:
   flowise:
     container_name: flowise
-    image: docker.io/flowiseai/flowise:latest
+    image: docker.io/flowiseai/flowise:3.0.13
     restart: always
     environment:
       - PORT=${PORT}

@@ -1,0 +1,191 @@
+2026-06-26 09:02:58 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:02:58 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:02:58 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:03:19 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:03:20 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:03:20 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:03:48 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:03:55 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:04:18 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-06-26 09:04:21 [INFO]: ⬆️ POST /api/v1/internal-prediction/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-06-26 09:05:08 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:05:08 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:05:08 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:05:32 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-26 09:05:34 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:05:34 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:05:34 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:05:45 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-26 09:05:47 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Cannot read properties of undefined (reading 'response_metadata')
+2026-06-26 09:05:47 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/a987e254-788a-416d-9216-7f15f0537523 Error: Error in LLM node: Cannot read properties of undefined (reading 'response_metadata')
+Error: Error in LLM node: Cannot read properties of undefined (reading 'response_metadata')
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1628:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:884:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:50:29)
+2026-06-26 09:06:02 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:06:02 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:06:02 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:06:08 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:06:08 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:06:22 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-26 09:06:24 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Cannot read properties of undefined (reading 'response_metadata')
+2026-06-26 09:06:24 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/a27dea6c-f085-4374-aea5-bfa83cea3997 Error: Error in LLM node: Cannot read properties of undefined (reading 'response_metadata')
+Error: Error in LLM node: Cannot read properties of undefined (reading 'response_metadata')
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1628:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:884:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:50:29)
+2026-06-26 09:06:29 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:06:30 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:06:30 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:09:22 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:09:22 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:09:22 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:09:42 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-26 09:09:45 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-26 09:09:48 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Cannot read properties of undefined (reading 'response_metadata')
+2026-06-26 09:09:48 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/031292fe-b623-4470-aa11-cc978810241b Error: Error in LLM node: Cannot read properties of undefined (reading 'response_metadata')
+Error: Error in LLM node: Cannot read properties of undefined (reading 'response_metadata')
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1628:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:884:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:50:29)
+2026-06-26 09:09:52 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:09:52 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:09:52 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:10:27 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-26 09:10:30 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-26 09:10:30 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: 400 status code (no body)
+2026-06-26 09:10:30 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/f5ce078d-d82a-4ced-aa61-b33dfbeb355d Error: Error in LLM node: 400 status code (no body)
+Error: Error in LLM node: 400 status code (no body)
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1628:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:884:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:50:29)
+2026-06-26 09:11:00 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:11:00 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:11:00 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:11:18 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-26 09:11:21 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-26 09:11:23 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Cannot read properties of undefined (reading 'response_metadata')
+2026-06-26 09:11:23 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/5bd5b440-38e1-48d1-8f5f-097a6276f7ce Error: Error in LLM node: Cannot read properties of undefined (reading 'response_metadata')
+Error: Error in LLM node: Cannot read properties of undefined (reading 'response_metadata')
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1628:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:884:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:50:29)
+2026-06-26 09:11:42 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:11:42 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:11:42 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:12:06 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:12:06 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:12:06 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:12:42 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-26 09:12:45 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-26 09:12:46 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Cannot read properties of undefined (reading 'response_metadata')
+2026-06-26 09:12:46 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/dc95c0f8-b0b8-442a-aa04-ab10512d2ba5 Error: Error in LLM node: Cannot read properties of undefined (reading 'response_metadata')
+Error: Error in LLM node: Cannot read properties of undefined (reading 'response_metadata')
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1628:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:884:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:50:29)
+2026-06-26 09:12:52 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:12:52 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:12:52 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:17:33 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:17:38 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:18:46 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-06-26 09:18:50 [INFO]: ⬆️ POST /api/v1/internal-prediction/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-06-26 09:19:04 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:19:20 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:19:20 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:19:20 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:19:43 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:20:13 [INFO]: 🖊 PUT /api/v1/chatflows/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-06-26 09:20:17 [INFO]: ⬆️ POST /api/v1/internal-prediction/781509f4-64dd-4197-b3f8-f2871924fbbe
+2026-06-26 09:20:47 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:20:47 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:20:47 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:20:51 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:21:50 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-26 09:21:54 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-26 09:21:55 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: 401 Incorrect API key provided: sk-ed443***********************25f4. You can find your API key at https://platform.openai.com/account/api-keys.
+
+Troubleshooting URL: https://docs.langchain.com/oss/javascript/langchain/errors/MODEL_AUTHENTICATION/
+
+2026-06-26 09:21:55 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/cd8d4767-7358-4955-b9d5-ddac5a08b06a Error: Error in LLM node: 401 Incorrect API key provided: sk-ed443***********************25f4. You can find your API key at https://platform.openai.com/account/api-keys.
+
+Troubleshooting URL: https://docs.langchain.com/oss/javascript/langchain/errors/MODEL_AUTHENTICATION/
+
+Error: Error in LLM node: 401 Incorrect API key provided: sk-ed443***********************25f4. You can find your API key at https://platform.openai.com/account/api-keys.
+
+Troubleshooting URL: https://docs.langchain.com/oss/javascript/langchain/errors/MODEL_AUTHENTICATION/
+
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1628:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:884:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:50:29)
+2026-06-26 09:21:59 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:21:59 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:21:59 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:22:13 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-26 09:22:18 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-26 09:22:19 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: 401 Incorrect API key provided: sk-ed443***********************25f4. You can find your API key at https://platform.openai.com/account/api-keys.
+
+Troubleshooting URL: https://docs.langchain.com/oss/javascript/langchain/errors/MODEL_AUTHENTICATION/
+
+2026-06-26 09:22:19 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/e72bc61e-2418-4f59-af6c-ab304f1c7caf Error: Error in LLM node: 401 Incorrect API key provided: sk-ed443***********************25f4. You can find your API key at https://platform.openai.com/account/api-keys.
+
+Troubleshooting URL: https://docs.langchain.com/oss/javascript/langchain/errors/MODEL_AUTHENTICATION/
+
+Error: Error in LLM node: 401 Incorrect API key provided: sk-ed443***********************25f4. You can find your API key at https://platform.openai.com/account/api-keys.
+
+Troubleshooting URL: https://docs.langchain.com/oss/javascript/langchain/errors/MODEL_AUTHENTICATION/
+
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1628:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:884:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:50:29)
+2026-06-26 09:22:21 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:22:22 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:22:22 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:22:38 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-26 09:22:41 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-26 09:22:41 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: 400 /chat/completions: Invalid model name passed in model=Soofi-S-Instruct. Call `/v1/models` to view available models for your key.
+2026-06-26 09:22:41 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/6e052ce8-40ce-4a3e-b303-d5c5d3e983cb Error: Error in LLM node: 400 /chat/completions: Invalid model name passed in model=Soofi-S-Instruct. Call `/v1/models` to view available models for your key.
+Error: Error in LLM node: 400 /chat/completions: Invalid model name passed in model=Soofi-S-Instruct. Call `/v1/models` to view available models for your key.
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1628:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:884:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:50:29)
+2026-06-26 09:22:57 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:22:58 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:22:58 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:23:53 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-26 09:23:57 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-26 09:24:19 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Cannot read properties of undefined (reading 'response_metadata')
+2026-06-26 09:24:19 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/b216ec3f-b3ca-46ee-9f26-51045444e4c1 Error: Error in LLM node: Cannot read properties of undefined (reading 'response_metadata')
+Error: Error in LLM node: Cannot read properties of undefined (reading 'response_metadata')
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1628:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:884:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:50:29)
+2026-06-26 09:24:34 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:24:34 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:24:34 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:26:54 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:27:10 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-26 09:27:12 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Cannot read properties of undefined (reading 'response_metadata')
+2026-06-26 09:27:12 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/616c4ca5-330c-4068-bbd0-1d8fa9889449/da78f763-a3f7-44b8-95b6-45bc6c68a4fc Error: Error in LLM node: Cannot read properties of undefined (reading 'response_metadata')
+Error: Error in LLM node: Cannot read properties of undefined (reading 'response_metadata')
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1628:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:884:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:50:29)
+2026-06-26 09:27:13 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:27:14 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:27:14 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:27:21 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:28:09 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:28:09 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-06-26 09:28:17 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-06-26 09:28:18 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:28:18 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:28:18 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:28:27 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-26 09:28:30 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:28:31 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:28:31 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-06-26 09:28:38 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-26 09:28:42 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-06-26 09:32:22 [INFO]: Shutting down Flowise...

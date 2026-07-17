@@ -1,0 +1,24 @@
+2026-07-17 10:50:22 [INFO]: Starting Flowise...
+2026-07-17 10:50:22 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-17 10:50:22 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-07-17 10:50:22 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-07-17 10:50:26 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-07-17 10:50:26 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-07-17 10:50:26 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-07-17 10:50:26 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-07-17 10:50:26 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-07-17 10:50:26 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-07-17 10:50:26 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-07-17 10:50:26 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-07-17 10:50:26 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-07-17 10:50:26 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-07-17 10:51:45 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-07-17 10:51:45 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-07-17 10:51:57 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-07-17 10:52:27 [INFO]: ❌ DELETE /api/v1/chatmessage/d0002318-0e9e-4594-bd3d-f2d35b54c851?chatId=aff5a8ad-f27c-460e-ac82-da68013378b8&chatType=INTERNAL
+2026-07-17 10:52:56 [INFO]: ⬆️ POST /api/v1/internal-prediction/d0002318-0e9e-4594-bd3d-f2d35b54c851
+2026-07-17 10:54:54 [INFO]: ⬆️ POST /api/v1/internal-prediction/d0002318-0e9e-4594-bd3d-f2d35b54c851
+2026-07-17 10:56:05 [INFO]: ❌ DELETE /api/v1/chatmessage/d0002318-0e9e-4594-bd3d-f2d35b54c851?chatId=c74be2ed-edba-4f68-ab36-082dce3ae1e2&chatType=INTERNAL
+2026-07-17 10:56:42 [INFO]: ⬆️ POST /api/v1/internal-prediction/d0002318-0e9e-4594-bd3d-f2d35b54c851
+2026-07-17 10:57:45 [INFO]: ⬆️ POST /api/v1/internal-prediction/d0002318-0e9e-4594-bd3d-f2d35b54c851
+2026-07-17 10:58:55 [INFO]: ⬆️ POST /api/v1/internal-prediction/d0002318-0e9e-4594-bd3d-f2d35b54c851

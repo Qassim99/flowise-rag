@@ -1,0 +1,99 @@
+2026-07-16 22:41:21 [INFO]: Starting Flowise...
+2026-07-16 22:41:21 [INFO]: 📦 [server]: Data Source initialized successfully
+2026-07-16 22:41:21 [INFO]: 🔄 [server]: Database migrations completed successfully
+2026-07-16 22:41:21 [INFO]: 🔐 [server]: Identity Manager initialized successfully
+2026-07-16 22:41:23 [INFO]: 🔧 [server]: Nodes pool initialized successfully
+2026-07-16 22:41:23 [INFO]: ⏹️ [server]: Abort controllers pool initialized successfully
+2026-07-16 22:41:23 [INFO]: 🔑 [server]: Encryption key initialized successfully
+2026-07-16 22:41:23 [INFO]: 🚦 [server]: Rate limiters initialized successfully
+2026-07-16 22:41:23 [INFO]: 💾 [server]: Cache pool initialized successfully
+2026-07-16 22:41:23 [INFO]: 📊 [server]: Usage cache manager initialized successfully
+2026-07-16 22:41:23 [INFO]: 📈 [server]: Telemetry initialized successfully
+2026-07-16 22:41:23 [INFO]: 🌊 [server]: SSE Streamer initialized successfully
+2026-07-16 22:41:23 [INFO]: 🎉 [server]: All initialization steps completed successfully!
+2026-07-16 22:41:23 [INFO]: ⚡️ [server]: Flowise Server is listening at :3000
+2026-07-16 22:41:52 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-07-16 22:41:52 [INFO]: ⬆️ POST /api/v1/auth/resolve
+2026-07-16 22:41:56 [INFO]: ⬆️ POST /api/v1/auth/login
+2026-07-16 22:43:36 [INFO]: ⬆️ POST /api/v1/chatflows
+2026-07-16 22:43:50 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-07-16 22:44:12 [INFO]: 🖊 PUT /api/v1/chatflows/d0002318-0e9e-4594-bd3d-f2d35b54c851
+2026-07-16 22:44:29 [INFO]: ⬆️ POST /api/v1/internal-prediction/d0002318-0e9e-4594-bd3d-f2d35b54c851
+2026-07-16 22:44:29 [ERROR]: [server]: Error executing node llmAgentflow_1: Error in LLM node: Missing credentials. Please pass an `apiKey`, or set the `OPENAI_API_KEY` environment variable.
+2026-07-16 22:44:29 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/d0002318-0e9e-4594-bd3d-f2d35b54c851/269481a9-37c0-49fb-983b-458aed300c61 Error: Error in LLM node: Missing credentials. Please pass an `apiKey`, or set the `OPENAI_API_KEY` environment variable.
+Error: Error in LLM node: Missing credentials. Please pass an `apiKey`, or set the `OPENAI_API_KEY` environment variable.
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-07-16 22:44:37 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-07-16 22:44:37 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-07-16 22:44:37 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-07-16 22:44:37 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-07-16 22:44:54 [INFO]: 🖊 PUT /api/v1/chatflows/d0002318-0e9e-4594-bd3d-f2d35b54c851
+2026-07-16 22:44:58 [INFO]: ⬆️ POST /api/v1/internal-prediction/d0002318-0e9e-4594-bd3d-f2d35b54c851
+2026-07-16 22:45:01 [ERROR]: [server]: Error executing node conditionAgentAgentflow_0: Error in Condition Agent node: Missing credentials. Please pass an `apiKey`, or set the `OPENAI_API_KEY` environment variable.
+2026-07-16 22:45:01 [ERROR]: [server]:933c1aaa-7133-456d-88b8-515bf22c4716/d0002318-0e9e-4594-bd3d-f2d35b54c851/b809c6f8-42d2-4f8d-8e32-f6d7caebe736 Error: Error in Condition Agent node: Missing credentials. Please pass an `apiKey`, or set the `OPENAI_API_KEY` environment variable.
+Error: Error in Condition Agent node: Missing credentials. Please pass an `apiKey`, or set the `OPENAI_API_KEY` environment variable.
+    at executeAgentFlow (/usr/local/lib/node_modules/flowise/dist/utils/buildAgentflow.js:1606:19)
+    at async utilBuildChatflow (/usr/local/lib/node_modules/flowise/dist/utils/buildChatflow.js:882:28)
+    at async createAndStreamInternalPrediction (/usr/local/lib/node_modules/flowise/dist/controllers/internal-predictions/index.js:49:29)
+2026-07-16 22:45:04 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-07-16 22:45:04 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-07-16 22:45:11 [INFO]: 🖊 PUT /api/v1/chatflows/d0002318-0e9e-4594-bd3d-f2d35b54c851
+2026-07-16 22:45:14 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-07-16 22:45:14 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-07-16 22:45:14 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-07-16 22:45:22 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-07-16 22:45:42 [INFO]: 🖊 PUT /api/v1/chatflows/d0002318-0e9e-4594-bd3d-f2d35b54c851
+2026-07-16 22:45:44 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-07-16 22:45:44 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-07-16 22:45:58 [INFO]: 🖊 PUT /api/v1/chatflows/d0002318-0e9e-4594-bd3d-f2d35b54c851
+2026-07-16 22:46:04 [INFO]: ⬆️ POST /api/v1/internal-prediction/d0002318-0e9e-4594-bd3d-f2d35b54c851
+2026-07-16 22:46:14 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-07-16 22:46:14 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-07-16 22:46:23 [INFO]: 🖊 PUT /api/v1/chatflows/d0002318-0e9e-4594-bd3d-f2d35b54c851
+2026-07-16 22:46:32 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-07-16 22:46:32 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-07-16 22:46:43 [INFO]: 🖊 PUT /api/v1/chatflows/d0002318-0e9e-4594-bd3d-f2d35b54c851
+2026-07-16 22:46:45 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-07-16 22:46:45 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-07-16 22:46:53 [INFO]: 🖊 PUT /api/v1/chatflows/d0002318-0e9e-4594-bd3d-f2d35b54c851
+2026-07-16 22:46:55 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-07-16 22:47:05 [INFO]: 🖊 PUT /api/v1/chatflows/d0002318-0e9e-4594-bd3d-f2d35b54c851
+2026-07-16 22:47:08 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-07-16 22:47:08 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-07-16 22:47:32 [INFO]: ❌ DELETE /api/v1/chatmessage/d0002318-0e9e-4594-bd3d-f2d35b54c851?chatId=27b621de-1f88-4d40-a433-5408da76e109&chatType=INTERNAL
+2026-07-16 22:47:51 [INFO]: ⬆️ POST /api/v1/internal-prediction/d0002318-0e9e-4594-bd3d-f2d35b54c851
+2026-07-16 22:48:47 [INFO]: ⬆️ POST /api/v1/internal-prediction/d0002318-0e9e-4594-bd3d-f2d35b54c851
+2026-07-16 22:50:09 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-07-16 22:50:31 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-07-16 22:50:31 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-07-16 22:51:03 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-07-16 22:51:23 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-07-16 22:51:23 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-07-16 22:51:23 [INFO]: ⬆️ POST /api/v1/node-load-method/retrieverAgentflow
+2026-07-16 22:51:39 [INFO]: ❌ DELETE /api/v1/chatmessage/d0002318-0e9e-4594-bd3d-f2d35b54c851?chatId=ad198416-26fe-4fff-9200-f533cf2665bd&chatType=INTERNAL
+2026-07-16 22:51:45 [INFO]: ❌ DELETE /api/v1/chatmessage/d0002318-0e9e-4594-bd3d-f2d35b54c851?chatId=c69f57d1-3681-498e-9818-fc0aeb334157&chatType=INTERNAL
+2026-07-16 22:52:00 [INFO]: ⬆️ POST /api/v1/internal-prediction/d0002318-0e9e-4594-bd3d-f2d35b54c851
+2026-07-16 22:52:28 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-07-16 22:52:28 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-07-16 22:52:33 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-07-16 22:52:33 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-07-16 22:52:40 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-07-16 22:52:40 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-07-16 22:52:47 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-07-16 22:52:47 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-07-16 22:52:47 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-07-16 22:52:47 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-07-16 22:52:53 [INFO]: 🖊 PUT /api/v1/chatflows/d0002318-0e9e-4594-bd3d-f2d35b54c851
+2026-07-16 22:52:57 [INFO]: ❌ DELETE /api/v1/chatmessage/d0002318-0e9e-4594-bd3d-f2d35b54c851?chatId=0f8167a5-c87e-4395-a210-8604aeb281b7&chatType=INTERNAL
+2026-07-16 22:53:17 [INFO]: ⬆️ POST /api/v1/internal-prediction/d0002318-0e9e-4594-bd3d-f2d35b54c851
+2026-07-16 22:54:24 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-07-16 22:54:24 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-07-16 22:54:24 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-07-16 22:54:24 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-07-16 22:54:54 [INFO]: ⬆️ POST /api/v1/node-load-method/llmAgentflow
+2026-07-16 22:54:54 [INFO]: ⬆️ POST /api/v1/node-load-method/conditionAgentAgentflow
+2026-07-16 22:56:07 [INFO]: 🖊 PUT /api/v1/chatflows/d0002318-0e9e-4594-bd3d-f2d35b54c851
+2026-07-16 22:57:19 [INFO]: ⬆️ POST /api/v1/internal-prediction/616c4ca5-330c-4068-bbd0-1d8fa9889449
+2026-07-16 22:58:16 [INFO]: 🖊 PUT /api/v1/chatflows/616c4ca5-330c-4068-bbd0-1d8fa9889449
